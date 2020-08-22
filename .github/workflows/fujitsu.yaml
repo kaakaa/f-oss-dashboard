@@ -21,14 +21,14 @@ jobs:
           --health-interval 10s
           --health-timeout 5s
           --health-retries 5
-          -v /tmp/oss-dashboard-${{ GITHUB_ACTION }}:/var/lib/postgresql/data:rw
+          -v /tmp/oss-dashboard-${GITHUB_ACTION}:/var/lib/postgresql/data:rw
     steps:
       - uses: actions/checkout@v2
         with:
           submodules: 'true'
       - uses: actions/cache@v2
         with:
-          path: /tmp/oss-dashboard-${{ GITHUB_ACTION }}
+          path: /tmp/oss-dashboard-${GITHUB_ACTION}
           key: ${{ runner.os }}-postgres
       - run:  docker-compose up dashboard
         env:
