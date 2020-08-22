@@ -1,4 +1,4 @@
-name: runner
+name: fujitsu
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   schedule:
     - cron: '0 0 * * *'
 jobs:
-  runner:
+  fujitsu:
     runs-on: ubuntu-latest
     services:
       postgres:
@@ -21,10 +21,15 @@ jobs:
           --health-interval 10s
           --health-timeout 5s
           --health-retries 5
+          -v /tmp/oss-dashboard-${{ GITHUB_ACTION }}:/var/lib/postgresql/data:rw
     steps:
       - uses: actions/checkout@v2
         with:
           submodules: 'true'
+      - uses: actions/cache@v2
+        with:
+          path: /tmp/oss-dashboard-${{ GITHUB_ACTION }}
+          key: ${{ runner.os }}-postgres
       - run:  docker-compose up dashboard
         env:
           GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
