@@ -1,7 +1,0 @@
-    <reports org='FujitsuLaboratories' name='escapin'>
-      <reporting class='repo-report' repo='FujitsuLaboratories/escapin' type='DocsReporter'><file>docs/users_guide.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/escapin' type='DocsReporter'><file>README.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/escapin' type='DocsReporter'><file>.github/CONTRIBUTING.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/escapin' type='DocsReporter'><file>.github/CODE_OF_CONDUCT.md</file></reporting>
-      <license repo='FujitsuLaboratories/escapin' file='LICENSE' confidence='100'>MIT License</license>
-    </reports>

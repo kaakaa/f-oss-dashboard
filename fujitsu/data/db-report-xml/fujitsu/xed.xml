@@ -1,6 +1,0 @@
-    <reports org='fujitsu' name='xed'>
-  <reporting class='repo-report' repo='fujitsu/xed' type='WikiOnDbReporter'><field>2020-05-29 07:02:52 +0000</field><field>fujitsu/xed</field><field>https://github.com/fujitsu/xed/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/xed</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/xed' type='AverageIssueCloseDbReporter'><field>fujitsu/xed</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/xed' type='AveragePrCloseDbReporter'><field>fujitsu/xed</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

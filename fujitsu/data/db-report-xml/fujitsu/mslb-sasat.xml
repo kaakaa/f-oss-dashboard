@@ -1,6 +1,0 @@
-    <reports org='fujitsu' name='mslb-sasat'>
-  <reporting class='repo-report' repo='fujitsu/mslb-sasat' type='WikiOnDbReporter'><field>2020-07-31 01:47:14 +0000</field><field>fujitsu/mslb-sasat</field><field>https://github.com/fujitsu/mslb-sasat/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/mslb-sasat</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/mslb-sasat' type='AverageIssueCloseDbReporter'><field>fujitsu/mslb-sasat</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/mslb-sasat' type='AveragePrCloseDbReporter'><field>fujitsu/mslb-sasat</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

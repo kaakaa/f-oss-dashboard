@@ -1,5 +1,0 @@
-    <reports org='fujitsu' name='mbuild'>
-      <reporting class='repo-report' repo='fujitsu/mbuild' type='DocsReporter'><file>tests/nondep/README.txt</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/mbuild' type='DocsReporter'><file>README.md</file></reporting>
-      <license repo='fujitsu/mbuild' file='LICENSE' confidence='100'>Apache License 2.0</license>
-    </reports>

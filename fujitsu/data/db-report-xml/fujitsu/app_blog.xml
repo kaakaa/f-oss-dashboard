@@ -1,6 +1,0 @@
-    <reports org='fujitsu' name='app_blog'>
-  <reporting class='repo-report' repo='fujitsu/app_blog' type='WikiOnDbReporter'><field>2019-07-25 00:18:40 +0000</field><field>fujitsu/app_blog</field><field>https://github.com/fujitsu/app_blog/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/app_blog</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/app_blog' type='AverageIssueCloseDbReporter'><field>fujitsu/app_blog</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/app_blog' type='AveragePrCloseDbReporter'><field>fujitsu/app_blog</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field></reporting>
-    </reports>

@@ -1,0 +1,4 @@
+    <reports org='nttcom' name='SkyWay-Android-SDK'>
+      <reporting class='repo-report' repo='nttcom/SkyWay-Android-SDK' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/SkyWay-Android-SDK' type='LicenseReporter'>No License File Found</reporting>
+    </reports>

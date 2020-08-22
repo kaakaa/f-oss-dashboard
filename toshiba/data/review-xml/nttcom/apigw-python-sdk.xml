@@ -1,0 +1,6 @@
+    <reports org='nttcom' name='apigw-python-sdk'>
+      <reporting class='repo-report' repo='nttcom/apigw-python-sdk' type='DocsReporter'><file>requirements.txt</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-python-sdk' type='DocsReporter'><file>EXAMPLES.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-python-sdk' type='DocsReporter'><file>README.md</file></reporting>
+      <license repo='nttcom/apigw-python-sdk' file='LICENSE' confidence='100'>Apache License 2.0</license>
+    </reports>

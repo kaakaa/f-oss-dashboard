@@ -1,0 +1,24 @@
+  <repo name='SkyWay-Android-Sample' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='3' closed_pr_count='4' open_issue_count='1' open_pr_count='0' has_wiki='true' language='' stars='7' watchers='11' forks='10' created_at='2015-06-04 12:31:50 +0000' updated_at='2018-09-05 07:47:20 +0000' pushed_at='2018-03-22 01:30:10 +0000' size='129' commit_count='19'>
+    <description>[Deprecated] Sample application of SkyWay Android SDK</description>
+    <collaborators>
+    </collaborators>
+    <issues count='1'>
+      <issue id='223609661' number='7' user='hoangchuongmozart' state='open' created_at='2017-04-23 03:30:37 +0000' age='1218' updated_at='2017-04-23 03:30:37 +0000' pull_request='false' comments='0'><title>Canvas rotation error, black screen</title>
+      </issue>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='nttcom' name='SkyWay-Android-Sample'>
+      <reporting class='repo-report' repo='nttcom/SkyWay-Android-Sample' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/SkyWay-Android-Sample' type='LicenseReporter'>No License File Found</reporting>
+    </reports>
+    <reports org='nttcom' name='SkyWay-Android-Sample'>
+  <reporting class='repo-report' repo='nttcom/SkyWay-Android-Sample' type='WikiOnDbReporter'><field>2015-06-04 12:31:50 +0000</field><field>nttcom/SkyWay-Android-Sample</field><field>https://github.com/nttcom/SkyWay-Android-Sample/wiki</field></reporting>
+  <reporting class='issue-report' repo='nttcom/SkyWay-Android-Sample' type='NoIssueCommentsDbReporter'><field>2017-04-23 03:30:37 +0000</field><field>https://github.com/nttcom/SkyWay-Android-Sample/issues/7</field><field>Canvas rotation error, black screen</field><field></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/SkyWay-Android-Sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/SkyWay-Android-Sample' type='AverageIssueCloseDbReporter'><field>nttcom/SkyWay-Android-Sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>2</field><field>18.0</field><field>1</field></reporting>
+  <reporting class='issue-report' repo='nttcom/SkyWay-Android-Sample' type='AveragePrCloseDbReporter'><field>nttcom/SkyWay-Android-Sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>4</field><field>0.0</field><field>0</field></reporting>
+    </reports>
+  </repo>

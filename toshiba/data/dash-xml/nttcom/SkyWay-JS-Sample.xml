@@ -1,0 +1,24 @@
+  <repo name='SkyWay-JS-Sample' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='2' closed_pr_count='4' open_issue_count='1' open_pr_count='0' has_wiki='true' language='' stars='2' watchers='13' forks='3' created_at='2016-08-08 02:01:06 +0000' updated_at='2018-03-22 01:26:04 +0000' pushed_at='2018-03-22 01:26:03 +0000' size='78' commit_count='73'>
+    <description>[Deprecated] This samples are deprecated. Please refer to https://github.com/skyway/skyway-js-sdk/tree/master/examples .</description>
+    <collaborators>
+    </collaborators>
+    <issues count='1'>
+      <issue id='247936744' number='5' user='Mrsevic' state='open' created_at='2017-08-04 08:25:20 +0000' age='1115' updated_at='2017-08-04 08:25:20 +0000' pull_request='false' comments='0'><title>Microphone</title>
+      </issue>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='nttcom' name='SkyWay-JS-Sample'>
+      <reporting class='repo-report' repo='nttcom/SkyWay-JS-Sample' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/SkyWay-JS-Sample' type='LicenseReporter'>No License File Found</reporting>
+    </reports>
+    <reports org='nttcom' name='SkyWay-JS-Sample'>
+  <reporting class='repo-report' repo='nttcom/SkyWay-JS-Sample' type='WikiOnDbReporter'><field>2016-08-08 02:01:06 +0000</field><field>nttcom/SkyWay-JS-Sample</field><field>https://github.com/nttcom/SkyWay-JS-Sample/wiki</field></reporting>
+  <reporting class='issue-report' repo='nttcom/SkyWay-JS-Sample' type='NoIssueCommentsDbReporter'><field>2017-08-04 08:25:20 +0000</field><field>https://github.com/nttcom/SkyWay-JS-Sample/issues/5</field><field>Microphone</field><field></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/SkyWay-JS-Sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/SkyWay-JS-Sample' type='AverageIssueCloseDbReporter'><field>nttcom/SkyWay-JS-Sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>1.0</field><field>1</field></reporting>
+  <reporting class='issue-report' repo='nttcom/SkyWay-JS-Sample' type='AveragePrCloseDbReporter'><field>nttcom/SkyWay-JS-Sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>4</field><field>5.25</field><field>0</field></reporting>
+    </reports>
+  </repo>

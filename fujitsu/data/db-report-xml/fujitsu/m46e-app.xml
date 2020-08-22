@@ -1,6 +1,0 @@
-    <reports org='fujitsu' name='m46e-app'>
-  <reporting class='repo-report' repo='fujitsu/m46e-app' type='WikiOnDbReporter'><field>2020-07-31 01:46:23 +0000</field><field>fujitsu/m46e-app</field><field>https://github.com/fujitsu/m46e-app/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/m46e-app</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/m46e-app' type='AverageIssueCloseDbReporter'><field>fujitsu/m46e-app</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/m46e-app' type='AveragePrCloseDbReporter'><field>fujitsu/m46e-app</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

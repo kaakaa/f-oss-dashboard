@@ -1,0 +1,5 @@
+    <reports org='nttcom' name='cloudn-api'>
+      <reporting class='repo-report' repo='nttcom/cloudn-api' type='DocsReporter'><file>README_ja.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/cloudn-api' type='DocsReporter'><file>README.md</file></reporting>
+      <license repo='nttcom/cloudn-api' file='LICENSE' confidence='98.91304347826086'>MIT License</license>
+    </reports>

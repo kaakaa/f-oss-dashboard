@@ -1,0 +1,57 @@
+  <repo name='peerjs' org='nttcom' homepage='http://nttcom.github.io/skyway/en/' private='false' fork='true' closed_issue_count='27' closed_pr_count='33' open_issue_count='11' open_pr_count='0' has_wiki='true' language='JavaScript' stars='230' watchers='30' forks='99' created_at='2013-12-05 00:04:44 +0000' updated_at='2020-05-06 08:52:39 +0000' pushed_at='2018-03-22 00:52:23 +0000' size='1424' commit_count='187'>
+    <description>[Deprecated] This branch is a customized version of PeerJS for NTT Communications's WebRTC platform SkyWay.</description>
+    <collaborators>
+    </collaborators>
+    <issues count='11'>
+      <issue id='48348014' number='12' user='yusuke84' state='open' created_at='2014-11-11 04:53:31 +0000' age='2112' updated_at='2015-05-22 04:27:37 +0000' pull_request='false' comments='0'><title>dataconnection接続時にエラーメッセージが表示される</title>
+      </issue>
+      <issue id='92549385' number='30' user='yusuke84' state='open' created_at='2015-07-02 05:07:16 +0000' age='1879' updated_at='2015-08-28 10:49:34 +0000' pull_request='false' comments='0'><title>マニュアル表記の改善</title>
+      </issue>
+      <issue id='126727221' number='43' user='dnish' state='open' created_at='2016-01-14 19:17:22 +0000' age='1682' updated_at='2016-01-26 09:22:49 +0000' pull_request='false' comments='1'><title>Uncaught SyntaxError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': The ICE candidate could not be added.</title>
+      </issue>
+      <issue id='143121912' number='46' user='ewanleaver' state='open' created_at='2016-03-24 01:39:27 +0000' age='1613' updated_at='2016-03-24 01:40:27 +0000' pull_request='false' comments='0'><title>Unable to display received files in Chrome</title>
+      </issue>
+      <issue id='144895802' number='47' user='nileshlets' state='open' created_at='2016-03-31 13:05:59 +0000' age='1605' updated_at='2017-08-09 08:44:42 +0000' pull_request='false' comments='3'><title>always getting error "Could not get an ID from the server."</title>
+      </issue>
+      <issue id='145661312' number='48' user='nileshlets' state='open' created_at='2016-04-04 11:47:26 +0000' age='1601' updated_at='2016-04-05 06:02:58 +0000' pull_request='false' comments='3'><title>Mobile to web video chat</title>
+      </issue>
+      <issue id='229585420' number='53' user='brickgale' state='open' created_at='2017-05-18 07:57:53 +0000' age='1193' updated_at='2017-05-23 06:12:32 +0000' pull_request='false' comments='2'><title>Conflict using window.onbeforeunload</title>
+      </issue>
+      <issue id='232506745' number='54' user='brickgale' state='open' created_at='2017-05-31 09:25:32 +0000' age='1180' updated_at='2017-05-31 09:25:32 +0000' pull_request='false' comments='0'><title>Closing call or mediaconnection, it won't call close event immediately</title>
+      </issue>
+      <issue id='234766951' number='55' user='brickgale' state='open' created_at='2017-06-09 09:10:44 +0000' age='1171' updated_at='2017-06-09 09:10:44 +0000' pull_request='false' comments='0'><title>How to to use websockets only for creating connection?</title>
+      </issue>
+      <issue id='248960130' number='57' user='bolahanna44' state='open' created_at='2017-08-09 08:49:39 +0000' age='1110' updated_at='2017-08-09 08:49:39 +0000' pull_request='false' comments='0'><title>Failed to load resource: the server responded with a status of 400 (Bad Request) , could not get id from the server </title>
+      </issue>
+      <issue id='259301274' number='58' user='Mrsevic' state='open' created_at='2017-09-20 21:03:31 +0000' age='1067' updated_at='2017-09-21 00:05:31 +0000' pull_request='false' comments='1'><title>Screen sharing bug</title>
+      </issue>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='nttcom' name='peerjs'>
+      <reporting class='repo-report' repo='nttcom/peerjs' type='DocsReporter'><file>docs/readme.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/peerjs' type='DocsReporter'><file>docs/api.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/peerjs' type='DocsReporter'><file>examples/readme.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/peerjs' type='DocsReporter'><file>skyway_examples/caption-phone/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/peerjs' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/peerjs' type='DocsReporter'><file>changelog.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/peerjs' type='LicenseReporter'>No License File Found</reporting>
+      <reporting class='repo-report' repo='nttcom/peerjs' type='BinaryReporter'><file>skyway_examples/caption-phone/fonts/glyphicons-halflings-regular.woff</file></reporting>
+      <reporting class='repo-report' repo='nttcom/peerjs' type='BinaryReporter'><file>skyway_examples/caption-phone/sounds/rbt.mp3</file></reporting>
+      <reporting class='repo-report' repo='nttcom/peerjs' type='BinaryReporter'><file>skyway_examples/caption-phone/sounds/ring.wav</file></reporting>
+      <reporting class='repo-report' repo='nttcom/peerjs' type='BinaryReporter'><file>skyway_examples/caption-phone/sounds/rbt.wav</file></reporting>
+      <reporting class='repo-report' repo='nttcom/peerjs' type='BinaryReporter'><file>skyway_examples/caption-phone/sounds/ring.mp3</file></reporting>
+    </reports>
+    <reports org='nttcom' name='peerjs'>
+  <reporting class='repo-report' repo='nttcom/peerjs' type='WikiOnDbReporter'><field>2013-12-05 00:04:44 +0000</field><field>nttcom/peerjs</field><field>https://github.com/nttcom/peerjs/wiki</field></reporting>
+  <reporting class='issue-report' repo='nttcom/peerjs' type='NoIssueCommentsDbReporter'><field>2016-03-24 01:39:27 +0000</field><field>https://github.com/nttcom/peerjs/issues/46</field><field>Unable to display received files in Chrome</field><field></field></reporting>
+  <reporting class='issue-report' repo='nttcom/peerjs' type='NoIssueCommentsDbReporter'><field>2017-05-31 09:25:32 +0000</field><field>https://github.com/nttcom/peerjs/issues/54</field><field>Closing call or mediaconnection, it won't call close event immediately</field><field></field></reporting>
+  <reporting class='issue-report' repo='nttcom/peerjs' type='NoIssueCommentsDbReporter'><field>2017-06-09 09:10:44 +0000</field><field>https://github.com/nttcom/peerjs/issues/55</field><field>How to to use websockets only for creating connection?</field><field></field></reporting>
+  <reporting class='issue-report' repo='nttcom/peerjs' type='NoIssueCommentsDbReporter'><field>2017-08-09 08:49:39 +0000</field><field>https://github.com/nttcom/peerjs/issues/57</field><field>Failed to load resource: the server responded with a status of 400 (Bad Request) , could not get id from the server </field><field></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/peerjs</field><field>4</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' type='LabelDbReporter'><field><label color='fc2929'>bug</label></field><field>4</field></reporting>  <reporting class='issue-report' repo='nttcom/peerjs' type='AverageIssueCloseDbReporter'><field>nttcom/peerjs</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>16</field><field>51.5</field><field>11</field></reporting>
+  <reporting class='issue-report' repo='nttcom/peerjs' type='AveragePrCloseDbReporter'><field>nttcom/peerjs</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>33</field><field>3.58</field><field>0</field></reporting>
+    </reports>
+  </repo>

@@ -1,0 +1,25 @@
+  <repo name='cloudn-api' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='1' closed_pr_count='3' open_issue_count='1' open_pr_count='0' has_wiki='true' language='Ruby' stars='3' watchers='8' forks='0' created_at='2015-02-27 02:48:12 +0000' updated_at='2019-02-05 10:09:52 +0000' pushed_at='2017-02-02 02:29:55 +0000' size='11' commit_count='8'>
+    <description>Library for Cloudn API, http://www.ntt.com/cloudn/</description>
+    <collaborators>
+    </collaborators>
+    <issues count='1'>
+      <issue id='100464024' number='3' user='iwashi' state='open' created_at='2015-08-12 04:42:08 +0000' age='1838' updated_at='2015-08-12 04:42:08 +0000' pull_request='false' comments='0'><title>Show friendly error message when method with wrong parameters called</title>
+      </issue>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='nttcom' name='cloudn-api'>
+      <reporting class='repo-report' repo='nttcom/cloudn-api' type='DocsReporter'><file>README_ja.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/cloudn-api' type='DocsReporter'><file>README.md</file></reporting>
+      <license repo='nttcom/cloudn-api' file='LICENSE' confidence='98.91304347826086'>MIT License</license>
+    </reports>
+    <reports org='nttcom' name='cloudn-api'>
+  <reporting class='repo-report' repo='nttcom/cloudn-api' type='WikiOnDbReporter'><field>2015-02-27 02:48:12 +0000</field><field>nttcom/cloudn-api</field><field>https://github.com/nttcom/cloudn-api/wiki</field></reporting>
+  <reporting class='issue-report' repo='nttcom/cloudn-api' type='NoIssueCommentsDbReporter'><field>2015-08-12 04:42:08 +0000</field><field>https://github.com/nttcom/cloudn-api/issues/3</field><field>Show friendly error message when method with wrong parameters called</field><field></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/cloudn-api</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/cloudn-api' type='AverageIssueCloseDbReporter'><field>nttcom/cloudn-api</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field></reporting>
+  <reporting class='issue-report' repo='nttcom/cloudn-api' type='AveragePrCloseDbReporter'><field>nttcom/cloudn-api</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>3</field><field>0.0</field><field>0</field></reporting>
+    </reports>
+  </repo>

@@ -1,4 +1,0 @@
-    <reports org='FujitsuLaboratories' name='ChaincodeAnalyzer'>
-      <reporting class='repo-report' repo='FujitsuLaboratories/ChaincodeAnalyzer' type='DocsReporter'><file>README.md</file></reporting>
-      <license repo='FujitsuLaboratories/ChaincodeAnalyzer' file='LICENSE' confidence='100'>Apache License 2.0</license>
-    </reports>

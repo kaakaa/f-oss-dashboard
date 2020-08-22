@@ -1,0 +1,42 @@
+  <repo name='jumbotron' org='nttcom' homepage='https://jt.skyway.io/' private='false' fork='false' closed_issue_count='9' closed_pr_count='6' open_issue_count='5' open_pr_count='1' has_wiki='true' language='CSS' stars='5' watchers='7' forks='8' created_at='2014-11-04 01:20:06 +0000' updated_at='2019-06-05 10:56:04 +0000' pushed_at='2018-03-23 02:29:26 +0000' size='15935' commit_count='38'>
+    <description>HTML5 JUMBOTRON</description>
+    <collaborators>
+    </collaborators>
+    <issues count='6'>
+      <issue id='48057053' number='1' user='posical' state='open' created_at='2014-11-07 07:52:03 +0000' age='2116' updated_at='2014-11-10 02:46:24 +0000' pull_request='false' comments='1'><title>Detect disconnected on FF</title>
+        <label url="https://api.github.com/repos/nttcom/jumbotron/labels/0%20-%20Backlog" color='CCCCCC'>0&amp;#xa0;-&amp;#xa0;Backlog</label>
+      </issue>
+      <issue id='48057087' number='3' user='posical' state='open' created_at='2014-11-07 07:52:40 +0000' age='2116' updated_at='2014-11-07 07:52:40 +0000' pull_request='false' comments='0'><title>Add other apps (pet cam and video switcher)</title>
+        <label url="https://api.github.com/repos/nttcom/jumbotron/labels/0%20-%20Backlog" color='CCCCCC'>0&amp;#xa0;-&amp;#xa0;Backlog</label>
+      </issue>
+      <issue id='48057177' number='5' user='posical' state='open' created_at='2014-11-07 07:54:23 +0000' age='2116' updated_at='2014-11-10 02:58:28 +0000' pull_request='false' comments='0'><title>change resolution of video when click on audience in the screen</title>
+        <label url="https://api.github.com/repos/nttcom/jumbotron/labels/0%20-%20Backlog" color='CCCCCC'>0&amp;#xa0;-&amp;#xa0;Backlog</label>
+      </issue>
+      <issue id='48225034' number='6' user='rotsuya' state='open' created_at='2014-11-10 02:47:07 +0000' age='2113' updated_at='2014-12-10 02:26:14 +0000' pull_request='false' comments='0'><title>Video isn't displayed in Android Chrome</title>
+        <label url="https://api.github.com/repos/nttcom/jumbotron/labels/0%20-%20Backlog" color='CCCCCC'>0&amp;#xa0;-&amp;#xa0;Backlog</label>
+        <label url="https://api.github.com/repos/nttcom/jumbotron/labels/bug" color='fc2929'>bug</label>
+      </issue>
+      <issue id='48225104' number='7' user='rotsuya' state='open' created_at='2014-11-10 02:49:01 +0000' age='2113' updated_at='2014-12-10 02:26:11 +0000' pull_request='false' comments='0'><title>Viewer can't detect disconnection with Android Chrome</title>
+        <label url="https://api.github.com/repos/nttcom/jumbotron/labels/0%20-%20Backlog" color='CCCCCC'>0&amp;#xa0;-&amp;#xa0;Backlog</label>
+        <label url="https://api.github.com/repos/nttcom/jumbotron/labels/bug" color='fc2929'>bug</label>
+      </issue>
+      <issue id='126367618' number='12' user='yusuke84' state='open' created_at='2016-01-13 08:28:36 +0000' age='1684' updated_at='2016-01-13 08:29:29 +0000' pull_request='true' comments='0' prFileCount='3' prAdditions='4' prDeletions='4'><title>Update LICENSE</title>
+      </issue>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='nttcom' name='jumbotron'>
+      <reporting class='repo-report' repo='nttcom/jumbotron' type='DocsReporter'><file>README.md</file></reporting>
+      <license repo='nttcom/jumbotron' file='LICENSE' confidence='98.91304347826086'>MIT License</license>
+    </reports>
+    <reports org='nttcom' name='jumbotron'>
+  <reporting class='repo-report' repo='nttcom/jumbotron' type='WikiOnDbReporter'><field>2014-11-04 01:20:06 +0000</field><field>nttcom/jumbotron</field><field>https://github.com/nttcom/jumbotron/wiki</field></reporting>
+  <reporting class='issue-report' repo='nttcom/jumbotron' type='NoIssueCommentsDbReporter'><field>2014-11-07 07:52:40 +0000</field><field>https://github.com/nttcom/jumbotron/issues/3</field><field>Add other apps (pet cam and video switcher)</field><field><label url="https://api.github.com/repos/nttcom/jumbotron/labels/0%20-%20Backlog" color='CCCCCC'>0&amp;#xa0;-&amp;#xa0;Backlog</label></field></reporting>
+  <reporting class='issue-report' repo='nttcom/jumbotron' type='NoIssueCommentsDbReporter'><field>2014-11-07 07:54:23 +0000</field><field>https://github.com/nttcom/jumbotron/issues/5</field><field>change resolution of video when click on audience in the screen</field><field><label url="https://api.github.com/repos/nttcom/jumbotron/labels/0%20-%20Backlog" color='CCCCCC'>0&amp;#xa0;-&amp;#xa0;Backlog</label></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/jumbotron</field><field>3</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' type='LabelDbReporter'><field><label color='CCCCCC'>1 - Ready</label></field><field>3</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='fc2929'>bug</label></field><field>3</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='CCCCCC'>0 - Backlog</label></field><field>5</field></reporting>  <reporting class='issue-report' repo='nttcom/jumbotron' type='AverageIssueCloseDbReporter'><field>nttcom/jumbotron</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>4</field><field>901.0</field><field>5</field></reporting>
+  <reporting class='issue-report' repo='nttcom/jumbotron' type='AveragePrCloseDbReporter'><field>nttcom/jumbotron</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>6</field><field>330.0</field><field>1</field></reporting>
+    </reports>
+  </repo>
