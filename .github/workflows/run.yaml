@@ -1,6 +1,9 @@
 name: runner
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: '0 0 * * *'
 jobs:
