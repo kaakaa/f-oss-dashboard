@@ -1,6 +1,0 @@
-    <reports org='nttcom' name='skyway-sdk-migration-docs'>
-  <reporting class='repo-report' repo='nttcom/skyway-sdk-migration-docs' type='WikiOnDbReporter'><field>2017-06-12 06:11:01 +0000</field><field>nttcom/skyway-sdk-migration-docs</field><field>https://github.com/nttcom/skyway-sdk-migration-docs/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/skyway-sdk-migration-docs</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/skyway-sdk-migration-docs' type='AverageIssueCloseDbReporter'><field>nttcom/skyway-sdk-migration-docs</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/skyway-sdk-migration-docs' type='AveragePrCloseDbReporter'><field>nttcom/skyway-sdk-migration-docs</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

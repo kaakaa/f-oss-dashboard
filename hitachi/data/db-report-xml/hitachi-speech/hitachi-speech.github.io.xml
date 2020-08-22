@@ -1,0 +1,6 @@
+    <reports org='hitachi-speech' name='hitachi-speech.github.io'>
+  <reporting class='repo-report' repo='hitachi-speech/hitachi-speech.github.io' type='WikiOnDbReporter'><field>2019-10-08 01:04:34 +0000</field><field>hitachi-speech/hitachi-speech.github.io</field><field>https://github.com/hitachi-speech/hitachi-speech.github.io/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>hitachi-speech/hitachi-speech.github.io</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='hitachi-speech/hitachi-speech.github.io' type='AverageIssueCloseDbReporter'><field>hitachi-speech/hitachi-speech.github.io</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='hitachi-speech/hitachi-speech.github.io' type='AveragePrCloseDbReporter'><field>hitachi-speech/hitachi-speech.github.io</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

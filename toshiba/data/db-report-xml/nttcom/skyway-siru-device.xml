@@ -1,6 +1,0 @@
-    <reports org='nttcom' name='skyway-siru-device'>
-  <reporting class='repo-report' repo='nttcom/skyway-siru-device' type='WikiOnDbReporter'><field>2017-06-02 21:05:32 +0000</field><field>nttcom/skyway-siru-device</field><field>https://github.com/nttcom/skyway-siru-device/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/skyway-siru-device</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/skyway-siru-device' type='AverageIssueCloseDbReporter'><field>nttcom/skyway-siru-device</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/skyway-siru-device' type='AveragePrCloseDbReporter'><field>nttcom/skyway-siru-device</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

@@ -1,6 +1,0 @@
-    <reports org='nttcom' name='skyway-m-pipe-sdk'>
-  <reporting class='repo-report' repo='nttcom/skyway-m-pipe-sdk' type='WikiOnDbReporter'><field>2019-01-19 00:24:28 +0000</field><field>nttcom/skyway-m-pipe-sdk</field><field>https://github.com/nttcom/skyway-m-pipe-sdk/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/skyway-m-pipe-sdk</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/skyway-m-pipe-sdk' type='AverageIssueCloseDbReporter'><field>nttcom/skyway-m-pipe-sdk</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/skyway-m-pipe-sdk' type='AveragePrCloseDbReporter'><field>nttcom/skyway-m-pipe-sdk</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>3</field><field>2.67</field><field>0</field></reporting>
-    </reports>

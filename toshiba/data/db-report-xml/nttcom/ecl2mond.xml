@@ -1,6 +1,0 @@
-    <reports org='nttcom' name='ecl2mond'>
-  <reporting class='repo-report' repo='nttcom/ecl2mond' type='WikiOnDbReporter'><field>2017-07-26 05:47:10 +0000</field><field>nttcom/ecl2mond</field><field>https://github.com/nttcom/ecl2mond/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/ecl2mond</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/ecl2mond' type='AverageIssueCloseDbReporter'><field>nttcom/ecl2mond</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/ecl2mond' type='AveragePrCloseDbReporter'><field>nttcom/ecl2mond</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

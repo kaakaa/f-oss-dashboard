@@ -1,6 +1,0 @@
-    <reports org='nttcom' name='SkyWay-MultiParty-iOS'>
-  <reporting class='repo-report' repo='nttcom/SkyWay-MultiParty-iOS' type='WikiOnDbReporter'><field>2016-09-21 06:26:21 +0000</field><field>nttcom/SkyWay-MultiParty-iOS</field><field>https://github.com/nttcom/SkyWay-MultiParty-iOS/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/SkyWay-MultiParty-iOS</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/SkyWay-MultiParty-iOS' type='AverageIssueCloseDbReporter'><field>nttcom/SkyWay-MultiParty-iOS</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/SkyWay-MultiParty-iOS' type='AveragePrCloseDbReporter'><field>nttcom/SkyWay-MultiParty-iOS</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0.0</field><field>0</field></reporting>
-    </reports>

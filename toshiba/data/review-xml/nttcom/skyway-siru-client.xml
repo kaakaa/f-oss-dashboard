@@ -1,6 +1,0 @@
-    <reports org='nttcom' name='skyway-siru-client'>
-      <reporting class='repo-report' repo='nttcom/skyway-siru-client' type='DocsReporter'><file>docs/SiRuClient.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/skyway-siru-client' type='DocsReporter'><file>docs/response.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/skyway-siru-client' type='DocsReporter'><file>README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/skyway-siru-client' type='LicenseReporter'>No License File Found</reporting>
-    </reports>

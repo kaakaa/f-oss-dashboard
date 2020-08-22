@@ -1,0 +1,5 @@
+    <reports org='Hitachi' name='webauthn4j'>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/webauthn4j</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/webauthn4j' type='AverageIssueCloseDbReporter'><field>Hitachi/webauthn4j</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/webauthn4j' type='AveragePrCloseDbReporter'><field>Hitachi/webauthn4j</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

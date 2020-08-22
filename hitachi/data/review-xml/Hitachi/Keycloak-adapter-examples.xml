@@ -1,0 +1,4 @@
+    <reports org='Hitachi' name='Keycloak-adapter-examples'>
+      <reporting class='repo-report' repo='Hitachi/Keycloak-adapter-examples' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/Keycloak-adapter-examples' type='LicenseReporter'>No License File Found</reporting>
+    </reports>

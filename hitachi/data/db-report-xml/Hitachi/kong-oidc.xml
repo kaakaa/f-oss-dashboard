@@ -1,0 +1,6 @@
+    <reports org='Hitachi' name='kong-oidc'>
+  <reporting class='repo-report' repo='Hitachi/kong-oidc' type='WikiOnDbReporter'><field>2019-03-01 05:02:11 +0000</field><field>Hitachi/kong-oidc</field><field>https://github.com/Hitachi/kong-oidc/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/kong-oidc</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/kong-oidc' type='AverageIssueCloseDbReporter'><field>Hitachi/kong-oidc</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/kong-oidc' type='AveragePrCloseDbReporter'><field>Hitachi/kong-oidc</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

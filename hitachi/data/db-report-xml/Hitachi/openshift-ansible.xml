@@ -1,0 +1,5 @@
+    <reports org='Hitachi' name='openshift-ansible'>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/openshift-ansible</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/openshift-ansible' type='AverageIssueCloseDbReporter'><field>Hitachi/openshift-ansible</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/openshift-ansible' type='AveragePrCloseDbReporter'><field>Hitachi/openshift-ansible</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

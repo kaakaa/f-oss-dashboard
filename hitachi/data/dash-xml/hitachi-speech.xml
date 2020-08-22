@@ -1,0 +1,99 @@
+<github-dashdata dashboard='hitachi-speech' includes_private='false' hide_private_repositories='false' logo='https://avatars3.githubusercontent.com/u/54862321?v=4' github_url='https://github.com'>
+ <metadata>
+  <navigation>
+    <organization>AllOrgs</organization>
+    <organization>Hitachi</organization>
+    <organization>hitachi-speech</organization>
+  </navigation>
+  <user-reports>
+    <report key='UnknownCollaboratorsDbReporter' name='Unknown Collaborator'><description>This report shows which of the outside collaborators are not in your user_mapping of GitHub login to Internal Employee login. </description><column-type type='member'>login</column-type><column-type type='org/repo'>repository</column-type></report>
+    <report key='UnknownMembersDbReporter' name='Unknown Members'><description>This report shows which of the organization members are not in your user_mapping of GitHub login to Internal Employee login. </description><column-type type='member'>login</column-type><column-type type='org/repo'>repo</column-type></report>
+  </user-reports>
+  <repo-reports>
+    <report key='DocsReporter' name='Document Report'><description>This report shows you *.txt and *.md files in your repositories. Useful for reviews by documentation writers. </description></report>
+    <report key='LicenseReporter' name='License Report'><description>This report shows you the repositories that the <a href='https://github.com/benbalter/licensee'>licensee</a> project GitHub uses is unable to either find or identify. </description></report>
+    <report key='BinaryReporter' name='Binary File Report'><description>Uses the Linux file command to identify if a file is binary. Empty files and images are filtered out of the list. </description></report>
+    <report key='WikiOnDbReporter' name='Wiki-Enabled Repositories'><description>This report shows repositories that have their wikis turned on. </description><column-type type='text'>Create Date</column-type><column-type type='org/repo'>repository</column-type><column-type type='url'>Wiki</column-type></report>
+    <report key='EmptyDbReporter' name='Empty Repositories'><description>This report shows repositories that GitHub is reporting as zero-sized. </description><column-type type='text'>Date</column-type><column-type type='org/repo'>repository</column-type></report>
+    <report key='UnchangedDbReporter' name='Unchanged Repositories'><description>This report shows repositories that have not had any changes since the day they were created. </description><column-type type='text'>Date</column-type><column-type type='org/repo'>repository</column-type></report>
+  </repo-reports>
+  <issue-reports>
+    <report key='NoIssueCommentsDbReporter' name='Open Issues with no comments'><description>This report shows open issues from the community with no comments. </description><column-type type='date'>Created</column-type><column-type type='url'>Issue</column-type><column-type type='text'>Title</column-type><column-type type='labels'>Labels</column-type></report>
+    <report key='NoPrCommentsDbReporter' name='Open PRs with no comments'><description>This report shows open pull requests from the community with no comments. </description><column-type type='date'>Created</column-type><column-type type='url'>Pr</column-type><column-type type='text'>Title</column-type><column-type type='labels'>Labels</column-type></report>
+    <report key='LabelCountDbReporter' name='Label Count Summary'><description>This report shows the number of open issues and pull requests for a configured list of standard labels. </description><column-type type='org/repo'>Repository</column-type><column-type type='text'>bug</column-type><column-type type='text'>duplicate</column-type><column-type type='text'>enhancement</column-type><column-type type='text'>help wanted</column-type><column-type type='text'>invalid</column-type><column-type type='text'>question</column-type><column-type type='text'>wontfix</column-type></report>
+    <report key='LabelDbReporter' name='Label Summary'><description>This report shows the labels in use, and how many issues + prs, open or closed, are in each. </description><column-type type='labels'>Label</column-type><column-type type='text'>PR/Issue Count</column-type></report>
+    <report key='AverageIssueCloseDbReporter' name='Average Issue Close Time'><description>This report shows the average time each repo takes to close issues</description><column-type type='org/repo'>Repo</column-type><column-type type='text'>&lt;1 month: Closed</column-type><column-type type='text'>&lt;1 month: MTTR</column-type><column-type type='text'>&lt;1 month: Still Open</column-type><column-type type='text'>&lt;1 quarter: Closed</column-type><column-type type='text'>&lt;1 quarter: MTTR</column-type><column-type type='text'>&lt;1 quarter: Still Open</column-type><column-type type='text'>&lt;1 year: Closed</column-type><column-type type='text'>&lt;1 year: MTTR</column-type><column-type type='text'>&lt;1 year: Still Open</column-type><column-type type='text'>All time: Closed</column-type><column-type type='text'>All time: MTTR</column-type><column-type type='text'>All time: Still Open</column-type></report>
+    <report key='AveragePrCloseDbReporter' name='Average Pull Request Close Time'><description>This report shows the average time each repo takes to close pull requests</description><column-type type='org/repo'>Repo</column-type><column-type type='text'>&lt;1 month: Closed</column-type><column-type type='text'>&lt;1 month: MTTR</column-type><column-type type='text'>&lt;1 month: Still Open</column-type><column-type type='text'>&lt;1 quarter: Closed</column-type><column-type type='text'>&lt;1 quarter: MTTR</column-type><column-type type='text'>&lt;1 quarter: Still Open</column-type><column-type type='text'>&lt;1 year: Closed</column-type><column-type type='text'>&lt;1 year: MTTR</column-type><column-type type='text'>&lt;1 year: Still Open</column-type><column-type type='text'>All time: Closed</column-type><column-type type='text'>All time: MTTR</column-type><column-type type='text'>All time: Still Open</column-type></report>
+  </issue-reports>
+  <run-metrics refreshTime='2020-08-22T22:28:19+00:00' generationTime='2020-08-22T22:38:48+00:00' startRateLimit='2727' endRateLimit='4997' usedRateLimit='2730'/>
+ </metadata>
+ <organization name='hitachi-speech' avatar='https://avatars3.githubusercontent.com/u/54862321?v=4' type='organization'>
+  <description>Research &amp; Development Group, Hitachi, Ltd. </description>
+  <url>http://www.hitachi.com/rd/</url>
+  <name></name>
+  <location>Tokyo, Japan</location>
+  <email></email>
+  <created_at>2019-09-03 18:30:27 +0000</created_at>
+ </organization>
+  <repo name='EEND' org='hitachi-speech' homepage='' private='false' fork='false' closed_issue_count='10' closed_pr_count='0' open_issue_count='8' open_pr_count='0' has_wiki='true' language='Python' stars='108' watchers='12' forks='19' created_at='2019-09-12 21:06:00 +0000' updated_at='2020-08-13 01:55:38 +0000' pushed_at='2019-11-21 18:18:24 +0000' size='52989' commit_count='4'>
+    <description>End-to-End Neural Diarization</description>
+    <collaborators>
+    </collaborators>
+    <issues count='8'>
+      <issue id='506144578' number='2' user='liuyue94' state='open' created_at='2019-10-12 07:00:55 +0000' age='316' updated_at='2019-10-15 14:49:31 +0000' pull_request='false' comments='3'><title>I want to know how to prepare my own data?</title>
+      </issue>
+      <issue id='533370775' number='3' user='008karan' state='open' created_at='2019-12-05 14:02:12 +0000' age='261' updated_at='2020-02-24 23:59:48 +0000' pull_request='false' comments='34'><title>cant start training</title>
+      </issue>
+      <issue id='566338170' number='4' user='Durgesh92' state='open' created_at='2020-02-17 14:32:45 +0000' age='187' updated_at='2020-02-17 15:46:00 +0000' pull_request='false' comments='3'><title>Unable to identify speaker cluster from generated RTTM</title>
+      </issue>
+      <issue id='588095063' number='6' user='mcompute' state='open' created_at='2020-03-26 01:44:46 +0000' age='150' updated_at='2020-07-08 13:49:46 +0000' pull_request='false' comments='5'><title>Experiment results on multiple speakers dataset</title>
+      </issue>
+      <issue id='638499834' number='7' user='Naminwang' state='open' created_at='2020-06-15 02:49:28 +0000' age='69' updated_at='2020-06-16 02:41:01 +0000' pull_request='false' comments='1'><title>Can this code support multi-gpu training?</title>
+      </issue>
+      <issue id='641966609' number='8' user='widdiot' state='open' created_at='2020-06-19 13:24:13 +0000' age='64' updated_at='2020-06-19 13:24:13 +0000' pull_request='false' comments='0'><title>How to resume training?</title>
+      </issue>
+      <issue id='655228706' number='9' user='875441459' state='open' created_at='2020-07-11 15:31:31 +0000' age='42' updated_at='2020-07-12 02:16:13 +0000' pull_request='false' comments='2'><title>Confusion about the store of uttid</title>
+      </issue>
+      <issue id='666863582' number='10' user='875441459' state='open' created_at='2020-07-28 08:15:02 +0000' age='26' updated_at='2020-07-29 08:22:04 +0000' pull_request='false' comments='2'><title>Confusion about the calculation of DER</title>
+      </issue>
+    </issues>
+  <release-data>
+    <release id='21663690' url='https://github.com/hitachi-speech/EEND/releases/tag/v0.1.0' published_at='2019-11-21 18:18:24 +0000' author='yubouf'>The initial release</release>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='hitachi-speech' name='EEND'>
+      <reporting class='repo-report' repo='hitachi-speech/EEND' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='hitachi-speech/EEND' type='DocsReporter'><file>egs/mini_librispeech/v1/RESULT.md</file></reporting>
+      <license repo='hitachi-speech/EEND' file='LICENSE' confidence='100'>MIT License</license>
+      <reporting class='repo-report' repo='hitachi-speech/EEND' type='BinaryReporter'><file>egs/mini_librispeech/v1/musan_bgnoise.tar.gz</file></reporting>
+    </reports>
+    <reports org='hitachi-speech' name='EEND'>
+  <reporting class='repo-report' repo='hitachi-speech/EEND' type='WikiOnDbReporter'><field>2019-09-12 21:06:00 +0000</field><field>hitachi-speech/EEND</field><field>https://github.com/hitachi-speech/EEND/wiki</field></reporting>
+  <reporting class='issue-report' repo='hitachi-speech/EEND' type='NoIssueCommentsDbReporter'><field>2020-06-19 13:24:13 +0000</field><field>https://github.com/hitachi-speech/EEND/issues/8</field><field>How to resume training?</field><field></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>hitachi-speech/EEND</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='hitachi-speech/EEND' type='AverageIssueCloseDbReporter'><field>hitachi-speech/EEND</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>4</field><field>2</field><field>57.5</field><field>8</field><field>2</field><field>57.5</field><field>8</field></reporting>
+  <reporting class='issue-report' repo='hitachi-speech/EEND' type='AveragePrCloseDbReporter'><field>hitachi-speech/EEND</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>
+  </repo>
+  <repo name='hitachi-speech.github.io' org='hitachi-speech' homepage='https://hitachi-speech.github.io' private='false' fork='false' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='true' language='HTML' stars='1' watchers='2' forks='0' created_at='2019-10-08 01:04:34 +0000' updated_at='2020-08-11 00:29:50 +0000' pushed_at='2020-08-11 00:29:48 +0000' size='321' commit_count='61'>
+    <description></description>
+    <collaborators>
+    </collaborators>
+    <issues count='0'>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='hitachi-speech' name='hitachi-speech.github.io'>
+      <reporting class='repo-report' repo='hitachi-speech/hitachi-speech.github.io' type='LicenseReporter'>No License File Found</reporting>
+    </reports>
+    <reports org='hitachi-speech' name='hitachi-speech.github.io'>
+  <reporting class='repo-report' repo='hitachi-speech/hitachi-speech.github.io' type='WikiOnDbReporter'><field>2019-10-08 01:04:34 +0000</field><field>hitachi-speech/hitachi-speech.github.io</field><field>https://github.com/hitachi-speech/hitachi-speech.github.io/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>hitachi-speech/hitachi-speech.github.io</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='hitachi-speech/hitachi-speech.github.io' type='AverageIssueCloseDbReporter'><field>hitachi-speech/hitachi-speech.github.io</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='hitachi-speech/hitachi-speech.github.io' type='AveragePrCloseDbReporter'><field>hitachi-speech/hitachi-speech.github.io</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>
+  </repo>
+</github-dashdata>

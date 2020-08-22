@@ -1,5 +1,0 @@
-    <reports org='nttcom' name='redmine_objectstorage'>
-      <reporting class='repo-report' repo='nttcom/redmine_objectstorage' type='DocsReporter'><file>README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/redmine_objectstorage' type='DocsReporter'><file>CODE_OF_CONDUCT.md</file></reporting>
-      <license repo='nttcom/redmine_objectstorage' file='LICENSE.txt' confidence='100'>MIT License</license>
-    </reports>

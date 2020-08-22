@@ -1,6 +1,0 @@
-    <reports org='nttcom' name='terraform-provider-fic'>
-      <reporting class='repo-report' repo='nttcom/terraform-provider-fic' type='DocsReporter'><file>CHANGELOG.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/terraform-provider-fic' type='DocsReporter'><file>examples/app-with-something/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/terraform-provider-fic' type='DocsReporter'><file>README.md</file></reporting>
-      <license repo='nttcom/terraform-provider-fic' file='LICENSE' confidence='100'>Mozilla Public License 2.0</license>
-    </reports>

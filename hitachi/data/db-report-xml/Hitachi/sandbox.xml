@@ -1,0 +1,7 @@
+    <reports org='Hitachi' name='sandbox'>
+  <reporting class='repo-report' repo='Hitachi/sandbox' type='WikiOnDbReporter'><field>2016-02-26 09:58:49 +0000</field><field>Hitachi/sandbox</field><field>https://github.com/Hitachi/sandbox/wiki</field></reporting>
+  <reporting class='repo-report' repo='Hitachi/sandbox' type='EmptyDbReporter'><field>2016-02-26 09:58:49 +0000</field><field>Hitachi/sandbox</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/sandbox</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/sandbox' type='AverageIssueCloseDbReporter'><field>Hitachi/sandbox</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/sandbox' type='AveragePrCloseDbReporter'><field>Hitachi/sandbox</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

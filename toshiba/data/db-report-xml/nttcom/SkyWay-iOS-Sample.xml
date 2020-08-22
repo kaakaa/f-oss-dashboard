@@ -1,6 +1,0 @@
-    <reports org='nttcom' name='SkyWay-iOS-Sample'>
-  <reporting class='repo-report' repo='nttcom/SkyWay-iOS-Sample' type='WikiOnDbReporter'><field>2015-06-04 12:26:26 +0000</field><field>nttcom/SkyWay-iOS-Sample</field><field>https://github.com/nttcom/SkyWay-iOS-Sample/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/SkyWay-iOS-Sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/SkyWay-iOS-Sample' type='AverageIssueCloseDbReporter'><field>nttcom/SkyWay-iOS-Sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>7</field><field>83.71</field><field>2</field></reporting>
-  <reporting class='issue-report' repo='nttcom/SkyWay-iOS-Sample' type='AveragePrCloseDbReporter'><field>nttcom/SkyWay-iOS-Sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>9</field><field>81.33</field><field>0</field></reporting>
-    </reports>

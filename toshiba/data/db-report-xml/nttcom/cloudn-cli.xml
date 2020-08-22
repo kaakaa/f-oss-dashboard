@@ -1,5 +1,0 @@
-    <reports org='nttcom' name='cloudn-cli'>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/cloudn-cli</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/cloudn-cli' type='AverageIssueCloseDbReporter'><field>nttcom/cloudn-cli</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/cloudn-cli' type='AveragePrCloseDbReporter'><field>nttcom/cloudn-cli</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>7</field><field>1.29</field><field>0</field></reporting>
-    </reports>

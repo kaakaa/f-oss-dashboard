@@ -1,7 +1,0 @@
-    <reports org='nttcom' name='SkyWay-DrivingVehicle'>
-      <reporting class='repo-report' repo='nttcom/SkyWay-DrivingVehicle' type='DocsReporter'><file>DrivingVehicle_Server/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/SkyWay-DrivingVehicle' type='DocsReporter'><file>DrivingVehicle/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/SkyWay-DrivingVehicle' type='DocsReporter'><file>README.md</file></reporting>
-      <license repo='nttcom/SkyWay-DrivingVehicle' file='LICENSE' confidence='98.91304347826086'>MIT License</license>
-      <reporting class='repo-report' repo='nttcom/SkyWay-DrivingVehicle' type='BinaryReporter'><file>DrivingVehicle/DrivingVehicle/cannon.mp3</file></reporting>
-    </reports>
