@@ -1,0 +1,2482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>GitHub Dashboard: FujitsuLaboratories</title>
+    <meta charset="utf-8"/>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.css"/>
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.0.0/addons/bootstrap/jquery.smartmenus.bootstrap.min.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js">
+      
+    </script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+      
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js">
+      
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.stack.min.js">
+      
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.pie.min.js">
+      
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.24.2/js/jquery.tablesorter.js">
+      
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.0.0/jquery.smartmenus.min.js">
+      
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.0.0/addons/bootstrap/jquery.smartmenus.bootstrap.min.js">
+      
+    </script>
+    <script type="text/javascript">
+// Currently inline code; tempted to move to its own separate JSON/JavaScript file 
+// when more pluggable charts are implemented
+var charts = [];
+
+charts['PieChart'] = JSON.parse('{ \
+    "series": { \
+      "pie": { \
+        "show": true, \
+        "grid": { \
+            "borderWidth": 0 \
+        } \
+      } \
+    }, \
+    "colors": ["#0F6BA9", "#2FABE9"] \
+}');
+
+charts["BarChart"] = JSON.parse('{ \
+    "series": { \
+        "stack": true, \
+        "bars": { "show": true, "barWidth": 0.6 } \
+    }, \
+    "xaxis": { \
+        "ticks": [ \
+          ["1", "1 hour"], \
+          ["2", "3 hours"], \
+          ["3", "9 hours"], \
+          ["4", "1 day"], \
+          ["5", "1 week"], \
+          ["6", "1 month"], \
+          ["7", "1 quarter"], \
+          ["8", "1 year"], \
+          ["9", "over 1 year"]  \
+        ] \
+    }, \
+    "grid": { \
+        "borderWidth": 0 \
+    }, \
+    "legend": { \
+        "position": "ne" \
+    }, \
+    "colors": ["#0F6BA9"] \
+}');
+
+charts["LineChart"] = JSON.parse('{ \
+  "series": { \
+    "stack": true, \
+    "lines": { \
+      "show": true, \
+      "lineWidth": "2" \
+    }, \
+    "points": { "show": true }, \
+    "shadowSize": "2" \
+  }, \
+  "grid": { \
+    "borderWidth": "0" \
+  }, \
+  "legend": { \
+    "position": "nw" \
+  }, \
+  "colors": ["#0F8BC9", "#2FABE9"] \
+}');
+
+ function plotChart(chart,config) {
+  var chartData, chartConfig;
+  chartConfig=charts[config];   // Remove this when this section is split out of the generated HTML
+  $.when(
+    $.getJSON("json-data/"+chart+".json", function(json) {
+        chartData = json;
+    })
+//    $.getJSON("chart-config/"+config+".json", function(json) {
+//        chartConfig = json;
+//    })
+  ).then(function() {
+    $.plot($("#"+chart+"Chart"), chartData.datasets, chartConfig)
+  });
+
+ }
+</script>
+    <style>
+            html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+            body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12px;line-height:17px;color:#222222;background-color:#e8e8e8;}
+
+            h1,h2,h3,h4,h5{margin:0;font-family:inherit;font-weight:700;line-height:1;color:#333333;text-rendering:optimizelegibility;}
+            h1{font-size:30px;line-height:36px;}
+            h2{font-size:24px;line-height:36px;}
+            h3{font-size:18px;line-height:27px;}
+            h4{font-size:14px;line-height:18px;}
+            h5{font-size:12px;line-height:18px;}
+
+            .caret{display:inline-block;width:0;height:0;vertical-align:top;border-top:4px solid #000000;border-right:4px solid transparent;border-left:4px solid transparent;content:"";}
+
+            .well{min-height:20px;margin-bottom:20px;background-color:#ffffff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;padding:8px 12px;border:1px solid #eeeeee;-webkit-box-shadow:0 1px 2px #888888;-moz-box-shadow:0 1px 2px #888888;box-shadow:0 1px 2px #888888;}
+
+            .data-grid{width:100%;}
+            .data-grid thead{color:#999999;font-size:10px;border-bottom:1px solid #aaaaaa;text-align:left;}
+            .data-grid thead th{font-weight:normal;}
+            .data-grid td{vertical-align:top;font-size:10px;}
+            .data-grid tbody tr{border-bottom:1px solid #e8e8e8;}
+            .data-grid tbody tr:last-child{border-bottom:0px none #e8e8e8;}
+            .data-grid a{font-weight:bold;}
+            .data-grid thead th{text-transform:uppercase;color:#888;font-size:10px;font-weight:bold;}
+            .data-grid td{line-height:14px;padding:5px 2px;}
+            .data-grid-sortable{width:100%;}
+
+            .tablesorter-header{cursor:pointer;white-space:nowrap;}
+            .tablesorter-header.tablesorter-headerAsc .tablesorter-header-inner,.tablesorter-header.tablesorter-headerDesc .tablesorter-header-inner{color:#ff5522;}
+            .tablesorter-header:hover{color:#ff5522;background-color:#f2f8fa;}
+
+            .nav{margin-left:0;margin-bottom:17px;list-style:none;}
+
+            .nav-tabs:before,.nav-tabs:after{display:table;content:"";line-height:0;}
+            .nav-tabs:after{clear:both;}
+            .navbar-nav{border-bottom:1px solid #ddd;}
+
+            .dropdown-toggle .caret{border-top-color:#0088cc;border-bottom-color:#0088cc;margin-top:6px;}
+            .dropdown-toggle:hover .caret,.dropdown-toggle:focus .caret{border-top-color:#ff5522;border-bottom-color:#ff5522;}
+            .dropdown-toggle .caret{margin-top:8px;}
+
+            /* Dashboard specific */
+            .labelColor {padding: 3px;-webkit-box-shadow:0 1px 2px #888888;-moz-box-shadow:0 1px 2px #888888;box-shadow:0 1px 2px #888888;}
+            #tabcontent {padding: 20px;}
+        </style>
+    <link type="text/css" rel="stylesheet" href="bootstrap-theme.css"/>
+  </head>
+  <body class="inverse">
+    <ul class="nav nav-tabs pull-right" role="tablist">
+      <li>
+        <a href="AllAccounts.html">All</a>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              Organizations <span class="caret"/></a>
+        <ul class="dropdown-menu" role="menu">
+          <li>
+            <a href="AllOrgs.html">AllOrgs</a>
+          </li>
+          <li>
+            <a href="FujitsuLaboratories.html">FujitsuLaboratories</a>
+          </li>
+          <li>
+            <a href="fujitsu.html">fujitsu</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <div class="well">
+      <h2>GitHub Dashboard: <a rel="tooltip" title="" href="https://github.com/FujitsuLaboratories"><img width="35" height="35" src="https://avatars2.githubusercontent.com/u/31496077?v=4&amp;s=35"/></a>FujitsuLaboratories</h2>
+      <br/>
+      <div class="container" style="padding-left: 0px; padding-right: 0px;">
+        <ul id="tabs" class="nav navbar-nav">
+          <li class="active">
+            <a href="#overview" data-toggle="tab">Overview</a>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Repositories <span class="caret"/></a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a href="#repositories" data-toggle="tab">Repositories (6)</a>
+              </li>
+              <li>
+                <a href="#repometrics" data-toggle="tab">Repository Metrics (6)</a>
+              </li>
+              <li>
+                <a href="#repotraffic" data-toggle="tab">Repository Traffic (6)</a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reports <span class="caret"/></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="#BinaryReporter" data-toggle="tab">Binary File Report(1)</a>
+                  </li>
+                  <li>
+                    <a href="#DocsReporter" data-toggle="tab">Document Report(43)</a>
+                  </li>
+                  <li>
+                    <a href="#EmptyDbReporter" data-toggle="tab">Empty Repositories(0)</a>
+                  </li>
+                  <li>
+                    <a href="#LicenseReporter" data-toggle="tab">License Report(1)</a>
+                  </li>
+                  <li>
+                    <a href="#UnchangedDbReporter" data-toggle="tab">Unchanged Repositories(0)</a>
+                  </li>
+                  <li>
+                    <a href="#WikiOnDbReporter" data-toggle="tab">Wiki-Enabled Repositories(5)</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Triage <span class="caret"/></a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a href="#issuemetrics" data-toggle="tab">Issue Metrics (6)</a>
+              </li>
+              <li>
+                <a href="#prmetrics" data-toggle="tab">PR Metrics (6)</a>
+              </li>
+              <li>
+                <a href="#issues" data-toggle="tab">Open Issues (11)</a>
+              </li>
+              <li>
+                <a href="#pullrequests" data-toggle="tab">Open PRs (12)</a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reports <span class="caret"/></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="#AverageIssueCloseDbReporter" data-toggle="tab">Average Issue Close Time(6)</a>
+                  </li>
+                  <li>
+                    <a href="#AveragePrCloseDbReporter" data-toggle="tab">Average Pull Request Close Time(6)</a>
+                  </li>
+                  <li>
+                    <a href="#LabelCountDbReporter" data-toggle="tab">Label Count Summary(6)</a>
+                  </li>
+                  <li>
+                    <a href="#LabelDbReporter" data-toggle="tab">Label Summary(11)</a>
+                  </li>
+                  <li>
+                    <a href="#NoIssueCommentsDbReporter" data-toggle="tab">Open Issues with no comments(4)</a>
+                  </li>
+                  <li>
+                    <a href="#NoPrCommentsDbReporter" data-toggle="tab">Open PRs with no comments(10)</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">User Management <span class="caret"/></a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a href="#members" data-toggle="tab">Members (7)</a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reports <span class="caret"/></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="#UnknownCollaboratorsDbReporter" data-toggle="tab">Unknown Collaborator(0)</a>
+                  </li>
+                  <li>
+                    <a href="#UnknownMembersDbReporter" data-toggle="tab">Unknown Members(0)</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div id="tabcontent" class="tab-content">
+        <div class="tab-pane active" id="overview">
+          <table cellpadding="10px" width="100%">
+            <tr>
+              <td class="left" style="vertical-align:top">
+                <h4>Organization:</h4>
+                <table class="data-grid">
+                  <tr>
+                    <td>Login</td>
+                    <td>FujitsuLaboratories</td>
+                  </tr>
+                  <tr>
+                    <td>Name</td>
+                    <td>FUJITSU LABORATORIES LTD.</td>
+                  </tr>
+                  <tr>
+                    <td>URL</td>
+                    <td>
+                      <a href="http://www.fujitsu.com/jp/group/labs/en/">http://www.fujitsu.com/jp/group/labs/en/</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Email</td>
+                    <td/>
+                  </tr>
+                  <tr>
+                    <td>Location</td>
+                    <td/>
+                  </tr>
+                  <tr>
+                    <td>Create Date</td>
+                    <td>2017-08-31</td>
+                  </tr>
+                </table>
+              </td>
+              <td class="center" style="vertical-align:top">
+                <h4>Repo Count over Time</h4>
+                <br/>
+                <div id="FujitsuLaboratories-repoCountChart" style="height:150px;width:400px;">
+                  
+                </div>
+                <br/>
+              </td>
+              <td class="right" style="vertical-align:top">
+                <h4>Recent Repositories:</h4>
+                <table class="data-grid">
+                  <tr>
+                    <td>2020-02-04 - <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer">ChaincodeAnalyzer</a></td>
+                  </tr>
+                  <tr>
+                    <td>2019-11-22 - <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample">ConnectionChain-sample</a></td>
+                  </tr>
+                  <tr>
+                    <td>2019-07-30 - <a href="https://github.com/FujitsuLaboratories/escapin">escapin</a></td>
+                  </tr>
+                  <tr>
+                    <td>2018-07-31 - <a href="https://github.com/FujitsuLaboratories/kurumipy">kurumipy</a></td>
+                  </tr>
+                  <tr>
+                    <td>2017-11-13 - <a href="https://github.com/FujitsuLaboratories/cattaz">cattaz</a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tab-pane" id="repositories">
+          <div class="data-grid-sortable tablesorter">
+            <table id="repoTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Repository</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ">COMEVIZZ (FujitsuLaboratories)</a>
+                  </td>
+                  <td>COMEVIZZ is COde MEtrics VIsualiZation with Z-Score. - <a href="https://fujitsulaboratories.github.io/COMEVIZZ/gitbook/_book/">https://fujitsulaboratories.github.io/COMEVIZZ/gitbook/_book/</a></td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz">cattaz (FujitsuLaboratories)</a>
+                  </td>
+                  <td>Realtime collaborative tool which can run custom applications in a Wiki page - <a href="http://cattaz.io/">http://cattaz.io/</a></td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy">kurumipy (FujitsuLaboratories)</a>
+                  </td>
+                  <td>An enhanced memoization library for Python</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin">escapin (FujitsuLaboratories)</a>
+                  </td>
+                  <td>Escapin  is a JS/TS transpiler for escaping from complicated usage of cloud services and APIs</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample">ConnectionChain-sample (FujitsuLaboratories)</a>
+                  </td>
+                  <td/>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer">ChaincodeAnalyzer (FujitsuLaboratories)</a>
+                  </td>
+                  <td/>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="repometrics">
+          <div class="data-grid-sortable tablesorter">
+            <table id="repoMetricsTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Repository</th>
+                  <th>
+                    <a href="#" rel="tooltip" title="As Reported by GitHub/Licensee with confidence percentage">Apparent License</a>
+                  </th>
+                  <th>Language</th>
+                  <th>Created</th>
+                  <th>Pushed</th>
+                  <th>Updated</th>
+                  <th>
+                    <a href="#" rel="tooltip" title="Git Size in MB">Size</a>
+                  </th>
+                  <th>
+                    <a href="#" rel="tooltip" title="# of Stars">
+                      <span class="octicon octicon-star"/>
+                    </a>
+                  </th>
+                  <th>
+                    <a href="#" rel="tooltip" title="# of Watchers">
+                      <span class="octicon octicon-eye"/>
+                    </a>
+                  </th>
+                  <th>
+                    <a href="#" rel="tooltip" title="# of Forks">
+                      <span class="octicon octicon-repo-forked"/>
+                    </a>
+                  </th>
+                  <th>
+                    <a href="#" rel="tooltip" title="# of Commits">
+                      <span class="octicon octicon-git-commit"/>
+                    </a>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ">COMEVIZZ (FujitsuLaboratories)</a>
+                  </td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ/blob/master/LICENSE">Apache License 2.0 (100%)</a>
+                  </td>
+                  <td>R</td>
+                  <td>2017-10-11</td>
+                  <td>2018-04-26</td>
+                  <td>2019-12-02</td>
+                  <td>7.2</td>
+                  <td>83</td>
+                  <td>5</td>
+                  <td>3</td>
+                  <td>21</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz">cattaz (FujitsuLaboratories)</a>
+                  </td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/blob/master/LICENSE">MIT License (100%)</a>
+                  </td>
+                  <td>JavaScript</td>
+                  <td>2017-11-13</td>
+                  <td>2020-07-30</td>
+                  <td>2020-08-17</td>
+                  <td>4</td>
+                  <td>152</td>
+                  <td>17</td>
+                  <td>17</td>
+                  <td>521</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy">kurumipy (FujitsuLaboratories)</a>
+                  </td>
+                  <td/>
+                  <td>Python</td>
+                  <td>2018-07-31</td>
+                  <td>2018-07-31</td>
+                  <td>2020-07-26</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>0</td>
+                  <td>80</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin">escapin (FujitsuLaboratories)</a>
+                  </td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin/blob/master/LICENSE">MIT License (100%)</a>
+                  </td>
+                  <td>TypeScript</td>
+                  <td>2019-07-30</td>
+                  <td>2020-08-21</td>
+                  <td>2020-07-17</td>
+                  <td>2.4</td>
+                  <td>19</td>
+                  <td>1</td>
+                  <td>4</td>
+                  <td>422</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample">ConnectionChain-sample (FujitsuLaboratories)</a>
+                  </td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/blob/master/LICENSE">Apache License 2.0 (100%)</a>
+                  </td>
+                  <td>JavaScript</td>
+                  <td>2019-11-22</td>
+                  <td>2019-12-16</td>
+                  <td>2020-05-14</td>
+                  <td>0.2</td>
+                  <td>6</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer">ChaincodeAnalyzer (FujitsuLaboratories)</a>
+                  </td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer/blob/master/LICENSE">Apache License 2.0 (100%)</a>
+                  </td>
+                  <td>Go</td>
+                  <td>2020-02-04</td>
+                  <td>2020-02-28</td>
+                  <td>2020-08-03</td>
+                  <td>0</td>
+                  <td>4</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>7</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="repotraffic">
+          <p>
+            <i>Shows the last 14 days of traffic.</i>
+          </p>
+          <div class="data-grid-sortable tablesorter">
+            <table id="repoTrafficTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Repository</th>
+                  <th>Views</th>
+                  <th>Unique Views</th>
+                  <th>Clones</th>
+                  <th>Unique Clones</th>
+                  <th>Top Referrer (views/uniques)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ">COMEVIZZ (FujitsuLaboratories)</a>
+                  </td>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td> (/)</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz">cattaz (FujitsuLaboratories)</a>
+                  </td>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td> (/)</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy">kurumipy (FujitsuLaboratories)</a>
+                  </td>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td> (/)</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin">escapin (FujitsuLaboratories)</a>
+                  </td>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td> (/)</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample">ConnectionChain-sample (FujitsuLaboratories)</a>
+                  </td>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td> (/)</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer">ChaincodeAnalyzer (FujitsuLaboratories)</a>
+                  </td>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td> (/)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="issuemetrics">
+          <table width="100%">
+            <tr>
+              <td style="text:align=left">
+                <h4>Issue Count over Time</h4>
+                <br/>
+                <div id="FujitsuLaboratories-issueCountChart" class="right" style="height:100px;width:300px;">
+                  
+                </div>
+                <br/>
+              </td>
+              <td style="text:align=center">
+                <h4>Time to Close an Issue</h4>
+                <br/>
+                <div id="FujitsuLaboratories-issueTimeToCloseChart" style="height:100px;width:330px;">
+                  
+                </div>
+                <br/>
+              </td>
+              <td style="text:align=right">
+                <h4>Contributions</h4>
+                <br/>
+                <div id="FujitsuLaboratories-issueCommunityPieChart" style="height:100px;width:270px;">
+                  
+                </div>
+                <br/>
+              </td>
+            </tr>
+          </table>
+          <hr/>
+          <div class="data-grid-sortable tablesorter">
+            <table id="issueMetricsTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Repository</th>
+                  <th>Issues Opened</th>
+                  <th>Issues Closed</th>
+                  <th>Issue Total</th>
+                  <th>Issue %age Closed</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ">COMEVIZZ</a>
+                  </td>
+                  <td>5</td>
+                  <td>11</td>
+                  <td>16</td>
+                  <td>69%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz">cattaz</a>
+                  </td>
+                  <td>2</td>
+                  <td>9</td>
+                  <td>11</td>
+                  <td>82%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy">kurumipy</a>
+                  </td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>50%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin">escapin</a>
+                  </td>
+                  <td>2</td>
+                  <td>9</td>
+                  <td>11</td>
+                  <td>82%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample">ConnectionChain-sample</a>
+                  </td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>50%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer">ChaincodeAnalyzer</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>n/a</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="prmetrics">
+          <table width="100%">
+            <tr>
+              <td style="text:align=left">
+                <h4>Pull Request Count over Time</h4>
+                <br/>
+                <div id="FujitsuLaboratories-pullRequestCountChart" class="right" style="height:100px;width:300px;">
+                  
+                </div>
+                <br/>
+              </td>
+              <td style="text:align=center">
+                <h4>Time to Close a Pull Request</h4>
+                <br/>
+                <div id="FujitsuLaboratories-prTimeToCloseChart" style="height:100px;width:330px;">
+                  
+                </div>
+                <br/>
+              </td>
+              <td style="text:align=right">
+                <h4>Contributions</h4>
+                <br/>
+                <div id="FujitsuLaboratories-prCommunityPieChart" style="height:100px;width:270px;">
+                  
+                </div>
+                <br/>
+              </td>
+            </tr>
+          </table>
+          <hr/>
+          <div class="data-grid-sortable tablesorter">
+            <table id="prMetricsTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Repository</th>
+                  <th>PRs Opened</th>
+                  <th>PRs Closed</th>
+                  <th>PR Total</th>
+                  <th>PR %age Closed</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ">COMEVIZZ</a>
+                  </td>
+                  <td>0</td>
+                  <td>11</td>
+                  <td>11</td>
+                  <td>100%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz">cattaz</a>
+                  </td>
+                  <td>6</td>
+                  <td>17</td>
+                  <td>23</td>
+                  <td>74%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy">kurumipy</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>n/a</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin">escapin</a>
+                  </td>
+                  <td>2</td>
+                  <td>309</td>
+                  <td>311</td>
+                  <td>99%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample">ConnectionChain-sample</a>
+                  </td>
+                  <td>4</td>
+                  <td>0</td>
+                  <td>4</td>
+                  <td>0%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer">ChaincodeAnalyzer</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>n/a</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="issues">
+          <div class="data-grid-sortable tablesorter">
+            <table id="issueTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Open Issue</th>
+                  <th>Title</th>
+                  <th>Labels</th>
+                  <th>Age</th>
+                  <th>Created</th>
+                  <th>Updated</th>
+                  <th>Requester</th>
+                  <th>Comments</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ/issues/6">COMEVIZZ-6</a>
+                  </td>
+                  <td>"Cannot display Z-Score value"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #84b6eb">enhancement</span>
+                  </td>
+                  <td>998d</td>
+                  <td>2017-11-28</td>
+                  <td>2017-11-28</td>
+                  <td>
+                    <span style="margin-right: 2px;">
+                      <sup>
+                        <img src="https://avatars2.githubusercontent.com/u/31496077?v=4" width="8" height="8"/>
+                      </sup>
+                    </span>
+                    <a href="https://github.com/ysknmt">ysknmt</a>
+                  </td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ/issues/7">COMEVIZZ-7</a>
+                  </td>
+                  <td>"Add Z-Score table view"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #84b6eb">enhancement</span>
+                  </td>
+                  <td>998d</td>
+                  <td>2017-11-28</td>
+                  <td>2017-11-28</td>
+                  <td>
+                    <span style="margin-right: 2px;">
+                      <sup>
+                        <img src="https://avatars2.githubusercontent.com/u/31496077?v=4" width="8" height="8"/>
+                      </sup>
+                    </span>
+                    <a href="https://github.com/ysknmt">ysknmt</a>
+                  </td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ/issues/9">COMEVIZZ-9</a>
+                  </td>
+                  <td>"[sonar2csv] Enable to set `url` value"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #84b6eb">enhancement</span>
+                  </td>
+                  <td>998d</td>
+                  <td>2017-11-28</td>
+                  <td>2017-11-28</td>
+                  <td>
+                    <span style="margin-right: 2px;">
+                      <sup>
+                        <img src="https://avatars2.githubusercontent.com/u/31496077?v=4" width="8" height="8"/>
+                      </sup>
+                    </span>
+                    <a href="https://github.com/ysknmt">ysknmt</a>
+                  </td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ/issues/10">COMEVIZZ-10</a>
+                  </td>
+                  <td>"[sonar2csv] Support LDAP auth of SonarQube"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #84b6eb">enhancement</span>
+                  </td>
+                  <td>998d</td>
+                  <td>2017-11-28</td>
+                  <td>2017-11-28</td>
+                  <td>
+                    <span style="margin-right: 2px;">
+                      <sup>
+                        <img src="https://avatars2.githubusercontent.com/u/31496077?v=4" width="8" height="8"/>
+                      </sup>
+                    </span>
+                    <a href="https://github.com/ysknmt">ysknmt</a>
+                  </td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ/issues/15">COMEVIZZ-15</a>
+                  </td>
+                  <td>"公開サンプルデータの更新"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #84b6eb">enhancement</span>
+                  </td>
+                  <td>934d</td>
+                  <td>2018-01-31</td>
+                  <td>2018-01-31</td>
+                  <td>
+                    <span style="margin-right: 2px;">
+                      <sup>
+                        <img src="https://avatars2.githubusercontent.com/u/31496077?v=4" width="8" height="8"/>
+                      </sup>
+                    </span>
+                    <a href="https://github.com/ysknmt">ysknmt</a>
+                  </td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/issues/7">cattaz-7</a>
+                  </td>
+                  <td>"Make Cattaz able to execute R code snippets?"</td>
+                  <td/>
+                  <td>981d</td>
+                  <td>2017-12-15</td>
+                  <td>2017-12-18</td>
+                  <td>
+                    <a href="https://github.com/matthieu-pa">matthieu-pa</a>
+                  </td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/issues/19">cattaz-19</a>
+                  </td>
+                  <td>"Where does Cattaz store persistent data? [Docker]"</td>
+                  <td/>
+                  <td>877d</td>
+                  <td>2018-03-29</td>
+                  <td>2018-04-12</td>
+                  <td>
+                    <a href="https://github.com/kawaii">kawaii</a>
+                  </td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy/issues/1">kurumipy-1</a>
+                  </td>
+                  <td>"あ"</td>
+                  <td/>
+                  <td>44d</td>
+                  <td>2020-07-09</td>
+                  <td>2020-07-09</td>
+                  <td>
+                    <a href="https://github.com/ittskn">ittskn</a>
+                  </td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/escapin/issues/14">escapin-14</a>
+                  </td>
+                  <td>"Azure support"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #a2eeef">enhancement</span>
+                  </td>
+                  <td>268d</td>
+                  <td>2019-11-29</td>
+                  <td>2019-11-29</td>
+                  <td>
+                    <a href="https://github.com/kimusaku">kimusaku</a>
+                  </td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/escapin/issues/15">escapin-15</a>
+                  </td>
+                  <td>"GCP support"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #a2eeef">enhancement</span>
+                  </td>
+                  <td>268d</td>
+                  <td>2019-11-29</td>
+                  <td>2019-11-29</td>
+                  <td>
+                    <a href="https://github.com/kimusaku">kimusaku</a>
+                  </td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/issues/5">ConnectionChain-sample-5</a>
+                  </td>
+                  <td>"Cannot find Fabric Binaries in the tutorial link"</td>
+                  <td/>
+                  <td>34d</td>
+                  <td>2020-07-19</td>
+                  <td>2020-07-19</td>
+                  <td>
+                    <a href="https://github.com/lucianoacsilva">lucianoacsilva</a>
+                  </td>
+                  <td>0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="pullrequests">
+          <div class="data-grid-sortable tablesorter">
+            <table id="prTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Open Pull Request</th>
+                  <th>Title</th>
+                  <th>Labels</th>
+                  <th>Age</th>
+                  <th>Created</th>
+                  <th>Updated</th>
+                  <th>Requester</th>
+                  <th>Comments</th>
+                  <th># Files Changed</th>
+                  <th># New Lines</th>
+                  <th># Removed Lines</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/issues/6">cattaz-6</a>
+                  </td>
+                  <td>"use leveldb"</td>
+                  <td/>
+                  <td>983d</td>
+                  <td>2017-12-13</td>
+                  <td>2019-05-24</td>
+                  <td>
+                    <a href="https://github.com/ChoudharyS">ChoudharyS</a>
+                  </td>
+                  <td>9</td>
+                  <td>11</td>
+                  <td>+713</td>
+                  <td>-39</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/issues/15">cattaz-15</a>
+                  </td>
+                  <td>"Host landing page in github pages"</td>
+                  <td/>
+                  <td>949d</td>
+                  <td>2018-01-16</td>
+                  <td>2019-05-24</td>
+                  <td>
+                    <span style="margin-right: 2px;">
+                      <sup>
+                        <img src="https://avatars2.githubusercontent.com/u/31496077?v=4" width="8" height="8"/>
+                      </sup>
+                    </span>
+                    <a href="https://github.com/ohtake">ohtake</a>
+                  </td>
+                  <td>2</td>
+                  <td>6</td>
+                  <td>+18</td>
+                  <td>-18</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/issues/29">cattaz-29</a>
+                  </td>
+                  <td>"Bump websocket-extensions from 0.1.3 to 0.1.4"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #0366d6">dependencies</span>
+                  </td>
+                  <td>77d</td>
+                  <td>2020-06-06</td>
+                  <td>2020-06-06</td>
+                  <td>
+                    <a href="https://github.com/dependabot[bot]">dependabot[bot]</a>
+                  </td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>+3</td>
+                  <td>-3</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/issues/30">cattaz-30</a>
+                  </td>
+                  <td>"Bump lodash from 4.17.15 to 4.17.19"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #0366d6">dependencies</span>
+                  </td>
+                  <td>37d</td>
+                  <td>2020-07-16</td>
+                  <td>2020-07-16</td>
+                  <td>
+                    <a href="https://github.com/dependabot[bot]">dependabot[bot]</a>
+                  </td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>+5</td>
+                  <td>-5</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/issues/31">cattaz-31</a>
+                  </td>
+                  <td>"Bump codecov from 3.6.1 to 3.7.1"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #0366d6">dependencies</span>
+                  </td>
+                  <td>32d</td>
+                  <td>2020-07-21</td>
+                  <td>2020-07-21</td>
+                  <td>
+                    <a href="https://github.com/dependabot[bot]">dependabot[bot]</a>
+                  </td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>+71</td>
+                  <td>-50</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/issues/32">cattaz-32</a>
+                  </td>
+                  <td>"Bump elliptic from 6.5.1 to 6.5.3"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #0366d6">dependencies</span>
+                  </td>
+                  <td>23d</td>
+                  <td>2020-07-30</td>
+                  <td>2020-07-30</td>
+                  <td>
+                    <a href="https://github.com/dependabot[bot]">dependabot[bot]</a>
+                  </td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>+6</td>
+                  <td>-6</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/escapin/issues/286">escapin-286</a>
+                  </td>
+                  <td>"fix(deps): update dependency openapi-types to v7"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #0366d6">dependencies</span>
+                  </td>
+                  <td>33d</td>
+                  <td>2020-07-20</td>
+                  <td>2020-08-18</td>
+                  <td>
+                    <a href="https://github.com/renovate[bot]">renovate[bot]</a>
+                  </td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>+11</td>
+                  <td>-4</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/escapin/issues/317">escapin-317</a>
+                  </td>
+                  <td>"fix(deps): update dependency typescript to v4"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #0366d6">dependencies</span>
+                  </td>
+                  <td>2d</td>
+                  <td>2020-08-20</td>
+                  <td>2020-08-21</td>
+                  <td>
+                    <a href="https://github.com/renovate[bot]">renovate[bot]</a>
+                  </td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>+4</td>
+                  <td>-4</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/issues/1">ConnectionChain-sample-1</a>
+                  </td>
+                  <td>"Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/ecSide/ec1_connector"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #0366d6">dependencies</span>
+                  </td>
+                  <td>274d</td>
+                  <td>2019-11-22</td>
+                  <td>2019-11-22</td>
+                  <td>
+                    <a href="https://github.com/dependabot[bot]">dependabot[bot]</a>
+                  </td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>+1</td>
+                  <td>-1</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/issues/2">ConnectionChain-sample-2</a>
+                  </td>
+                  <td>"Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/coreSide/ec1_adapter"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #0366d6">dependencies</span>
+                  </td>
+                  <td>274d</td>
+                  <td>2019-11-22</td>
+                  <td>2019-11-22</td>
+                  <td>
+                    <a href="https://github.com/dependabot[bot]">dependabot[bot]</a>
+                  </td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>+1</td>
+                  <td>-1</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/issues/3">ConnectionChain-sample-3</a>
+                  </td>
+                  <td>"Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/restserver/coreapi"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #0366d6">dependencies</span>
+                  </td>
+                  <td>274d</td>
+                  <td>2019-11-22</td>
+                  <td>2019-11-22</td>
+                  <td>
+                    <a href="https://github.com/dependabot[bot]">dependabot[bot]</a>
+                  </td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>+1</td>
+                  <td>-1</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="octicon octicon-issue-opened"/>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/issues/4">ConnectionChain-sample-4</a>
+                  </td>
+                  <td>"Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/appserver/serviceapi"</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #0366d6">dependencies</span>
+                  </td>
+                  <td>274d</td>
+                  <td>2019-11-22</td>
+                  <td>2019-11-22</td>
+                  <td>
+                    <a href="https://github.com/dependabot[bot]">dependabot[bot]</a>
+                  </td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>+1</td>
+                  <td>-1</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="members">
+          <div class="data-grid-sortable tablesorter">
+            <table id="memberTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>GitHub login</th>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Company</th>
+                  <th>Employee login</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img width="35" height="35" src="https://avatars2.githubusercontent.com/u/1013655?v=4&amp;s=35"/>
+                    <a href="https://github.com/ohtake">ohtake</a>
+                  </td>
+                  <td>OHTAKE Tomohiro</td>
+                  <td/>
+                  <td/>
+                  <td>
+                    <span class="octicon octicon-question"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img width="35" height="35" src="https://avatars1.githubusercontent.com/u/1840560?v=4&amp;s=35"/>
+                    <a href="https://github.com/IMAI-Yuji">IMAI-Yuji</a>
+                  </td>
+                  <td>Yuji IMAI</td>
+                  <td/>
+                  <td>FUJITSU LABORATORIES LTD.</td>
+                  <td>
+                    <span class="octicon octicon-question"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img width="35" height="35" src="https://avatars3.githubusercontent.com/u/31495910?v=4&amp;s=35"/>
+                    <a href="https://github.com/ShinjiKikuchi">ShinjiKikuchi</a>
+                  </td>
+                  <td>Shinji Kikuchi</td>
+                  <td/>
+                  <td>FUJITSU LABORATORIES LTD.</td>
+                  <td>
+                    <span class="octicon octicon-question"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img width="35" height="35" src="https://avatars0.githubusercontent.com/u/32432897?v=4&amp;s=35"/>
+                    <a href="https://github.com/ysknmt">ysknmt</a>
+                  </td>
+                  <td>Yusuke Nemoto</td>
+                  <td>y-nemoto@jp.fujitsu.com</td>
+                  <td>Fujitsu Laboratories LTD.</td>
+                  <td>
+                    <span class="octicon octicon-question"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img width="35" height="35" src="https://avatars3.githubusercontent.com/u/25890296?v=4&amp;s=35"/>
+                    <a href="https://github.com/yoheiseki">yoheiseki</a>
+                  </td>
+                  <td>Yohei Seki</td>
+                  <td/>
+                  <td>FUJITSU LABORATORIES LTD.</td>
+                  <td>
+                    <span class="octicon octicon-question"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img width="35" height="35" src="https://avatars0.githubusercontent.com/u/1182827?v=4&amp;s=35"/>
+                    <a href="https://github.com/tnaoto">tnaoto</a>
+                  </td>
+                  <td>Naoto TAKAHASHi</td>
+                  <td/>
+                  <td>FUJITSU</td>
+                  <td>
+                    <span class="octicon octicon-question"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img width="35" height="35" src="https://avatars3.githubusercontent.com/u/57385780?v=4&amp;s=35"/>
+                    <a href="https://github.com/takeutak">takeutak</a>
+                  </td>
+                  <td>Takuma TAKEUCHI</td>
+                  <td/>
+                  <td>FUJITSU Laboratories Ltd.</td>
+                  <td>
+                    <span class="octicon octicon-question"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="UnknownCollaboratorsDbReporter">
+          <h3>User Report: Unknown Collaborator
+             (0)</h3>
+          <pre>This report shows which of the outside collaborators are not in your user_mapping of GitHub login to Internal Employee login. </pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="UnknownCollaboratorsDbReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>login</th>
+                  <th>repository</th>
+                </tr>
+              </thead>
+              <tbody/>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="UnknownMembersDbReporter">
+          <h3>User Report: Unknown Members
+             (0)</h3>
+          <pre>This report shows which of the organization members are not in your user_mapping of GitHub login to Internal Employee login. </pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="UnknownMembersDbReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>login</th>
+                  <th>repo</th>
+                </tr>
+              </thead>
+              <tbody/>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="NoIssueCommentsDbReporter">
+          <h3>Issue Report: Open Issues with no comments
+             (4)</h3>
+          <pre>This report shows open issues from the community with no comments. </pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="NoIssueCommentsDbReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Created</th>
+                  <th>Issue</th>
+                  <th>Title</th>
+                  <th>Labels</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2020-07-09 16:41:58 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy/issues/1">https://github.com/FujitsuLaboratories/kurumipy/issues/1</a>
+                  </td>
+                  <td/>
+                </tr>
+                <tr>
+                  <td>2019-11-29 00:21:38 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin/issues/14">https://github.com/FujitsuLaboratories/escapin/issues/14</a>
+                  </td>
+                  <td>Azure support</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #a2eeef">enhancement</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2019-11-29 00:21:50 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin/issues/15">https://github.com/FujitsuLaboratories/escapin/issues/15</a>
+                  </td>
+                  <td>GCP support</td>
+                  <td>
+                    <span class="labelColor" style="background-color: #a2eeef">enhancement</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2020-07-19 15:56:40 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/issues/5">https://github.com/FujitsuLaboratories/ConnectionChain-sample/issues/5</a>
+                  </td>
+                  <td>Cannot find Fabric Binaries in the tutorial link</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="NoPrCommentsDbReporter">
+          <h3>Issue Report: Open PRs with no comments
+             (10)</h3>
+          <pre>This report shows open pull requests from the community with no comments. </pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="NoPrCommentsDbReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Created</th>
+                  <th>Pr</th>
+                  <th>Title</th>
+                  <th>Labels</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2020-06-06 14:13:27 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/pull/29">https://github.com/FujitsuLaboratories/cattaz/pull/29</a>
+                  </td>
+                  <td>Bump websocket-extensions from 0.1.3 to 0.1.4</td>
+                </tr>
+                <tr>
+                  <td>2020-07-16 20:49:50 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/pull/30">https://github.com/FujitsuLaboratories/cattaz/pull/30</a>
+                  </td>
+                  <td>Bump lodash from 4.17.15 to 4.17.19</td>
+                </tr>
+                <tr>
+                  <td>2020-07-21 12:39:28 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/pull/31">https://github.com/FujitsuLaboratories/cattaz/pull/31</a>
+                  </td>
+                  <td>Bump codecov from 3.6.1 to 3.7.1</td>
+                </tr>
+                <tr>
+                  <td>2020-07-30 13:41:11 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/pull/32">https://github.com/FujitsuLaboratories/cattaz/pull/32</a>
+                  </td>
+                  <td>Bump elliptic from 6.5.1 to 6.5.3</td>
+                </tr>
+                <tr>
+                  <td>2020-07-20 15:52:47 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin/pull/286">https://github.com/FujitsuLaboratories/escapin/pull/286</a>
+                  </td>
+                  <td>fix(deps): update dependency openapi-types to v7</td>
+                </tr>
+                <tr>
+                  <td>2020-08-20 16:37:09 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin/pull/317">https://github.com/FujitsuLaboratories/escapin/pull/317</a>
+                  </td>
+                  <td>fix(deps): update dependency typescript to v4</td>
+                </tr>
+                <tr>
+                  <td>2019-11-22 07:38:16 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/1">https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/1</a>
+                  </td>
+                  <td>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/ecSide/ec1_connector</td>
+                </tr>
+                <tr>
+                  <td>2019-11-22 07:38:24 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/2">https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/2</a>
+                  </td>
+                  <td>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/coreSide/ec1_adapter</td>
+                </tr>
+                <tr>
+                  <td>2019-11-22 07:38:36 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/3">https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/3</a>
+                  </td>
+                  <td>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/restserver/coreapi</td>
+                </tr>
+                <tr>
+                  <td>2019-11-22 07:38:45 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/4">https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/4</a>
+                  </td>
+                  <td>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/appserver/serviceapi</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="LabelCountDbReporter">
+          <h3>Issue Report: Label Count Summary
+             (6)</h3>
+          <pre>This report shows the number of open issues and pull requests for a configured list of standard labels. </pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="LabelCountDbReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Repository</th>
+                  <th>bug</th>
+                  <th>duplicate</th>
+                  <th>enhancement</th>
+                  <th>help wanted</th>
+                  <th>invalid</th>
+                  <th>question</th>
+                  <th>wontfix</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ">FujitsuLaboratories/COMEVIZZ</a>
+                  </td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>12</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz">FujitsuLaboratories/cattaz</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy">FujitsuLaboratories/kurumipy</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin">FujitsuLaboratories/escapin</a>
+                  </td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample">FujitsuLaboratories/ConnectionChain-sample</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer">FujitsuLaboratories/ChaincodeAnalyzer</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="LabelDbReporter">
+          <h3>Issue Report: Label Summary
+             (11)</h3>
+          <pre>This report shows the labels in use, and how many issues + prs, open or closed, are in each. </pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="LabelDbReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Label</th>
+                  <th>PR/Issue Count</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="labelColor" style="background-color: #ee0701">bug</span>
+                  </td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="labelColor" style="background-color: #84b6eb">enhancement</span>
+                  </td>
+                  <td>12</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="labelColor" style="background-color: #ffffff">wontfix</span>
+                  </td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="labelColor" style="background-color: #0366d6">dependencies</span>
+                  </td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="labelColor" style="background-color: #d73a4a">bug</span>
+                  </td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="labelColor" style="background-color: #ededed">semantic-release</span>
+                  </td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="labelColor" style="background-color: #a2eeef">enhancement</span>
+                  </td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="labelColor" style="background-color: #ededed">released</span>
+                  </td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="labelColor" style="background-color: #ededed">release</span>
+                  </td>
+                  <td>7</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="labelColor" style="background-color: #0366d6">dependencies</span>
+                  </td>
+                  <td>203</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="labelColor" style="background-color: #0366d6">dependencies</span>
+                  </td>
+                  <td>4</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="AverageIssueCloseDbReporter">
+          <h3>Issue Report: Average Issue Close Time
+             (6)</h3>
+          <pre>This report shows the average time each repo takes to close issues</pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="AverageIssueCloseDbReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Repo</th>
+                  <th>&lt;1 month: Closed</th>
+                  <th>&lt;1 month: MTTR</th>
+                  <th>&lt;1 month: Still Open</th>
+                  <th>&lt;1 quarter: Closed</th>
+                  <th>&lt;1 quarter: MTTR</th>
+                  <th>&lt;1 quarter: Still Open</th>
+                  <th>&lt;1 year: Closed</th>
+                  <th>&lt;1 year: MTTR</th>
+                  <th>&lt;1 year: Still Open</th>
+                  <th>All time: Closed</th>
+                  <th>All time: MTTR</th>
+                  <th>All time: Still Open</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ">FujitsuLaboratories/COMEVIZZ</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>6</td>
+                  <td>18.33</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz">FujitsuLaboratories/cattaz</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>7</td>
+                  <td>15.86</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy">FujitsuLaboratories/kurumipy</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin">FujitsuLaboratories/escapin</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0.0</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>32.4</td>
+                  <td>2</td>
+                  <td>7</td>
+                  <td>23.43</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample">FujitsuLaboratories/ConnectionChain-sample</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer">FujitsuLaboratories/ChaincodeAnalyzer</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="AveragePrCloseDbReporter">
+          <h3>Issue Report: Average Pull Request Close Time
+             (6)</h3>
+          <pre>This report shows the average time each repo takes to close pull requests</pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="AveragePrCloseDbReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Repo</th>
+                  <th>&lt;1 month: Closed</th>
+                  <th>&lt;1 month: MTTR</th>
+                  <th>&lt;1 month: Still Open</th>
+                  <th>&lt;1 quarter: Closed</th>
+                  <th>&lt;1 quarter: MTTR</th>
+                  <th>&lt;1 quarter: Still Open</th>
+                  <th>&lt;1 year: Closed</th>
+                  <th>&lt;1 year: MTTR</th>
+                  <th>&lt;1 year: Still Open</th>
+                  <th>All time: Closed</th>
+                  <th>All time: MTTR</th>
+                  <th>All time: Still Open</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ">FujitsuLaboratories/COMEVIZZ</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>11</td>
+                  <td>0.36</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz">FujitsuLaboratories/cattaz</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>4</td>
+                  <td>1</td>
+                  <td>153.0</td>
+                  <td>4</td>
+                  <td>17</td>
+                  <td>9.82</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy">FujitsuLaboratories/kurumipy</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin">FujitsuLaboratories/escapin</a>
+                  </td>
+                  <td>31</td>
+                  <td>0.26</td>
+                  <td>1</td>
+                  <td>124</td>
+                  <td>0.59</td>
+                  <td>2</td>
+                  <td>306</td>
+                  <td>0.45</td>
+                  <td>2</td>
+                  <td>309</td>
+                  <td>0.45</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample">FujitsuLaboratories/ConnectionChain-sample</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>4</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer">FujitsuLaboratories/ChaincodeAnalyzer</a>
+                  </td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="DocsReporter">
+          <h3>Repository Report: Document Report
+             (43)</h3>
+          <pre>This report shows you *.txt and *.md files in your repositories. Useful for reviews by documentation writers. </pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="DocsReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Issue Found In</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/COMEVIZZ">FujitsuLaboratories/COMEVIZZ</a>
+                  </td>
+                  <td>
+                    <ul style="list-style-type: none;">
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/COMEVIZZ/tree/master/sonar2csv/deps_licenses.txt">sonar2csv/deps_licenses.txt</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/COMEVIZZ/tree/master/CCLA.txt">CCLA.txt</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/COMEVIZZ/tree/master/ICLA.txt">ICLA.txt</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/COMEVIZZ/tree/master/sonar2csv/README.md">sonar2csv/README.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/COMEVIZZ/tree/master/CONTRIBUTING.md">CONTRIBUTING.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/COMEVIZZ/tree/master/README.md">README.md</a>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz">FujitsuLaboratories/cattaz</a>
+                  </td>
+                  <td>
+                    <ul style="list-style-type: none;">
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-date.cattaz.md">docs/app-date.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-hello.cattaz.md">docs/app-hello.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/usage.cattaz.md">docs/usage.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-kanban.cattaz.md">docs/app-kanban.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-reversi.cattaz.md">docs/app-reversi.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-mandala.cattaz.md">docs/app-mandala.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-vote.cattaz.md">docs/app-vote.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-bookmarks.cattaz.md">docs/app-bookmarks.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-helpful.cattaz.md">docs/app-helpful.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-youtube.cattaz.md">docs/app-youtube.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-draw.cattaz.md">docs/app-draw.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-datematcher.cattaz.md">docs/app-datematcher.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-error.cattaz.md">docs/app-error.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-meetingtime.cattaz.md">docs/app-meetingtime.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-map.cattaz.md">docs/app-map.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-votecrypto.cattaz.md">docs/app-votecrypto.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/ja/app-hello.cattaz.md">docs/ja/app-hello.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/ja/usage.cattaz.md">docs/ja/usage.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/ja/index.cattaz.md">docs/ja/index.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-kpt.cattaz.md">docs/app-kpt.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/apps.cattaz.md">docs/apps.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/index.cattaz.md">docs/index.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/docs/app-weather.cattaz.md">docs/app-weather.cattaz.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/cattaz/tree/master/README.md">README.md</a>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy">FujitsuLaboratories/kurumipy</a>
+                  </td>
+                  <td>
+                    <ul style="list-style-type: none;">
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/kurumipy/tree/master/requirements.txt">requirements.txt</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/kurumipy/tree/master/README.md">README.md</a>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin">FujitsuLaboratories/escapin</a>
+                  </td>
+                  <td>
+                    <ul style="list-style-type: none;">
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/escapin/tree/master/docs/users_guide.md">docs/users_guide.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/escapin/tree/master/README.md">README.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/escapin/tree/master/.github/CONTRIBUTING.md">.github/CONTRIBUTING.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/escapin/tree/master/.github/CODE_OF_CONDUCT.md">.github/CODE_OF_CONDUCT.md</a>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample">FujitsuLaboratories/ConnectionChain-sample</a>
+                  </td>
+                  <td>
+                    <ul style="list-style-type: none;">
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/tree/master/environment/README.md">environment/README.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/tree/master/docs/REST-API/sample/transfers.md">docs/REST-API/sample/transfers.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/tree/master/docs/REST-API/sample/rules.md">docs/REST-API/sample/rules.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/tree/master/docs/REST-API/base/ecaccounts.md">docs/REST-API/base/ecaccounts.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/tree/master/docs/REST-API/base/endchains.md">docs/REST-API/base/endchains.md</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/tree/master/README.md">README.md</a>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer">FujitsuLaboratories/ChaincodeAnalyzer</a>
+                  </td>
+                  <td>
+                    <ul style="list-style-type: none;">
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer/tree/master/README.md">README.md</a>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="LicenseReporter">
+          <h3>Repository Report: License Report
+             (1)</h3>
+          <pre>This report shows you the repositories that the licensee project GitHub uses is unable to either find or identify. </pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="LicenseReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Issue Found In</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy">FujitsuLaboratories/kurumipy</a>
+                  </td>
+                  <td>
+                    <ul style="list-style-type: none;">
+                      <li>No License File Found</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="BinaryReporter">
+          <h3>Repository Report: Binary File Report
+             (1)</h3>
+          <pre>Uses the Linux file command to identify if a file is binary. Empty files and images are filtered out of the list. </pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="BinaryReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Issue Found In</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy">FujitsuLaboratories/kurumipy</a>
+                  </td>
+                  <td>
+                    <ul style="list-style-type: none;">
+                      <li>
+                        <a href="https://github.com/FujitsuLaboratories/kurumipy/tree/master/memoization/__init__.py">memoization/__init__.py</a>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="WikiOnDbReporter">
+          <h3>Repository Report: Wiki-Enabled Repositories
+             (5)</h3>
+          <pre>This report shows repositories that have their wikis turned on. </pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="WikiOnDbReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Create Date</th>
+                  <th>repository</th>
+                  <th>Wiki</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2017-11-13 04:58:39 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz">FujitsuLaboratories/cattaz</a>
+                  </td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/cattaz/wiki">https://github.com/FujitsuLaboratories/cattaz/wiki</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2018-07-31 04:55:37 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy">FujitsuLaboratories/kurumipy</a>
+                  </td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/kurumipy/wiki">https://github.com/FujitsuLaboratories/kurumipy/wiki</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2019-07-30 06:35:53 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin">FujitsuLaboratories/escapin</a>
+                  </td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/escapin/wiki">https://github.com/FujitsuLaboratories/escapin/wiki</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2019-11-22 07:12:12 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample">FujitsuLaboratories/ConnectionChain-sample</a>
+                  </td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ConnectionChain-sample/wiki">https://github.com/FujitsuLaboratories/ConnectionChain-sample/wiki</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2020-02-04 10:43:14 +0000</td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer">FujitsuLaboratories/ChaincodeAnalyzer</a>
+                  </td>
+                  <td>
+                    <a href="https://github.com/FujitsuLaboratories/ChaincodeAnalyzer/wiki">https://github.com/FujitsuLaboratories/ChaincodeAnalyzer/wiki</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="EmptyDbReporter">
+          <h3>Repository Report: Empty Repositories
+             (0)</h3>
+          <pre>This report shows repositories that GitHub is reporting as zero-sized. </pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="EmptyDbReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>repository</th>
+                </tr>
+              </thead>
+              <tbody/>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane" id="UnchangedDbReporter">
+          <h3>Repository Report: Unchanged Repositories
+             (0)</h3>
+          <pre>This report shows repositories that have not had any changes since the day they were created. </pre>
+          <div class="data-grid-sortable tablesorter">
+            <table id="UnchangedDbReporterTable" class="data-grid">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>repository</th>
+                </tr>
+              </thead>
+              <tbody/>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pull-right"/>
+    <script>
+ plotChart("FujitsuLaboratories-repoCount", "LineChart")
+ plotChart("FujitsuLaboratories-issueCount", "LineChart")
+ plotChart("FujitsuLaboratories-issueTimeToClose", "BarChart")
+ plotChart("FujitsuLaboratories-issueCommunityPie", "PieChart")
+ plotChart("FujitsuLaboratories-pullRequestCount", "LineChart")
+ plotChart("FujitsuLaboratories-prTimeToClose", "BarChart")
+ plotChart("FujitsuLaboratories-prCommunityPie", "PieChart")
+</script>
+    <script type="text/javascript">
+            $(function(){
+                $("#repoTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+                $("#repoMetricsTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+                $("#issueMetricsTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+                $("#prMetricsTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+                $("#issueTable").tablesorter({
+                    sortList: [[3,1]],
+                });
+                $("#prTable").tablesorter({
+                    sortList: [[3,1]],
+                });
+                $("#memberTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+                $("#teamTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+                $("#repoTrafficTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#UnknownCollaboratorsDbReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#UnknownMembersDbReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#NoIssueCommentsDbReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#NoPrCommentsDbReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#LabelCountDbReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#LabelDbReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#AverageIssueCloseDbReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#AveragePrCloseDbReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#DocsReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#LicenseReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#BinaryReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#WikiOnDbReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#EmptyDbReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+                $("#UnchangedDbReporterTable").tablesorter({
+                    sortList: [[0,0]],
+                });
+            
+            });
+        </script>
+    <p>Generated by <a href="https://github.com/amzn/oss-dashboard">github.com/amzn/oss-dashboard</a>. </p>
+    <p>282 GitHub requests made with 4505 remaining. </p>
+    <p>Report begun at 2020-08-22.14:54. </p>
+    <p>Report written around 2020-08-22.15:02. </p>
+  </body>
+</html>
