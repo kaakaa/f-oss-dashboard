@@ -29,11 +29,11 @@ jobs:
       - uses: actions/cache@v2
         with:
           path: /tmp/oss-dashboard-${GITHUB_ACTION}
-          key: ${{ runner.os }}-postgres
-      - run:  docker-compose up dashboard
+          key: ${GITHUB_ACTION}-postgres
+      - run:  docker-compose run -v $PWD/config/fujitsu.yaml dashboard
         env:
           GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./html
+          publish_dir: ./dist

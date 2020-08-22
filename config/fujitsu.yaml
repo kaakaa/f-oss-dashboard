@@ -7,8 +7,8 @@
       password: postgres
       database: oss-dashboard
 
-    data-directory: data
-    www-directory: html
+    data-directory: dist/fujitsu/data
+    www-directory: dist/fujitsu/html
 
     organizations: ['fujitsu', 'FujitsuLaboratories']
     logins: []

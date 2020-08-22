@@ -20,7 +20,7 @@ services:
       - OCTOKIT_API_ENDPOINT # if you use oss-dashboard to GitHub Enterprise, specify GHE api endpoint (ex. https://github.mycompany.com/api/v3)
     command: refresh-dashboard.rb config-dashboard.yaml
     volumes:
-      - ./config/fujitsu.yaml:/oss-dashboard/config-dashboard.yaml
+      # - ./config/fujitsu.yaml:/oss-dashboard/config-dashboard.yaml
       # - ./config-github.yaml:/oss-dashboard/config-github.yaml
       - ./data:/oss-dashboard/data
       - ./html:/oss-dashboard/html
