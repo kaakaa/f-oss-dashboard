@@ -1,0 +1,39 @@
+name: hitachi
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 0 * * 1'
+jobs:
+  hitachi:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:alpine
+        env:
+          POSTGRES_DB: oss-dashboard
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+          -v /tmp/oss-dashboard-${GITHUB_ACTION}:/var/lib/postgresql/data:rw
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: 'true'
+      - uses: actions/cache@v2
+        with:
+          path: /tmp/oss-dashboard-${GITHUB_ACTION}
+          key: ${GITHUB_ACTION}-postgres
+      - run:  docker-compose run -v $PWD/config/hitachi.yaml:/oss-dashboard/config-dashboard.yaml dashboard
+        env:
+          GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
