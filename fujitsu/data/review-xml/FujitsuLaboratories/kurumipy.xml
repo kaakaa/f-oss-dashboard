@@ -1,0 +1,6 @@
+    <reports org='FujitsuLaboratories' name='kurumipy'>
+      <reporting class='repo-report' repo='FujitsuLaboratories/kurumipy' type='DocsReporter'><file>requirements.txt</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/kurumipy' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/kurumipy' type='LicenseReporter'>No License File Found</reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/kurumipy' type='BinaryReporter'><file>memoization/__init__.py</file></reporting>
+    </reports>

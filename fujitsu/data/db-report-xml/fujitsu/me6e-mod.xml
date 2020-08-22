@@ -1,0 +1,6 @@
+    <reports org='fujitsu' name='me6e-mod'>
+  <reporting class='repo-report' repo='fujitsu/me6e-mod' type='WikiOnDbReporter'><field>2020-07-31 01:48:01 +0000</field><field>fujitsu/me6e-mod</field><field>https://github.com/fujitsu/me6e-mod/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/me6e-mod</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/me6e-mod' type='AverageIssueCloseDbReporter'><field>fujitsu/me6e-mod</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/me6e-mod' type='AveragePrCloseDbReporter'><field>fujitsu/me6e-mod</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>
