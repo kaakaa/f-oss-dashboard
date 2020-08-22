@@ -10,7 +10,7 @@
     data-directory: data
     www-directory: html
 
-    organizations: ['fujitsu']
+    organizations: ['fujitsu', 'FujitsuLaboratories']
     logins: []
     repositories: []   # 'org/repo' format
     reports: [ 'DocsReporter', 'LicenseReporter', 'BinaryReporter' ]
