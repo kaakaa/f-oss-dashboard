@@ -22,6 +22,6 @@ services:
     volumes:
       # - ./config/fujitsu.yaml:/oss-dashboard/config-dashboard.yaml
       # - ./config-github.yaml:/oss-dashboard/config-github.yaml
-      - ./dist:data:/oss-dashboard/dist
+      - ./dist:/oss-dashboard/dist
     links:
       - db
