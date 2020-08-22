@@ -1,3 +1,4 @@
 [submodule "oss-dashboard"]
 	path = oss-dashboard
 	url = https://github.com/kaakaa/oss-dashboard
+	branch = fix-docker
