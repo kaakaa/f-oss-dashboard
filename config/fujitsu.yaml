@@ -1,0 +1,25 @@
+  dashboard:
+    database:
+      engine: postgres
+      server: db
+      port: 5432
+      username: postgres
+      password: postgres
+      database: oss-dashboard
+
+    data-directory: data
+    www-directory: html
+
+    organizations: ['fujitsu']
+    logins: []
+    repositories: []   # 'org/repo' format
+    reports: [ 'DocsReporter', 'LicenseReporter', 'BinaryReporter' ]
+    db-reports: [ 'UnknownCollaboratorsDbReporter', 'UnknownMembersDbReporter', 'WikiOnDbReporter', 'EmptyDbReporter', 'UnchangedDbReporter', 'NoIssueCommentsDbReporter', 'NoPrCommentsDbReporter', 'LabelCountDbReporter', 'LabelDbReporter', 'AverageIssueCloseDbReporter', 'AveragePrCloseDbReporter']
+
+    ## Optional configurations ##
+    #private-access: ['amznlabs']
+    #report-path: ['/full/path/to/directory/of/custom/reports']
+    #db-report-path: ['/full/path/to/directory/of/custom/db-reports']
+    #map-user-script: /full/path/to/script
+    #hide-private-repositories: true 
+    #custom-license-path: ['/full/path/to/directory/of/licenses/per/licensee/format']
