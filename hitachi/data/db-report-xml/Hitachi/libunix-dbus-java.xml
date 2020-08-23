@@ -1,6 +1,0 @@
-    <reports org='Hitachi' name='libunix-dbus-java'>
-  <reporting class='repo-report' repo='Hitachi/libunix-dbus-java' type='WikiOnDbReporter'><field>2018-02-05 03:48:03 +0000</field><field>Hitachi/libunix-dbus-java</field><field>https://github.com/Hitachi/libunix-dbus-java/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/libunix-dbus-java</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='Hitachi/libunix-dbus-java' type='AverageIssueCloseDbReporter'><field>Hitachi/libunix-dbus-java</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='Hitachi/libunix-dbus-java' type='AveragePrCloseDbReporter'><field>Hitachi/libunix-dbus-java</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

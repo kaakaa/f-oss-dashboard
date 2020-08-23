@@ -1,0 +1,4 @@
+    <reports org='nttcom' name='students'>
+      <reporting class='repo-report' repo='nttcom/students' type='DocsReporter'><file>index.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/students' type='LicenseReporter'>No License File Found</reporting>
+    </reports>

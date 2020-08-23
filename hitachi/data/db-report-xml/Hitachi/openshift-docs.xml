@@ -1,5 +1,0 @@
-    <reports org='Hitachi' name='openshift-docs'>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/openshift-docs</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='Hitachi/openshift-docs' type='AverageIssueCloseDbReporter'><field>Hitachi/openshift-docs</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='Hitachi/openshift-docs' type='AveragePrCloseDbReporter'><field>Hitachi/openshift-docs</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

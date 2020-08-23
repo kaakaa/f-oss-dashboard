@@ -1,0 +1,6 @@
+    <reports org='nttcom' name='apigw-ruby-sdk'>
+  <reporting class='repo-report' repo='nttcom/apigw-ruby-sdk' type='WikiOnDbReporter'><field>2015-11-04 06:02:19 +0000</field><field>nttcom/apigw-ruby-sdk</field><field>https://github.com/nttcom/apigw-ruby-sdk/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/apigw-ruby-sdk</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/apigw-ruby-sdk' type='AverageIssueCloseDbReporter'><field>nttcom/apigw-ruby-sdk</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/apigw-ruby-sdk' type='AveragePrCloseDbReporter'><field>nttcom/apigw-ruby-sdk</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

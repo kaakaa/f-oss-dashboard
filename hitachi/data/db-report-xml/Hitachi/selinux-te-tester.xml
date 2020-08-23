@@ -1,6 +1,0 @@
-    <reports org='Hitachi' name='selinux-te-tester'>
-  <reporting class='repo-report' repo='Hitachi/selinux-te-tester' type='WikiOnDbReporter'><field>2018-07-06 06:28:15 +0000</field><field>Hitachi/selinux-te-tester</field><field>https://github.com/Hitachi/selinux-te-tester/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/selinux-te-tester</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='Hitachi/selinux-te-tester' type='AverageIssueCloseDbReporter'><field>Hitachi/selinux-te-tester</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='Hitachi/selinux-te-tester' type='AveragePrCloseDbReporter'><field>Hitachi/selinux-te-tester</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

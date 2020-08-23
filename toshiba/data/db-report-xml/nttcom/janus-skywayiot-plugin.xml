@@ -1,0 +1,6 @@
+    <reports org='nttcom' name='janus-skywayiot-plugin'>
+  <reporting class='repo-report' repo='nttcom/janus-skywayiot-plugin' type='WikiOnDbReporter'><field>2017-06-02 20:49:28 +0000</field><field>nttcom/janus-skywayiot-plugin</field><field>https://github.com/nttcom/janus-skywayiot-plugin/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/janus-skywayiot-plugin</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/janus-skywayiot-plugin' type='AverageIssueCloseDbReporter'><field>nttcom/janus-skywayiot-plugin</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field></reporting>
+  <reporting class='issue-report' repo='nttcom/janus-skywayiot-plugin' type='AveragePrCloseDbReporter'><field>nttcom/janus-skywayiot-plugin</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0.0</field><field>0</field></reporting>
+    </reports>
