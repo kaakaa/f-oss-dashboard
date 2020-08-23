@@ -21,15 +21,15 @@ jobs:
           --health-interval 10s
           --health-timeout 5s
           --health-retries 5
-          -v /tmp/oss-dashboard-${GITHUB_ACTION}:/var/lib/postgresql/data:rw
+          -v /tmp/oss-dashboard-${{ github.workflow }}:/var/lib/postgresql/data:rw
     steps:
       - uses: actions/checkout@v2
         with:
           submodules: 'true'
       - uses: actions/cache@v2
         with:
-          path: /tmp/oss-dashboard-${GITHUB_ACTION}
-          key: ${GITHUB_ACTION}-postgres
+          path: /tmp/oss-dashboard-${{ github.workflow }}
+          key: ${{ github.workflow }}-postgres
       - run:  docker-compose run -v $PWD/config/ntt.yaml:/oss-dashboard/config-dashboard.yaml dashboard
         env:
           GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
