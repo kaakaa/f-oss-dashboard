@@ -3,19 +3,19 @@
     <collaborators>
     </collaborators>
     <issues count='5'>
-      <issue id='277262749' number='6' user='ysknmt' state='open' created_at='2017-11-28 05:23:11 +0000' age='999' updated_at='2017-11-28 05:25:28 +0000' pull_request='false' comments='0'><title>Cannot display Z-Score value</title>
+      <issue id='277262749' number='6' user='ysknmt' state='open' created_at='2017-11-28 05:23:11 +0000' age='1000' updated_at='2017-11-28 05:25:28 +0000' pull_request='false' comments='0'><title>Cannot display Z-Score value</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
-      <issue id='277264683' number='7' user='ysknmt' state='open' created_at='2017-11-28 05:36:19 +0000' age='999' updated_at='2017-11-28 05:36:19 +0000' pull_request='false' comments='0'><title>Add Z-Score table view</title>
+      <issue id='277264683' number='7' user='ysknmt' state='open' created_at='2017-11-28 05:36:19 +0000' age='1000' updated_at='2017-11-28 05:36:19 +0000' pull_request='false' comments='0'><title>Add Z-Score table view</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
-      <issue id='277266280' number='9' user='ysknmt' state='open' created_at='2017-11-28 05:47:36 +0000' age='999' updated_at='2017-11-28 05:51:56 +0000' pull_request='false' comments='0'><title>[sonar2csv] Enable to set `url` value</title>
+      <issue id='277266280' number='9' user='ysknmt' state='open' created_at='2017-11-28 05:47:36 +0000' age='1000' updated_at='2017-11-28 05:51:56 +0000' pull_request='false' comments='0'><title>[sonar2csv] Enable to set `url` value</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
-      <issue id='277266891' number='10' user='ysknmt' state='open' created_at='2017-11-28 05:51:48 +0000' age='999' updated_at='2017-11-28 05:51:48 +0000' pull_request='false' comments='0'><title>[sonar2csv] Support LDAP auth of SonarQube</title>
+      <issue id='277266891' number='10' user='ysknmt' state='open' created_at='2017-11-28 05:51:48 +0000' age='1000' updated_at='2017-11-28 05:51:48 +0000' pull_request='false' comments='0'><title>[sonar2csv] Support LDAP auth of SonarQube</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
-      <issue id='293028184' number='15' user='ysknmt' state='open' created_at='2018-01-31 04:33:06 +0000' age='935' updated_at='2018-01-31 04:33:06 +0000' pull_request='false' comments='0'><title>公開サンプルデータの更新</title>
+      <issue id='293028184' number='15' user='ysknmt' state='open' created_at='2018-01-31 04:33:06 +0000' age='936' updated_at='2018-01-31 04:33:06 +0000' pull_request='false' comments='0'><title>公開サンプルデータの更新</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
     </issues>

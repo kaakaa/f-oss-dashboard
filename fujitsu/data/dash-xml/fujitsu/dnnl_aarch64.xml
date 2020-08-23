@@ -7,14 +7,14 @@
       </issue>
       <issue id='538360191' number='5' user='sakaia' state='open' created_at='2019-12-16 11:42:23 +0000' age='251' updated_at='2019-12-16 12:01:47 +0000' pull_request='false' comments='1'><title>[should remove] duplicate `tr8x8_avx2` function definition</title>
       </issue>
-      <issue id='540766562' number='8' user='sakaia' state='open' created_at='2019-12-20 05:17:16 +0000' age='247' updated_at='2019-12-20 05:17:16 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Add sve option for gcc-8 compiler option</title>
+      <issue id='540766562' number='8' user='sakaia' state='open' created_at='2019-12-20 05:17:16 +0000' age='248' updated_at='2019-12-20 05:17:16 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Add sve option for gcc-8 compiler option</title>
       </issue>
-      <issue id='541002642' number='9' user='kawakami-k' state='open' created_at='2019-12-20 13:45:55 +0000' age='246' updated_at='2019-12-20 13:52:09 +0000' pull_request='false' comments='0'><title>DNNL_aarch64 aborts, when TF+DNNL with a simple imagenet/resnet50 benchmark</title>
+      <issue id='541002642' number='9' user='kawakami-k' state='open' created_at='2019-12-20 13:45:55 +0000' age='247' updated_at='2019-12-20 13:52:09 +0000' pull_request='false' comments='0'><title>DNNL_aarch64 aborts, when TF+DNNL with a simple imagenet/resnet50 benchmark</title>
         <label url="https://api.github.com/repos/fujitsu/dnnl_aarch64/labels/bug" color='d73a4a'>bug</label>
       </issue>
-      <issue id='605887014' number='10' user='vpirogov' state='open' created_at='2020-04-23 21:29:32 +0000' age='121' updated_at='2020-05-29 03:26:12 +0000' pull_request='false' comments='4'><title>Arm support in oneDNN</title>
+      <issue id='605887014' number='10' user='vpirogov' state='open' created_at='2020-04-23 21:29:32 +0000' age='122' updated_at='2020-05-29 03:26:12 +0000' pull_request='false' comments='4'><title>Arm support in oneDNN</title>
       </issue>
-      <issue id='638889334' number='16' user='chauncyyoung' state='open' created_at='2020-06-15 14:15:14 +0000' age='68' updated_at='2020-06-24 07:21:37 +0000' pull_request='false' comments='7'><title>Questions about __ARM_ARCH</title>
+      <issue id='638889334' number='16' user='chauncyyoung' state='open' created_at='2020-06-15 14:15:14 +0000' age='69' updated_at='2020-06-24 07:21:37 +0000' pull_request='false' comments='7'><title>Questions about __ARM_ARCH</title>
       </issue>
     </issues>
   <release-data>

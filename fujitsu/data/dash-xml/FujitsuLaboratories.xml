@@ -25,7 +25,7 @@
     <report key='AverageIssueCloseDbReporter' name='Average Issue Close Time'><description>This report shows the average time each repo takes to close issues</description><column-type type='org/repo'>Repo</column-type><column-type type='text'>&lt;1 month: Closed</column-type><column-type type='text'>&lt;1 month: MTTR</column-type><column-type type='text'>&lt;1 month: Still Open</column-type><column-type type='text'>&lt;1 quarter: Closed</column-type><column-type type='text'>&lt;1 quarter: MTTR</column-type><column-type type='text'>&lt;1 quarter: Still Open</column-type><column-type type='text'>&lt;1 year: Closed</column-type><column-type type='text'>&lt;1 year: MTTR</column-type><column-type type='text'>&lt;1 year: Still Open</column-type><column-type type='text'>All time: Closed</column-type><column-type type='text'>All time: MTTR</column-type><column-type type='text'>All time: Still Open</column-type></report>
     <report key='AveragePrCloseDbReporter' name='Average Pull Request Close Time'><description>This report shows the average time each repo takes to close pull requests</description><column-type type='org/repo'>Repo</column-type><column-type type='text'>&lt;1 month: Closed</column-type><column-type type='text'>&lt;1 month: MTTR</column-type><column-type type='text'>&lt;1 month: Still Open</column-type><column-type type='text'>&lt;1 quarter: Closed</column-type><column-type type='text'>&lt;1 quarter: MTTR</column-type><column-type type='text'>&lt;1 quarter: Still Open</column-type><column-type type='text'>&lt;1 year: Closed</column-type><column-type type='text'>&lt;1 year: MTTR</column-type><column-type type='text'>&lt;1 year: Still Open</column-type><column-type type='text'>All time: Closed</column-type><column-type type='text'>All time: MTTR</column-type><column-type type='text'>All time: Still Open</column-type></report>
   </issue-reports>
-  <run-metrics refreshTime='2020-08-23T00:28:24+00:00' generationTime='2020-08-23T00:35:38+00:00' startRateLimit='4992' endRateLimit='3939' usedRateLimit='1053'/>
+  <run-metrics refreshTime='2020-08-23T22:11:38+00:00' generationTime='2020-08-23T22:18:49+00:00' startRateLimit='4993' endRateLimit='2802' usedRateLimit='2191'/>
  </metadata>
  <organization name='FujitsuLaboratories' avatar='https://avatars2.githubusercontent.com/u/31496077?v=4' type='organization'>
   <url>http://www.fujitsu.com/jp/group/labs/en/</url>
@@ -46,19 +46,19 @@
     <collaborators>
     </collaborators>
     <issues count='5'>
-      <issue id='277262749' number='6' user='ysknmt' state='open' created_at='2017-11-28 05:23:11 +0000' age='999' updated_at='2017-11-28 05:25:28 +0000' pull_request='false' comments='0'><title>Cannot display Z-Score value</title>
+      <issue id='277262749' number='6' user='ysknmt' state='open' created_at='2017-11-28 05:23:11 +0000' age='1000' updated_at='2017-11-28 05:25:28 +0000' pull_request='false' comments='0'><title>Cannot display Z-Score value</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
-      <issue id='277264683' number='7' user='ysknmt' state='open' created_at='2017-11-28 05:36:19 +0000' age='999' updated_at='2017-11-28 05:36:19 +0000' pull_request='false' comments='0'><title>Add Z-Score table view</title>
+      <issue id='277264683' number='7' user='ysknmt' state='open' created_at='2017-11-28 05:36:19 +0000' age='1000' updated_at='2017-11-28 05:36:19 +0000' pull_request='false' comments='0'><title>Add Z-Score table view</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
-      <issue id='277266280' number='9' user='ysknmt' state='open' created_at='2017-11-28 05:47:36 +0000' age='999' updated_at='2017-11-28 05:51:56 +0000' pull_request='false' comments='0'><title>[sonar2csv] Enable to set `url` value</title>
+      <issue id='277266280' number='9' user='ysknmt' state='open' created_at='2017-11-28 05:47:36 +0000' age='1000' updated_at='2017-11-28 05:51:56 +0000' pull_request='false' comments='0'><title>[sonar2csv] Enable to set `url` value</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
-      <issue id='277266891' number='10' user='ysknmt' state='open' created_at='2017-11-28 05:51:48 +0000' age='999' updated_at='2017-11-28 05:51:48 +0000' pull_request='false' comments='0'><title>[sonar2csv] Support LDAP auth of SonarQube</title>
+      <issue id='277266891' number='10' user='ysknmt' state='open' created_at='2017-11-28 05:51:48 +0000' age='1000' updated_at='2017-11-28 05:51:48 +0000' pull_request='false' comments='0'><title>[sonar2csv] Support LDAP auth of SonarQube</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
-      <issue id='293028184' number='15' user='ysknmt' state='open' created_at='2018-01-31 04:33:06 +0000' age='935' updated_at='2018-01-31 04:33:06 +0000' pull_request='false' comments='0'><title>公開サンプルデータの更新</title>
+      <issue id='293028184' number='15' user='ysknmt' state='open' created_at='2018-01-31 04:33:06 +0000' age='936' updated_at='2018-01-31 04:33:06 +0000' pull_request='false' comments='0'><title>公開サンプルデータの更新</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
     </issues>
@@ -86,24 +86,24 @@
     <collaborators>
     </collaborators>
     <issues count='8'>
-      <issue id='281663034' number='6' user='ChoudharyS' state='open' created_at='2017-12-13 08:28:38 +0000' age='984' updated_at='2019-05-24 06:03:44 +0000' pull_request='true' comments='9' prFileCount='11' prAdditions='713' prDeletions='39'><title>use leveldb</title>
+      <issue id='281663034' number='6' user='ChoudharyS' state='open' created_at='2017-12-13 08:28:38 +0000' age='985' updated_at='2019-05-24 06:03:44 +0000' pull_request='true' comments='9' prFileCount='11' prAdditions='713' prDeletions='39'><title>use leveldb</title>
       </issue>
-      <issue id='282345458' number='7' user='matthieu-pa' state='open' created_at='2017-12-15 07:49:50 +0000' age='982' updated_at='2017-12-18 08:46:35 +0000' pull_request='false' comments='3'><title>Make Cattaz able to execute R code snippets?</title>
+      <issue id='282345458' number='7' user='matthieu-pa' state='open' created_at='2017-12-15 07:49:50 +0000' age='983' updated_at='2017-12-18 08:46:35 +0000' pull_request='false' comments='3'><title>Make Cattaz able to execute R code snippets?</title>
       </issue>
-      <issue id='288826828' number='15' user='ohtake' state='open' created_at='2018-01-16 08:50:38 +0000' age='950' updated_at='2019-05-24 06:03:44 +0000' pull_request='true' comments='2' prFileCount='6' prAdditions='18' prDeletions='18'><title>Host landing page in github pages</title>
+      <issue id='288826828' number='15' user='ohtake' state='open' created_at='2018-01-16 08:50:38 +0000' age='951' updated_at='2019-05-24 06:03:44 +0000' pull_request='true' comments='2' prFileCount='6' prAdditions='18' prDeletions='18'><title>Host landing page in github pages</title>
       </issue>
       <issue id='309727294' number='19' user='kawaii' state='open' created_at='2018-03-29 12:00:37 +0000' age='878' updated_at='2018-04-12 11:30:21 +0000' pull_request='false' comments='5'><title>Where does Cattaz store persistent data? [Docker]</title>
       </issue>
-      <issue id='632488910' number='29' user='dependabot[bot]' state='open' created_at='2020-06-06 14:13:27 +0000' age='77' updated_at='2020-06-06 14:13:28 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='3' prDeletions='3'><title>Bump websocket-extensions from 0.1.3 to 0.1.4</title>
+      <issue id='632488910' number='29' user='dependabot[bot]' state='open' created_at='2020-06-06 14:13:27 +0000' age='78' updated_at='2020-06-06 14:13:28 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='3' prDeletions='3'><title>Bump websocket-extensions from 0.1.3 to 0.1.4</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='658558122' number='30' user='dependabot[bot]' state='open' created_at='2020-07-16 20:49:50 +0000' age='37' updated_at='2020-07-16 20:49:52 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='5' prDeletions='5'><title>Bump lodash from 4.17.15 to 4.17.19</title>
+      <issue id='658558122' number='30' user='dependabot[bot]' state='open' created_at='2020-07-16 20:49:50 +0000' age='38' updated_at='2020-07-16 20:49:52 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='5' prDeletions='5'><title>Bump lodash from 4.17.15 to 4.17.19</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='662973692' number='31' user='dependabot[bot]' state='open' created_at='2020-07-21 12:39:28 +0000' age='32' updated_at='2020-07-21 12:39:29 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='71' prDeletions='50'><title>Bump codecov from 3.6.1 to 3.7.1</title>
+      <issue id='662973692' number='31' user='dependabot[bot]' state='open' created_at='2020-07-21 12:39:28 +0000' age='33' updated_at='2020-07-21 12:39:29 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='71' prDeletions='50'><title>Bump codecov from 3.6.1 to 3.7.1</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='668738047' number='32' user='dependabot[bot]' state='open' created_at='2020-07-30 13:41:11 +0000' age='23' updated_at='2020-07-30 13:41:12 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='6' prDeletions='6'><title>Bump elliptic from 6.5.1 to 6.5.3</title>
+      <issue id='668738047' number='32' user='dependabot[bot]' state='open' created_at='2020-07-30 13:41:11 +0000' age='24' updated_at='2020-07-30 13:41:12 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='6' prDeletions='6'><title>Bump elliptic from 6.5.1 to 6.5.3</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
@@ -154,7 +154,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='654202109' number='1' user='ittskn' state='open' created_at='2020-07-09 16:41:58 +0000' age='44' updated_at='2020-07-09 16:41:58 +0000' pull_request='false' comments='0'><title>あ</title>
+      <issue id='654202109' number='1' user='ittskn' state='open' created_at='2020-07-09 16:41:58 +0000' age='45' updated_at='2020-07-09 16:41:58 +0000' pull_request='false' comments='0'><title>あ</title>
       </issue>
     </issues>
   <release-data>
@@ -175,21 +175,21 @@
   <reporting class='issue-report' repo='FujitsuLaboratories/kurumipy' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/kurumipy</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
     </reports>
   </repo>
-  <repo name='escapin' org='FujitsuLaboratories' homepage='' private='false' fork='false' closed_issue_count='9' closed_pr_count='309' open_issue_count='2' open_pr_count='2' has_wiki='true' language='TypeScript' stars='19' watchers='1' forks='4' created_at='2019-07-30 06:35:53 +0000' updated_at='2020-07-17 07:45:10 +0000' pushed_at='2020-08-21 19:38:39 +0000' size='2467' commit_count='422'>
+  <repo name='escapin' org='FujitsuLaboratories' homepage='' private='false' fork='false' closed_issue_count='9' closed_pr_count='310' open_issue_count='2' open_pr_count='2' has_wiki='true' language='TypeScript' stars='19' watchers='1' forks='4' created_at='2019-07-30 06:35:53 +0000' updated_at='2020-07-17 07:45:10 +0000' pushed_at='2020-08-23 16:59:03 +0000' size='2468' commit_count='422'>
     <description>Escapin  is a JS/TS transpiler for escaping from complicated usage of cloud services and APIs</description>
     <collaborators>
     </collaborators>
     <issues count='4'>
-      <issue id='530106355' number='14' user='kimusaku' state='open' created_at='2019-11-29 00:21:38 +0000' age='268' updated_at='2019-11-29 00:24:50 +0000' pull_request='false' comments='0'><title>Azure support</title>
+      <issue id='530106355' number='14' user='kimusaku' state='open' created_at='2019-11-29 00:21:38 +0000' age='269' updated_at='2019-11-29 00:24:50 +0000' pull_request='false' comments='0'><title>Azure support</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/enhancement" color='a2eeef'>enhancement</label>
       </issue>
-      <issue id='530106375' number='15' user='kimusaku' state='open' created_at='2019-11-29 00:21:50 +0000' age='268' updated_at='2019-11-29 00:25:06 +0000' pull_request='false' comments='0'><title>GCP support</title>
+      <issue id='530106375' number='15' user='kimusaku' state='open' created_at='2019-11-29 00:21:50 +0000' age='269' updated_at='2019-11-29 00:25:06 +0000' pull_request='false' comments='0'><title>GCP support</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/enhancement" color='a2eeef'>enhancement</label>
       </issue>
-      <issue id='661978889' number='286' user='renovate[bot]' state='open' created_at='2020-07-20 15:52:47 +0000' age='33' updated_at='2020-08-18 23:21:05 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='11' prDeletions='4'><title>fix(deps): update dependency openapi-types to v7</title>
+      <issue id='661978889' number='286' user='renovate[bot]' state='open' created_at='2020-07-20 15:52:47 +0000' age='34' updated_at='2020-08-18 23:21:05 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='11' prDeletions='4'><title>fix(deps): update dependency openapi-types to v7</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='682889855' number='317' user='renovate[bot]' state='open' created_at='2020-08-20 16:37:09 +0000' age='2' updated_at='2020-08-21 00:50:30 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='4' prDeletions='4'><title>fix(deps): update dependency typescript to v4</title>
+      <issue id='682889855' number='317' user='renovate[bot]' state='open' created_at='2020-08-20 16:37:09 +0000' age='3' updated_at='2020-08-21 00:50:30 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='4' prDeletions='4'><title>fix(deps): update dependency typescript to v4</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
@@ -211,8 +211,8 @@
   <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='NoPrCommentsDbReporter'><field>2020-07-20 15:52:47 +0000</field><field>https://github.com/FujitsuLaboratories/escapin/pull/286</field><field>fix(deps): update dependency openapi-types to v7</field><field></field></reporting>
   <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='NoPrCommentsDbReporter'><field>2020-08-20 16:37:09 +0000</field><field>https://github.com/FujitsuLaboratories/escapin/pull/317</field><field>fix(deps): update dependency typescript to v4</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>FujitsuLaboratories/escapin</field><field>1</field><field>0</field><field>2</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' type='LabelDbReporter'><field><label color='d73a4a'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>semantic-release</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='a2eeef'>enhancement</label></field><field>2</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>released</label></field><field>3</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>release</label></field><field>7</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>203</field></reporting>  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0.0</field><field>0</field><field>5</field><field>32.4</field><field>2</field><field>7</field><field>23.43</field><field>2</field></reporting>
-  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>31</field><field>0.26</field><field>1</field><field>123</field><field>0.59</field><field>2</field><field>306</field><field>0.45</field><field>2</field><field>309</field><field>0.45</field><field>2</field></reporting>
+  <reporting class='issue-report' type='LabelDbReporter'><field><label color='d73a4a'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>semantic-release</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='a2eeef'>enhancement</label></field><field>2</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>released</label></field><field>3</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>release</label></field><field>7</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>204</field></reporting>  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0.0</field><field>0</field><field>5</field><field>32.4</field><field>2</field><field>7</field><field>23.43</field><field>2</field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>31</field><field>0.26</field><field>1</field><field>122</field><field>0.6</field><field>2</field><field>307</field><field>0.45</field><field>2</field><field>310</field><field>0.45</field><field>2</field></reporting>
     </reports>
   </repo>
   <repo name='ConnectionChain-sample' org='FujitsuLaboratories' homepage='' private='false' fork='false' closed_issue_count='1' closed_pr_count='0' open_issue_count='1' open_pr_count='4' has_wiki='true' language='JavaScript' stars='6' watchers='2' forks='1' created_at='2019-11-22 07:12:12 +0000' updated_at='2020-05-14 09:26:14 +0000' pushed_at='2019-12-16 06:50:13 +0000' size='175' commit_count='2'>
@@ -220,19 +220,19 @@
     <collaborators>
     </collaborators>
     <issues count='5'>
-      <issue id='527037501' number='1' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:16 +0000' age='275' updated_at='2019-11-22 07:38:17 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/ecSide/ec1_connector</title>
+      <issue id='527037538' number='2' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:24 +0000' age='276' updated_at='2019-11-22 07:38:25 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/coreSide/ec1_adapter</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='527037538' number='2' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:24 +0000' age='275' updated_at='2019-11-22 07:38:25 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/coreSide/ec1_adapter</title>
+      <issue id='527037605' number='3' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:36 +0000' age='276' updated_at='2019-11-22 07:38:37 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/restserver/coreapi</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='527037605' number='3' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:36 +0000' age='275' updated_at='2019-11-22 07:38:37 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/restserver/coreapi</title>
+      <issue id='527037664' number='4' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:45 +0000' age='276' updated_at='2019-11-22 07:38:46 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/appserver/serviceapi</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='527037664' number='4' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:45 +0000' age='275' updated_at='2019-11-22 07:38:46 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/appserver/serviceapi</title>
-        <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
+      <issue id='660913985' number='5' user='lucianoacsilva' state='open' created_at='2020-07-19 15:56:40 +0000' age='35' updated_at='2020-07-19 15:56:40 +0000' pull_request='false' comments='0'><title>Cannot find Fabric Binaries in the tutorial link</title>
       </issue>
-      <issue id='660913985' number='5' user='lucianoacsilva' state='open' created_at='2020-07-19 15:56:40 +0000' age='34' updated_at='2020-07-19 15:56:40 +0000' pull_request='false' comments='0'><title>Cannot find Fabric Binaries in the tutorial link</title>
+      <issue id='527037501' number='1' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:16 +0000' age='276' updated_at='2019-11-22 07:38:17 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/ecSide/ec1_connector</title>
+        <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
   <release-data>
@@ -251,10 +251,10 @@
     <reports org='FujitsuLaboratories' name='ConnectionChain-sample'>
   <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='WikiOnDbReporter'><field>2019-11-22 07:12:12 +0000</field><field>FujitsuLaboratories/ConnectionChain-sample</field><field>https://github.com/FujitsuLaboratories/ConnectionChain-sample/wiki</field></reporting>
   <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='NoIssueCommentsDbReporter'><field>2020-07-19 15:56:40 +0000</field><field>https://github.com/FujitsuLaboratories/ConnectionChain-sample/issues/5</field><field>Cannot find Fabric Binaries in the tutorial link</field><field></field></reporting>
-  <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='NoPrCommentsDbReporter'><field>2019-11-22 07:38:16 +0000</field><field>https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/1</field><field>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/ecSide/ec1_connector</field><field></field></reporting>
   <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='NoPrCommentsDbReporter'><field>2019-11-22 07:38:24 +0000</field><field>https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/2</field><field>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/coreSide/ec1_adapter</field><field></field></reporting>
   <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='NoPrCommentsDbReporter'><field>2019-11-22 07:38:36 +0000</field><field>https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/3</field><field>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/restserver/coreapi</field><field></field></reporting>
   <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='NoPrCommentsDbReporter'><field>2019-11-22 07:38:45 +0000</field><field>https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/4</field><field>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/appserver/serviceapi</field><field></field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='NoPrCommentsDbReporter'><field>2019-11-22 07:38:16 +0000</field><field>https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/1</field><field>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/ecSide/ec1_connector</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>FujitsuLaboratories/ConnectionChain-sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>4</field></reporting>  <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/ConnectionChain-sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field></reporting>
   <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/ConnectionChain-sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>4</field><field>0</field><field>0</field><field>4</field></reporting>
