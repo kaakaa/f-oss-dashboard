@@ -1,0 +1,6 @@
+    <reports org='fujitsu' name='mx6e-pt'>
+  <reporting class='repo-report' repo='fujitsu/mx6e-pt' type='WikiOnDbReporter'><field>2020-07-31 01:49:19 +0000</field><field>fujitsu/mx6e-pt</field><field>https://github.com/fujitsu/mx6e-pt/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/mx6e-pt</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/mx6e-pt' type='AverageIssueCloseDbReporter'><field>fujitsu/mx6e-pt</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/mx6e-pt' type='AveragePrCloseDbReporter'><field>fujitsu/mx6e-pt</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

@@ -1,6 +1,0 @@
-    <reports org='Hitachi' name='net-snmp'>
-  <reporting class='repo-report' repo='Hitachi/net-snmp' type='WikiOnDbReporter'><field>2020-08-14 02:07:09 +0000</field><field>Hitachi/net-snmp</field><field>https://github.com/Hitachi/net-snmp/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/net-snmp</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='Hitachi/net-snmp' type='AverageIssueCloseDbReporter'><field>Hitachi/net-snmp</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='Hitachi/net-snmp' type='AveragePrCloseDbReporter'><field>Hitachi/net-snmp</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

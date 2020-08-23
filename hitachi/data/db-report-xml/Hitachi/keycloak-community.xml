@@ -1,5 +1,0 @@
-    <reports org='Hitachi' name='keycloak-community'>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/keycloak-community</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='Hitachi/keycloak-community' type='AverageIssueCloseDbReporter'><field>Hitachi/keycloak-community</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='Hitachi/keycloak-community' type='AveragePrCloseDbReporter'><field>Hitachi/keycloak-community</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

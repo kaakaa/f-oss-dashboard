@@ -1,5 +1,0 @@
-    <reports org='Hitachi' name='open-license'>
-      <reporting class='repo-report' repo='Hitachi/open-license' type='DocsReporter'><file>README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/open-license' type='LicenseReporter'>No License File Found</reporting>
-      <reporting class='repo-report' repo='Hitachi/open-license' type='BinaryReporter'><file>LICENSE.pdf</file></reporting>
-    </reports>

@@ -1,6 +1,0 @@
-    <reports org='Hitachi' name='openapi-generator'>
-  <reporting class='repo-report' repo='Hitachi/openapi-generator' type='WikiOnDbReporter'><field>2020-02-05 09:09:48 +0000</field><field>Hitachi/openapi-generator</field><field>https://github.com/Hitachi/openapi-generator/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/openapi-generator</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='Hitachi/openapi-generator' type='AverageIssueCloseDbReporter'><field>Hitachi/openapi-generator</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='Hitachi/openapi-generator' type='AveragePrCloseDbReporter'><field>Hitachi/openapi-generator</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

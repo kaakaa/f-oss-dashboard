@@ -1,0 +1,58 @@
+  <repo name='dnnl_aarch64' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='9' closed_pr_count='13' open_issue_count='5' open_pr_count='1' has_wiki='true' language='C++' stars='35' watchers='18' forks='10' created_at='2019-12-09 08:29:41 +0000' updated_at='2020-08-20 00:45:10 +0000' pushed_at='2020-08-07 04:41:08 +0000' size='10000' commit_count='3377'>
+    <description></description>
+    <collaborators>
+    </collaborators>
+    <issues count='6'>
+      <issue id='538344426' number='4' user='sakaia' state='open' created_at='2019-12-16 11:11:07 +0000' age='251' updated_at='2019-12-16 11:11:07 +0000' pull_request='false' comments='0'><title>source code documentation should be english</title>
+      </issue>
+      <issue id='538360191' number='5' user='sakaia' state='open' created_at='2019-12-16 11:42:23 +0000' age='251' updated_at='2019-12-16 12:01:47 +0000' pull_request='false' comments='1'><title>[should remove] duplicate `tr8x8_avx2` function definition</title>
+      </issue>
+      <issue id='540766562' number='8' user='sakaia' state='open' created_at='2019-12-20 05:17:16 +0000' age='247' updated_at='2019-12-20 05:17:16 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Add sve option for gcc-8 compiler option</title>
+      </issue>
+      <issue id='541002642' number='9' user='kawakami-k' state='open' created_at='2019-12-20 13:45:55 +0000' age='246' updated_at='2019-12-20 13:52:09 +0000' pull_request='false' comments='0'><title>DNNL_aarch64 aborts, when TF+DNNL with a simple imagenet/resnet50 benchmark</title>
+        <label url="https://api.github.com/repos/fujitsu/dnnl_aarch64/labels/bug" color='d73a4a'>bug</label>
+      </issue>
+      <issue id='605887014' number='10' user='vpirogov' state='open' created_at='2020-04-23 21:29:32 +0000' age='121' updated_at='2020-05-29 03:26:12 +0000' pull_request='false' comments='4'><title>Arm support in oneDNN</title>
+      </issue>
+      <issue id='638889334' number='16' user='chauncyyoung' state='open' created_at='2020-06-15 14:15:14 +0000' age='68' updated_at='2020-06-24 07:21:37 +0000' pull_request='false' comments='7'><title>Questions about __ARM_ARCH</title>
+      </issue>
+    </issues>
+  <release-data>
+    <release id='27129995' url='https://github.com/fujitsu/dnnl_aarch64/releases/tag/v1_0_0_base_0.21' published_at='2020-06-02 10:19:10 +0000' author='m-ymzk'></release>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='fujitsu' name='dnnl_aarch64'>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>tests/other/subproject/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>tests/benchdnn/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>tests/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>tests/gtests/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>tests/gtests/gtest/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>src/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>examples/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>tools/regression.list.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>tests/benchdnn/README.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>tests/benchdnn/TODO.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>tests/gtests/gtest/internal/custom/README.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>doc/ex_int8_simplenet.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>doc/perf_profile.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>doc/ex_simplenet.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>doc/design/understanding_memory_formats.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>doc/winograd_convolution.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>doc/legal_information.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>doc/mainpage.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>.github/issue_template.md</file></reporting>
+      <license repo='fujitsu/dnnl_aarch64' file='LICENSE' confidence='100'>Apache License 2.0</license>
+    </reports>
+    <reports org='fujitsu' name='dnnl_aarch64'>
+  <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='WikiOnDbReporter'><field>2019-12-09 08:29:41 +0000</field><field>fujitsu/dnnl_aarch64</field><field>https://github.com/fujitsu/dnnl_aarch64/wiki</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/dnnl_aarch64' type='NoIssueCommentsDbReporter'><field>2019-12-16 11:11:07 +0000</field><field>https://github.com/fujitsu/dnnl_aarch64/issues/4</field><field>source code documentation should be english</field><field></field></reporting>
+  <reporting class='issue-report' repo='fujitsu/dnnl_aarch64' type='NoIssueCommentsDbReporter'><field>2019-12-20 13:45:55 +0000</field><field>https://github.com/fujitsu/dnnl_aarch64/issues/9</field><field>DNNL_aarch64 aborts, when TF+DNNL with a simple imagenet/resnet50 benchmark</field><field><label url="https://api.github.com/repos/fujitsu/dnnl_aarch64/labels/bug" color='d73a4a'>bug</label></field></reporting>
+  <reporting class='issue-report' repo='fujitsu/dnnl_aarch64' type='NoPrCommentsDbReporter'><field>2019-12-20 05:17:16 +0000</field><field>https://github.com/fujitsu/dnnl_aarch64/pull/8</field><field>Add sve option for gcc-8 compiler option</field><field></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/dnnl_aarch64</field><field>1</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' type='LabelDbReporter'><field><label color='d73a4a'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' repo='fujitsu/dnnl_aarch64' type='AverageIssueCloseDbReporter'><field>fujitsu/dnnl_aarch64</field><field>0</field><field>0</field><field>0</field><field>1</field><field>19.0</field><field>1</field><field>4</field><field>32.75</field><field>5</field><field>4</field><field>32.75</field><field>5</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/dnnl_aarch64' type='AveragePrCloseDbReporter'><field>fujitsu/dnnl_aarch64</field><field>1</field><field>2.0</field><field>0</field><field>11</field><field>1.73</field><field>0</field><field>13</field><field>1.46</field><field>1</field><field>13</field><field>1.46</field><field>1</field></reporting>
+    </reports>
+  </repo>
