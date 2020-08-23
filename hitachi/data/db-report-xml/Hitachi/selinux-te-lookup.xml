@@ -1,0 +1,6 @@
+    <reports org='Hitachi' name='selinux-te-lookup'>
+  <reporting class='repo-report' repo='Hitachi/selinux-te-lookup' type='WikiOnDbReporter'><field>2017-11-10 06:09:37 +0000</field><field>Hitachi/selinux-te-lookup</field><field>https://github.com/Hitachi/selinux-te-lookup/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/selinux-te-lookup</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/selinux-te-lookup' type='AverageIssueCloseDbReporter'><field>Hitachi/selinux-te-lookup</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/selinux-te-lookup' type='AveragePrCloseDbReporter'><field>Hitachi/selinux-te-lookup</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

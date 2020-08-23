@@ -1,5 +1,0 @@
-    <reports org='fujitsu' name='m46e-app'>
-      <reporting class='repo-report' repo='fujitsu/m46e-app' type='DocsReporter'><file>README.md</file></reporting>
-      <license repo='fujitsu/m46e-app' file='LICENSE' confidence='100'>Apache License 2.0</license>
-      <reporting class='repo-report' repo='fujitsu/m46e-app' type='BinaryReporter'><file>documents/m46e-app-manual.pdf</file></reporting>
-    </reports>

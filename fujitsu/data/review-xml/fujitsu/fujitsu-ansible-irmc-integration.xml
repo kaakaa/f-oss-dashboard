@@ -1,8 +1,0 @@
-    <reports org='fujitsu' name='fujitsu-ansible-irmc-integration'>
-      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='DocsReporter'><file>DOCUMENTATION.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='DocsReporter'><file>README.md</file></reporting>
-      <license repo='fujitsu/fujitsu-ansible-irmc-integration' file='LICENSE.md' confidence='100'>GNU General Public License v3.0</license>
-      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='BinaryReporter'><file>tests/__init__.py</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='BinaryReporter'><file>module_utils/__init__.py</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='BinaryReporter'><file>library/__init__.py</file></reporting>
-    </reports>

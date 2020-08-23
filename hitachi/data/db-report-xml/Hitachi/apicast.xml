@@ -1,0 +1,5 @@
+    <reports org='Hitachi' name='apicast'>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/apicast</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/apicast' type='AverageIssueCloseDbReporter'><field>Hitachi/apicast</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/apicast' type='AveragePrCloseDbReporter'><field>Hitachi/apicast</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

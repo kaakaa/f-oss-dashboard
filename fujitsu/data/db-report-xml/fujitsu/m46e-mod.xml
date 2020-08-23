@@ -1,6 +1,0 @@
-    <reports org='fujitsu' name='m46e-mod'>
-  <reporting class='repo-report' repo='fujitsu/m46e-mod' type='WikiOnDbReporter'><field>2020-07-31 01:45:17 +0000</field><field>fujitsu/m46e-mod</field><field>https://github.com/fujitsu/m46e-mod/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/m46e-mod</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/m46e-mod' type='AverageIssueCloseDbReporter'><field>fujitsu/m46e-mod</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/m46e-mod' type='AveragePrCloseDbReporter'><field>fujitsu/m46e-mod</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

@@ -1,6 +1,0 @@
-    <reports org='fujitsu' name='A64FX'>
-  <reporting class='repo-report' repo='fujitsu/A64FX' type='WikiOnDbReporter'><field>2020-03-04 06:43:55 +0000</field><field>fujitsu/A64FX</field><field>https://github.com/fujitsu/A64FX/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/A64FX</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/A64FX' type='AverageIssueCloseDbReporter'><field>fujitsu/A64FX</field><field>0</field><field>0</field><field>0</field><field>1</field><field>2.0</field><field>0</field><field>1</field><field>2.0</field><field>2</field><field>1</field><field>2.0</field><field>2</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/A64FX' type='AveragePrCloseDbReporter'><field>fujitsu/A64FX</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field></reporting>
-    </reports>
