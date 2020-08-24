@@ -1,0 +1,26 @@
+  <repo name='kurumipy' org='FujitsuLaboratories' homepage='' private='false' fork='false' closed_issue_count='1' closed_pr_count='0' open_issue_count='1' open_pr_count='0' has_wiki='true' language='Python' stars='5' watchers='5' forks='0' created_at='2018-07-31 04:55:37 +0000' updated_at='2020-07-26 07:57:54 +0000' pushed_at='2018-07-31 06:05:18 +0000' size='50' commit_count='80'>
+    <description>An enhanced memoization library for Python</description>
+    <collaborators>
+    </collaborators>
+    <issues count='1'>
+      <issue id='654202109' number='1' user='ittskn' state='open' created_at='2020-07-09 16:41:58 +0000' age='46' updated_at='2020-07-09 16:41:58 +0000' pull_request='false' comments='0'><title>あ</title>
+      </issue>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='FujitsuLaboratories' name='kurumipy'>
+      <reporting class='repo-report' repo='FujitsuLaboratories/kurumipy' type='DocsReporter'><file>requirements.txt</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/kurumipy' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/kurumipy' type='LicenseReporter'>No License File Found</reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/kurumipy' type='BinaryReporter'><file>memoization/__init__.py</file></reporting>
+    </reports>
+    <reports org='FujitsuLaboratories' name='kurumipy'>
+  <reporting class='repo-report' repo='FujitsuLaboratories/kurumipy' type='WikiOnDbReporter'><field>2018-07-31 04:55:37 +0000</field><field>FujitsuLaboratories/kurumipy</field><field>https://github.com/FujitsuLaboratories/kurumipy/wiki</field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/kurumipy' type='NoIssueCommentsDbReporter'><field>2020-07-09 16:41:58 +0000</field><field>https://github.com/FujitsuLaboratories/kurumipy/issues/1</field><field></field><field></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>FujitsuLaboratories/kurumipy</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/kurumipy' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/kurumipy</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/kurumipy' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/kurumipy</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>
+  </repo>

@@ -1,0 +1,6 @@
+    <reports org='FujitsuLaboratories' name='ChaincodeAnalyzer'>
+  <reporting class='repo-report' repo='FujitsuLaboratories/ChaincodeAnalyzer' type='WikiOnDbReporter'><field>2020-02-04 10:43:14 +0000</field><field>FujitsuLaboratories/ChaincodeAnalyzer</field><field>https://github.com/FujitsuLaboratories/ChaincodeAnalyzer/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>FujitsuLaboratories/ChaincodeAnalyzer</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/ChaincodeAnalyzer' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/ChaincodeAnalyzer</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/ChaincodeAnalyzer' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/ChaincodeAnalyzer</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

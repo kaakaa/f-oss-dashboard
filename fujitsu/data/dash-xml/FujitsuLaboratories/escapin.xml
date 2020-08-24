@@ -1,0 +1,40 @@
+  <repo name='escapin' org='FujitsuLaboratories' homepage='' private='false' fork='false' closed_issue_count='9' closed_pr_count='310' open_issue_count='2' open_pr_count='2' has_wiki='true' language='TypeScript' stars='19' watchers='1' forks='4' created_at='2019-07-30 06:35:53 +0000' updated_at='2020-07-17 07:45:10 +0000' pushed_at='2020-08-23 16:59:03 +0000' size='2468' commit_count='422'>
+    <description>Escapin  is a JS/TS transpiler for escaping from complicated usage of cloud services and APIs</description>
+    <collaborators>
+    </collaborators>
+    <issues count='4'>
+      <issue id='530106355' number='14' user='kimusaku' state='open' created_at='2019-11-29 00:21:38 +0000' age='269' updated_at='2019-11-29 00:24:50 +0000' pull_request='false' comments='0'><title>Azure support</title>
+        <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/enhancement" color='a2eeef'>enhancement</label>
+      </issue>
+      <issue id='530106375' number='15' user='kimusaku' state='open' created_at='2019-11-29 00:21:50 +0000' age='269' updated_at='2019-11-29 00:25:06 +0000' pull_request='false' comments='0'><title>GCP support</title>
+        <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/enhancement" color='a2eeef'>enhancement</label>
+      </issue>
+      <issue id='661978889' number='286' user='renovate[bot]' state='open' created_at='2020-07-20 15:52:47 +0000' age='35' updated_at='2020-08-18 23:21:05 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='11' prDeletions='4'><title>fix(deps): update dependency openapi-types to v7</title>
+        <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
+      </issue>
+      <issue id='682889855' number='317' user='renovate[bot]' state='open' created_at='2020-08-20 16:37:09 +0000' age='4' updated_at='2020-08-21 00:50:30 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='4' prDeletions='4'><title>fix(deps): update dependency typescript to v4</title>
+        <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
+      </issue>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='FujitsuLaboratories' name='escapin'>
+      <reporting class='repo-report' repo='FujitsuLaboratories/escapin' type='DocsReporter'><file>docs/users_guide.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/escapin' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/escapin' type='DocsReporter'><file>.github/CONTRIBUTING.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/escapin' type='DocsReporter'><file>.github/CODE_OF_CONDUCT.md</file></reporting>
+      <license repo='FujitsuLaboratories/escapin' file='LICENSE' confidence='100'>MIT License</license>
+    </reports>
+    <reports org='FujitsuLaboratories' name='escapin'>
+  <reporting class='repo-report' repo='FujitsuLaboratories/escapin' type='WikiOnDbReporter'><field>2019-07-30 06:35:53 +0000</field><field>FujitsuLaboratories/escapin</field><field>https://github.com/FujitsuLaboratories/escapin/wiki</field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='NoIssueCommentsDbReporter'><field>2019-11-29 00:21:38 +0000</field><field>https://github.com/FujitsuLaboratories/escapin/issues/14</field><field>Azure support</field><field><label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/enhancement" color='a2eeef'>enhancement</label></field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='NoIssueCommentsDbReporter'><field>2019-11-29 00:21:50 +0000</field><field>https://github.com/FujitsuLaboratories/escapin/issues/15</field><field>GCP support</field><field><label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/enhancement" color='a2eeef'>enhancement</label></field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='NoPrCommentsDbReporter'><field>2020-07-20 15:52:47 +0000</field><field>https://github.com/FujitsuLaboratories/escapin/pull/286</field><field>fix(deps): update dependency openapi-types to v7</field><field></field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='NoPrCommentsDbReporter'><field>2020-08-20 16:37:09 +0000</field><field>https://github.com/FujitsuLaboratories/escapin/pull/317</field><field>fix(deps): update dependency typescript to v4</field><field></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>FujitsuLaboratories/escapin</field><field>1</field><field>0</field><field>2</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' type='LabelDbReporter'><field><label color='d73a4a'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>semantic-release</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='a2eeef'>enhancement</label></field><field>2</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>released</label></field><field>3</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>release</label></field><field>7</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>204</field></reporting>  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0.0</field><field>0</field><field>5</field><field>32.4</field><field>2</field><field>7</field><field>23.43</field><field>2</field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>31</field><field>0.26</field><field>1</field><field>122</field><field>0.6</field><field>2</field><field>307</field><field>0.45</field><field>2</field><field>310</field><field>0.45</field><field>2</field></reporting>
+    </reports>
+  </repo>
