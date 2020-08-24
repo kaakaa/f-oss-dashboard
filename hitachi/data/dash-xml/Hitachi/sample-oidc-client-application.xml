@@ -1,0 +1,21 @@
+  <repo name='sample-oidc-client-application' org='Hitachi' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='true' language='Java' stars='0' watchers='2' forks='0' created_at='2020-08-24 03:50:27 +0000' updated_at='2020-08-24 05:21:46 +0000' pushed_at='2020-08-24 04:59:48 +0000' size='11' commit_count='1'>
+    <description>Sample OIDC Client Application for Keycloak.</description>
+    <collaborators>
+    </collaborators>
+    <issues count='0'>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='Hitachi' name='sample-oidc-client-application'>
+      <reporting class='repo-report' repo='Hitachi/sample-oidc-client-application' type='DocsReporter'><file>README.md</file></reporting>
+      <license repo='Hitachi/sample-oidc-client-application' file='LICENSE' confidence='100'>Apache License 2.0</license>
+    </reports>
+    <reports org='Hitachi' name='sample-oidc-client-application'>
+  <reporting class='repo-report' repo='Hitachi/sample-oidc-client-application' type='WikiOnDbReporter'><field>2020-08-24 03:50:27 +0000</field><field>Hitachi/sample-oidc-client-application</field><field>https://github.com/Hitachi/sample-oidc-client-application/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/sample-oidc-client-application</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/sample-oidc-client-application' type='AverageIssueCloseDbReporter'><field>Hitachi/sample-oidc-client-application</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/sample-oidc-client-application' type='AveragePrCloseDbReporter'><field>Hitachi/sample-oidc-client-application</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>
+  </repo>

@@ -25,7 +25,7 @@
     <report key='AverageIssueCloseDbReporter' name='Average Issue Close Time'><description>This report shows the average time each repo takes to close issues</description><column-type type='org/repo'>Repo</column-type><column-type type='text'>&lt;1 month: Closed</column-type><column-type type='text'>&lt;1 month: MTTR</column-type><column-type type='text'>&lt;1 month: Still Open</column-type><column-type type='text'>&lt;1 quarter: Closed</column-type><column-type type='text'>&lt;1 quarter: MTTR</column-type><column-type type='text'>&lt;1 quarter: Still Open</column-type><column-type type='text'>&lt;1 year: Closed</column-type><column-type type='text'>&lt;1 year: MTTR</column-type><column-type type='text'>&lt;1 year: Still Open</column-type><column-type type='text'>All time: Closed</column-type><column-type type='text'>All time: MTTR</column-type><column-type type='text'>All time: Still Open</column-type></report>
     <report key='AveragePrCloseDbReporter' name='Average Pull Request Close Time'><description>This report shows the average time each repo takes to close pull requests</description><column-type type='org/repo'>Repo</column-type><column-type type='text'>&lt;1 month: Closed</column-type><column-type type='text'>&lt;1 month: MTTR</column-type><column-type type='text'>&lt;1 month: Still Open</column-type><column-type type='text'>&lt;1 quarter: Closed</column-type><column-type type='text'>&lt;1 quarter: MTTR</column-type><column-type type='text'>&lt;1 quarter: Still Open</column-type><column-type type='text'>&lt;1 year: Closed</column-type><column-type type='text'>&lt;1 year: MTTR</column-type><column-type type='text'>&lt;1 year: Still Open</column-type><column-type type='text'>All time: Closed</column-type><column-type type='text'>All time: MTTR</column-type><column-type type='text'>All time: Still Open</column-type></report>
   </issue-reports>
-  <run-metrics refreshTime='2020-08-24T00:33:27+00:00' generationTime='2020-08-24T00:43:08+00:00' startRateLimit='4992' endRateLimit='4768' usedRateLimit='224'/>
+  <run-metrics refreshTime='2020-08-24T09:20:48+00:00' generationTime='2020-08-24T09:31:42+00:00' startRateLimit='4988' endRateLimit='2228' usedRateLimit='2760'/>
  </metadata>
  <organization name='Hitachi' avatar='https://avatars3.githubusercontent.com/u/9561292?v=4' type='organization'>
   <url>http://www.hitachi.com/</url>
@@ -506,7 +506,7 @@
   <reporting class='issue-report' repo='Hitachi/openshift-ansible' type='AveragePrCloseDbReporter'><field>Hitachi/openshift-ansible</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
     </reports>
   </repo>
-  <repo name='keycloak' org='Hitachi' homepage='http://www.keycloak.org' private='false' fork='true' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='false' language='Java' stars='0' watchers='2' forks='0' created_at='2018-12-04 06:01:27 +0000' updated_at='2020-07-31 01:10:56 +0000' pushed_at='2020-08-24 00:29:02 +0000' size='148179' commit_count='1322'>
+  <repo name='keycloak' org='Hitachi' homepage='http://www.keycloak.org' private='false' fork='true' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='false' language='Java' stars='0' watchers='2' forks='0' created_at='2018-12-04 06:01:27 +0000' updated_at='2020-07-31 01:10:56 +0000' pushed_at='2020-08-24 04:54:22 +0000' size='148241' commit_count='1322'>
     <description>Open Source Identity and Access Management For Modern Applications and Services</description>
     <collaborators>
     </collaborators>
@@ -6443,6 +6443,27 @@
   <reporting class='issue-report' repo='Hitachi/net-snmp' type='AveragePrCloseDbReporter'><field>Hitachi/net-snmp</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
     </reports>
   </repo>
+  <repo name='sample-oidc-client-application' org='Hitachi' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='true' language='Java' stars='0' watchers='2' forks='0' created_at='2020-08-24 03:50:27 +0000' updated_at='2020-08-24 05:21:46 +0000' pushed_at='2020-08-24 04:59:48 +0000' size='11' commit_count='1'>
+    <description>Sample OIDC Client Application for Keycloak.</description>
+    <collaborators>
+    </collaborators>
+    <issues count='0'>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='Hitachi' name='sample-oidc-client-application'>
+      <reporting class='repo-report' repo='Hitachi/sample-oidc-client-application' type='DocsReporter'><file>README.md</file></reporting>
+      <license repo='Hitachi/sample-oidc-client-application' file='LICENSE' confidence='100'>Apache License 2.0</license>
+    </reports>
+    <reports org='Hitachi' name='sample-oidc-client-application'>
+  <reporting class='repo-report' repo='Hitachi/sample-oidc-client-application' type='WikiOnDbReporter'><field>2020-08-24 03:50:27 +0000</field><field>Hitachi/sample-oidc-client-application</field><field>https://github.com/Hitachi/sample-oidc-client-application/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/sample-oidc-client-application</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/sample-oidc-client-application' type='AverageIssueCloseDbReporter'><field>Hitachi/sample-oidc-client-application</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/sample-oidc-client-application' type='AveragePrCloseDbReporter'><field>Hitachi/sample-oidc-client-application</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>
+  </repo>
  <organization name='hitachi-speech' avatar='https://avatars3.githubusercontent.com/u/54862321?v=4' type='organization'>
   <description>Research &amp; Development Group, Hitachi, Ltd. </description>
   <url>http://www.hitachi.com/rd/</url>
@@ -6458,17 +6479,17 @@
     <issues count='8'>
       <issue id='506144578' number='2' user='liuyue94' state='open' created_at='2019-10-12 07:00:55 +0000' age='317' updated_at='2019-10-15 14:49:31 +0000' pull_request='false' comments='3'><title>I want to know how to prepare my own data?</title>
       </issue>
-      <issue id='533370775' number='3' user='008karan' state='open' created_at='2019-12-05 14:02:12 +0000' age='262' updated_at='2020-02-24 23:59:48 +0000' pull_request='false' comments='34'><title>cant start training</title>
+      <issue id='533370775' number='3' user='008karan' state='open' created_at='2019-12-05 14:02:12 +0000' age='263' updated_at='2020-02-24 23:59:48 +0000' pull_request='false' comments='34'><title>cant start training</title>
       </issue>
-      <issue id='566338170' number='4' user='Durgesh92' state='open' created_at='2020-02-17 14:32:45 +0000' age='188' updated_at='2020-02-17 15:46:00 +0000' pull_request='false' comments='3'><title>Unable to identify speaker cluster from generated RTTM</title>
+      <issue id='566338170' number='4' user='Durgesh92' state='open' created_at='2020-02-17 14:32:45 +0000' age='189' updated_at='2020-02-17 15:46:00 +0000' pull_request='false' comments='3'><title>Unable to identify speaker cluster from generated RTTM</title>
       </issue>
       <issue id='588095063' number='6' user='mcompute' state='open' created_at='2020-03-26 01:44:46 +0000' age='151' updated_at='2020-07-08 13:49:46 +0000' pull_request='false' comments='5'><title>Experiment results on multiple speakers dataset</title>
       </issue>
       <issue id='638499834' number='7' user='Naminwang' state='open' created_at='2020-06-15 02:49:28 +0000' age='70' updated_at='2020-06-16 02:41:01 +0000' pull_request='false' comments='1'><title>Can this code support multi-gpu training?</title>
       </issue>
-      <issue id='641966609' number='8' user='widdiot' state='open' created_at='2020-06-19 13:24:13 +0000' age='65' updated_at='2020-06-19 13:24:13 +0000' pull_request='false' comments='0'><title>How to resume training?</title>
+      <issue id='641966609' number='8' user='widdiot' state='open' created_at='2020-06-19 13:24:13 +0000' age='66' updated_at='2020-06-19 13:24:13 +0000' pull_request='false' comments='0'><title>How to resume training?</title>
       </issue>
-      <issue id='655228706' number='9' user='875441459' state='open' created_at='2020-07-11 15:31:31 +0000' age='43' updated_at='2020-07-12 02:16:13 +0000' pull_request='false' comments='2'><title>Confusion about the store of uttid</title>
+      <issue id='655228706' number='9' user='875441459' state='open' created_at='2020-07-11 15:31:31 +0000' age='44' updated_at='2020-07-12 02:16:13 +0000' pull_request='false' comments='2'><title>Confusion about the store of uttid</title>
       </issue>
       <issue id='666863582' number='10' user='875441459' state='open' created_at='2020-07-28 08:15:02 +0000' age='27' updated_at='2020-07-29 08:22:04 +0000' pull_request='false' comments='2'><title>Confusion about the calculation of DER</title>
       </issue>
