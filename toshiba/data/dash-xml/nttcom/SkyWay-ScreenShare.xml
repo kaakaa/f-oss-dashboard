@@ -1,0 +1,57 @@
+  <repo name='SkyWay-ScreenShare' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='23' closed_pr_count='10' open_issue_count='15' open_pr_count='0' has_wiki='true' language='' stars='21' watchers='16' forks='11' created_at='2015-07-27 23:45:07 +0000' updated_at='2019-02-21 03:57:06 +0000' pushed_at='2018-03-22 01:27:46 +0000' size='56' commit_count='37'>
+    <description>[Deprecated] This is a library for easy implementation of screen sharing function in the WebRTC of web applications.</description>
+    <collaborators>
+    </collaborators>
+    <issues count='15'>
+      <issue id='97581981' number='4' user='yusuke84' state='open' created_at='2015-07-27 23:58:46 +0000' age='1854' updated_at='2015-07-27 23:58:46 +0000' pull_request='false' comments='0'><title>ライブラリをbowerに登録する</title>
+      </issue>
+      <issue id='97582014' number='5' user='yusuke84' state='open' created_at='2015-07-27 23:59:02 +0000' age='1854' updated_at='2015-07-27 23:59:02 +0000' pull_request='false' comments='0'><title>TSの型定義ファイルを公式リポジトリに登録する</title>
+      </issue>
+      <issue id='97582222' number='7' user='yusuke84' state='open' created_at='2015-07-28 00:00:30 +0000' age='1854' updated_at='2015-07-28 00:00:30 +0000' pull_request='false' comments='0'><title>stopScreenShareメソッドを実装する</title>
+      </issue>
+      <issue id='97583401' number='8' user='yusuke84' state='open' created_at='2015-07-28 00:10:55 +0000' age='1854' updated_at='2015-07-28 00:10:55 +0000' pull_request='false' comments='0'><title>ドキュメントにSSLが必須であることを明記する</title>
+      </issue>
+      <issue id='97839414' number='10' user='yusuke84' state='open' created_at='2015-07-29 01:57:59 +0000' age='1853' updated_at='2016-08-25 07:09:53 +0000' pull_request='false' comments='0'><title>Firefoxもextensionが正しいので修正する</title>
+      </issue>
+      <issue id='109257877' number='12' user='alanmshelly' state='open' created_at='2015-10-01 09:05:10 +0000' age='1789' updated_at='2015-10-01 09:05:17 +0000' pull_request='false' comments='0'><title>Fix spelling mistake</title>
+      </issue>
+      <issue id='110372692' number='17' user='yusuke84' state='open' created_at='2015-10-08 04:47:16 +0000' age='1782' updated_at='2016-11-10 06:49:36 +0000' pull_request='false' comments='2'><title>FirefoxのExtensionが認識されない</title>
+        <label url="https://api.github.com/repos/nttcom/SkyWay-ScreenShare/labels/bug" color='fc2929'>bug</label>
+      </issue>
+      <issue id='97581589' number='1' user='yusuke84' state='open' created_at='2015-07-27 23:55:15 +0000' age='1854' updated_at='2015-07-27 23:55:15 +0000' pull_request='false' comments='0'><title>startScreenShareでエラーが返ってくる場合がある</title>
+      </issue>
+      <issue id='97581854' number='2' user='yusuke84' state='open' created_at='2015-07-27 23:57:49 +0000' age='1854' updated_at='2015-07-27 23:57:49 +0000' pull_request='false' comments='0'><title>同一ドメインで複数のExtensionをインストールしている場合に複数反応する</title>
+      </issue>
+      <issue id='97581912' number='3' user='yusuke84' state='open' created_at='2015-07-27 23:58:11 +0000' age='1854' updated_at='2015-07-27 23:58:11 +0000' pull_request='false' comments='0'><title>テストを書く</title>
+      </issue>
+      <issue id='136294046' number='21' user='yusuke84' state='open' created_at='2016-02-25 06:23:48 +0000' age='1642' updated_at='2017-02-20 01:38:37 +0000' pull_request='false' comments='2'><title>Firefox 43からAddonの署名が必須になった</title>
+      </issue>
+      <issue id='188804335' number='25' user='Lucashuang0802' state='open' created_at='2016-11-11 16:59:55 +0000' age='1382' updated_at='2016-12-19 12:00:18 +0000' pull_request='false' comments='1'><title>Question: Do you guys have a demo/sample/video?</title>
+      </issue>
+      <issue id='212074426' number='28' user='MrsZ' state='open' created_at='2017-03-06 10:02:50 +0000' age='1267' updated_at='2017-03-06 10:02:50 +0000' pull_request='false' comments='0'><title>Hi, I have got a Chrome extension, but how do I put this demo your transplant to my project to go, this is all your open source or with your API, thank you</title>
+      </issue>
+      <issue id='232163305' number='31' user='brickgale' state='open' created_at='2017-05-30 07:21:34 +0000' age='1182' updated_at='2017-05-30 07:21:34 +0000' pull_request='false' comments='0'><title>Building Firefox add-on. > 'cfx' is not recognized as an internal or external command</title>
+      </issue>
+      <issue id='242579333' number='33' user='brickgale' state='open' created_at='2017-07-13 04:02:46 +0000' age='1138' updated_at='2017-07-13 04:02:46 +0000' pull_request='false' comments='0'><title>NavigatorUserMediaError everytime I stop and restart a screen sharing</title>
+      </issue>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='nttcom' name='SkyWay-ScreenShare'>
+      <reporting class='repo-report' repo='nttcom/SkyWay-ScreenShare' type='DocsReporter'><file>README_ja.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/SkyWay-ScreenShare' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/SkyWay-ScreenShare' type='LicenseReporter'>No License File Found</reporting>
+    </reports>
+    <reports org='nttcom' name='SkyWay-ScreenShare'>
+  <reporting class='repo-report' repo='nttcom/SkyWay-ScreenShare' type='WikiOnDbReporter'><field>2015-07-27 23:45:07 +0000</field><field>nttcom/SkyWay-ScreenShare</field><field>https://github.com/nttcom/SkyWay-ScreenShare/wiki</field></reporting>
+  <reporting class='issue-report' repo='nttcom/SkyWay-ScreenShare' type='NoIssueCommentsDbReporter'><field>2015-10-01 09:05:10 +0000</field><field>https://github.com/nttcom/SkyWay-ScreenShare/issues/12</field><field>Fix spelling mistake</field><field></field></reporting>
+  <reporting class='issue-report' repo='nttcom/SkyWay-ScreenShare' type='NoIssueCommentsDbReporter'><field>2017-03-06 10:02:50 +0000</field><field>https://github.com/nttcom/SkyWay-ScreenShare/issues/28</field><field>Hi, I have got a Chrome extension, but how do I put this demo your transplant to my project to go, this is all your open source or with your API, thank you</field><field></field></reporting>
+  <reporting class='issue-report' repo='nttcom/SkyWay-ScreenShare' type='NoIssueCommentsDbReporter'><field>2017-05-30 07:21:34 +0000</field><field>https://github.com/nttcom/SkyWay-ScreenShare/issues/31</field><field>Building Firefox add-on. > 'cfx' is not recognized as an internal or external command</field><field></field></reporting>
+  <reporting class='issue-report' repo='nttcom/SkyWay-ScreenShare' type='NoIssueCommentsDbReporter'><field>2017-07-13 04:02:46 +0000</field><field>https://github.com/nttcom/SkyWay-ScreenShare/issues/33</field><field>NavigatorUserMediaError everytime I stop and restart a screen sharing</field><field></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/SkyWay-ScreenShare</field><field>1</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' type='LabelDbReporter'><field><label color='fc2929'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' repo='nttcom/SkyWay-ScreenShare' type='AverageIssueCloseDbReporter'><field>nttcom/SkyWay-ScreenShare</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>8</field><field>96.38</field><field>15</field></reporting>
+  <reporting class='issue-report' repo='nttcom/SkyWay-ScreenShare' type='AveragePrCloseDbReporter'><field>nttcom/SkyWay-ScreenShare</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>10</field><field>26.8</field><field>0</field></reporting>
+    </reports>
+  </repo>

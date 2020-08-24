@@ -1,0 +1,12 @@
+{
+  "datasets": [
+    {
+      "data": 0,
+      "label": "Project"
+    },
+    {
+      "data": 0,
+      "label": "Community"
+    }
+  ]
+}

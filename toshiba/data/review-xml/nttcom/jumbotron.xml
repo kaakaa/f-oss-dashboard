@@ -1,0 +1,4 @@
+    <reports org='nttcom' name='jumbotron'>
+      <reporting class='repo-report' repo='nttcom/jumbotron' type='DocsReporter'><file>README.md</file></reporting>
+      <license repo='nttcom/jumbotron' file='LICENSE' confidence='98.91304347826086'>MIT License</license>
+    </reports>

@@ -1,0 +1,4 @@
+    <reports org='nttcom' name='SkyWay-iOS-Sample'>
+      <reporting class='repo-report' repo='nttcom/SkyWay-iOS-Sample' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/SkyWay-iOS-Sample' type='LicenseReporter'>No License File Found</reporting>
+    </reports>
