@@ -1,0 +1,41 @@
+  <repo name='EEND' org='hitachi-speech' homepage='' private='false' fork='false' closed_issue_count='10' closed_pr_count='0' open_issue_count='8' open_pr_count='0' has_wiki='true' language='Python' stars='108' watchers='12' forks='19' created_at='2019-09-12 21:06:00 +0000' updated_at='2020-08-13 01:55:38 +0000' pushed_at='2019-11-21 18:18:24 +0000' size='52989' commit_count='4'>
+    <description>End-to-End Neural Diarization</description>
+    <collaborators>
+    </collaborators>
+    <issues count='8'>
+      <issue id='506144578' number='2' user='liuyue94' state='open' created_at='2019-10-12 07:00:55 +0000' age='317' updated_at='2019-10-15 14:49:31 +0000' pull_request='false' comments='3'><title>I want to know how to prepare my own data?</title>
+      </issue>
+      <issue id='533370775' number='3' user='008karan' state='open' created_at='2019-12-05 14:02:12 +0000' age='262' updated_at='2020-02-24 23:59:48 +0000' pull_request='false' comments='34'><title>cant start training</title>
+      </issue>
+      <issue id='566338170' number='4' user='Durgesh92' state='open' created_at='2020-02-17 14:32:45 +0000' age='188' updated_at='2020-02-17 15:46:00 +0000' pull_request='false' comments='3'><title>Unable to identify speaker cluster from generated RTTM</title>
+      </issue>
+      <issue id='588095063' number='6' user='mcompute' state='open' created_at='2020-03-26 01:44:46 +0000' age='151' updated_at='2020-07-08 13:49:46 +0000' pull_request='false' comments='5'><title>Experiment results on multiple speakers dataset</title>
+      </issue>
+      <issue id='638499834' number='7' user='Naminwang' state='open' created_at='2020-06-15 02:49:28 +0000' age='70' updated_at='2020-06-16 02:41:01 +0000' pull_request='false' comments='1'><title>Can this code support multi-gpu training?</title>
+      </issue>
+      <issue id='641966609' number='8' user='widdiot' state='open' created_at='2020-06-19 13:24:13 +0000' age='65' updated_at='2020-06-19 13:24:13 +0000' pull_request='false' comments='0'><title>How to resume training?</title>
+      </issue>
+      <issue id='655228706' number='9' user='875441459' state='open' created_at='2020-07-11 15:31:31 +0000' age='43' updated_at='2020-07-12 02:16:13 +0000' pull_request='false' comments='2'><title>Confusion about the store of uttid</title>
+      </issue>
+      <issue id='666863582' number='10' user='875441459' state='open' created_at='2020-07-28 08:15:02 +0000' age='27' updated_at='2020-07-29 08:22:04 +0000' pull_request='false' comments='2'><title>Confusion about the calculation of DER</title>
+      </issue>
+    </issues>
+  <release-data>
+    <release id='21663690' url='https://github.com/hitachi-speech/EEND/releases/tag/v0.1.0' published_at='2019-11-21 18:18:24 +0000' author='yubouf'>The initial release</release>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='hitachi-speech' name='EEND'>
+      <reporting class='repo-report' repo='hitachi-speech/EEND' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='hitachi-speech/EEND' type='DocsReporter'><file>egs/mini_librispeech/v1/RESULT.md</file></reporting>
+      <license repo='hitachi-speech/EEND' file='LICENSE' confidence='100'>MIT License</license>
+      <reporting class='repo-report' repo='hitachi-speech/EEND' type='BinaryReporter'><file>egs/mini_librispeech/v1/musan_bgnoise.tar.gz</file></reporting>
+    </reports>
+    <reports org='hitachi-speech' name='EEND'>
+  <reporting class='repo-report' repo='hitachi-speech/EEND' type='WikiOnDbReporter'><field>2019-09-12 21:06:00 +0000</field><field>hitachi-speech/EEND</field><field>https://github.com/hitachi-speech/EEND/wiki</field></reporting>
+  <reporting class='issue-report' repo='hitachi-speech/EEND' type='NoIssueCommentsDbReporter'><field>2020-06-19 13:24:13 +0000</field><field>https://github.com/hitachi-speech/EEND/issues/8</field><field>How to resume training?</field><field></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>hitachi-speech/EEND</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='hitachi-speech/EEND' type='AverageIssueCloseDbReporter'><field>hitachi-speech/EEND</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>4</field><field>2</field><field>57.5</field><field>8</field><field>2</field><field>57.5</field><field>8</field></reporting>
+  <reporting class='issue-report' repo='hitachi-speech/EEND' type='AveragePrCloseDbReporter'><field>hitachi-speech/EEND</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>
+  </repo>

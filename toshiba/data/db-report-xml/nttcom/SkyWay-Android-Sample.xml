@@ -1,7 +1,0 @@
-    <reports org='nttcom' name='SkyWay-Android-Sample'>
-  <reporting class='repo-report' repo='nttcom/SkyWay-Android-Sample' type='WikiOnDbReporter'><field>2015-06-04 12:31:50 +0000</field><field>nttcom/SkyWay-Android-Sample</field><field>https://github.com/nttcom/SkyWay-Android-Sample/wiki</field></reporting>
-  <reporting class='issue-report' repo='nttcom/SkyWay-Android-Sample' type='NoIssueCommentsDbReporter'><field>2017-04-23 03:30:37 +0000</field><field>https://github.com/nttcom/SkyWay-Android-Sample/issues/7</field><field>Canvas rotation error, black screen</field><field></field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/SkyWay-Android-Sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/SkyWay-Android-Sample' type='AverageIssueCloseDbReporter'><field>nttcom/SkyWay-Android-Sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>2</field><field>18.0</field><field>1</field></reporting>
-  <reporting class='issue-report' repo='nttcom/SkyWay-Android-Sample' type='AveragePrCloseDbReporter'><field>nttcom/SkyWay-Android-Sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>4</field><field>0.0</field><field>0</field></reporting>
-    </reports>

@@ -1,0 +1,7 @@
+    <reports org='Hitachi' name='selinux-te-tester'>
+      <reporting class='repo-report' repo='Hitachi/selinux-te-tester' type='DocsReporter'><file>conf/destroy.conf.txt</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/selinux-te-tester' type='DocsReporter'><file>template/te.txt</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/selinux-te-tester' type='DocsReporter'><file>README_ja.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/selinux-te-tester' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/selinux-te-tester' type='LicenseReporter'>No License File Found</reporting>
+    </reports>

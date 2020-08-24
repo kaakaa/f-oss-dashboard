@@ -1,6 +1,0 @@
-    <reports org='nttcom' name='designpattern-as-code-demo'>
-  <reporting class='repo-report' repo='nttcom/designpattern-as-code-demo' type='WikiOnDbReporter'><field>2020-08-17 03:28:21 +0000</field><field>nttcom/designpattern-as-code-demo</field><field>https://github.com/nttcom/designpattern-as-code-demo/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/designpattern-as-code-demo</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/designpattern-as-code-demo' type='AverageIssueCloseDbReporter'><field>nttcom/designpattern-as-code-demo</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/designpattern-as-code-demo' type='AveragePrCloseDbReporter'><field>nttcom/designpattern-as-code-demo</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

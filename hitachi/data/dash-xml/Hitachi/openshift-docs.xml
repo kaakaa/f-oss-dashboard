@@ -1,0 +1,24 @@
+  <repo name='openshift-docs' org='Hitachi' homepage='https://docs.openshift.org/latest/welcome/index.html' private='false' fork='true' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='false' language='CSS' stars='0' watchers='2' forks='0' created_at='2018-07-12 02:45:58 +0000' updated_at='2018-07-12 02:46:04 +0000' pushed_at='2018-07-12 20:22:15 +0000' size='76106' commit_count='0'>
+    <description>OpenShift Documentation</description>
+    <collaborators>
+    </collaborators>
+    <issues count='0'>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='Hitachi' name='openshift-docs'>
+      <reporting class='repo-report' repo='Hitachi/openshift-docs' type='DocsReporter'><file>issue_template.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-docs' type='LicenseReporter'>No License File Found</reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-docs' type='BinaryReporter'><file>aura.tar.gz</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-docs' type='BinaryReporter'><file>release_notes/images/ose32-relnote-about-page.png</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-docs' type='BinaryReporter'><file>admin_guide/images/SDN.dia</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-docs' type='BinaryReporter'><file>admin_guide/images/Topologies.dia</file></reporting>
+    </reports>
+    <reports org='Hitachi' name='openshift-docs'>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/openshift-docs</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/openshift-docs' type='AverageIssueCloseDbReporter'><field>Hitachi/openshift-docs</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/openshift-docs' type='AveragePrCloseDbReporter'><field>Hitachi/openshift-docs</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>
+  </repo>

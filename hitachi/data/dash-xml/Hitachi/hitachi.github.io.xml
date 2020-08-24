@@ -1,0 +1,33 @@
+  <repo name='hitachi.github.io' org='Hitachi' homepage='' private='false' fork='false' closed_issue_count='5' closed_pr_count='0' open_issue_count='4' open_pr_count='0' has_wiki='true' language='CSS' stars='2' watchers='5' forks='0' created_at='2016-04-20 22:13:28 +0000' updated_at='2019-10-07 20:38:41 +0000' pushed_at='2018-10-31 13:34:24 +0000' size='623' commit_count='216'>
+    <description>Hitachi Github Pages</description>
+    <collaborators>
+    </collaborators>
+    <issues count='4'>
+      <issue id='207132919' number='2' user='Simont3' state='open' created_at='2017-02-13 06:33:20 +0000' age='1288' updated_at='2017-03-06 16:02:29 +0000' pull_request='false' comments='1'><title>HCP Upload Daemon</title>
+      </issue>
+      <issue id='221399148' number='3' user='jgoodie' state='open' created_at='2017-04-12 21:43:27 +0000' age='1229' updated_at='2017-04-12 21:43:27 +0000' pull_request='false' comments='0'><title>https://gitlab.com/simont3/awftp</title>
+      </issue>
+      <issue id='260571981' number='4' user='Simont3' state='open' created_at='2017-09-26 10:25:14 +0000' age='1063' updated_at='2017-09-26 10:25:14 +0000' pull_request='false' comments='0'><title>Add a new repository to Hitachi GitHub Space</title>
+      </issue>
+      <issue id='260572434' number='5' user='Simont3' state='open' created_at='2017-09-26 10:26:45 +0000' age='1063' updated_at='2017-09-26 10:26:45 +0000' pull_request='false' comments='0'><title>Add a new repository to Hitachi GitHub Space</title>
+      </issue>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='Hitachi' name='hitachi.github.io'>
+      <reporting class='repo-report' repo='Hitachi/hitachi.github.io' type='DocsReporter'><file>csvfileREADME.txt</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/hitachi.github.io' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/hitachi.github.io' type='LicenseReporter'>No License File Found</reporting>
+    </reports>
+    <reports org='Hitachi' name='hitachi.github.io'>
+  <reporting class='repo-report' repo='Hitachi/hitachi.github.io' type='WikiOnDbReporter'><field>2016-04-20 22:13:28 +0000</field><field>Hitachi/hitachi.github.io</field><field>https://github.com/Hitachi/hitachi.github.io/wiki</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/hitachi.github.io' type='NoIssueCommentsDbReporter'><field>2017-04-12 21:43:27 +0000</field><field>https://github.com/Hitachi/hitachi.github.io/issues/3</field><field>https://gitlab.com/simont3/awftp</field><field></field></reporting>
+  <reporting class='issue-report' repo='Hitachi/hitachi.github.io' type='NoIssueCommentsDbReporter'><field>2017-09-26 10:25:14 +0000</field><field>https://github.com/Hitachi/hitachi.github.io/issues/4</field><field>Add a new repository to Hitachi GitHub Space</field><field></field></reporting>
+  <reporting class='issue-report' repo='Hitachi/hitachi.github.io' type='NoIssueCommentsDbReporter'><field>2017-09-26 10:26:45 +0000</field><field>https://github.com/Hitachi/hitachi.github.io/issues/5</field><field>Add a new repository to Hitachi GitHub Space</field><field></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/hitachi.github.io</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/hitachi.github.io' type='AverageIssueCloseDbReporter'><field>Hitachi/hitachi.github.io</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0.0</field><field>4</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/hitachi.github.io' type='AveragePrCloseDbReporter'><field>Hitachi/hitachi.github.io</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>
+  </repo>

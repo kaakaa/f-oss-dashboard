@@ -1,4 +1,0 @@
-    <reports org='nttcom' name='skyway-siru-device'>
-      <reporting class='repo-report' repo='nttcom/skyway-siru-device' type='DocsReporter'><file>README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/skyway-siru-device' type='LicenseReporter'>No License File Found</reporting>
-    </reports>

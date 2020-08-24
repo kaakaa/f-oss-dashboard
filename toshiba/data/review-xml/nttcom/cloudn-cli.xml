@@ -1,5 +1,0 @@
-    <reports org='nttcom' name='cloudn-cli'>
-      <reporting class='repo-report' repo='nttcom/cloudn-cli' type='DocsReporter'><file>README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/cloudn-cli' type='LicenseReporter'>No License File Found</reporting>
-      <reporting class='repo-report' repo='nttcom/cloudn-cli' type='BinaryReporter'><file>precache.pyc</file></reporting>
-    </reports>

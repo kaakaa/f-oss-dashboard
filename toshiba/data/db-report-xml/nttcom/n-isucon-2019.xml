@@ -1,5 +1,0 @@
-    <reports org='nttcom' name='n-isucon-2019'>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/n-isucon-2019</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/n-isucon-2019' type='AverageIssueCloseDbReporter'><field>nttcom/n-isucon-2019</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/n-isucon-2019' type='AveragePrCloseDbReporter'><field>nttcom/n-isucon-2019</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

@@ -1,6 +1,0 @@
-    <reports org='nttcom' name='students'>
-  <reporting class='repo-report' repo='nttcom/students' type='WikiOnDbReporter'><field>2018-11-16 09:00:46 +0000</field><field>nttcom/students</field><field>https://github.com/nttcom/students/wiki</field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/students</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/students' type='AverageIssueCloseDbReporter'><field>nttcom/students</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/students' type='AveragePrCloseDbReporter'><field>nttcom/students</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-    </reports>

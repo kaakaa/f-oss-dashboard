@@ -1,4 +1,0 @@
-    <reports org='nttcom' name='fluent-plugin-rabbitmq'>
-      <reporting class='repo-report' repo='nttcom/fluent-plugin-rabbitmq' type='DocsReporter'><file>README.md</file></reporting>
-      <license repo='nttcom/fluent-plugin-rabbitmq' file='LICENSE.txt' confidence='100'>Apache License 2.0</license>
-    </reports>

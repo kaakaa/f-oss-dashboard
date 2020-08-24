@@ -1,0 +1,24 @@
+  <repo name='open-license' org='Hitachi' homepage='' private='false' fork='false' closed_issue_count='1' closed_pr_count='0' open_issue_count='1' open_pr_count='0' has_wiki='true' language='' stars='3' watchers='5' forks='0' created_at='2018-02-14 07:33:30 +0000' updated_at='2019-10-24 16:35:17 +0000' pushed_at='2019-06-28 11:49:24 +0000' size='1185' commit_count='3'>
+    <description>OSS License Open Data</description>
+    <collaborators>
+    </collaborators>
+    <issues count='1'>
+      <issue id='582683131' number='1' user='AWatanabe418' state='open' created_at='2020-03-17 00:58:54 +0000' age='160' updated_at='2020-03-17 03:27:40 +0000' pull_request='false' comments='1'><title>Missing Actions #227, #228 </title>
+      </issue>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='Hitachi' name='open-license'>
+      <reporting class='repo-report' repo='Hitachi/open-license' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/open-license' type='LicenseReporter'>No License File Found</reporting>
+      <reporting class='repo-report' repo='Hitachi/open-license' type='BinaryReporter'><file>LICENSE.pdf</file></reporting>
+    </reports>
+    <reports org='Hitachi' name='open-license'>
+  <reporting class='repo-report' repo='Hitachi/open-license' type='WikiOnDbReporter'><field>2018-02-14 07:33:30 +0000</field><field>Hitachi/open-license</field><field>https://github.com/Hitachi/open-license/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/open-license</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/open-license' type='AverageIssueCloseDbReporter'><field>Hitachi/open-license</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/open-license' type='AveragePrCloseDbReporter'><field>Hitachi/open-license</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>
+  </repo>
