@@ -3,13 +3,13 @@
     <collaborators>
     </collaborators>
     <issues count='4'>
-      <issue id='232197384' number='1' user='CyberGecko' state='open' created_at='2017-05-30 09:44:09 +0000' age='1182' updated_at='2017-06-12 01:20:29 +0000' pull_request='false' comments='1'><title>consumer_pool_size doesn't work</title>
+      <issue id='232197384' number='1' user='CyberGecko' state='open' created_at='2017-05-30 09:44:09 +0000' age='1183' updated_at='2017-06-12 01:20:29 +0000' pull_request='false' comments='1'><title>consumer_pool_size doesn't work</title>
       </issue>
-      <issue id='388883204' number='9' user='panatl' state='open' created_at='2018-12-08 04:12:21 +0000' age='625' updated_at='2018-12-08 04:12:21 +0000' pull_request='false' comments='0'><title>Getting ECONNRESET</title>
+      <issue id='388883204' number='9' user='panatl' state='open' created_at='2018-12-08 04:12:21 +0000' age='626' updated_at='2018-12-08 04:12:21 +0000' pull_request='false' comments='0'><title>Getting ECONNRESET</title>
       </issue>
       <issue id='398358724' number='10' user='ganymedes01' state='open' created_at='2019-01-11 16:23:44 +0000' age='591' updated_at='2020-01-21 14:44:20 +0000' pull_request='false' comments='2'><title>When used as output the queue isn't automatically created</title>
       </issue>
-      <issue id='502038603' number='13' user='meveno' state='open' created_at='2019-10-03 12:35:11 +0000' age='326' updated_at='2020-03-09 15:43:27 +0000' pull_request='false' comments='11'><title>RabbitMQ plugin with tls enable error</title>
+      <issue id='502038603' number='13' user='meveno' state='open' created_at='2019-10-03 12:35:11 +0000' age='327' updated_at='2020-03-09 15:43:27 +0000' pull_request='false' comments='11'><title>RabbitMQ plugin with tls enable error</title>
       </issue>
     </issues>
   <release-data>
