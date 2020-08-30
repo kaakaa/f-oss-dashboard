@@ -1,5 +1,5 @@
     <reports org='fujitsu' name='oneDNN'>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/oneDNN</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' repo='fujitsu/oneDNN' type='AverageIssueCloseDbReporter'><field>fujitsu/oneDNN</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/oneDNN' type='AveragePrCloseDbReporter'><field>fujitsu/oneDNN</field><field>1</field><field>1.0</field><field>0</field><field>1</field><field>1.0</field><field>0</field><field>1</field><field>1.0</field><field>0</field><field>1</field><field>1.0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/oneDNN' type='AveragePrCloseDbReporter'><field>fujitsu/oneDNN</field><field>9</field><field>0.11</field><field>0</field><field>9</field><field>0.11</field><field>0</field><field>9</field><field>0.11</field><field>0</field><field>9</field><field>0.11</field><field>0</field></reporting>
     </reports>

@@ -1,4 +1,4 @@
-  <repo name='oneDNN' org='fujitsu' homepage='https://01.org/oneDNN' private='false' fork='true' closed_issue_count='0' closed_pr_count='1' open_issue_count='0' open_pr_count='0' has_wiki='false' language='C++' stars='1' watchers='2' forks='7' created_at='2020-08-03 13:14:56 +0000' updated_at='2020-08-24 01:33:11 +0000' pushed_at='2020-08-24 01:33:08 +0000' size='161497' commit_count='46'>
+  <repo name='oneDNN' org='fujitsu' homepage='https://01.org/oneDNN' private='false' fork='true' closed_issue_count='0' closed_pr_count='9' open_issue_count='0' open_pr_count='0' has_wiki='false' language='C++' stars='2' watchers='3' forks='7' created_at='2020-08-03 13:14:56 +0000' updated_at='2020-08-27 15:58:09 +0000' pushed_at='2020-08-25 14:32:52 +0000' size='161610' commit_count='72'>
     <description>oneAPI Deep Neural Network Library (oneDNN)</description>
     <collaborators>
     </collaborators>
@@ -235,6 +235,6 @@
     <reports org='fujitsu' name='oneDNN'>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/oneDNN</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' repo='fujitsu/oneDNN' type='AverageIssueCloseDbReporter'><field>fujitsu/oneDNN</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/oneDNN' type='AveragePrCloseDbReporter'><field>fujitsu/oneDNN</field><field>1</field><field>1.0</field><field>0</field><field>1</field><field>1.0</field><field>0</field><field>1</field><field>1.0</field><field>0</field><field>1</field><field>1.0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/oneDNN' type='AveragePrCloseDbReporter'><field>fujitsu/oneDNN</field><field>9</field><field>0.11</field><field>0</field><field>9</field><field>0.11</field><field>0</field><field>9</field><field>0.11</field><field>0</field><field>9</field><field>0.11</field><field>0</field></reporting>
     </reports>
   </repo>
