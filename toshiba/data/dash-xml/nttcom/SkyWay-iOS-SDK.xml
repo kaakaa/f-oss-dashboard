@@ -1,15 +1,15 @@
-  <repo name='SkyWay-iOS-SDK' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='8' closed_pr_count='4' open_issue_count='4' open_pr_count='0' has_wiki='true' language='' stars='17' watchers='17' forks='3' created_at='2015-07-30 05:15:21 +0000' updated_at='2018-11-29 06:29:40 +0000' pushed_at='2018-11-29 06:29:39 +0000' size='65223' commit_count='16'>
+  <repo name='SkyWay-iOS-SDK' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='8' closed_pr_count='4' open_issue_count='4' open_pr_count='0' has_wiki='true' language='' stars='17' watchers='16' forks='3' created_at='2015-07-30 05:15:21 +0000' updated_at='2018-11-29 06:29:40 +0000' pushed_at='2018-11-29 06:29:39 +0000' size='65223' commit_count='16'>
     <description>[Deprecated] SkyWay iOS SDK</description>
     <collaborators>
     </collaborators>
     <issues count='4'>
-      <issue id='188722561' number='5' user='carpteas' state='open' created_at='2016-11-11 09:48:27 +0000' age='1383' updated_at='2016-11-11 09:53:08 +0000' pull_request='false' comments='0'><title>Sending of the SDP Offer and Candidates with wrong order when used with external TURN server</title>
+      <issue id='188722561' number='5' user='carpteas' state='open' created_at='2016-11-11 09:48:27 +0000' age='1390' updated_at='2016-11-11 09:53:08 +0000' pull_request='false' comments='0'><title>Sending of the SDP Offer and Candidates with wrong order when used with external TURN server</title>
       </issue>
-      <issue id='198013292' number='6' user='bantayso' state='open' created_at='2016-12-29 14:12:34 +0000' age='1334' updated_at='2016-12-29 14:12:34 +0000' pull_request='false' comments='0'><title>Field 'boolean io.skyway.Peer.Reachability.isConnected' on a null object reference</title>
+      <issue id='198013292' number='6' user='bantayso' state='open' created_at='2016-12-29 14:12:34 +0000' age='1341' updated_at='2016-12-29 14:12:34 +0000' pull_request='false' comments='0'><title>Field 'boolean io.skyway.Peer.Reachability.isConnected' on a null object reference</title>
       </issue>
-      <issue id='211838783' number='8' user='lopper' state='open' created_at='2017-03-04 00:39:40 +0000' age='1270' updated_at='2017-03-04 00:39:40 +0000' pull_request='false' comments='0'><title>Can SRWebsocket and Reachability be renamed within the framework?</title>
+      <issue id='211838783' number='8' user='lopper' state='open' created_at='2017-03-04 00:39:40 +0000' age='1277' updated_at='2017-03-04 00:39:40 +0000' pull_request='false' comments='0'><title>Can SRWebsocket and Reachability be renamed within the framework?</title>
       </issue>
-      <issue id='215585018' number='9' user='lopper' state='open' created_at='2017-03-20 23:24:11 +0000' age='1253' updated_at='2017-03-20 23:24:11 +0000' pull_request='false' comments='0'><title>Existing P2P connections cannot receive data when disconnect method of SKWPeer Class is called.</title>
+      <issue id='215585018' number='9' user='lopper' state='open' created_at='2017-03-20 23:24:11 +0000' age='1260' updated_at='2017-03-20 23:24:11 +0000' pull_request='false' comments='0'><title>Existing P2P connections cannot receive data when disconnect method of SKWPeer Class is called.</title>
       </issue>
     </issues>
   <release-data>

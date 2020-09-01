@@ -3,36 +3,36 @@
     <collaborators>
     </collaborators>
     <issues count='15'>
-      <issue id='109257877' number='12' user='alanmshelly' state='open' created_at='2015-10-01 09:05:10 +0000' age='1790' updated_at='2015-10-01 09:05:17 +0000' pull_request='false' comments='0'><title>Fix spelling mistake</title>
+      <issue id='97581589' number='1' user='yusuke84' state='open' created_at='2015-07-27 23:55:15 +0000' age='1862' updated_at='2015-07-27 23:55:15 +0000' pull_request='false' comments='0'><title>startScreenShareでエラーが返ってくる場合がある</title>
       </issue>
-      <issue id='110372692' number='17' user='yusuke84' state='open' created_at='2015-10-08 04:47:16 +0000' age='1783' updated_at='2016-11-10 06:49:36 +0000' pull_request='false' comments='2'><title>FirefoxのExtensionが認識されない</title>
+      <issue id='97581854' number='2' user='yusuke84' state='open' created_at='2015-07-27 23:57:49 +0000' age='1862' updated_at='2015-07-27 23:57:49 +0000' pull_request='false' comments='0'><title>同一ドメインで複数のExtensionをインストールしている場合に複数反応する</title>
+      </issue>
+      <issue id='97581912' number='3' user='yusuke84' state='open' created_at='2015-07-27 23:58:11 +0000' age='1862' updated_at='2015-07-27 23:58:11 +0000' pull_request='false' comments='0'><title>テストを書く</title>
+      </issue>
+      <issue id='97581981' number='4' user='yusuke84' state='open' created_at='2015-07-27 23:58:46 +0000' age='1862' updated_at='2015-07-27 23:58:46 +0000' pull_request='false' comments='0'><title>ライブラリをbowerに登録する</title>
+      </issue>
+      <issue id='97582014' number='5' user='yusuke84' state='open' created_at='2015-07-27 23:59:02 +0000' age='1862' updated_at='2015-07-27 23:59:02 +0000' pull_request='false' comments='0'><title>TSの型定義ファイルを公式リポジトリに登録する</title>
+      </issue>
+      <issue id='97582222' number='7' user='yusuke84' state='open' created_at='2015-07-28 00:00:30 +0000' age='1862' updated_at='2015-07-28 00:00:30 +0000' pull_request='false' comments='0'><title>stopScreenShareメソッドを実装する</title>
+      </issue>
+      <issue id='97583401' number='8' user='yusuke84' state='open' created_at='2015-07-28 00:10:55 +0000' age='1862' updated_at='2015-07-28 00:10:55 +0000' pull_request='false' comments='0'><title>ドキュメントにSSLが必須であることを明記する</title>
+      </issue>
+      <issue id='97839414' number='10' user='yusuke84' state='open' created_at='2015-07-29 01:57:59 +0000' age='1861' updated_at='2016-08-25 07:09:53 +0000' pull_request='false' comments='0'><title>Firefoxもextensionが正しいので修正する</title>
+      </issue>
+      <issue id='109257877' number='12' user='alanmshelly' state='open' created_at='2015-10-01 09:05:10 +0000' age='1797' updated_at='2015-10-01 09:05:17 +0000' pull_request='false' comments='0'><title>Fix spelling mistake</title>
+      </issue>
+      <issue id='110372692' number='17' user='yusuke84' state='open' created_at='2015-10-08 04:47:16 +0000' age='1790' updated_at='2016-11-10 06:49:36 +0000' pull_request='false' comments='2'><title>FirefoxのExtensionが認識されない</title>
         <label url="https://api.github.com/repos/nttcom/SkyWay-ScreenShare/labels/bug" color='fc2929'>bug</label>
       </issue>
-      <issue id='97581589' number='1' user='yusuke84' state='open' created_at='2015-07-27 23:55:15 +0000' age='1855' updated_at='2015-07-27 23:55:15 +0000' pull_request='false' comments='0'><title>startScreenShareでエラーが返ってくる場合がある</title>
+      <issue id='136294046' number='21' user='yusuke84' state='open' created_at='2016-02-25 06:23:48 +0000' age='1650' updated_at='2017-02-20 01:38:37 +0000' pull_request='false' comments='2'><title>Firefox 43からAddonの署名が必須になった</title>
       </issue>
-      <issue id='97581854' number='2' user='yusuke84' state='open' created_at='2015-07-27 23:57:49 +0000' age='1855' updated_at='2015-07-27 23:57:49 +0000' pull_request='false' comments='0'><title>同一ドメインで複数のExtensionをインストールしている場合に複数反応する</title>
+      <issue id='188804335' number='25' user='Lucashuang0802' state='open' created_at='2016-11-11 16:59:55 +0000' age='1389' updated_at='2016-12-19 12:00:18 +0000' pull_request='false' comments='1'><title>Question: Do you guys have a demo/sample/video?</title>
       </issue>
-      <issue id='97581912' number='3' user='yusuke84' state='open' created_at='2015-07-27 23:58:11 +0000' age='1855' updated_at='2015-07-27 23:58:11 +0000' pull_request='false' comments='0'><title>テストを書く</title>
+      <issue id='212074426' number='28' user='MrsZ' state='open' created_at='2017-03-06 10:02:50 +0000' age='1275' updated_at='2017-03-06 10:02:50 +0000' pull_request='false' comments='0'><title>Hi, I have got a Chrome extension, but how do I put this demo your transplant to my project to go, this is all your open source or with your API, thank you</title>
       </issue>
-      <issue id='97581981' number='4' user='yusuke84' state='open' created_at='2015-07-27 23:58:46 +0000' age='1855' updated_at='2015-07-27 23:58:46 +0000' pull_request='false' comments='0'><title>ライブラリをbowerに登録する</title>
+      <issue id='232163305' number='31' user='brickgale' state='open' created_at='2017-05-30 07:21:34 +0000' age='1190' updated_at='2017-05-30 07:21:34 +0000' pull_request='false' comments='0'><title>Building Firefox add-on. > 'cfx' is not recognized as an internal or external command</title>
       </issue>
-      <issue id='97582014' number='5' user='yusuke84' state='open' created_at='2015-07-27 23:59:02 +0000' age='1855' updated_at='2015-07-27 23:59:02 +0000' pull_request='false' comments='0'><title>TSの型定義ファイルを公式リポジトリに登録する</title>
-      </issue>
-      <issue id='97582222' number='7' user='yusuke84' state='open' created_at='2015-07-28 00:00:30 +0000' age='1855' updated_at='2015-07-28 00:00:30 +0000' pull_request='false' comments='0'><title>stopScreenShareメソッドを実装する</title>
-      </issue>
-      <issue id='97583401' number='8' user='yusuke84' state='open' created_at='2015-07-28 00:10:55 +0000' age='1855' updated_at='2015-07-28 00:10:55 +0000' pull_request='false' comments='0'><title>ドキュメントにSSLが必須であることを明記する</title>
-      </issue>
-      <issue id='97839414' number='10' user='yusuke84' state='open' created_at='2015-07-29 01:57:59 +0000' age='1854' updated_at='2016-08-25 07:09:53 +0000' pull_request='false' comments='0'><title>Firefoxもextensionが正しいので修正する</title>
-      </issue>
-      <issue id='136294046' number='21' user='yusuke84' state='open' created_at='2016-02-25 06:23:48 +0000' age='1643' updated_at='2017-02-20 01:38:37 +0000' pull_request='false' comments='2'><title>Firefox 43からAddonの署名が必須になった</title>
-      </issue>
-      <issue id='188804335' number='25' user='Lucashuang0802' state='open' created_at='2016-11-11 16:59:55 +0000' age='1382' updated_at='2016-12-19 12:00:18 +0000' pull_request='false' comments='1'><title>Question: Do you guys have a demo/sample/video?</title>
-      </issue>
-      <issue id='212074426' number='28' user='MrsZ' state='open' created_at='2017-03-06 10:02:50 +0000' age='1268' updated_at='2017-03-06 10:02:50 +0000' pull_request='false' comments='0'><title>Hi, I have got a Chrome extension, but how do I put this demo your transplant to my project to go, this is all your open source or with your API, thank you</title>
-      </issue>
-      <issue id='232163305' number='31' user='brickgale' state='open' created_at='2017-05-30 07:21:34 +0000' age='1183' updated_at='2017-05-30 07:21:34 +0000' pull_request='false' comments='0'><title>Building Firefox add-on. > 'cfx' is not recognized as an internal or external command</title>
-      </issue>
-      <issue id='242579333' number='33' user='brickgale' state='open' created_at='2017-07-13 04:02:46 +0000' age='1139' updated_at='2017-07-13 04:02:46 +0000' pull_request='false' comments='0'><title>NavigatorUserMediaError everytime I stop and restart a screen sharing</title>
+      <issue id='242579333' number='33' user='brickgale' state='open' created_at='2017-07-13 04:02:46 +0000' age='1146' updated_at='2017-07-13 04:02:46 +0000' pull_request='false' comments='0'><title>NavigatorUserMediaError everytime I stop and restart a screen sharing</title>
       </issue>
     </issues>
   <release-data>

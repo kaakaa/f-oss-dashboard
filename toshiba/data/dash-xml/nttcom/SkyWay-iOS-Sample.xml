@@ -3,9 +3,9 @@
     <collaborators>
     </collaborators>
     <issues count='2'>
-      <issue id='228657352' number='8' user='topjx' state='open' created_at='2017-05-15 09:33:09 +0000' age='1198' updated_at='2017-12-01 18:49:53 +0000' pull_request='false' comments='2'><title>SocketError message= syserr=Error Domain=XHRStream Code=16 "未能完成操作。（“XHRStream”错误 16。</title>
+      <issue id='228657352' number='8' user='topjx' state='open' created_at='2017-05-15 09:33:09 +0000' age='1205' updated_at='2017-12-01 18:49:53 +0000' pull_request='false' comments='2'><title>SocketError message= syserr=Error Domain=XHRStream Code=16 "未能完成操作。（“XHRStream”错误 16。</title>
       </issue>
-      <issue id='262377624' number='18' user='TaoufikBouabid' state='open' created_at='2017-10-03 10:28:42 +0000' age='1057' updated_at='2017-12-01 18:50:35 +0000' pull_request='false' comments='1'><title>Problem when implementing incoming call</title>
+      <issue id='262377624' number='18' user='TaoufikBouabid' state='open' created_at='2017-10-03 10:28:42 +0000' age='1064' updated_at='2017-12-01 18:50:35 +0000' pull_request='false' comments='1'><title>Problem when implementing incoming call</title>
       </issue>
     </issues>
   <release-data>

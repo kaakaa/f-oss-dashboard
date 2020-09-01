@@ -1,4 +1,4 @@
-  <repo name='skyway-siru-sample' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='true' language='JavaScript' stars='1' watchers='9' forks='1' created_at='2017-06-02 21:09:23 +0000' updated_at='2018-01-21 17:46:40 +0000' pushed_at='2017-10-20 22:27:43 +0000' size='4272' commit_count='20'>
+  <repo name='skyway-siru-sample' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='true' language='JavaScript' stars='1' watchers='8' forks='1' created_at='2017-06-02 21:09:23 +0000' updated_at='2018-01-21 17:46:40 +0000' pushed_at='2017-10-20 22:27:43 +0000' size='4272' commit_count='20'>
     <description>A sample app for SkyWay IoT SDK room utility library</description>
     <collaborators>
     </collaborators>
@@ -9,13 +9,13 @@
   <traffic-data>
   </traffic-data>
     <reports org='nttcom' name='skyway-siru-sample'>
-      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>dist/humans.txt</file></reporting>
-      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>dist/robots.txt</file></reporting>
-      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>public/humans.txt</file></reporting>
       <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>public/robots.txt</file></reporting>
-      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>CHANGELOG.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>CONTRIBUTING.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>public/humans.txt</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>dist/robots.txt</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>dist/humans.txt</file></reporting>
       <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>CONTRIBUTING.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>CHANGELOG.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='LicenseReporter'>No License File Found</reporting>
       <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='BinaryReporter'><file>src/styles/core.scss</file></reporting>
     </reports>

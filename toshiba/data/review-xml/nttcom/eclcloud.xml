@@ -1,17 +1,17 @@
     <reports org='nttcom' name='eclcloud'>
-      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>CHANGELOG.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/STYLEGUIDE.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/contributor-tutorial/step-06-congratulations.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/contributor-tutorial/step-04-pull-requests.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/contributor-tutorial/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/contributor-tutorial/step-01-introduction.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/contributor-tutorial/step-03-code-hunting.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/contributor-tutorial/step-05-code-review.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/contributor-tutorial/step-02-issues.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/contributor-tutorial/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/contributor-tutorial/step-04-pull-requests.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/contributor-tutorial/step-03-code-hunting.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/contributor-tutorial/step-01-introduction.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/contributor-tutorial/step-05-code-review.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/contributor-tutorial/step-06-congratulations.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/STYLEGUIDE.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>docs/FAQ.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>.github/CONTRIBUTING.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/eclcloud' type='DocsReporter'><file>CHANGELOG.md</file></reporting>
       <license repo='nttcom/eclcloud' file='LICENSE' confidence='100'>Apache License 2.0</license>
-      <reporting class='repo-report' repo='nttcom/eclcloud' type='BinaryReporter'><file>CHANGELOG.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/eclcloud' type='BinaryReporter'><file>go.sum</file></reporting>
+      <reporting class='repo-report' repo='nttcom/eclcloud' type='BinaryReporter'><file>CHANGELOG.md</file></reporting>
     </reports>
