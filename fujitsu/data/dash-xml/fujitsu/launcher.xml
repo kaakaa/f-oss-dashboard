@@ -1,9 +1,9 @@
-  <repo name='launcher' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='2' closed_pr_count='6' open_issue_count='1' open_pr_count='0' has_wiki='true' language='Java' stars='32' watchers='11' forks='7' created_at='2017-11-14 12:19:22 +0000' updated_at='2020-07-03 15:42:16 +0000' pushed_at='2019-12-20 07:15:22 +0000' size='410' commit_count='32'>
+  <repo name='launcher' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='2' closed_pr_count='6' open_issue_count='1' open_pr_count='0' has_wiki='true' language='Java' stars='33' watchers='11' forks='7' created_at='2017-11-14 12:19:22 +0000' updated_at='2020-09-04 03:07:16 +0000' pushed_at='2020-09-04 07:11:42 +0000' size='436' commit_count='32'>
     <description>Launcher - MicroProfile implementation</description>
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='551899401' number='7' user='QiAnXinCodeSafe' state='open' created_at='2020-01-19 10:17:46 +0000' age='224' updated_at='2020-01-19 10:17:46 +0000' pull_request='false' comments='0'><title>Double-Checked Locking</title>
+      <issue id='551899401' number='7' user='QiAnXinCodeSafe' state='open' created_at='2020-01-19 10:17:46 +0000' age='231' updated_at='2020-01-19 10:17:46 +0000' pull_request='false' comments='0'><title>Double-Checked Locking</title>
       </issue>
     </issues>
   <release-data>
@@ -18,8 +18,8 @@
   </traffic-data>
     <reports org='fujitsu' name='launcher'>
       <reporting class='repo-report' repo='fujitsu/launcher' type='LicenseReporter'>No License File Found</reporting>
-      <reporting class='repo-report' repo='fujitsu/launcher' type='BinaryReporter'><file>launcher-impl/glassfish/src/main/resources/config/keystore.jks</file></reporting>
       <reporting class='repo-report' repo='fujitsu/launcher' type='BinaryReporter'><file>launcher-impl/glassfish/src/main/resources/config/cacerts.jks</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/launcher' type='BinaryReporter'><file>launcher-impl/glassfish/src/main/resources/config/keystore.jks</file></reporting>
     </reports>
     <reports org='fujitsu' name='launcher'>
   <reporting class='repo-report' repo='fujitsu/launcher' type='WikiOnDbReporter'><field>2017-11-14 12:19:22 +0000</field><field>fujitsu/launcher</field><field>https://github.com/fujitsu/launcher/wiki</field></reporting>

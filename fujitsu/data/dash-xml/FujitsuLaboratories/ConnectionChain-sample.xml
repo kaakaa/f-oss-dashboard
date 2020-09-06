@@ -1,21 +1,24 @@
-  <repo name='ConnectionChain-sample' org='FujitsuLaboratories' homepage='' private='false' fork='false' closed_issue_count='1' closed_pr_count='0' open_issue_count='1' open_pr_count='4' has_wiki='true' language='JavaScript' stars='6' watchers='2' forks='1' created_at='2019-11-22 07:12:12 +0000' updated_at='2020-05-14 09:26:14 +0000' pushed_at='2019-12-16 06:50:13 +0000' size='175' commit_count='2'>
+  <repo name='ConnectionChain-sample' org='FujitsuLaboratories' homepage='' private='false' fork='false' closed_issue_count='1' closed_pr_count='0' open_issue_count='1' open_pr_count='5' has_wiki='true' language='JavaScript' stars='6' watchers='2' forks='1' created_at='2019-11-22 07:12:12 +0000' updated_at='2020-09-01 04:29:34 +0000' pushed_at='2020-09-04 10:12:27 +0000' size='177' commit_count='2'>
     <description></description>
     <collaborators>
     </collaborators>
-    <issues count='5'>
-      <issue id='527037501' number='1' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:16 +0000' age='282' updated_at='2019-11-22 07:38:17 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/ecSide/ec1_connector</title>
+    <issues count='6'>
+      <issue id='527037501' number='1' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:16 +0000' age='289' updated_at='2019-11-22 07:38:17 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/ecSide/ec1_connector</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='527037538' number='2' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:24 +0000' age='282' updated_at='2019-11-22 07:38:25 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/coreSide/ec1_adapter</title>
+      <issue id='527037538' number='2' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:24 +0000' age='289' updated_at='2019-11-22 07:38:25 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/coreSide/ec1_adapter</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='527037605' number='3' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:36 +0000' age='282' updated_at='2019-11-22 07:38:37 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/restserver/coreapi</title>
+      <issue id='527037605' number='3' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:36 +0000' age='289' updated_at='2019-11-22 07:38:37 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/restserver/coreapi</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='527037664' number='4' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:45 +0000' age='282' updated_at='2019-11-22 07:38:46 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/appserver/serviceapi</title>
+      <issue id='527037664' number='4' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:45 +0000' age='289' updated_at='2019-11-22 07:38:46 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/appserver/serviceapi</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='660913985' number='5' user='lucianoacsilva' state='open' created_at='2020-07-19 15:56:40 +0000' age='41' updated_at='2020-07-19 15:56:40 +0000' pull_request='false' comments='0'><title>Cannot find Fabric Binaries in the tutorial link</title>
+      <issue id='660913985' number='5' user='lucianoacsilva' state='open' created_at='2020-07-19 15:56:40 +0000' age='48' updated_at='2020-07-19 15:56:40 +0000' pull_request='false' comments='0'><title>Cannot find Fabric Binaries in the tutorial link</title>
+      </issue>
+      <issue id='693002813' number='6' user='dependabot[bot]' state='open' created_at='2020-09-04 10:12:26 +0000' age='2' updated_at='2020-09-04 10:12:29 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump mongodb from 2.2.36 to 3.6.1 in /environment/base/cc_env/servers/appserver/serviceapi</title>
+        <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
   <release-data>
@@ -23,11 +26,11 @@
   <traffic-data>
   </traffic-data>
     <reports org='FujitsuLaboratories' name='ConnectionChain-sample'>
-      <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>environment/README.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>docs/REST-API/sample/transfers.md</file></reporting>
       <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>docs/REST-API/sample/rules.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>docs/REST-API/sample/transfers.md</file></reporting>
       <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>docs/REST-API/base/ecaccounts.md</file></reporting>
       <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>docs/REST-API/base/endchains.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>environment/README.md</file></reporting>
       <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>README.md</file></reporting>
       <license repo='FujitsuLaboratories/ConnectionChain-sample' file='LICENSE' confidence='100'>Apache License 2.0</license>
     </reports>
@@ -38,8 +41,9 @@
   <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='NoPrCommentsDbReporter'><field>2019-11-22 07:38:24 +0000</field><field>https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/2</field><field>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/coreSide/ec1_adapter</field><field></field></reporting>
   <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='NoPrCommentsDbReporter'><field>2019-11-22 07:38:36 +0000</field><field>https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/3</field><field>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/restserver/coreapi</field><field></field></reporting>
   <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='NoPrCommentsDbReporter'><field>2019-11-22 07:38:45 +0000</field><field>https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/4</field><field>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/appserver/serviceapi</field><field></field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='NoPrCommentsDbReporter'><field>2020-09-04 10:12:26 +0000</field><field>https://github.com/FujitsuLaboratories/ConnectionChain-sample/pull/6</field><field>Bump mongodb from 2.2.36 to 3.6.1 in /environment/base/cc_env/servers/appserver/serviceapi</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>FujitsuLaboratories/ConnectionChain-sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>4</field></reporting>  <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/ConnectionChain-sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field></reporting>
-  <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/ConnectionChain-sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>4</field><field>0</field><field>0</field><field>4</field></reporting>
+  <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>5</field></reporting>  <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/ConnectionChain-sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/ConnectionChain-sample</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>5</field><field>0</field><field>0</field><field>5</field></reporting>
     </reports>
   </repo>

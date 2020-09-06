@@ -3,7 +3,7 @@
       <reporting class='repo-report' repo='FujitsuLaboratories/COMEVIZZ' type='DocsReporter'><file>CCLA.txt</file></reporting>
       <reporting class='repo-report' repo='FujitsuLaboratories/COMEVIZZ' type='DocsReporter'><file>ICLA.txt</file></reporting>
       <reporting class='repo-report' repo='FujitsuLaboratories/COMEVIZZ' type='DocsReporter'><file>sonar2csv/README.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/COMEVIZZ' type='DocsReporter'><file>CONTRIBUTING.md</file></reporting>
       <reporting class='repo-report' repo='FujitsuLaboratories/COMEVIZZ' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/COMEVIZZ' type='DocsReporter'><file>CONTRIBUTING.md</file></reporting>
       <license repo='FujitsuLaboratories/COMEVIZZ' file='LICENSE' confidence='100'>Apache License 2.0</license>
     </reports>

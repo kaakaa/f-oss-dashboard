@@ -3,15 +3,15 @@
     <collaborators>
     </collaborators>
     <issues count='5'>
-      <issue id='439626470' number='6' user='litewhatever' state='open' created_at='2019-05-02 14:39:16 +0000' age='485' updated_at='2019-05-03 11:00:29 +0000' pull_request='false' comments='2'><title>Please add support for ConfLDAPAuthorizationUserGroupName</title>
+      <issue id='439626470' number='6' user='litewhatever' state='open' created_at='2019-05-02 14:39:16 +0000' age='492' updated_at='2019-05-03 11:00:29 +0000' pull_request='false' comments='2'><title>Please add support for ConfLDAPAuthorizationUserGroupName</title>
       </issue>
-      <issue id='439627980' number='7' user='litewhatever' state='open' created_at='2019-05-02 14:42:14 +0000' age='485' updated_at='2019-05-02 14:42:14 +0000' pull_request='false' comments='0'><title>Please add meta directory and main.yml</title>
+      <issue id='439627980' number='7' user='litewhatever' state='open' created_at='2019-05-02 14:42:14 +0000' age='492' updated_at='2019-05-02 14:42:14 +0000' pull_request='false' comments='0'><title>Please add meta directory and main.yml</title>
       </issue>
-      <issue id='442709447' number='8' user='cccfer' state='open' created_at='2019-05-10 13:03:47 +0000' age='477' updated_at='2019-05-10 13:03:47 +0000' pull_request='false' comments='0'><title>HBA information in get_server_facts.yml</title>
+      <issue id='442709447' number='8' user='cccfer' state='open' created_at='2019-05-10 13:03:47 +0000' age='484' updated_at='2019-05-10 13:03:47 +0000' pull_request='false' comments='0'><title>HBA information in get_server_facts.yml</title>
       </issue>
-      <issue id='673436478' number='9' user='tavasti' state='open' created_at='2020-08-05 10:36:09 +0000' age='25' updated_at='2020-08-05 11:11:29 +0000' pull_request='false' comments='0'><title>Setting PowerOff with irmc_powerstate does not work</title>
+      <issue id='673436478' number='9' user='tavasti' state='open' created_at='2020-08-05 10:36:09 +0000' age='32' updated_at='2020-08-05 11:11:29 +0000' pull_request='false' comments='0'><title>Setting PowerOff with irmc_powerstate does not work</title>
       </issue>
-      <issue id='673548241' number='10' user='tavasti' state='open' created_at='2020-08-05 13:38:59 +0000' age='24' updated_at='2020-08-06 06:19:17 +0000' pull_request='false' comments='0'><title>irmc_raid not working at all</title>
+      <issue id='673548241' number='10' user='tavasti' state='open' created_at='2020-08-05 13:38:59 +0000' age='31' updated_at='2020-08-06 06:19:17 +0000' pull_request='false' comments='0'><title>irmc_raid not working at all</title>
       </issue>
     </issues>
   <release-data>
@@ -23,12 +23,12 @@
   <traffic-data>
   </traffic-data>
     <reports org='fujitsu' name='fujitsu-ansible-irmc-integration'>
-      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='DocsReporter'><file>DOCUMENTATION.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='DocsReporter'><file>DOCUMENTATION.md</file></reporting>
       <license repo='fujitsu/fujitsu-ansible-irmc-integration' file='LICENSE.md' confidence='100'>GNU General Public License v3.0</license>
-      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='BinaryReporter'><file>tests/__init__.py</file></reporting>
       <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='BinaryReporter'><file>module_utils/__init__.py</file></reporting>
       <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='BinaryReporter'><file>library/__init__.py</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='BinaryReporter'><file>tests/__init__.py</file></reporting>
     </reports>
     <reports org='fujitsu' name='fujitsu-ansible-irmc-integration'>
   <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='WikiOnDbReporter'><field>2018-08-30 12:28:13 +0000</field><field>fujitsu/fujitsu-ansible-irmc-integration</field><field>https://github.com/fujitsu/fujitsu-ansible-irmc-integration/wiki</field></reporting>
@@ -37,7 +37,7 @@
   <reporting class='issue-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='NoIssueCommentsDbReporter'><field>2020-08-05 10:36:09 +0000</field><field>https://github.com/fujitsu/fujitsu-ansible-irmc-integration/issues/9</field><field>Setting PowerOff with irmc_powerstate does not work</field><field></field></reporting>
   <reporting class='issue-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='NoIssueCommentsDbReporter'><field>2020-08-05 13:38:59 +0000</field><field>https://github.com/fujitsu/fujitsu-ansible-irmc-integration/issues/10</field><field>irmc_raid not working at all</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/fujitsu-ansible-irmc-integration</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='AverageIssueCloseDbReporter'><field>fujitsu/fujitsu-ansible-irmc-integration</field><field>0</field><field>0</field><field>2</field><field>0</field><field>0</field><field>2</field><field>0</field><field>0</field><field>2</field><field>4</field><field>4.5</field><field>5</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='AverageIssueCloseDbReporter'><field>fujitsu/fujitsu-ansible-irmc-integration</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>2</field><field>0</field><field>0</field><field>2</field><field>4</field><field>4.5</field><field>5</field></reporting>
   <reporting class='issue-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='AveragePrCloseDbReporter'><field>fujitsu/fujitsu-ansible-irmc-integration</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>15.0</field><field>0</field></reporting>
     </reports>
   </repo>

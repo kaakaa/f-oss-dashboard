@@ -1,14 +1,14 @@
     <reports org='fujitsu' name='xbyak_translator_aarch64'>
-      <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>readme.xbyak.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>translator/tools/file_list_to_be_formatted.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>readme.xbyak.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>test/readme.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>readme.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>build.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>readme.xbyak.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>build.md</file></reporting>
       <license repo='fujitsu/xbyak_translator_aarch64' file='LICENSE' confidence='100'>Apache License 2.0</license>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='BinaryReporter'><file>translator/tests/qemu-aarch64</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='BinaryReporter'><file>test/state.pptx</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='BinaryReporter'><file>test/aarch64.log</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='BinaryReporter'><file>figures.pptx</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='BinaryReporter'><file>test/aarch64.log</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='BinaryReporter'><file>test/state.pptx</file></reporting>
     </reports>

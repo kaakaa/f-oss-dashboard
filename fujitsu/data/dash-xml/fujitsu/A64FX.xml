@@ -3,11 +3,11 @@
     <collaborators>
     </collaborators>
     <issues count='3'>
-      <issue id='577593136' number='1' user='ahori' state='open' created_at='2020-03-09 00:28:31 +0000' age='174' updated_at='2020-03-19 00:17:55 +0000' pull_request='false' comments='1'><title>A64FX_Microarchitecture_Manual_en_1.0.pdf Table 9-3</title>
+      <issue id='577593136' number='1' user='ahori' state='open' created_at='2020-03-09 00:28:31 +0000' age='181' updated_at='2020-03-19 00:17:55 +0000' pull_request='false' comments='1'><title>A64FX_Microarchitecture_Manual_en_1.0.pdf Table 9-3</title>
       </issue>
-      <issue id='577962459' number='2' user='yamaken1343' state='open' created_at='2020-03-09 14:47:26 +0000' age='173' updated_at='2020-03-19 00:30:32 +0000' pull_request='true' comments='1' prFileCount='1' prAdditions='2' prDeletions='2'><title>Fix address in license (Nahakara-ku -> Nakahara-ku)</title>
+      <issue id='577962459' number='2' user='yamaken1343' state='open' created_at='2020-03-09 14:47:26 +0000' age='180' updated_at='2020-03-19 00:30:32 +0000' pull_request='true' comments='1' prFileCount='1' prAdditions='2' prDeletions='2'><title>Fix address in license (Nahakara-ku -> Nakahara-ku)</title>
       </issue>
-      <issue id='579898222' number='3' user='grafi-tt' state='open' created_at='2020-03-12 12:16:06 +0000' age='171' updated_at='2020-03-19 00:22:29 +0000' pull_request='false' comments='1'><title>A64fx Microarchitecture Manual 1.0 Figure 13-2</title>
+      <issue id='579898222' number='3' user='grafi-tt' state='open' created_at='2020-03-12 12:16:06 +0000' age='178' updated_at='2020-03-19 00:22:29 +0000' pull_request='false' comments='1'><title>A64fx Microarchitecture Manual 1.0 Figure 13-2</title>
       </issue>
     </issues>
   <release-data>
@@ -18,12 +18,12 @@
       <reporting class='repo-report' repo='fujitsu/A64FX' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/A64FX' type='LicenseReporter'>No License File Found</reporting>
       <reporting class='repo-report' repo='fujitsu/A64FX' type='BinaryReporter'><file>doc/A64FX_Microarchitecture_Manual_jp_1.2.pdf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/A64FX' type='BinaryReporter'><file>doc/A64FX_PMU_v1.1.pdf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/A64FX' type='BinaryReporter'><file>doc/A64FX_Microarchitecture_Manual_en_1.0.pdf</file></reporting>
       <reporting class='repo-report' repo='fujitsu/A64FX' type='BinaryReporter'><file>doc/A64FX_Microarchitecture_Manual_en_1.1.pdf</file></reporting>
       <reporting class='repo-report' repo='fujitsu/A64FX' type='BinaryReporter'><file>doc/A64FX_Microarchitecture_Manual_jp_1.0.pdf</file></reporting>
       <reporting class='repo-report' repo='fujitsu/A64FX' type='BinaryReporter'><file>doc/A64FX_Microarchitecture_Manual_jp_1.1.pdf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/A64FX' type='BinaryReporter'><file>doc/A64FX_PMU_v1.1.pdf</file></reporting>
       <reporting class='repo-report' repo='fujitsu/A64FX' type='BinaryReporter'><file>doc/A64FX_PMU_Events_v1.2.pdf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/A64FX' type='BinaryReporter'><file>doc/A64FX_Microarchitecture_Manual_en_1.0.pdf</file></reporting>
       <reporting class='repo-report' repo='fujitsu/A64FX' type='BinaryReporter'><file>doc/A64FX_Microarchitecture_Manual_en_1.2.pdf</file></reporting>
     </reports>
     <reports org='fujitsu' name='A64FX'>
