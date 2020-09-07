@@ -11,10 +11,10 @@
     <reports org='Hitachi' name='openshift-docs'>
       <reporting class='repo-report' repo='Hitachi/openshift-docs' type='DocsReporter'><file>issue_template.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-docs' type='LicenseReporter'>No License File Found</reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-docs' type='BinaryReporter'><file>aura.tar.gz</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-docs' type='BinaryReporter'><file>release_notes/images/ose32-relnote-about-page.png</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-docs' type='BinaryReporter'><file>admin_guide/images/SDN.dia</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-docs' type='BinaryReporter'><file>aura.tar.gz</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-docs' type='BinaryReporter'><file>admin_guide/images/Topologies.dia</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-docs' type='BinaryReporter'><file>admin_guide/images/SDN.dia</file></reporting>
     </reports>
     <reports org='Hitachi' name='openshift-docs'>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/openshift-docs</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>

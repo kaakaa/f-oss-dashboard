@@ -1,6 +1,6 @@
     <reports org='hitachi-speech' name='EEND'>
-      <reporting class='repo-report' repo='hitachi-speech/EEND' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='hitachi-speech/EEND' type='DocsReporter'><file>egs/mini_librispeech/v1/RESULT.md</file></reporting>
+      <reporting class='repo-report' repo='hitachi-speech/EEND' type='DocsReporter'><file>README.md</file></reporting>
       <license repo='hitachi-speech/EEND' file='LICENSE' confidence='100'>MIT License</license>
       <reporting class='repo-report' repo='hitachi-speech/EEND' type='BinaryReporter'><file>egs/mini_librispeech/v1/musan_bgnoise.tar.gz</file></reporting>
     </reports>
