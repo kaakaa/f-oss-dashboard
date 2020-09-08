@@ -82,6 +82,6 @@
   <reporting class='repo-report' repo='nttcom/eclcli' type='WikiOnDbReporter'><field>2016-08-31 03:57:26 +0000</field><field>nttcom/eclcli</field><field>https://github.com/nttcom/eclcli/wiki</field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/eclcli</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' repo='nttcom/eclcli' type='AverageIssueCloseDbReporter'><field>nttcom/eclcli</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>2.0</field><field>0</field><field>6</field><field>14.5</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/eclcli' type='AveragePrCloseDbReporter'><field>nttcom/eclcli</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0.0</field><field>0</field><field>7</field><field>1.29</field><field>0</field><field>75</field><field>8.31</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/eclcli' type='AveragePrCloseDbReporter'><field>nttcom/eclcli</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>7</field><field>1.29</field><field>0</field><field>75</field><field>8.31</field><field>0</field></reporting>
     </reports>
   </repo>

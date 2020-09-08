@@ -1,18 +1,21 @@
-  <repo name='skyway-m-pipe-components' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='8' open_issue_count='0' open_pr_count='4' has_wiki='true' language='JavaScript' stars='1' watchers='9' forks='0' created_at='2019-01-19 04:03:55 +0000' updated_at='2019-08-08 06:06:10 +0000' pushed_at='2020-07-16 18:17:42 +0000' size='213' commit_count='13'>
+  <repo name='skyway-m-pipe-components' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='8' open_issue_count='0' open_pr_count='5' has_wiki='true' language='JavaScript' stars='1' watchers='9' forks='0' created_at='2019-01-19 04:03:55 +0000' updated_at='2019-08-08 06:06:10 +0000' pushed_at='2020-09-04 02:07:38 +0000' size='242' commit_count='13'>
     <description></description>
     <collaborators>
     </collaborators>
-    <issues count='4'>
-      <issue id='516485644' number='9' user='dependabot[bot]' state='open' created_at='2019-11-02 05:37:29 +0000' age='304' updated_at='2019-11-02 05:37:30 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='16' prDeletions='5'><title>Bump eslint-utils from 1.3.1 to 1.4.3</title>
+    <issues count='5'>
+      <issue id='516485644' number='9' user='dependabot[bot]' state='open' created_at='2019-11-02 05:37:29 +0000' age='311' updated_at='2019-11-02 05:37:30 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='16' prDeletions='5'><title>Bump eslint-utils from 1.3.1 to 1.4.3</title>
         <label url="https://api.github.com/repos/nttcom/skyway-m-pipe-components/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='580976851' number='10' user='dependabot[bot]' state='open' created_at='2020-03-14 01:36:00 +0000' age='171' updated_at='2020-03-14 01:36:01 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='4' prDeletions='4'><title>Bump acorn from 6.1.0 to 6.4.1</title>
+      <issue id='580976851' number='10' user='dependabot[bot]' state='open' created_at='2020-03-14 01:36:00 +0000' age='178' updated_at='2020-03-14 01:36:01 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='4' prDeletions='4'><title>Bump acorn from 6.1.0 to 6.4.1</title>
         <label url="https://api.github.com/repos/nttcom/skyway-m-pipe-components/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='600972620' number='11' user='dependabot[bot]' state='open' created_at='2020-04-16 11:35:44 +0000' age='138' updated_at='2020-04-16 11:35:45 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='15' prDeletions='13'><title>Bump https-proxy-agent from 2.2.1 to 2.2.4</title>
+      <issue id='600972620' number='11' user='dependabot[bot]' state='open' created_at='2020-04-16 11:35:44 +0000' age='145' updated_at='2020-04-16 11:35:45 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='15' prDeletions='13'><title>Bump https-proxy-agent from 2.2.1 to 2.2.4</title>
         <label url="https://api.github.com/repos/nttcom/skyway-m-pipe-components/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='658439022' number='12' user='dependabot[bot]' state='open' created_at='2020-07-16 18:17:41 +0000' age='46' updated_at='2020-07-16 18:17:42 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='4' prDeletions='4'><title>Bump lodash from 4.17.11 to 4.17.19</title>
+      <issue id='658439022' number='12' user='dependabot[bot]' state='open' created_at='2020-07-16 18:17:41 +0000' age='53' updated_at='2020-07-16 18:17:42 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='4' prDeletions='4'><title>Bump lodash from 4.17.11 to 4.17.19</title>
+        <label url="https://api.github.com/repos/nttcom/skyway-m-pipe-components/labels/dependencies" color='0366d6'>dependencies</label>
+      </issue>
+      <issue id='692605001' number='13' user='dependabot[bot]' state='open' created_at='2020-09-04 02:07:38 +0000' age='4' updated_at='2020-09-04 02:07:39 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='4' prDeletions='4'><title>Bump lodash.merge from 4.6.1 to 4.6.2</title>
         <label url="https://api.github.com/repos/nttcom/skyway-m-pipe-components/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
@@ -31,8 +34,9 @@
   <reporting class='issue-report' repo='nttcom/skyway-m-pipe-components' type='NoPrCommentsDbReporter'><field>2020-03-14 01:36:00 +0000</field><field>https://github.com/nttcom/skyway-m-pipe-components/pull/10</field><field>Bump acorn from 6.1.0 to 6.4.1</field><field></field></reporting>
   <reporting class='issue-report' repo='nttcom/skyway-m-pipe-components' type='NoPrCommentsDbReporter'><field>2020-04-16 11:35:44 +0000</field><field>https://github.com/nttcom/skyway-m-pipe-components/pull/11</field><field>Bump https-proxy-agent from 2.2.1 to 2.2.4</field><field></field></reporting>
   <reporting class='issue-report' repo='nttcom/skyway-m-pipe-components' type='NoPrCommentsDbReporter'><field>2020-07-16 18:17:41 +0000</field><field>https://github.com/nttcom/skyway-m-pipe-components/pull/12</field><field>Bump lodash from 4.17.11 to 4.17.19</field><field></field></reporting>
+  <reporting class='issue-report' repo='nttcom/skyway-m-pipe-components' type='NoPrCommentsDbReporter'><field>2020-09-04 02:07:38 +0000</field><field>https://github.com/nttcom/skyway-m-pipe-components/pull/13</field><field>Bump lodash.merge from 4.6.1 to 4.6.2</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/skyway-m-pipe-components</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>4</field></reporting>  <reporting class='issue-report' repo='nttcom/skyway-m-pipe-components' type='AverageIssueCloseDbReporter'><field>nttcom/skyway-m-pipe-components</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/skyway-m-pipe-components' type='AveragePrCloseDbReporter'><field>nttcom/skyway-m-pipe-components</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>4</field><field>8</field><field>8.63</field><field>4</field></reporting>
+  <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>5</field></reporting>  <reporting class='issue-report' repo='nttcom/skyway-m-pipe-components' type='AverageIssueCloseDbReporter'><field>nttcom/skyway-m-pipe-components</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/skyway-m-pipe-components' type='AveragePrCloseDbReporter'><field>nttcom/skyway-m-pipe-components</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>2</field><field>0</field><field>0</field><field>5</field><field>8</field><field>8.63</field><field>5</field></reporting>
     </reports>
   </repo>

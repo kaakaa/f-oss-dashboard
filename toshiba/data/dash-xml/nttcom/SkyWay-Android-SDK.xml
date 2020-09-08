@@ -3,17 +3,17 @@
     <collaborators>
     </collaborators>
     <issues count='6'>
-      <issue id='199784150' number='6' user='poovarasanvasudevan' state='open' created_at='2017-01-10 10:27:56 +0000' age='1330' updated_at='2017-01-11 01:28:20 +0000' pull_request='false' comments='1'><title>Use Local Peer Server</title>
+      <issue id='199784150' number='6' user='poovarasanvasudevan' state='open' created_at='2017-01-10 10:27:56 +0000' age='1337' updated_at='2017-01-11 01:28:20 +0000' pull_request='false' comments='1'><title>Use Local Peer Server</title>
       </issue>
-      <issue id='200001043' number='7' user='MrNinja' state='open' created_at='2017-01-11 04:29:50 +0000' age='1329' updated_at='2017-05-22 04:59:42 +0000' pull_request='false' comments='0'><title>Crash application when close mediastream during remote accept phone call.</title>
+      <issue id='200001043' number='7' user='MrNinja' state='open' created_at='2017-01-11 04:29:50 +0000' age='1336' updated_at='2017-05-22 04:59:42 +0000' pull_request='false' comments='0'><title>Crash application when close mediastream during remote accept phone call.</title>
       </issue>
-      <issue id='223610601' number='10' user='hoangchuongmozart' state='open' created_at='2017-04-23 03:55:21 +0000' age='1227' updated_at='2017-04-23 03:55:21 +0000' pull_request='false' comments='0'><title>Canvas rotation error, black screen</title>
+      <issue id='223610601' number='10' user='hoangchuongmozart' state='open' created_at='2017-04-23 03:55:21 +0000' age='1234' updated_at='2017-04-23 03:55:21 +0000' pull_request='false' comments='0'><title>Canvas rotation error, black screen</title>
       </issue>
-      <issue id='225338901' number='11' user='tuancoltech' state='open' created_at='2017-04-30 16:47:39 +0000' age='1219' updated_at='2017-04-30 16:47:39 +0000' pull_request='false' comments='0'><title>Old version of Gson jar inside SDK</title>
+      <issue id='225338901' number='11' user='tuancoltech' state='open' created_at='2017-04-30 16:47:39 +0000' age='1226' updated_at='2017-04-30 16:47:39 +0000' pull_request='false' comments='0'><title>Old version of Gson jar inside SDK</title>
       </issue>
-      <issue id='230289004' number='12' user='MrNinja' state='open' created_at='2017-05-22 05:35:07 +0000' age='1198' updated_at='2017-07-10 08:01:29 +0000' pull_request='false' comments='1'><title>How to reconnect to Skyway server?</title>
+      <issue id='230289004' number='12' user='MrNinja' state='open' created_at='2017-05-22 05:35:07 +0000' age='1205' updated_at='2017-07-10 08:01:29 +0000' pull_request='false' comments='1'><title>How to reconnect to Skyway server?</title>
       </issue>
-      <issue id='230289696' number='13' user='MrNinja' state='open' created_at='2017-05-22 05:41:28 +0000' age='1198' updated_at='2017-05-25 02:40:16 +0000' pull_request='false' comments='2'><title>Request to disable Skyway SDK log</title>
+      <issue id='230289696' number='13' user='MrNinja' state='open' created_at='2017-05-22 05:41:28 +0000' age='1205' updated_at='2017-05-25 02:40:16 +0000' pull_request='false' comments='2'><title>Request to disable Skyway SDK log</title>
       </issue>
     </issues>
   <release-data>
