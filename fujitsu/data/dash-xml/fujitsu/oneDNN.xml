@@ -1,9 +1,9 @@
-  <repo name='oneDNN' org='fujitsu' homepage='https://01.org/oneDNN' private='false' fork='true' closed_issue_count='0' closed_pr_count='12' open_issue_count='0' open_pr_count='1' has_wiki='false' language='C++' stars='2' watchers='3' forks='7' created_at='2020-08-03 13:14:56 +0000' updated_at='2020-08-31 06:03:16 +0000' pushed_at='2020-09-04 03:43:50 +0000' size='162103' commit_count='87'>
+  <repo name='oneDNN' org='fujitsu' homepage='https://01.org/oneDNN' private='false' fork='true' closed_issue_count='0' closed_pr_count='23' open_issue_count='0' open_pr_count='1' has_wiki='false' language='C++' stars='2' watchers='3' forks='9' created_at='2020-08-03 13:14:56 +0000' updated_at='2020-09-17 08:17:07 +0000' pushed_at='2020-09-17 08:17:04 +0000' size='162582' commit_count='363'>
     <description>oneAPI Deep Neural Network Library (oneDNN)</description>
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='690820107' number='13' user='Takumi-Honda' state='open' created_at='2020-09-02 08:19:32 +0000' age='4' updated_at='2020-09-04 02:05:19 +0000' pull_request='true' comments='1' prFileCount='14' prAdditions='2825' prDeletions='653'><title>Add dw_conv for aarch64 and fix a barrier bug with 1x1 conv</title>
+      <issue id='703347028' number='24' user='guol-fnst' state='open' created_at='2020-09-17 07:37:48 +0000' age='3' updated_at='2020-09-17 07:37:56 +0000' pull_request='true' comments='0' prFileCount='39' prAdditions='9014' prDeletions='3'><title>Porting low priority files</title>
       </issue>
     </issues>
   <release-data>
@@ -11,232 +11,233 @@
   <traffic-data>
   </traffic-data>
     <reports org='fujitsu' name='oneDNN'>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/CMakeLists.txt</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/common/CMakeLists.txt</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/cpu/x64/CMakeLists.txt</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/cpu/CMakeLists.txt</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/cpu/aarch64/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/gpu/jit/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/gpu/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/gpu/ocl/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/gpu/compute/CMakeLists.txt</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/gpu/jit/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/cpu/x64/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/cpu/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/cpu/aarch64/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/common/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>CMakeLists.txt</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/OFL.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>examples/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/OFL.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/noexcept/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/other/subproject/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/mkldnn_compat/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/mkldnn_compat/examples/CMakeLists.txt</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/gtests/api/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/gtests/gtest/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/gtests/internals/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/gtests/CMakeLists.txt</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/gtests/ocl/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/gtests/ocl/api/CMakeLists.txt</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/gtests/gtest/CMakeLists.txt</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/gtests/api/CMakeLists.txt</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/other/subproject/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/gtests/ocl/CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>.github/ISSUE_TEMPLATE/feature_request.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>.github/ISSUE_TEMPLATE/question.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>.github/ISSUE_TEMPLATE/bug_report.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>.github/ISSUE_TEMPLATE/documentation.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>.github/pull_request_template.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/cpu/x64/jit_utils/linux_perf/README.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/cpu/x64/jit_utils/jitprofiling/README.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/cpu/README.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>CONTRIBUTING.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>CODE_OF_CONDUCT.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/examples.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/api.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/basic_concepts.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/inference_and_training_aspects.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/attributes_post_ops.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/attributes.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/attributes_scratchpad.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/data_types.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/attributes_quantization.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/transition-to-dnnl.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/transition-to-v1.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/threadpool.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/opencl_interoperability.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/design/understanding_memory_formats.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/int8_computations.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/primitive_cache.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/vtune.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/perf_settings.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/dispatcher_control.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/profilers.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/inspecting_jit.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/benchdnn.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/verbose.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/naming_conventions.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/concat.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/softmax.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/eltwise.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/convolution.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/inner_product.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/rnn.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/reorder.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/matmul.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/shuffle.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/resampling.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/sum.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/batch_normalization.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/lrn.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/logsoftmax.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/layer_normalization.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/pooling.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/binary.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/mainpage.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/naming_conventions.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/usage_models/inference.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/usage_models/training_bf16.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/usage_models/training.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/usage_models/inference_int8.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/legal_information.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/build/link.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/build/build_options.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/rnn.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/batch_normalization.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/shuffle.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/binary.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/reorder.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/resampling.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/eltwise.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/softmax.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/pooling.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/inner_product.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/matmul.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/lrn.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/layer_normalization.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/logsoftmax.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/convolution.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/concat.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/primitives/sum.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/build/build.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>README.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>CODE_OF_CONDUCT.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_attr.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_matmul.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_perf_report.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_pool.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_concat.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_sum.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_desc.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_common.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_verbose.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_rnn.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_reorder.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_shuffle.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/benchdnn_input_files_naming_convention.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_binary.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_bnorm.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_softmax.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_dir.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_dt.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_ip.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_tag.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_resampling.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_eltwise.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_lnorm.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_conv.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_lrn.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/benchdnn_general_info.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/build/build_options.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/build/link.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/dispatcher_control.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/benchdnn.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/verbose.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/perf_settings.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/vtune.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/profilers.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/performance_considerations/inspecting_jit.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/attributes_quantization.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/data_types.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/inference_and_training_aspects.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/attributes.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/api.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/basic_concepts.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/attributes_scratchpad.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/programming_model/attributes_post_ops.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/design/understanding_memory_formats.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/primitive_cache.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/transition-to-dnnl.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/opencl_interoperability.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/int8_computations.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/threadpool.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/advanced/transition-to-v1.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/README.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_ip.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_bnorm.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_matmul.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_pool.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_attr.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_perf_report.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_conv.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_softmax.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_eltwise.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_desc.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_shuffle.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_dt.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_sum.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_verbose.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_common.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_rnn.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_resampling.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_lnorm.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/benchdnn_general_info.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_tag.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_binary.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/knobs_dir.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/benchdnn_input_files_naming_convention.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_reorder.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_lrn.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/benchdnn/doc/driver_concat.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/gtests/gtest/internal/custom/README.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>CONTRIBUTING.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>.github/ISSUE_TEMPLATE/documentation.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>.github/ISSUE_TEMPLATE/feature_request.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>.github/ISSUE_TEMPLATE/question.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>.github/ISSUE_TEMPLATE/bug_report.md</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>.github/pull_request_template.md</file></reporting>
       <license repo='fujitsu/oneDNN' file='LICENSE' confidence='100'>Apache License 2.0</license>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Normal-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Size3-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Size2-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Fraktur-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Arrows-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Size4-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Monospace-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Size1-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Misc-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Main-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Shapes-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Script-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Size5-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_DoubleStruck-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Operators-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Size6-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Alphabets-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Symbols-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_SansSerif-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Marks-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_NonUnicode-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Variants-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Latin-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Size4-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Marks-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Operators-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Variants-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Size3-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Symbols-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_SansSerif-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Alphabets-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Size6-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Arrows-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Size5-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Script-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_NonUnicode-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Size2-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Size1-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Main-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Shapes-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_DoubleStruck-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Monospace-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Fraktur-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Normal-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Latin-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Misc-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_WinChrome-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Italic.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Bold.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_WinIE6-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Bold.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-BoldItalic.otf</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Bold.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Script-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Math-BoldItalic.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Bold.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Bold.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Vector-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Math-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Typewriter-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Italic.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Vector-Bold.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-normal-italic.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/Roboto-Slab-Bold.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/fontawesome-webfont.eot</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/fontawesome-webfont.woff</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-bold-italic.woff2</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-normal-italic.woff2</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-normal.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/fontawesome-webfont.woff2</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/Roboto-Slab-Bold.woff2</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-normal.woff2</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/Roboto-Slab-Regular.woff2</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-bold.woff</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-bold-italic.woff</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/Roboto-Slab-Regular.woff</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-bold.woff2</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-normal.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-bold.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-bold-italic.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/Roboto-Slab-Bold.woff2</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/fontawesome-webfont.eot</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/Roboto-Slab-Bold.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/fontawesome-webfont.woff</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/fontawesome-webfont.ttf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-normal-italic.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-normal.woff2</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/lato-normal-italic.woff2</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/Roboto-Slab-Regular.woff2</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/fonts/fontawesome-webfont.woff2</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Arrows-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Size5-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Marks-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_DoubleStruck-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_SansSerif-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Normal-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_NonUnicode-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Size4-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Script-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Alphabets-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Operators-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Size3-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Size1-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Misc-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Size2-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Main-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Fraktur-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Variants-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Shapes-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Monospace-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Symbols-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Size6-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/woff/AsanaMathJax_Latin-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Operators-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Alphabets-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Size6-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Arrows-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Latin-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Variants-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Size2-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Size1-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_SansSerif-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_DoubleStruck-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Fraktur-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Marks-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Shapes-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Size5-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Main-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Size4-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Size3-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Normal-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Misc-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_NonUnicode-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Symbols-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Monospace-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/otf/AsanaMathJax_Script-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Typewriter-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Math-BoldItalic.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Vector-Bold.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Vector-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Bold.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Italic.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Script-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Bold.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Bold.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Math-Regular.woff</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Italic.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Bold.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_WinChrome-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Bold.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_WinIE6-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-BoldItalic.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf</file></reporting>
     </reports>
     <reports org='fujitsu' name='oneDNN'>
+  <reporting class='issue-report' repo='fujitsu/oneDNN' type='NoPrCommentsDbReporter'><field>2020-09-17 07:37:48 +0000</field><field>https://github.com/fujitsu/oneDNN/pull/24</field><field>Porting low priority files</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/oneDNN</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' repo='fujitsu/oneDNN' type='AverageIssueCloseDbReporter'><field>fujitsu/oneDNN</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/oneDNN' type='AveragePrCloseDbReporter'><field>fujitsu/oneDNN</field><field>12</field><field>0.08</field><field>1</field><field>12</field><field>0.08</field><field>1</field><field>12</field><field>0.08</field><field>1</field><field>12</field><field>0.08</field><field>1</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/oneDNN' type='AveragePrCloseDbReporter'><field>fujitsu/oneDNN</field><field>22</field><field>0.41</field><field>1</field><field>23</field><field>0.43</field><field>1</field><field>23</field><field>0.43</field><field>1</field><field>23</field><field>0.43</field><field>1</field></reporting>
     </reports>
   </repo>
