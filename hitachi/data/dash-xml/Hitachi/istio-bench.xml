@@ -15,16 +15,16 @@
       <reporting class='repo-report' repo='Hitachi/istio-bench' type='DocsReporter'><file>requirements.txt</file></reporting>
       <reporting class='repo-report' repo='Hitachi/istio-bench' type='DocsReporter'><file>template/report_without_chart.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/istio-bench' type='DocsReporter'><file>template/report.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/istio-bench' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/istio-bench' type='DocsReporter'><file>output_sample/report.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/istio-bench' type='DocsReporter'><file>README.md</file></reporting>
       <license repo='Hitachi/istio-bench' file='LICENSE' confidence='100'>Apache License 2.0</license>
-      <reporting class='repo-report' repo='Hitachi/istio-bench' type='BinaryReporter'><file>libs/__init__.py</file></reporting>
       <reporting class='repo-report' repo='Hitachi/istio-bench' type='BinaryReporter'><file>test/__init__.py</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/istio-bench' type='BinaryReporter'><file>libs/__init__.py</file></reporting>
     </reports>
     <reports org='Hitachi' name='istio-bench'>
   <reporting class='repo-report' repo='Hitachi/istio-bench' type='WikiOnDbReporter'><field>2020-03-04 08:15:30 +0000</field><field>Hitachi/istio-bench</field><field>https://github.com/Hitachi/istio-bench/wiki</field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/istio-bench</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' repo='Hitachi/istio-bench' type='AverageIssueCloseDbReporter'><field>Hitachi/istio-bench</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='Hitachi/istio-bench' type='AveragePrCloseDbReporter'><field>Hitachi/istio-bench</field><field>0</field><field>0</field><field>0</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/istio-bench' type='AveragePrCloseDbReporter'><field>Hitachi/istio-bench</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field></reporting>
     </reports>
   </repo>

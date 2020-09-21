@@ -1,5 +1,5 @@
     <reports org='Hitachi' name='selinux-te-lookup'>
-      <reporting class='repo-report' repo='Hitachi/selinux-te-lookup' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/selinux-te-lookup' type='DocsReporter'><file>README_en.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/selinux-te-lookup' type='DocsReporter'><file>README.md</file></reporting>
       <license repo='Hitachi/selinux-te-lookup' file='LICENSE' confidence='100.0'>MIT License</license>
     </reports>

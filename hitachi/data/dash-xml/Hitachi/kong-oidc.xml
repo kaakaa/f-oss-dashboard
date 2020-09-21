@@ -9,8 +9,8 @@
   <traffic-data>
   </traffic-data>
     <reports org='Hitachi' name='kong-oidc'>
-      <reporting class='repo-report' repo='Hitachi/kong-oidc' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/kong-oidc' type='DocsReporter'><file>.github/ ISSUE_TEMPLATE.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/kong-oidc' type='DocsReporter'><file>README.md</file></reporting>
       <license repo='Hitachi/kong-oidc' file='LICENSE' confidence='100'>Apache License 2.0</license>
     </reports>
     <reports org='Hitachi' name='kong-oidc'>

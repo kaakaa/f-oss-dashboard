@@ -2,25 +2,25 @@
       <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='DocsReporter'><file>internal_resources/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='LicenseReporter'>No License File Found</reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>openshift/docinfo-footer.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>openshift/docinfo.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>upgrading/docinfo-footer.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>upgrading/docinfo.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>release_notes/docinfo-footer.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>release_notes/docinfo.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>openshift-openj9/docinfo-footer.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>openshift-openj9/docinfo.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>openshift-openj9/topics.adoc</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>server_development/docinfo-footer.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>server_development/docinfo.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>server_installation/docinfo-footer.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>server_installation/docinfo.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>getting_started/docinfo-footer.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>getting_started/docinfo.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>authorization_services/docinfo-footer.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>authorization_services/docinfo.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>server_admin/docinfo-footer.html</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>server_admin/docinfo.html</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>securing_apps/docinfo-footer.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>server_admin/docinfo-footer.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>openshift-openj9/topics.adoc</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>openshift-openj9/docinfo.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>openshift-openj9/docinfo-footer.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>getting_started/docinfo.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>getting_started/docinfo-footer.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>authorization_services/docinfo.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>authorization_services/docinfo-footer.html</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>securing_apps/docinfo.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>securing_apps/docinfo-footer.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>release_notes/docinfo.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>release_notes/docinfo-footer.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>openshift/docinfo.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>openshift/docinfo-footer.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>upgrading/docinfo.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>upgrading/docinfo-footer.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>server_development/docinfo.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>server_development/docinfo-footer.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>server_installation/docinfo.html</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-documentation' type='BinaryReporter'><file>server_installation/docinfo-footer.html</file></reporting>
     </reports>
