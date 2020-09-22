@@ -18,8 +18,8 @@
       <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>demo_app_manual_ja.pdf</file></reporting>
       <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/public/favicon.ico</file></reporting>
       <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/config/settings/development.yml</file></reporting>
-      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/config/settings/test.yml</file></reporting>
       <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/config/settings/staging.yml</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/config/settings/test.yml</file></reporting>
     </reports>
     <reports org='nttcom' name='apigw-sample-app'>
   <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='WikiOnDbReporter'><field>2015-06-11 06:36:38 +0000</field><field>nttcom/apigw-sample-app</field><field>https://github.com/nttcom/apigw-sample-app/wiki</field></reporting>

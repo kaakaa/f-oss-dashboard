@@ -1,38 +1,38 @@
     <reports org='nttcom' name='2019-sw-training'>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/application/backend/requirements.txt</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/application/bench/gatling-charts-highcharts-bundle-2.3.0/bin/.msg_failure.txt</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/application/bench/gatling-charts-highcharts-bundle-2.3.0/bin/.msg_success.txt</file></reporting>
       <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>iaas/application/requirements.txt</file></reporting>
       <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>caas/application/app/backend/src/requirements.txt</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/application/backend/requirements.txt</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/application/bench/gatling-charts-highcharts-bundle-2.3.0/bin/.msg_success.txt</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/application/bench/gatling-charts-highcharts-bundle-2.3.0/bin/.msg_failure.txt</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>iaas/infrastructure/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>iaas/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>caas/application/app/mysql/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>caas/application/app/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>caas/application/app/backend/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>caas/application/sample/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>caas/README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/docs/webconsole.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/docs/sls.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/docs/challenge.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/docs/app_intro.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/examples.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/agenda.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/handson_challenge.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/handson_intro.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/lecture_faas.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/intro.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/handson_sls.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/closing.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/theme.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/handson_web.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/PITCHME.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/application/backend/rf/README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/application/backend/README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/application/bench/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/examples.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/lecture_faas.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/agenda.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/handson_challenge.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/intro.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/handson_intro.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/handson_sls.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/handson_web.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/closing.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/slides/theme.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/docs/sls.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/docs/webconsole.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/docs/challenge.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/docs/app_intro.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>faas/presentation/PITCHME.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>iaas/infrastructure/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>iaas/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>caas/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>caas/application/sample/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>caas/application/app/backend/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>caas/application/app/mysql/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='DocsReporter'><file>caas/application/app/README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/2019-sw-training' type='LicenseReporter'>No License File Found</reporting>
-      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='BinaryReporter'><file>faas/application/backend/tests/__init__.py</file></reporting>
       <reporting class='repo-report' repo='nttcom/2019-sw-training' type='BinaryReporter'><file>faas/presentation/assets/diagrams.pptx</file></reporting>
+      <reporting class='repo-report' repo='nttcom/2019-sw-training' type='BinaryReporter'><file>faas/application/backend/tests/__init__.py</file></reporting>
     </reports>

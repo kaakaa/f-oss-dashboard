@@ -3,19 +3,19 @@
     <collaborators>
     </collaborators>
     <issues count='7'>
-      <issue id='124031840' number='7' user='sakkuru' state='open' created_at='2015-12-28 07:55:34 +0000' age='1716' updated_at='2016-03-03 10:26:40 +0000' pull_request='true' comments='1' prFileCount='3' prAdditions='105' prDeletions='51'><title>add code to use SkyWay plugin</title>
+      <issue id='111087704' number='2' user='yusuke84' state='open' created_at='2015-10-13 01:55:20 +0000' age='1806' updated_at='2015-10-30 01:30:27 +0000' pull_request='false' comments='1'><title>画面共有についての不具合（だと思われる）</title>
       </issue>
-      <issue id='111087704' number='2' user='yusuke84' state='open' created_at='2015-10-13 01:55:20 +0000' age='1792' updated_at='2015-10-30 01:30:27 +0000' pull_request='false' comments='1'><title>画面共有についての不具合（だと思われる）</title>
+      <issue id='124031840' number='7' user='sakkuru' state='open' created_at='2015-12-28 07:55:34 +0000' age='1730' updated_at='2016-03-03 10:26:40 +0000' pull_request='true' comments='1' prFileCount='3' prAdditions='105' prDeletions='51'><title>add code to use SkyWay plugin</title>
       </issue>
-      <issue id='138894425' number='13' user='yusuke84' state='open' created_at='2016-03-07 05:49:15 +0000' age='1646' updated_at='2016-03-07 05:49:15 +0000' pull_request='false' comments='0'><title>ミュート処理部分の改良</title>
+      <issue id='138894425' number='13' user='yusuke84' state='open' created_at='2016-03-07 05:49:15 +0000' age='1660' updated_at='2016-03-07 05:49:15 +0000' pull_request='false' comments='0'><title>ミュート処理部分の改良</title>
       </issue>
-      <issue id='151207243' number='17' user='KensakuKOMATSU' state='open' created_at='2016-04-26 18:31:35 +0000' age='1595' updated_at='2016-04-26 21:29:34 +0000' pull_request='false' comments='10'><title>multiparty-sample.html does not work</title>
+      <issue id='151207243' number='17' user='KensakuKOMATSU' state='open' created_at='2016-04-26 18:31:35 +0000' age='1609' updated_at='2016-04-26 21:29:34 +0000' pull_request='false' comments='10'><title>multiparty-sample.html does not work</title>
       </issue>
-      <issue id='152918959' number='20' user='KensakuKOMATSU' state='open' created_at='2016-05-04 02:48:37 +0000' age='1588' updated_at='2016-05-04 02:48:37 +0000' pull_request='false' comments='0'><title>has dependency of jquery</title>
+      <issue id='152918959' number='20' user='KensakuKOMATSU' state='open' created_at='2016-05-04 02:48:37 +0000' age='1602' updated_at='2016-05-04 02:48:37 +0000' pull_request='false' comments='0'><title>has dependency of jquery</title>
       </issue>
-      <issue id='153505126' number='21' user='KensakuKOMATSU' state='open' created_at='2016-05-06 17:56:26 +0000' age='1585' updated_at='2016-05-06 18:24:54 +0000' pull_request='false' comments='2'><title>create interface to change video parameter</title>
+      <issue id='153505126' number='21' user='KensakuKOMATSU' state='open' created_at='2016-05-06 17:56:26 +0000' age='1599' updated_at='2016-05-06 18:24:54 +0000' pull_request='false' comments='2'><title>create interface to change video parameter</title>
       </issue>
-      <issue id='159558236' number='22' user='alanmshelly' state='open' created_at='2016-06-10 04:49:43 +0000' age='1551' updated_at='2016-06-10 04:49:48 +0000' pull_request='false' comments='0'><title>Handle screenshare onEnded events</title>
+      <issue id='159558236' number='22' user='alanmshelly' state='open' created_at='2016-06-10 04:49:43 +0000' age='1565' updated_at='2016-06-10 04:49:48 +0000' pull_request='false' comments='0'><title>Handle screenshare onEnded events</title>
         <label url="https://api.github.com/repos/nttcom/SkyWay-MultiParty/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
     </issues>
