@@ -1,4 +1,5 @@
     <reports org='fujitsu' name='oneDNN'>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>CCLA.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/gpu/jit/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/gpu/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/gpu/ocl/CMakeLists.txt</file></reporting>
@@ -9,6 +10,7 @@
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/cpu/aarch64/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/common/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>ICLA.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>examples/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/OFL.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/noexcept/CMakeLists.txt</file></reporting>

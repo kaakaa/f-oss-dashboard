@@ -1,6 +1,8 @@
     <reports org='fujitsu' name='dnnl_aarch64'>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>CCLA.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>src/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>ICLA.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>examples/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>tools/regression.list.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>tests/other/subproject/CMakeLists.txt</file></reporting>

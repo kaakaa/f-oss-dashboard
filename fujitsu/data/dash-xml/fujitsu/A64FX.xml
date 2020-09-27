@@ -1,13 +1,13 @@
-  <repo name='A64FX' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='3' closed_pr_count='0' open_issue_count='2' open_pr_count='1' has_wiki='true' language='' stars='323' watchers='22' forks='17' created_at='2020-03-04 06:43:55 +0000' updated_at='2020-09-16 01:00:24 +0000' pushed_at='2020-07-31 06:24:48 +0000' size='25601' commit_count='10'>
+  <repo name='A64FX' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='3' closed_pr_count='0' open_issue_count='2' open_pr_count='1' has_wiki='true' language='' stars='324' watchers='22' forks='17' created_at='2020-03-04 06:43:55 +0000' updated_at='2020-09-23 09:06:33 +0000' pushed_at='2020-07-31 06:24:48 +0000' size='25601' commit_count='10'>
     <description></description>
     <collaborators>
     </collaborators>
     <issues count='3'>
-      <issue id='577593136' number='1' user='ahori' state='open' created_at='2020-03-09 00:28:31 +0000' age='195' updated_at='2020-03-19 00:17:55 +0000' pull_request='false' comments='1'><title>A64FX_Microarchitecture_Manual_en_1.0.pdf Table 9-3</title>
+      <issue id='577593136' number='1' user='ahori' state='open' created_at='2020-03-09 00:28:31 +0000' age='202' updated_at='2020-03-19 00:17:55 +0000' pull_request='false' comments='1'><title>A64FX_Microarchitecture_Manual_en_1.0.pdf Table 9-3</title>
       </issue>
-      <issue id='577962459' number='2' user='yamaken1343' state='open' created_at='2020-03-09 14:47:26 +0000' age='194' updated_at='2020-03-19 00:30:32 +0000' pull_request='true' comments='1' prFileCount='1' prAdditions='2' prDeletions='2'><title>Fix address in license (Nahakara-ku -> Nakahara-ku)</title>
+      <issue id='577962459' number='2' user='yamaken1343' state='open' created_at='2020-03-09 14:47:26 +0000' age='201' updated_at='2020-03-19 00:30:32 +0000' pull_request='true' comments='1' prFileCount='1' prAdditions='2' prDeletions='2'><title>Fix address in license (Nahakara-ku -> Nakahara-ku)</title>
       </issue>
-      <issue id='579898222' number='3' user='grafi-tt' state='open' created_at='2020-03-12 12:16:06 +0000' age='192' updated_at='2020-03-19 00:22:29 +0000' pull_request='false' comments='1'><title>A64fx Microarchitecture Manual 1.0 Figure 13-2</title>
+      <issue id='579898222' number='3' user='grafi-tt' state='open' created_at='2020-03-12 12:16:06 +0000' age='199' updated_at='2020-03-19 00:22:29 +0000' pull_request='false' comments='1'><title>A64fx Microarchitecture Manual 1.0 Figure 13-2</title>
       </issue>
     </issues>
   <release-data>
@@ -29,7 +29,7 @@
     <reports org='fujitsu' name='A64FX'>
   <reporting class='repo-report' repo='fujitsu/A64FX' type='WikiOnDbReporter'><field>2020-03-04 06:43:55 +0000</field><field>fujitsu/A64FX</field><field>https://github.com/fujitsu/A64FX/wiki</field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/A64FX</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/A64FX' type='AverageIssueCloseDbReporter'><field>fujitsu/A64FX</field><field>0</field><field>0</field><field>0</field><field>1</field><field>2.0</field><field>0</field><field>1</field><field>2.0</field><field>2</field><field>1</field><field>2.0</field><field>2</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/A64FX' type='AverageIssueCloseDbReporter'><field>fujitsu/A64FX</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>2.0</field><field>2</field><field>1</field><field>2.0</field><field>2</field></reporting>
   <reporting class='issue-report' repo='fujitsu/A64FX' type='AveragePrCloseDbReporter'><field>fujitsu/A64FX</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field></reporting>
     </reports>
   </repo>

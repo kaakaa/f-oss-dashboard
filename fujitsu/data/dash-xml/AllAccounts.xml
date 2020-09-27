@@ -25,7 +25,7 @@
     <report key='AverageIssueCloseDbReporter' name='Average Issue Close Time'><description>This report shows the average time each repo takes to close issues</description><column-type type='org/repo'>Repo</column-type><column-type type='text'>&lt;1 month: Closed</column-type><column-type type='text'>&lt;1 month: MTTR</column-type><column-type type='text'>&lt;1 month: Still Open</column-type><column-type type='text'>&lt;1 quarter: Closed</column-type><column-type type='text'>&lt;1 quarter: MTTR</column-type><column-type type='text'>&lt;1 quarter: Still Open</column-type><column-type type='text'>&lt;1 year: Closed</column-type><column-type type='text'>&lt;1 year: MTTR</column-type><column-type type='text'>&lt;1 year: Still Open</column-type><column-type type='text'>All time: Closed</column-type><column-type type='text'>All time: MTTR</column-type><column-type type='text'>All time: Still Open</column-type></report>
     <report key='AveragePrCloseDbReporter' name='Average Pull Request Close Time'><description>This report shows the average time each repo takes to close pull requests</description><column-type type='org/repo'>Repo</column-type><column-type type='text'>&lt;1 month: Closed</column-type><column-type type='text'>&lt;1 month: MTTR</column-type><column-type type='text'>&lt;1 month: Still Open</column-type><column-type type='text'>&lt;1 quarter: Closed</column-type><column-type type='text'>&lt;1 quarter: MTTR</column-type><column-type type='text'>&lt;1 quarter: Still Open</column-type><column-type type='text'>&lt;1 year: Closed</column-type><column-type type='text'>&lt;1 year: MTTR</column-type><column-type type='text'>&lt;1 year: Still Open</column-type><column-type type='text'>All time: Closed</column-type><column-type type='text'>All time: MTTR</column-type><column-type type='text'>All time: Still Open</column-type></report>
   </issue-reports>
-  <run-metrics refreshTime='2020-09-20T00:32:54+00:00' generationTime='2020-09-20T00:41:36+00:00' startRateLimit='5000' endRateLimit='3803' usedRateLimit='1197'/>
+  <run-metrics refreshTime='2020-09-27T00:34:20+00:00' generationTime='2020-09-27T00:43:37+00:00' startRateLimit='5000' endRateLimit='3753' usedRateLimit='1247'/>
  </metadata>
  <organization name='fujitsu' avatar='https://avatars3.githubusercontent.com/u/32008681?v=4' type='organization'>
   <url>http://www.fujitsu.com</url>
@@ -39,7 +39,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='551899401' number='7' user='QiAnXinCodeSafe' state='open' created_at='2020-01-19 10:17:46 +0000' age='245' updated_at='2020-01-19 10:17:46 +0000' pull_request='false' comments='0'><title>Double-Checked Locking</title>
+      <issue id='551899401' number='7' user='QiAnXinCodeSafe' state='open' created_at='2020-01-19 10:17:46 +0000' age='252' updated_at='2020-01-19 10:17:46 +0000' pull_request='false' comments='0'><title>Double-Checked Locking</title>
       </issue>
     </issues>
   <release-data>
@@ -93,15 +93,15 @@
     <collaborators>
     </collaborators>
     <issues count='5'>
-      <issue id='439626470' number='6' user='litewhatever' state='open' created_at='2019-05-02 14:39:16 +0000' age='506' updated_at='2019-05-03 11:00:29 +0000' pull_request='false' comments='2'><title>Please add support for ConfLDAPAuthorizationUserGroupName</title>
+      <issue id='439626470' number='6' user='litewhatever' state='open' created_at='2019-05-02 14:39:16 +0000' age='513' updated_at='2019-05-03 11:00:29 +0000' pull_request='false' comments='2'><title>Please add support for ConfLDAPAuthorizationUserGroupName</title>
       </issue>
-      <issue id='439627980' number='7' user='litewhatever' state='open' created_at='2019-05-02 14:42:14 +0000' age='506' updated_at='2019-05-02 14:42:14 +0000' pull_request='false' comments='0'><title>Please add meta directory and main.yml</title>
+      <issue id='439627980' number='7' user='litewhatever' state='open' created_at='2019-05-02 14:42:14 +0000' age='513' updated_at='2019-05-02 14:42:14 +0000' pull_request='false' comments='0'><title>Please add meta directory and main.yml</title>
       </issue>
-      <issue id='442709447' number='8' user='cccfer' state='open' created_at='2019-05-10 13:03:47 +0000' age='498' updated_at='2019-05-10 13:03:47 +0000' pull_request='false' comments='0'><title>HBA information in get_server_facts.yml</title>
+      <issue id='442709447' number='8' user='cccfer' state='open' created_at='2019-05-10 13:03:47 +0000' age='505' updated_at='2019-05-10 13:03:47 +0000' pull_request='false' comments='0'><title>HBA information in get_server_facts.yml</title>
       </issue>
-      <issue id='673436478' number='9' user='tavasti' state='open' created_at='2020-08-05 10:36:09 +0000' age='46' updated_at='2020-08-05 11:11:29 +0000' pull_request='false' comments='0'><title>Setting PowerOff with irmc_powerstate does not work</title>
+      <issue id='673436478' number='9' user='tavasti' state='open' created_at='2020-08-05 10:36:09 +0000' age='53' updated_at='2020-08-05 11:11:29 +0000' pull_request='false' comments='0'><title>Setting PowerOff with irmc_powerstate does not work</title>
       </issue>
-      <issue id='673548241' number='10' user='tavasti' state='open' created_at='2020-08-05 13:38:59 +0000' age='45' updated_at='2020-08-06 06:19:17 +0000' pull_request='false' comments='0'><title>irmc_raid not working at all</title>
+      <issue id='673548241' number='10' user='tavasti' state='open' created_at='2020-08-05 13:38:59 +0000' age='52' updated_at='2020-08-06 06:19:17 +0000' pull_request='false' comments='0'><title>irmc_raid not working at all</title>
       </issue>
     </issues>
   <release-data>
@@ -151,22 +151,25 @@
   <reporting class='issue-report' repo='fujitsu/app_blog' type='AveragePrCloseDbReporter'><field>fujitsu/app_blog</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field></reporting>
     </reports>
   </repo>
-  <repo name='xbyak_aarch64' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='6' closed_pr_count='19' open_issue_count='4' open_pr_count='1' has_wiki='true' language='C++' stars='50' watchers='16' forks='8' created_at='2019-12-09 08:28:23 +0000' updated_at='2020-09-16 16:48:59 +0000' pushed_at='2020-08-28 02:15:42 +0000' size='1209' commit_count='116'>
+  <repo name='xbyak_aarch64' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='7' closed_pr_count='19' open_issue_count='5' open_pr_count='1' has_wiki='true' language='C++' stars='50' watchers='17' forks='8' created_at='2019-12-09 08:28:23 +0000' updated_at='2020-09-23 07:56:07 +0000' pushed_at='2020-09-23 13:15:10 +0000' size='942' commit_count='118'>
     <description></description>
     <collaborators>
     </collaborators>
-    <issues count='5'>
-      <issue id='538212056' number='6' user='kawakami-k' state='open' created_at='2019-12-16 06:29:04 +0000' age='279' updated_at='2019-12-16 06:29:04 +0000' pull_request='false' comments='0'><title>Add test for instructions of The A64 System Instruction Class</title>
+    <issues count='6'>
+      <issue id='538212056' number='6' user='kawakami-k' state='open' created_at='2019-12-16 06:29:04 +0000' age='286' updated_at='2019-12-16 06:29:04 +0000' pull_request='false' comments='0'><title>Add test for instructions of The A64 System Instruction Class</title>
       </issue>
-      <issue id='538515168' number='7' user='kawakami-k' state='open' created_at='2019-12-16 16:22:59 +0000' age='278' updated_at='2020-01-27 05:07:08 +0000' pull_request='false' comments='1'><title>Port perf support functions from the original xbyak</title>
+      <issue id='538515168' number='7' user='kawakami-k' state='open' created_at='2019-12-16 16:22:59 +0000' age='285' updated_at='2020-01-27 05:07:08 +0000' pull_request='false' comments='1'><title>Port perf support functions from the original xbyak</title>
         <label url="https://api.github.com/repos/fujitsu/xbyak_aarch64/labels/enhancement" color='a2eeef'>enhancement</label>
       </issue>
-      <issue id='653738190' number='19' user='zlateski' state='open' created_at='2020-07-09 03:39:41 +0000' age='73' updated_at='2020-07-11 02:44:03 +0000' pull_request='false' comments='4'><title>ld4 on (v0 - v3)</title>
+      <issue id='653738190' number='19' user='zlateski' state='open' created_at='2020-07-09 03:39:41 +0000' age='80' updated_at='2020-07-11 02:44:03 +0000' pull_request='false' comments='4'><title>ld4 on (v0 - v3)</title>
         <label url="https://api.github.com/repos/fujitsu/xbyak_aarch64/labels/good%20first%20issue" color='7057ff'>good&amp;#xa0;first&amp;#xa0;issue</label>
       </issue>
-      <issue id='657719848' number='20' user='zlateski' state='open' created_at='2020-07-15 23:16:04 +0000' age='66' updated_at='2020-07-15 23:16:04 +0000' pull_request='false' comments='0'><title>Forward branches broken in AutoGrow mode</title>
+      <issue id='657719848' number='20' user='zlateski' state='open' created_at='2020-07-15 23:16:04 +0000' age='73' updated_at='2020-07-15 23:16:04 +0000' pull_request='false' comments='0'><title>Forward branches broken in AutoGrow mode</title>
       </issue>
-      <issue id='662447077' number='22' user='zlateski' state='open' created_at='2020-07-21 01:20:54 +0000' age='61' updated_at='2020-09-04 21:11:41 +0000' pull_request='true' comments='4' prFileCount='1' prAdditions='2' prDeletions='2'><title>Fixed a memory allocation bug</title>
+      <issue id='662447077' number='22' user='zlateski' state='open' created_at='2020-07-21 01:20:54 +0000' age='68' updated_at='2020-09-04 21:11:41 +0000' pull_request='true' comments='4' prFileCount='1' prAdditions='2' prDeletions='2'><title>Fixed a memory allocation bug</title>
+      </issue>
+      <issue id='706863485' number='27' user='kawakami-k' state='open' created_at='2020-09-23 01:39:20 +0000' age='4' updated_at='2020-09-23 01:39:41 +0000' pull_request='false' comments='0'><title>ci: add test for "mov" and "(mov|add|adds|sub|subs)_imm"</title>
+        <label url="https://api.github.com/repos/fujitsu/xbyak_aarch64/labels/enhancement" color='a2eeef'>enhancement</label>
       </issue>
     </issues>
   <release-data>
@@ -174,7 +177,9 @@
   <traffic-data>
   </traffic-data>
     <reports org='fujitsu' name='xbyak_aarch64'>
+      <reporting class='repo-report' repo='fujitsu/xbyak_aarch64' type='DocsReporter'><file>CCLA.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_aarch64' type='DocsReporter'><file>sample/mnemonic_syntax/readme.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/xbyak_aarch64' type='DocsReporter'><file>ICLA.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_aarch64' type='DocsReporter'><file>README.md</file></reporting>
       <license repo='fujitsu/xbyak_aarch64' file='LICENSE' confidence='100'>Apache License 2.0</license>
     </reports>
@@ -182,30 +187,31 @@
   <reporting class='repo-report' repo='fujitsu/xbyak_aarch64' type='WikiOnDbReporter'><field>2019-12-09 08:28:23 +0000</field><field>fujitsu/xbyak_aarch64</field><field>https://github.com/fujitsu/xbyak_aarch64/wiki</field></reporting>
   <reporting class='issue-report' repo='fujitsu/xbyak_aarch64' type='NoIssueCommentsDbReporter'><field>2019-12-16 06:29:04 +0000</field><field>https://github.com/fujitsu/xbyak_aarch64/issues/6</field><field>Add test for instructions of The A64 System Instruction Class</field><field></field></reporting>
   <reporting class='issue-report' repo='fujitsu/xbyak_aarch64' type='NoIssueCommentsDbReporter'><field>2020-07-15 23:16:04 +0000</field><field>https://github.com/fujitsu/xbyak_aarch64/issues/20</field><field>Forward branches broken in AutoGrow mode</field><field></field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/xbyak_aarch64</field><field>1</field><field>0</field><field>1</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' type='LabelDbReporter'><field><label color='a2eeef'>enhancement</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='d73a4a'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='7057ff'>good first issue</label></field><field>1</field></reporting>  <reporting class='issue-report' repo='fujitsu/xbyak_aarch64' type='AverageIssueCloseDbReporter'><field>fujitsu/xbyak_aarch64</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>2</field><field>2</field><field>102.0</field><field>4</field><field>2</field><field>102.0</field><field>4</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/xbyak_aarch64' type='NoIssueCommentsDbReporter'><field>2020-09-23 01:39:20 +0000</field><field>https://github.com/fujitsu/xbyak_aarch64/issues/27</field><field>ci: add test for "mov" and "(mov|add|adds|sub|subs)_imm"</field><field><label url="https://api.github.com/repos/fujitsu/xbyak_aarch64/labels/enhancement" color='a2eeef'>enhancement</label></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/xbyak_aarch64</field><field>1</field><field>0</field><field>2</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' type='LabelDbReporter'><field><label color='d73a4a'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='7057ff'>good first issue</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='a2eeef'>enhancement</label></field><field>2</field></reporting>  <reporting class='issue-report' repo='fujitsu/xbyak_aarch64' type='AverageIssueCloseDbReporter'><field>fujitsu/xbyak_aarch64</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>3</field><field>2</field><field>102.0</field><field>5</field><field>2</field><field>102.0</field><field>5</field></reporting>
   <reporting class='issue-report' repo='fujitsu/xbyak_aarch64' type='AveragePrCloseDbReporter'><field>fujitsu/xbyak_aarch64</field><field>1</field><field>1.0</field><field>0</field><field>5</field><field>2.0</field><field>1</field><field>19</field><field>3.74</field><field>1</field><field>19</field><field>3.74</field><field>1</field></reporting>
     </reports>
   </repo>
-  <repo name='dnnl_aarch64' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='9' closed_pr_count='13' open_issue_count='5' open_pr_count='2' has_wiki='true' language='C++' stars='37' watchers='19' forks='11' created_at='2019-12-09 08:29:41 +0000' updated_at='2020-09-19 01:12:03 +0000' pushed_at='2020-08-28 01:55:26 +0000' size='10000' commit_count='3377'>
+  <repo name='dnnl_aarch64' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='9' closed_pr_count='13' open_issue_count='5' open_pr_count='2' has_wiki='true' language='C++' stars='37' watchers='20' forks='11' created_at='2019-12-09 08:29:41 +0000' updated_at='2020-09-23 08:01:06 +0000' pushed_at='2020-09-23 08:01:03 +0000' size='10008' commit_count='3379'>
     <description></description>
     <collaborators>
     </collaborators>
     <issues count='7'>
-      <issue id='538344426' number='4' user='sakaia' state='open' created_at='2019-12-16 11:11:07 +0000' age='279' updated_at='2019-12-16 11:11:07 +0000' pull_request='false' comments='0'><title>source code documentation should be english</title>
+      <issue id='538344426' number='4' user='sakaia' state='open' created_at='2019-12-16 11:11:07 +0000' age='286' updated_at='2019-12-16 11:11:07 +0000' pull_request='false' comments='0'><title>source code documentation should be english</title>
       </issue>
-      <issue id='538360191' number='5' user='sakaia' state='open' created_at='2019-12-16 11:42:23 +0000' age='279' updated_at='2019-12-16 12:01:47 +0000' pull_request='false' comments='1'><title>[should remove] duplicate `tr8x8_avx2` function definition</title>
+      <issue id='538360191' number='5' user='sakaia' state='open' created_at='2019-12-16 11:42:23 +0000' age='286' updated_at='2019-12-16 12:01:47 +0000' pull_request='false' comments='1'><title>[should remove] duplicate `tr8x8_avx2` function definition</title>
       </issue>
-      <issue id='540766562' number='8' user='sakaia' state='open' created_at='2019-12-20 05:17:16 +0000' age='275' updated_at='2019-12-20 05:17:16 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Add sve option for gcc-8 compiler option</title>
+      <issue id='540766562' number='8' user='sakaia' state='open' created_at='2019-12-20 05:17:16 +0000' age='282' updated_at='2019-12-20 05:17:16 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Add sve option for gcc-8 compiler option</title>
       </issue>
-      <issue id='541002642' number='9' user='kawakami-k' state='open' created_at='2019-12-20 13:45:55 +0000' age='274' updated_at='2019-12-20 13:52:09 +0000' pull_request='false' comments='0'><title>DNNL_aarch64 aborts, when TF+DNNL with a simple imagenet/resnet50 benchmark</title>
+      <issue id='541002642' number='9' user='kawakami-k' state='open' created_at='2019-12-20 13:45:55 +0000' age='281' updated_at='2019-12-20 13:52:09 +0000' pull_request='false' comments='0'><title>DNNL_aarch64 aborts, when TF+DNNL with a simple imagenet/resnet50 benchmark</title>
         <label url="https://api.github.com/repos/fujitsu/dnnl_aarch64/labels/bug" color='d73a4a'>bug</label>
       </issue>
-      <issue id='605887014' number='10' user='vpirogov' state='open' created_at='2020-04-23 21:29:32 +0000' age='149' updated_at='2020-05-29 03:26:12 +0000' pull_request='false' comments='4'><title>Arm support in oneDNN</title>
+      <issue id='605887014' number='10' user='vpirogov' state='open' created_at='2020-04-23 21:29:32 +0000' age='156' updated_at='2020-05-29 03:26:12 +0000' pull_request='false' comments='4'><title>Arm support in oneDNN</title>
       </issue>
-      <issue id='638889334' number='16' user='chauncyyoung' state='open' created_at='2020-06-15 14:15:14 +0000' age='96' updated_at='2020-06-24 07:21:37 +0000' pull_request='false' comments='7'><title>Questions about __ARM_ARCH</title>
+      <issue id='638889334' number='16' user='chauncyyoung' state='open' created_at='2020-06-15 14:15:14 +0000' age='103' updated_at='2020-06-24 07:21:37 +0000' pull_request='false' comments='7'><title>Questions about __ARM_ARCH</title>
       </issue>
-      <issue id='686899359' number='24' user='herumi' state='open' created_at='2020-08-27 03:00:06 +0000' age='24' updated_at='2020-08-28 01:55:25 +0000' pull_request='true' comments='0' prFileCount='36' prAdditions='1521' prDeletions='1574'><title>Rename</title>
+      <issue id='686899359' number='24' user='herumi' state='open' created_at='2020-08-27 03:00:06 +0000' age='31' updated_at='2020-08-28 01:55:25 +0000' pull_request='true' comments='0' prFileCount='36' prAdditions='1521' prDeletions='1574'><title>Rename</title>
       </issue>
     </issues>
   <release-data>
@@ -214,8 +220,10 @@
   <traffic-data>
   </traffic-data>
     <reports org='fujitsu' name='dnnl_aarch64'>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>CCLA.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>src/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>ICLA.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>examples/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>tools/regression.list.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/dnnl_aarch64' type='DocsReporter'><file>tests/other/subproject/CMakeLists.txt</file></reporting>
@@ -248,16 +256,16 @@
   <reporting class='issue-report' repo='fujitsu/dnnl_aarch64' type='AveragePrCloseDbReporter'><field>fujitsu/dnnl_aarch64</field><field>0</field><field>0</field><field>1</field><field>3</field><field>5.33</field><field>1</field><field>13</field><field>1.46</field><field>2</field><field>13</field><field>1.46</field><field>2</field></reporting>
     </reports>
   </repo>
-  <repo name='A64FX' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='3' closed_pr_count='0' open_issue_count='2' open_pr_count='1' has_wiki='true' language='' stars='323' watchers='22' forks='17' created_at='2020-03-04 06:43:55 +0000' updated_at='2020-09-16 01:00:24 +0000' pushed_at='2020-07-31 06:24:48 +0000' size='25601' commit_count='10'>
+  <repo name='A64FX' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='3' closed_pr_count='0' open_issue_count='2' open_pr_count='1' has_wiki='true' language='' stars='324' watchers='22' forks='17' created_at='2020-03-04 06:43:55 +0000' updated_at='2020-09-23 09:06:33 +0000' pushed_at='2020-07-31 06:24:48 +0000' size='25601' commit_count='10'>
     <description></description>
     <collaborators>
     </collaborators>
     <issues count='3'>
-      <issue id='577593136' number='1' user='ahori' state='open' created_at='2020-03-09 00:28:31 +0000' age='195' updated_at='2020-03-19 00:17:55 +0000' pull_request='false' comments='1'><title>A64FX_Microarchitecture_Manual_en_1.0.pdf Table 9-3</title>
+      <issue id='577593136' number='1' user='ahori' state='open' created_at='2020-03-09 00:28:31 +0000' age='202' updated_at='2020-03-19 00:17:55 +0000' pull_request='false' comments='1'><title>A64FX_Microarchitecture_Manual_en_1.0.pdf Table 9-3</title>
       </issue>
-      <issue id='577962459' number='2' user='yamaken1343' state='open' created_at='2020-03-09 14:47:26 +0000' age='194' updated_at='2020-03-19 00:30:32 +0000' pull_request='true' comments='1' prFileCount='1' prAdditions='2' prDeletions='2'><title>Fix address in license (Nahakara-ku -> Nakahara-ku)</title>
+      <issue id='577962459' number='2' user='yamaken1343' state='open' created_at='2020-03-09 14:47:26 +0000' age='201' updated_at='2020-03-19 00:30:32 +0000' pull_request='true' comments='1' prFileCount='1' prAdditions='2' prDeletions='2'><title>Fix address in license (Nahakara-ku -> Nakahara-ku)</title>
       </issue>
-      <issue id='579898222' number='3' user='grafi-tt' state='open' created_at='2020-03-12 12:16:06 +0000' age='192' updated_at='2020-03-19 00:22:29 +0000' pull_request='false' comments='1'><title>A64fx Microarchitecture Manual 1.0 Figure 13-2</title>
+      <issue id='579898222' number='3' user='grafi-tt' state='open' created_at='2020-03-12 12:16:06 +0000' age='199' updated_at='2020-03-19 00:22:29 +0000' pull_request='false' comments='1'><title>A64fx Microarchitecture Manual 1.0 Figure 13-2</title>
       </issue>
     </issues>
   <release-data>
@@ -279,11 +287,11 @@
     <reports org='fujitsu' name='A64FX'>
   <reporting class='repo-report' repo='fujitsu/A64FX' type='WikiOnDbReporter'><field>2020-03-04 06:43:55 +0000</field><field>fujitsu/A64FX</field><field>https://github.com/fujitsu/A64FX/wiki</field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/A64FX</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/A64FX' type='AverageIssueCloseDbReporter'><field>fujitsu/A64FX</field><field>0</field><field>0</field><field>0</field><field>1</field><field>2.0</field><field>0</field><field>1</field><field>2.0</field><field>2</field><field>1</field><field>2.0</field><field>2</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/A64FX' type='AverageIssueCloseDbReporter'><field>fujitsu/A64FX</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>2.0</field><field>2</field><field>1</field><field>2.0</field><field>2</field></reporting>
   <reporting class='issue-report' repo='fujitsu/A64FX' type='AveragePrCloseDbReporter'><field>fujitsu/A64FX</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field></reporting>
     </reports>
   </repo>
-  <repo name='xbyak_translator_aarch64' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='4' open_issue_count='0' open_pr_count='0' has_wiki='true' language='C++' stars='19' watchers='5' forks='4' created_at='2020-05-29 07:01:27 +0000' updated_at='2020-09-16 16:49:13 +0000' pushed_at='2020-09-15 05:08:07 +0000' size='10607' commit_count='1734'>
+  <repo name='xbyak_translator_aarch64' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='1' closed_pr_count='5' open_issue_count='0' open_pr_count='0' has_wiki='true' language='C++' stars='19' watchers='6' forks='4' created_at='2020-05-29 07:01:27 +0000' updated_at='2020-09-23 07:58:05 +0000' pushed_at='2020-09-23 13:17:33 +0000' size='10679' commit_count='1736'>
     <description></description>
     <collaborators>
     </collaborators>
@@ -296,8 +304,10 @@
     <reports org='fujitsu' name='xbyak_translator_aarch64'>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>test/readme.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>translator/tools/file_list_to_be_formatted.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>CCLA.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>readme.xbyak.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>ICLA.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>readme.xbyak.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>readme.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='DocsReporter'><file>build.md</file></reporting>
@@ -310,8 +320,8 @@
     <reports org='fujitsu' name='xbyak_translator_aarch64'>
   <reporting class='repo-report' repo='fujitsu/xbyak_translator_aarch64' type='WikiOnDbReporter'><field>2020-05-29 07:01:27 +0000</field><field>fujitsu/xbyak_translator_aarch64</field><field>https://github.com/fujitsu/xbyak_translator_aarch64/wiki</field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/xbyak_translator_aarch64</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/xbyak_translator_aarch64' type='AverageIssueCloseDbReporter'><field>fujitsu/xbyak_translator_aarch64</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/xbyak_translator_aarch64' type='AveragePrCloseDbReporter'><field>fujitsu/xbyak_translator_aarch64</field><field>3</field><field>2.67</field><field>0</field><field>3</field><field>2.67</field><field>0</field><field>4</field><field>2.0</field><field>0</field><field>4</field><field>2.0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/xbyak_translator_aarch64' type='AverageIssueCloseDbReporter'><field>fujitsu/xbyak_translator_aarch64</field><field>1</field><field>0.0</field><field>0</field><field>1</field><field>0.0</field><field>0</field><field>1</field><field>0.0</field><field>0</field><field>1</field><field>0.0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/xbyak_translator_aarch64' type='AveragePrCloseDbReporter'><field>fujitsu/xbyak_translator_aarch64</field><field>3</field><field>2.67</field><field>0</field><field>4</field><field>2.0</field><field>0</field><field>5</field><field>1.6</field><field>0</field><field>5</field><field>1.6</field><field>0</field></reporting>
     </reports>
   </repo>
   <repo name='xed' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='true' language='Python' stars='3' watchers='4' forks='1' created_at='2020-05-29 07:02:52 +0000' updated_at='2020-08-28 23:33:03 +0000' pushed_at='2020-05-29 08:05:13 +0000' size='3129' commit_count='866'>
@@ -1424,12 +1434,15 @@
   <reporting class='issue-report' repo='fujitsu/mx6e-pt' type='AveragePrCloseDbReporter'><field>fujitsu/mx6e-pt</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
     </reports>
   </repo>
-  <repo name='oneDNN' org='fujitsu' homepage='https://01.org/oneDNN' private='false' fork='true' closed_issue_count='0' closed_pr_count='23' open_issue_count='0' open_pr_count='1' has_wiki='false' language='C++' stars='2' watchers='3' forks='9' created_at='2020-08-03 13:14:56 +0000' updated_at='2020-09-17 08:17:07 +0000' pushed_at='2020-09-17 08:17:04 +0000' size='162582' commit_count='363'>
+  <repo name='oneDNN' org='fujitsu' homepage='https://01.org/oneDNN' private='false' fork='true' closed_issue_count='1' closed_pr_count='38' open_issue_count='1' open_pr_count='1' has_wiki='true' language='C++' stars='3' watchers='3' forks='10' created_at='2020-08-03 13:14:56 +0000' updated_at='2020-09-24 05:39:16 +0000' pushed_at='2020-09-25 15:34:50 +0000' size='163039' commit_count='385'>
     <description>oneAPI Deep Neural Network Library (oneDNN)</description>
     <collaborators>
     </collaborators>
-    <issues count='1'>
-      <issue id='703347028' number='24' user='guol-fnst' state='open' created_at='2020-09-17 07:37:48 +0000' age='3' updated_at='2020-09-17 07:37:56 +0000' pull_request='true' comments='0' prFileCount='39' prAdditions='9014' prDeletions='3'><title>Porting low priority files</title>
+    <issues count='2'>
+      <issue id='703347028' number='24' user='guol-fnst' state='open' created_at='2020-09-17 07:37:48 +0000' age='10' updated_at='2020-09-17 07:37:56 +0000' pull_request='true' comments='0' prFileCount='39' prAdditions='9014' prDeletions='3'><title>Porting low priority files</title>
+      </issue>
+      <issue id='706737972' number='25' user='kawakami-k' state='open' created_at='2020-09-22 22:44:03 +0000' age='4' updated_at='2020-09-22 22:47:08 +0000' pull_request='false' comments='0'><title>eltwise: pow: if beta is not equal to 0, 0.5, 1, 2, oneDNN does not work properly.</title>
+        <label url="https://api.github.com/repos/fujitsu/oneDNN/labels/bug" color='d73a4a'>bug</label>
       </issue>
     </issues>
   <release-data>
@@ -1437,6 +1450,7 @@
   <traffic-data>
   </traffic-data>
     <reports org='fujitsu' name='oneDNN'>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>CCLA.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/gpu/jit/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/gpu/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/gpu/ocl/CMakeLists.txt</file></reporting>
@@ -1447,6 +1461,7 @@
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/cpu/aarch64/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>src/common/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>CMakeLists.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>ICLA.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>examples/CMakeLists.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/Asana-Math/OFL.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='DocsReporter'><file>tests/noexcept/CMakeLists.txt</file></reporting>
@@ -1661,10 +1676,12 @@
       <reporting class='repo-report' repo='fujitsu/oneDNN' type='BinaryReporter'><file>doc/assets/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf</file></reporting>
     </reports>
     <reports org='fujitsu' name='oneDNN'>
+  <reporting class='repo-report' repo='fujitsu/oneDNN' type='WikiOnDbReporter'><field>2020-08-03 13:14:56 +0000</field><field>fujitsu/oneDNN</field><field>https://github.com/fujitsu/oneDNN/wiki</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/oneDNN' type='NoIssueCommentsDbReporter'><field>2020-09-22 22:44:03 +0000</field><field>https://github.com/fujitsu/oneDNN/issues/25</field><field>eltwise: pow: if beta is not equal to 0, 0.5, 1, 2, oneDNN does not work properly.</field><field><label url="https://api.github.com/repos/fujitsu/oneDNN/labels/bug" color='d73a4a'>bug</label></field></reporting>
   <reporting class='issue-report' repo='fujitsu/oneDNN' type='NoPrCommentsDbReporter'><field>2020-09-17 07:37:48 +0000</field><field>https://github.com/fujitsu/oneDNN/pull/24</field><field>Porting low priority files</field><field></field></reporting>
-  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/oneDNN</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/oneDNN' type='AverageIssueCloseDbReporter'><field>fujitsu/oneDNN</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/oneDNN' type='AveragePrCloseDbReporter'><field>fujitsu/oneDNN</field><field>22</field><field>0.41</field><field>1</field><field>23</field><field>0.43</field><field>1</field><field>23</field><field>0.43</field><field>1</field><field>23</field><field>0.43</field><field>1</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/oneDNN</field><field>1</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' type='LabelDbReporter'><field><label color='d73a4a'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' repo='fujitsu/oneDNN' type='AverageIssueCloseDbReporter'><field>fujitsu/oneDNN</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/oneDNN' type='AveragePrCloseDbReporter'><field>fujitsu/oneDNN</field><field>29</field><field>0.34</field><field>1</field><field>38</field><field>0.29</field><field>1</field><field>38</field><field>0.29</field><field>1</field><field>38</field><field>0.29</field><field>1</field></reporting>
     </reports>
   </repo>
   <repo name='tofu' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='true' language='' stars='0' watchers='2' forks='0' created_at='2020-09-08 00:39:45 +0000' updated_at='2020-09-08 00:39:45 +0000' pushed_at='2020-09-08 00:39:47 +0000' size='0' commit_count='0'>
@@ -1704,19 +1721,19 @@
     <collaborators>
     </collaborators>
     <issues count='5'>
-      <issue id='277262749' number='6' user='ysknmt' state='open' created_at='2017-11-28 05:23:11 +0000' age='1027' updated_at='2017-11-28 05:25:28 +0000' pull_request='false' comments='0'><title>Cannot display Z-Score value</title>
+      <issue id='277262749' number='6' user='ysknmt' state='open' created_at='2017-11-28 05:23:11 +0000' age='1034' updated_at='2017-11-28 05:25:28 +0000' pull_request='false' comments='0'><title>Cannot display Z-Score value</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
-      <issue id='277264683' number='7' user='ysknmt' state='open' created_at='2017-11-28 05:36:19 +0000' age='1027' updated_at='2017-11-28 05:36:19 +0000' pull_request='false' comments='0'><title>Add Z-Score table view</title>
+      <issue id='277264683' number='7' user='ysknmt' state='open' created_at='2017-11-28 05:36:19 +0000' age='1034' updated_at='2017-11-28 05:36:19 +0000' pull_request='false' comments='0'><title>Add Z-Score table view</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
-      <issue id='277266280' number='9' user='ysknmt' state='open' created_at='2017-11-28 05:47:36 +0000' age='1027' updated_at='2017-11-28 05:51:56 +0000' pull_request='false' comments='0'><title>[sonar2csv] Enable to set `url` value</title>
+      <issue id='277266280' number='9' user='ysknmt' state='open' created_at='2017-11-28 05:47:36 +0000' age='1034' updated_at='2017-11-28 05:51:56 +0000' pull_request='false' comments='0'><title>[sonar2csv] Enable to set `url` value</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
-      <issue id='277266891' number='10' user='ysknmt' state='open' created_at='2017-11-28 05:51:48 +0000' age='1027' updated_at='2017-11-28 05:51:48 +0000' pull_request='false' comments='0'><title>[sonar2csv] Support LDAP auth of SonarQube</title>
+      <issue id='277266891' number='10' user='ysknmt' state='open' created_at='2017-11-28 05:51:48 +0000' age='1034' updated_at='2017-11-28 05:51:48 +0000' pull_request='false' comments='0'><title>[sonar2csv] Support LDAP auth of SonarQube</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
-      <issue id='293028184' number='15' user='ysknmt' state='open' created_at='2018-01-31 04:33:06 +0000' age='963' updated_at='2018-01-31 04:33:06 +0000' pull_request='false' comments='0'><title>公開サンプルデータの更新</title>
+      <issue id='293028184' number='15' user='ysknmt' state='open' created_at='2018-01-31 04:33:06 +0000' age='970' updated_at='2018-01-31 04:33:06 +0000' pull_request='false' comments='0'><title>公開サンプルデータの更新</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/COMEVIZZ/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
     </issues>
@@ -1744,30 +1761,30 @@
     <collaborators>
     </collaborators>
     <issues count='10'>
-      <issue id='281663034' number='6' user='ChoudharyS' state='open' created_at='2017-12-13 08:28:38 +0000' age='1012' updated_at='2019-05-24 06:03:44 +0000' pull_request='true' comments='9' prFileCount='11' prAdditions='713' prDeletions='39'><title>use leveldb</title>
+      <issue id='281663034' number='6' user='ChoudharyS' state='open' created_at='2017-12-13 08:28:38 +0000' age='1019' updated_at='2019-05-24 06:03:44 +0000' pull_request='true' comments='9' prFileCount='11' prAdditions='713' prDeletions='39'><title>use leveldb</title>
       </issue>
-      <issue id='282345458' number='7' user='matthieu-pa' state='open' created_at='2017-12-15 07:49:50 +0000' age='1010' updated_at='2017-12-18 08:46:35 +0000' pull_request='false' comments='3'><title>Make Cattaz able to execute R code snippets?</title>
+      <issue id='282345458' number='7' user='matthieu-pa' state='open' created_at='2017-12-15 07:49:50 +0000' age='1017' updated_at='2017-12-18 08:46:35 +0000' pull_request='false' comments='3'><title>Make Cattaz able to execute R code snippets?</title>
       </issue>
-      <issue id='288826828' number='15' user='ohtake' state='open' created_at='2018-01-16 08:50:38 +0000' age='978' updated_at='2019-05-24 06:03:44 +0000' pull_request='true' comments='2' prFileCount='6' prAdditions='18' prDeletions='18'><title>Host landing page in github pages</title>
+      <issue id='288826828' number='15' user='ohtake' state='open' created_at='2018-01-16 08:50:38 +0000' age='985' updated_at='2019-05-24 06:03:44 +0000' pull_request='true' comments='2' prFileCount='6' prAdditions='18' prDeletions='18'><title>Host landing page in github pages</title>
       </issue>
-      <issue id='309727294' number='19' user='kawaii' state='open' created_at='2018-03-29 12:00:37 +0000' age='906' updated_at='2018-04-12 11:30:21 +0000' pull_request='false' comments='5'><title>Where does Cattaz store persistent data? [Docker]</title>
+      <issue id='309727294' number='19' user='kawaii' state='open' created_at='2018-03-29 12:00:37 +0000' age='913' updated_at='2018-04-12 11:30:21 +0000' pull_request='false' comments='5'><title>Where does Cattaz store persistent data? [Docker]</title>
       </issue>
-      <issue id='632488910' number='29' user='dependabot[bot]' state='open' created_at='2020-06-06 14:13:27 +0000' age='105' updated_at='2020-06-06 14:13:28 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='3' prDeletions='3'><title>Bump websocket-extensions from 0.1.3 to 0.1.4</title>
+      <issue id='632488910' number='29' user='dependabot[bot]' state='open' created_at='2020-06-06 14:13:27 +0000' age='112' updated_at='2020-06-06 14:13:28 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='3' prDeletions='3'><title>Bump websocket-extensions from 0.1.3 to 0.1.4</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='658558122' number='30' user='dependabot[bot]' state='open' created_at='2020-07-16 20:49:50 +0000' age='65' updated_at='2020-07-16 20:49:52 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='5' prDeletions='5'><title>Bump lodash from 4.17.15 to 4.17.19</title>
+      <issue id='658558122' number='30' user='dependabot[bot]' state='open' created_at='2020-07-16 20:49:50 +0000' age='72' updated_at='2020-07-16 20:49:52 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='5' prDeletions='5'><title>Bump lodash from 4.17.15 to 4.17.19</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='662973692' number='31' user='dependabot[bot]' state='open' created_at='2020-07-21 12:39:28 +0000' age='61' updated_at='2020-07-21 12:39:29 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='71' prDeletions='50'><title>Bump codecov from 3.6.1 to 3.7.1</title>
+      <issue id='662973692' number='31' user='dependabot[bot]' state='open' created_at='2020-07-21 12:39:28 +0000' age='68' updated_at='2020-07-21 12:39:29 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='71' prDeletions='50'><title>Bump codecov from 3.6.1 to 3.7.1</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='668738047' number='32' user='dependabot[bot]' state='open' created_at='2020-07-30 13:41:11 +0000' age='51' updated_at='2020-07-30 13:41:12 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='6' prDeletions='6'><title>Bump elliptic from 6.5.1 to 6.5.3</title>
+      <issue id='668738047' number='32' user='dependabot[bot]' state='open' created_at='2020-07-30 13:41:11 +0000' age='58' updated_at='2020-07-30 13:41:12 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='6' prDeletions='6'><title>Bump elliptic from 6.5.1 to 6.5.3</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='693474586' number='33' user='dependabot[bot]' state='open' created_at='2020-09-04 18:30:39 +0000' age='15' updated_at='2020-09-04 18:30:40 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='23' prDeletions='25'><title>Bump handlebars from 4.5.1 to 4.7.6</title>
+      <issue id='693474586' number='33' user='dependabot[bot]' state='open' created_at='2020-09-04 18:30:39 +0000' age='22' updated_at='2020-09-04 18:30:40 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='23' prDeletions='25'><title>Bump handlebars from 4.5.1 to 4.7.6</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='694527993' number='34' user='mlncn' state='open' created_at='2020-09-06 21:04:36 +0000' age='13' updated_at='2020-09-06 21:04:36 +0000' pull_request='false' comments='0'><title>An editor can easily link to another document in the same wiki</title>
+      <issue id='694527993' number='34' user='mlncn' state='open' created_at='2020-09-06 21:04:36 +0000' age='20' updated_at='2020-09-06 21:04:36 +0000' pull_request='false' comments='0'><title>An editor can easily link to another document in the same wiki</title>
       </issue>
     </issues>
   <release-data>
@@ -1819,7 +1836,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='654202109' number='1' user='ittskn' state='open' created_at='2020-07-09 16:41:58 +0000' age='72' updated_at='2020-07-09 16:41:58 +0000' pull_request='false' comments='0'><title>あ</title>
+      <issue id='654202109' number='1' user='ittskn' state='open' created_at='2020-07-09 16:41:58 +0000' age='79' updated_at='2020-07-09 16:41:58 +0000' pull_request='false' comments='0'><title>あ</title>
       </issue>
     </issues>
   <release-data>
@@ -1840,27 +1857,27 @@
   <reporting class='issue-report' repo='FujitsuLaboratories/kurumipy' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/kurumipy</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
     </reports>
   </repo>
-  <repo name='escapin' org='FujitsuLaboratories' homepage='' private='false' fork='false' closed_issue_count='9' closed_pr_count='340' open_issue_count='2' open_pr_count='4' has_wiki='true' language='TypeScript' stars='19' watchers='1' forks='4' created_at='2019-07-30 06:35:53 +0000' updated_at='2020-07-17 07:45:10 +0000' pushed_at='2020-09-18 21:57:52 +0000' size='2033' commit_count='422'>
+  <repo name='escapin' org='FujitsuLaboratories' homepage='' private='false' fork='false' closed_issue_count='9' closed_pr_count='348' open_issue_count='2' open_pr_count='4' has_wiki='true' language='TypeScript' stars='19' watchers='1' forks='4' created_at='2019-07-30 06:35:53 +0000' updated_at='2020-07-17 07:45:10 +0000' pushed_at='2020-09-27 00:05:54 +0000' size='2345' commit_count='422'>
     <description>Escapin  is a JS/TS transpiler for escaping from complicated usage of cloud services and APIs</description>
     <collaborators>
     </collaborators>
     <issues count='6'>
-      <issue id='530106355' number='14' user='kimusaku' state='open' created_at='2019-11-29 00:21:38 +0000' age='296' updated_at='2019-11-29 00:24:50 +0000' pull_request='false' comments='0'><title>Azure support</title>
+      <issue id='530106355' number='14' user='kimusaku' state='open' created_at='2019-11-29 00:21:38 +0000' age='303' updated_at='2019-11-29 00:24:50 +0000' pull_request='false' comments='0'><title>Azure support</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/enhancement" color='a2eeef'>enhancement</label>
       </issue>
-      <issue id='530106375' number='15' user='kimusaku' state='open' created_at='2019-11-29 00:21:50 +0000' age='296' updated_at='2019-11-29 00:25:06 +0000' pull_request='false' comments='0'><title>GCP support</title>
+      <issue id='530106375' number='15' user='kimusaku' state='open' created_at='2019-11-29 00:21:50 +0000' age='303' updated_at='2019-11-29 00:25:06 +0000' pull_request='false' comments='0'><title>GCP support</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/enhancement" color='a2eeef'>enhancement</label>
       </issue>
-      <issue id='661978889' number='286' user='renovate[bot]' state='open' created_at='2020-07-20 15:52:47 +0000' age='61' updated_at='2020-09-05 16:23:40 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='11' prDeletions='4'><title>fix(deps): update dependency openapi-types to v7</title>
+      <issue id='661978889' number='286' user='renovate[bot]' state='open' created_at='2020-07-20 15:52:47 +0000' age='68' updated_at='2020-09-05 16:23:40 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='11' prDeletions='4'><title>fix(deps): update dependency openapi-types to v7</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='682889855' number='317' user='renovate[bot]' state='open' created_at='2020-08-20 16:37:09 +0000' age='30' updated_at='2020-09-19 00:45:57 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='4' prDeletions='4'><title>fix(deps): update dependency typescript to v4</title>
+      <issue id='682889855' number='317' user='renovate[bot]' state='open' created_at='2020-08-20 16:37:09 +0000' age='37' updated_at='2020-09-20 20:37:57 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='4' prDeletions='4'><title>fix(deps): update dependency typescript to v4</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='696176913' number='346' user='renovate[bot]' state='open' created_at='2020-09-08 21:05:14 +0000' age='11' updated_at='2020-09-08 22:55:19 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='4' prDeletions='4'><title>chore(deps): update dependency @types/babel__traverse to v7.0.14</title>
+      <issue id='696176913' number='346' user='renovate[bot]' state='open' created_at='2020-09-08 21:05:14 +0000' age='18' updated_at='2020-09-26 02:13:30 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='4' prDeletions='4'><title>chore(deps): update dependency @types/babel__traverse to v7.0.15</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='700268730' number='347' user='dependabot[bot]' state='open' created_at='2020-09-12 15:07:30 +0000' age='7' updated_at='2020-09-12 18:32:20 +0000' pull_request='true' comments='1' prFileCount='1' prAdditions='4' prDeletions='4'><title>chore(deps): bump node-fetch from 2.6.0 to 2.6.1</title>
+      <issue id='700268730' number='347' user='dependabot[bot]' state='open' created_at='2020-09-12 15:07:30 +0000' age='14' updated_at='2020-09-12 18:32:20 +0000' pull_request='true' comments='1' prFileCount='1' prAdditions='4' prDeletions='4'><title>chore(deps): bump node-fetch from 2.6.0 to 2.6.1</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
@@ -1881,10 +1898,10 @@
   <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='NoIssueCommentsDbReporter'><field>2019-11-29 00:21:50 +0000</field><field>https://github.com/FujitsuLaboratories/escapin/issues/15</field><field>GCP support</field><field><label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/enhancement" color='a2eeef'>enhancement</label></field></reporting>
   <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='NoPrCommentsDbReporter'><field>2020-07-20 15:52:47 +0000</field><field>https://github.com/FujitsuLaboratories/escapin/pull/286</field><field>fix(deps): update dependency openapi-types to v7</field><field></field></reporting>
   <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='NoPrCommentsDbReporter'><field>2020-08-20 16:37:09 +0000</field><field>https://github.com/FujitsuLaboratories/escapin/pull/317</field><field>fix(deps): update dependency typescript to v4</field><field></field></reporting>
-  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='NoPrCommentsDbReporter'><field>2020-09-08 21:05:14 +0000</field><field>https://github.com/FujitsuLaboratories/escapin/pull/346</field><field>chore(deps): update dependency @types/babel__traverse to v7.0.14</field><field></field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='NoPrCommentsDbReporter'><field>2020-09-08 21:05:14 +0000</field><field>https://github.com/FujitsuLaboratories/escapin/pull/346</field><field>chore(deps): update dependency @types/babel__traverse to v7.0.15</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>FujitsuLaboratories/escapin</field><field>1</field><field>0</field><field>2</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' type='LabelDbReporter'><field><label color='d73a4a'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>semantic-release</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='a2eeef'>enhancement</label></field><field>2</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>released</label></field><field>3</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>release</label></field><field>7</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>236</field></reporting>  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0.0</field><field>0</field><field>5</field><field>32.4</field><field>2</field><field>7</field><field>23.43</field><field>2</field></reporting>
-  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>34</field><field>0.68</field><field>3</field><field>113</field><field>0.42</field><field>4</field><field>336</field><field>0.48</field><field>4</field><field>340</field><field>0.47</field><field>4</field></reporting>
+  <reporting class='issue-report' type='LabelDbReporter'><field><label color='d73a4a'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>semantic-release</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='a2eeef'>enhancement</label></field><field>2</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>released</label></field><field>3</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>release</label></field><field>7</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>244</field></reporting>  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0.0</field><field>0</field><field>5</field><field>32.4</field><field>2</field><field>7</field><field>23.43</field><field>2</field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>31</field><field>0.03</field><field>2</field><field>113</field><field>0.29</field><field>4</field><field>344</field><field>0.47</field><field>4</field><field>348</field><field>0.47</field><field>4</field></reporting>
     </reports>
   </repo>
   <repo name='ConnectionChain-sample' org='FujitsuLaboratories' homepage='' private='false' fork='false' closed_issue_count='1' closed_pr_count='0' open_issue_count='1' open_pr_count='5' has_wiki='true' language='JavaScript' stars='6' watchers='2' forks='1' created_at='2019-11-22 07:12:12 +0000' updated_at='2020-09-01 04:29:34 +0000' pushed_at='2020-09-04 10:12:27 +0000' size='177' commit_count='2'>
@@ -1892,21 +1909,21 @@
     <collaborators>
     </collaborators>
     <issues count='6'>
-      <issue id='527037501' number='1' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:16 +0000' age='303' updated_at='2019-11-22 07:38:17 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/ecSide/ec1_connector</title>
+      <issue id='527037501' number='1' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:16 +0000' age='310' updated_at='2019-11-22 07:38:17 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/ecSide/ec1_connector</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='527037538' number='2' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:24 +0000' age='303' updated_at='2019-11-22 07:38:25 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/coreSide/ec1_adapter</title>
+      <issue id='527037538' number='2' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:24 +0000' age='310' updated_at='2019-11-22 07:38:25 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/cooperation/coreSide/ec1_adapter</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='527037605' number='3' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:36 +0000' age='303' updated_at='2019-11-22 07:38:37 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/restserver/coreapi</title>
+      <issue id='527037605' number='3' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:36 +0000' age='310' updated_at='2019-11-22 07:38:37 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/restserver/coreapi</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='527037664' number='4' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:45 +0000' age='303' updated_at='2019-11-22 07:38:46 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/appserver/serviceapi</title>
+      <issue id='527037664' number='4' user='dependabot[bot]' state='open' created_at='2019-11-22 07:38:45 +0000' age='310' updated_at='2019-11-22 07:38:46 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump morgan from 1.8.2 to 1.9.1 in /environment/base/cc_env/servers/appserver/serviceapi</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='660913985' number='5' user='lucianoacsilva' state='open' created_at='2020-07-19 15:56:40 +0000' age='62' updated_at='2020-07-19 15:56:40 +0000' pull_request='false' comments='0'><title>Cannot find Fabric Binaries in the tutorial link</title>
+      <issue id='660913985' number='5' user='lucianoacsilva' state='open' created_at='2020-07-19 15:56:40 +0000' age='69' updated_at='2020-07-19 15:56:40 +0000' pull_request='false' comments='0'><title>Cannot find Fabric Binaries in the tutorial link</title>
       </issue>
-      <issue id='693002813' number='6' user='dependabot[bot]' state='open' created_at='2020-09-04 10:12:26 +0000' age='16' updated_at='2020-09-04 10:12:29 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump mongodb from 2.2.36 to 3.6.1 in /environment/base/cc_env/servers/appserver/serviceapi</title>
+      <issue id='693002813' number='6' user='dependabot[bot]' state='open' created_at='2020-09-04 10:12:26 +0000' age='23' updated_at='2020-09-04 10:12:29 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump mongodb from 2.2.36 to 3.6.1 in /environment/base/cc_env/servers/appserver/serviceapi</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/ConnectionChain-sample/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
