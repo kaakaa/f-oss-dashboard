@@ -35,6 +35,6 @@
   <reporting class='repo-report' repo='nttcom/go-fic' type='WikiOnDbReporter'><field>2019-11-21 04:36:12 +0000</field><field>nttcom/go-fic</field><field>https://github.com/nttcom/go-fic/wiki</field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/go-fic</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' repo='nttcom/go-fic' type='AverageIssueCloseDbReporter'><field>nttcom/go-fic</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/go-fic' type='AveragePrCloseDbReporter'><field>nttcom/go-fic</field><field>0</field><field>0</field><field>0</field><field>2</field><field>2.5</field><field>0</field><field>10</field><field>2.4</field><field>0</field><field>10</field><field>2.4</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/go-fic' type='AveragePrCloseDbReporter'><field>nttcom/go-fic</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>10</field><field>2.4</field><field>0</field><field>10</field><field>2.4</field><field>0</field></reporting>
     </reports>
   </repo>
