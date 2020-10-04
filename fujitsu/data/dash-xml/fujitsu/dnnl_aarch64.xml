@@ -3,20 +3,20 @@
     <collaborators>
     </collaborators>
     <issues count='7'>
-      <issue id='538344426' number='4' user='sakaia' state='open' created_at='2019-12-16 11:11:07 +0000' age='286' updated_at='2019-12-16 11:11:07 +0000' pull_request='false' comments='0'><title>source code documentation should be english</title>
+      <issue id='538344426' number='4' user='sakaia' state='open' created_at='2019-12-16 11:11:07 +0000' age='293' updated_at='2019-12-16 11:11:07 +0000' pull_request='false' comments='0'><title>source code documentation should be english</title>
       </issue>
-      <issue id='538360191' number='5' user='sakaia' state='open' created_at='2019-12-16 11:42:23 +0000' age='286' updated_at='2019-12-16 12:01:47 +0000' pull_request='false' comments='1'><title>[should remove] duplicate `tr8x8_avx2` function definition</title>
+      <issue id='538360191' number='5' user='sakaia' state='open' created_at='2019-12-16 11:42:23 +0000' age='293' updated_at='2019-12-16 12:01:47 +0000' pull_request='false' comments='1'><title>[should remove] duplicate `tr8x8_avx2` function definition</title>
       </issue>
-      <issue id='540766562' number='8' user='sakaia' state='open' created_at='2019-12-20 05:17:16 +0000' age='282' updated_at='2019-12-20 05:17:16 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Add sve option for gcc-8 compiler option</title>
+      <issue id='540766562' number='8' user='sakaia' state='open' created_at='2019-12-20 05:17:16 +0000' age='289' updated_at='2019-12-20 05:17:16 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Add sve option for gcc-8 compiler option</title>
       </issue>
-      <issue id='541002642' number='9' user='kawakami-k' state='open' created_at='2019-12-20 13:45:55 +0000' age='281' updated_at='2019-12-20 13:52:09 +0000' pull_request='false' comments='0'><title>DNNL_aarch64 aborts, when TF+DNNL with a simple imagenet/resnet50 benchmark</title>
+      <issue id='541002642' number='9' user='kawakami-k' state='open' created_at='2019-12-20 13:45:55 +0000' age='288' updated_at='2019-12-20 13:52:09 +0000' pull_request='false' comments='0'><title>DNNL_aarch64 aborts, when TF+DNNL with a simple imagenet/resnet50 benchmark</title>
         <label url="https://api.github.com/repos/fujitsu/dnnl_aarch64/labels/bug" color='d73a4a'>bug</label>
       </issue>
-      <issue id='605887014' number='10' user='vpirogov' state='open' created_at='2020-04-23 21:29:32 +0000' age='156' updated_at='2020-05-29 03:26:12 +0000' pull_request='false' comments='4'><title>Arm support in oneDNN</title>
+      <issue id='605887014' number='10' user='vpirogov' state='open' created_at='2020-04-23 21:29:32 +0000' age='163' updated_at='2020-05-29 03:26:12 +0000' pull_request='false' comments='4'><title>Arm support in oneDNN</title>
       </issue>
-      <issue id='638889334' number='16' user='chauncyyoung' state='open' created_at='2020-06-15 14:15:14 +0000' age='103' updated_at='2020-06-24 07:21:37 +0000' pull_request='false' comments='7'><title>Questions about __ARM_ARCH</title>
+      <issue id='638889334' number='16' user='chauncyyoung' state='open' created_at='2020-06-15 14:15:14 +0000' age='110' updated_at='2020-06-24 07:21:37 +0000' pull_request='false' comments='7'><title>Questions about __ARM_ARCH</title>
       </issue>
-      <issue id='686899359' number='24' user='herumi' state='open' created_at='2020-08-27 03:00:06 +0000' age='31' updated_at='2020-08-28 01:55:25 +0000' pull_request='true' comments='0' prFileCount='36' prAdditions='1521' prDeletions='1574'><title>Rename</title>
+      <issue id='686899359' number='24' user='herumi' state='open' created_at='2020-08-27 03:00:06 +0000' age='38' updated_at='2020-08-28 01:55:25 +0000' pull_request='true' comments='0' prFileCount='36' prAdditions='1521' prDeletions='1574'><title>Rename</title>
       </issue>
     </issues>
   <release-data>
@@ -58,6 +58,6 @@
   <reporting class='issue-report' repo='fujitsu/dnnl_aarch64' type='NoPrCommentsDbReporter'><field>2020-08-27 03:00:06 +0000</field><field>https://github.com/fujitsu/dnnl_aarch64/pull/24</field><field>Rename</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/dnnl_aarch64</field><field>1</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' type='LabelDbReporter'><field><label color='d73a4a'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' repo='fujitsu/dnnl_aarch64' type='AverageIssueCloseDbReporter'><field>fujitsu/dnnl_aarch64</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>4</field><field>32.75</field><field>5</field><field>4</field><field>32.75</field><field>5</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/dnnl_aarch64' type='AveragePrCloseDbReporter'><field>fujitsu/dnnl_aarch64</field><field>0</field><field>0</field><field>1</field><field>3</field><field>5.33</field><field>1</field><field>13</field><field>1.46</field><field>2</field><field>13</field><field>1.46</field><field>2</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/dnnl_aarch64' type='AveragePrCloseDbReporter'><field>fujitsu/dnnl_aarch64</field><field>0</field><field>0</field><field>0</field><field>2</field><field>8.0</field><field>1</field><field>13</field><field>1.46</field><field>2</field><field>13</field><field>1.46</field><field>2</field></reporting>
     </reports>
   </repo>
