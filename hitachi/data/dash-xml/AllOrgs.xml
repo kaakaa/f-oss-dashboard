@@ -25,7 +25,7 @@
     <report key='AverageIssueCloseDbReporter' name='Average Issue Close Time'><description>This report shows the average time each repo takes to close issues</description><column-type type='org/repo'>Repo</column-type><column-type type='text'>&lt;1 month: Closed</column-type><column-type type='text'>&lt;1 month: MTTR</column-type><column-type type='text'>&lt;1 month: Still Open</column-type><column-type type='text'>&lt;1 quarter: Closed</column-type><column-type type='text'>&lt;1 quarter: MTTR</column-type><column-type type='text'>&lt;1 quarter: Still Open</column-type><column-type type='text'>&lt;1 year: Closed</column-type><column-type type='text'>&lt;1 year: MTTR</column-type><column-type type='text'>&lt;1 year: Still Open</column-type><column-type type='text'>All time: Closed</column-type><column-type type='text'>All time: MTTR</column-type><column-type type='text'>All time: Still Open</column-type></report>
     <report key='AveragePrCloseDbReporter' name='Average Pull Request Close Time'><description>This report shows the average time each repo takes to close pull requests</description><column-type type='org/repo'>Repo</column-type><column-type type='text'>&lt;1 month: Closed</column-type><column-type type='text'>&lt;1 month: MTTR</column-type><column-type type='text'>&lt;1 month: Still Open</column-type><column-type type='text'>&lt;1 quarter: Closed</column-type><column-type type='text'>&lt;1 quarter: MTTR</column-type><column-type type='text'>&lt;1 quarter: Still Open</column-type><column-type type='text'>&lt;1 year: Closed</column-type><column-type type='text'>&lt;1 year: MTTR</column-type><column-type type='text'>&lt;1 year: Still Open</column-type><column-type type='text'>All time: Closed</column-type><column-type type='text'>All time: MTTR</column-type><column-type type='text'>All time: Still Open</column-type></report>
   </issue-reports>
-  <run-metrics refreshTime='2020-09-28T00:40:40+00:00' generationTime='2020-09-28T00:53:30+00:00' startRateLimit='4991' endRateLimit='4999' usedRateLimit='4992'/>
+  <run-metrics refreshTime='2020-10-05T00:42:20+00:00' generationTime='2020-10-05T00:53:38+00:00' startRateLimit='4999' endRateLimit='4770' usedRateLimit='229'/>
  </metadata>
  <organization name='Hitachi' avatar='https://avatars3.githubusercontent.com/u/9561292?v=4' type='organization'>
   <url>http://www.hitachi.com/</url>
@@ -61,13 +61,13 @@
     <collaborators>
     </collaborators>
     <issues count='4'>
-      <issue id='207132919' number='2' user='Simont3' state='open' created_at='2017-02-13 06:33:20 +0000' age='1323' updated_at='2017-03-06 16:02:29 +0000' pull_request='false' comments='1'><title>HCP Upload Daemon</title>
+      <issue id='207132919' number='2' user='Simont3' state='open' created_at='2017-02-13 06:33:20 +0000' age='1330' updated_at='2017-03-06 16:02:29 +0000' pull_request='false' comments='1'><title>HCP Upload Daemon</title>
       </issue>
-      <issue id='221399148' number='3' user='jgoodie' state='open' created_at='2017-04-12 21:43:27 +0000' age='1264' updated_at='2017-04-12 21:43:27 +0000' pull_request='false' comments='0'><title>https://gitlab.com/simont3/awftp</title>
+      <issue id='221399148' number='3' user='jgoodie' state='open' created_at='2017-04-12 21:43:27 +0000' age='1271' updated_at='2017-04-12 21:43:27 +0000' pull_request='false' comments='0'><title>https://gitlab.com/simont3/awftp</title>
       </issue>
-      <issue id='260571981' number='4' user='Simont3' state='open' created_at='2017-09-26 10:25:14 +0000' age='1098' updated_at='2017-09-26 10:25:14 +0000' pull_request='false' comments='0'><title>Add a new repository to Hitachi GitHub Space</title>
+      <issue id='260571981' number='4' user='Simont3' state='open' created_at='2017-09-26 10:25:14 +0000' age='1105' updated_at='2017-09-26 10:25:14 +0000' pull_request='false' comments='0'><title>Add a new repository to Hitachi GitHub Space</title>
       </issue>
-      <issue id='260572434' number='5' user='Simont3' state='open' created_at='2017-09-26 10:26:45 +0000' age='1098' updated_at='2017-09-26 10:26:45 +0000' pull_request='false' comments='0'><title>Add a new repository to Hitachi GitHub Space</title>
+      <issue id='260572434' number='5' user='Simont3' state='open' created_at='2017-09-26 10:26:45 +0000' age='1105' updated_at='2017-09-26 10:26:45 +0000' pull_request='false' comments='0'><title>Add a new repository to Hitachi GitHub Space</title>
       </issue>
     </issues>
   <release-data>
@@ -222,7 +222,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='582683131' number='1' user='AWatanabe418' state='open' created_at='2020-03-17 00:58:54 +0000' age='195' updated_at='2020-03-17 03:27:40 +0000' pull_request='false' comments='1'><title>Missing Actions #227, #228 </title>
+      <issue id='582683131' number='1' user='AWatanabe418' state='open' created_at='2020-03-17 00:58:54 +0000' age='202' updated_at='2020-03-17 03:27:40 +0000' pull_request='false' comments='1'><title>Missing Actions #227, #228 </title>
       </issue>
     </issues>
   <release-data>
@@ -506,7 +506,7 @@
   <reporting class='issue-report' repo='Hitachi/openshift-ansible' type='AveragePrCloseDbReporter'><field>Hitachi/openshift-ansible</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
     </reports>
   </repo>
-  <repo name='keycloak' org='Hitachi' homepage='http://www.keycloak.org' private='false' fork='true' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='false' language='Java' stars='0' watchers='2' forks='0' created_at='2018-12-04 06:01:27 +0000' updated_at='2020-09-16 00:17:57 +0000' pushed_at='2020-09-25 00:43:23 +0000' size='148811' commit_count='1394'>
+  <repo name='keycloak' org='Hitachi' homepage='http://www.keycloak.org' private='false' fork='true' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='false' language='Java' stars='0' watchers='2' forks='0' created_at='2018-12-04 06:01:27 +0000' updated_at='2020-10-01 04:11:35 +0000' pushed_at='2020-10-01 06:50:03 +0000' size='149082' commit_count='1427'>
     <description>Open Source Identity and Access Management For Modern Applications and Services</description>
     <collaborators>
     </collaborators>
@@ -6277,7 +6277,7 @@
   <reporting class='issue-report' repo='Hitachi/openapi-generator' type='AveragePrCloseDbReporter'><field>Hitachi/openapi-generator</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
     </reports>
   </repo>
-  <repo name='istio-bench' org='Hitachi' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='2' open_issue_count='0' open_pr_count='0' has_wiki='true' language='Python' stars='17' watchers='3' forks='0' created_at='2020-03-04 08:15:30 +0000' updated_at='2020-07-30 12:52:29 +0000' pushed_at='2020-06-17 23:58:36 +0000' size='257' commit_count='49'>
+  <repo name='istio-bench' org='Hitachi' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='2' open_issue_count='0' open_pr_count='0' has_wiki='true' language='Python' stars='18' watchers='3' forks='0' created_at='2020-03-04 08:15:30 +0000' updated_at='2020-10-04 18:37:26 +0000' pushed_at='2020-06-17 23:58:36 +0000' size='257' commit_count='49'>
     <description>A benchmark tool for Istio. It measures CPU, Memory, Network usage of istio per number of services</description>
     <collaborators>
     </collaborators>
@@ -6472,28 +6472,28 @@
   <email></email>
   <created_at>2019-09-03 18:30:27 +0000</created_at>
  </organization>
-  <repo name='EEND' org='hitachi-speech' homepage='' private='false' fork='false' closed_issue_count='11' closed_pr_count='0' open_issue_count='9' open_pr_count='0' has_wiki='true' language='Python' stars='113' watchers='13' forks='19' created_at='2019-09-12 21:06:00 +0000' updated_at='2020-09-26 05:47:44 +0000' pushed_at='2019-11-21 18:18:24 +0000' size='52989' commit_count='4'>
+  <repo name='EEND' org='hitachi-speech' homepage='' private='false' fork='false' closed_issue_count='11' closed_pr_count='0' open_issue_count='9' open_pr_count='0' has_wiki='true' language='Python' stars='115' watchers='13' forks='19' created_at='2019-09-12 21:06:00 +0000' updated_at='2020-10-01 13:07:39 +0000' pushed_at='2019-11-21 18:18:24 +0000' size='52989' commit_count='4'>
     <description>End-to-End Neural Diarization</description>
     <collaborators>
     </collaborators>
     <issues count='9'>
-      <issue id='506144578' number='2' user='liuyue94' state='open' created_at='2019-10-12 07:00:55 +0000' age='352' updated_at='2019-10-15 14:49:31 +0000' pull_request='false' comments='3'><title>I want to know how to prepare my own data?</title>
+      <issue id='506144578' number='2' user='liuyue94' state='open' created_at='2019-10-12 07:00:55 +0000' age='359' updated_at='2019-10-15 14:49:31 +0000' pull_request='false' comments='3'><title>I want to know how to prepare my own data?</title>
       </issue>
-      <issue id='533370775' number='3' user='008karan' state='open' created_at='2019-12-05 14:02:12 +0000' age='297' updated_at='2020-02-24 23:59:48 +0000' pull_request='false' comments='34'><title>cant start training</title>
+      <issue id='533370775' number='3' user='008karan' state='open' created_at='2019-12-05 14:02:12 +0000' age='304' updated_at='2020-02-24 23:59:48 +0000' pull_request='false' comments='34'><title>cant start training</title>
       </issue>
-      <issue id='566338170' number='4' user='Durgesh92' state='open' created_at='2020-02-17 14:32:45 +0000' age='223' updated_at='2020-02-17 15:46:00 +0000' pull_request='false' comments='3'><title>Unable to identify speaker cluster from generated RTTM</title>
+      <issue id='566338170' number='4' user='Durgesh92' state='open' created_at='2020-02-17 14:32:45 +0000' age='230' updated_at='2020-02-17 15:46:00 +0000' pull_request='false' comments='3'><title>Unable to identify speaker cluster from generated RTTM</title>
       </issue>
-      <issue id='588095063' number='6' user='mcompute' state='open' created_at='2020-03-26 01:44:46 +0000' age='186' updated_at='2020-07-08 13:49:46 +0000' pull_request='false' comments='5'><title>Experiment results on multiple speakers dataset</title>
+      <issue id='588095063' number='6' user='mcompute' state='open' created_at='2020-03-26 01:44:46 +0000' age='193' updated_at='2020-07-08 13:49:46 +0000' pull_request='false' comments='5'><title>Experiment results on multiple speakers dataset</title>
       </issue>
-      <issue id='638499834' number='7' user='Naminwang' state='open' created_at='2020-06-15 02:49:28 +0000' age='105' updated_at='2020-06-16 02:41:01 +0000' pull_request='false' comments='1'><title>Can this code support multi-gpu training?</title>
+      <issue id='638499834' number='7' user='Naminwang' state='open' created_at='2020-06-15 02:49:28 +0000' age='112' updated_at='2020-06-16 02:41:01 +0000' pull_request='false' comments='1'><title>Can this code support multi-gpu training?</title>
       </issue>
-      <issue id='641966609' number='8' user='widdiot' state='open' created_at='2020-06-19 13:24:13 +0000' age='100' updated_at='2020-06-19 13:24:13 +0000' pull_request='false' comments='0'><title>How to resume training?</title>
+      <issue id='641966609' number='8' user='widdiot' state='open' created_at='2020-06-19 13:24:13 +0000' age='107' updated_at='2020-06-19 13:24:13 +0000' pull_request='false' comments='0'><title>How to resume training?</title>
       </issue>
-      <issue id='655228706' number='9' user='875441459' state='open' created_at='2020-07-11 15:31:31 +0000' age='78' updated_at='2020-07-12 02:16:13 +0000' pull_request='false' comments='2'><title>Confusion about the store of uttid</title>
+      <issue id='655228706' number='9' user='875441459' state='open' created_at='2020-07-11 15:31:31 +0000' age='85' updated_at='2020-07-12 02:16:13 +0000' pull_request='false' comments='2'><title>Confusion about the store of uttid</title>
       </issue>
-      <issue id='666863582' number='10' user='875441459' state='open' created_at='2020-07-28 08:15:02 +0000' age='62' updated_at='2020-07-29 08:22:04 +0000' pull_request='false' comments='2'><title>Confusion about the calculation of DER</title>
+      <issue id='666863582' number='10' user='875441459' state='open' created_at='2020-07-28 08:15:02 +0000' age='69' updated_at='2020-07-29 08:22:04 +0000' pull_request='false' comments='2'><title>Confusion about the calculation of DER</title>
       </issue>
-      <issue id='687690199' number='11' user='mycrazycracy' state='open' created_at='2020-08-28 03:49:20 +0000' age='31' updated_at='2020-08-28 03:49:20 +0000' pull_request='false' comments='0'><title>Any timeline to support the newly-published papers?</title>
+      <issue id='687690199' number='11' user='mycrazycracy' state='open' created_at='2020-08-28 03:49:20 +0000' age='38' updated_at='2020-08-28 03:49:20 +0000' pull_request='false' comments='0'><title>Any timeline to support the newly-published papers?</title>
       </issue>
     </issues>
   <release-data>
@@ -6512,11 +6512,11 @@
   <reporting class='issue-report' repo='hitachi-speech/EEND' type='NoIssueCommentsDbReporter'><field>2020-06-19 13:24:13 +0000</field><field>https://github.com/hitachi-speech/EEND/issues/8</field><field>How to resume training?</field><field></field></reporting>
   <reporting class='issue-report' repo='hitachi-speech/EEND' type='NoIssueCommentsDbReporter'><field>2020-08-28 03:49:20 +0000</field><field>https://github.com/hitachi-speech/EEND/issues/11</field><field>Any timeline to support the newly-published papers?</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>hitachi-speech/EEND</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='hitachi-speech/EEND' type='AverageIssueCloseDbReporter'><field>hitachi-speech/EEND</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>3</field><field>2</field><field>57.5</field><field>9</field><field>2</field><field>57.5</field><field>9</field></reporting>
+  <reporting class='issue-report' repo='hitachi-speech/EEND' type='AverageIssueCloseDbReporter'><field>hitachi-speech/EEND</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>3</field><field>1</field><field>13.0</field><field>9</field><field>2</field><field>57.5</field><field>9</field></reporting>
   <reporting class='issue-report' repo='hitachi-speech/EEND' type='AveragePrCloseDbReporter'><field>hitachi-speech/EEND</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
     </reports>
   </repo>
-  <repo name='hitachi-speech.github.io' org='hitachi-speech' homepage='https://hitachi-speech.github.io' private='false' fork='false' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='true' language='HTML' stars='1' watchers='2' forks='0' created_at='2019-10-08 01:04:34 +0000' updated_at='2020-09-15 05:40:30 +0000' pushed_at='2020-09-15 05:40:27 +0000' size='350' commit_count='65'>
+  <repo name='hitachi-speech.github.io' org='hitachi-speech' homepage='https://hitachi-speech.github.io' private='false' fork='false' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='true' language='HTML' stars='1' watchers='2' forks='0' created_at='2019-10-08 01:04:34 +0000' updated_at='2020-09-28 08:01:13 +0000' pushed_at='2020-09-28 08:01:10 +0000' size='388' commit_count='69'>
     <description></description>
     <collaborators>
     </collaborators>
