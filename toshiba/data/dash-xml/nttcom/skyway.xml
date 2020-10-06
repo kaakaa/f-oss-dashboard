@@ -3,13 +3,13 @@
     <collaborators>
     </collaborators>
     <issues count='3'>
-      <issue id='546041147' number='3' user='dependabot[bot]' state='open' created_at='2020-01-07 02:21:03 +0000' age='266' updated_at='2020-01-07 02:21:05 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump handlebars from 3.0.7 to 4.5.3</title>
+      <issue id='546041147' number='3' user='dependabot[bot]' state='open' created_at='2020-01-07 02:21:03 +0000' age='273' updated_at='2020-01-07 02:21:05 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump handlebars from 3.0.7 to 4.5.3</title>
         <label url="https://api.github.com/repos/nttcom/skyway/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='609414703' number='6' user='dependabot[bot]' state='open' created_at='2020-04-29 22:52:41 +0000' age='152' updated_at='2020-04-29 22:52:42 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump jquery from 2.1.4 to 3.5.0</title>
+      <issue id='609414703' number='6' user='dependabot[bot]' state='open' created_at='2020-04-29 22:52:41 +0000' age='159' updated_at='2020-04-29 22:52:42 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump jquery from 2.1.4 to 3.5.0</title>
         <label url="https://api.github.com/repos/nttcom/skyway/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='657632642' number='7' user='dependabot[bot]' state='open' created_at='2020-07-15 20:28:52 +0000' age='75' updated_at='2020-07-15 20:28:54 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump lodash from 3.10.1 to 4.17.19</title>
+      <issue id='657632642' number='7' user='dependabot[bot]' state='open' created_at='2020-07-15 20:28:52 +0000' age='82' updated_at='2020-07-15 20:28:54 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump lodash from 3.10.1 to 4.17.19</title>
         <label url="https://api.github.com/repos/nttcom/skyway/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>

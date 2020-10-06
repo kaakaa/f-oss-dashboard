@@ -3,7 +3,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='198128384' number='1' user='bantayso' state='open' created_at='2016-12-30 10:09:40 +0000' age='1369' updated_at='2016-12-30 10:09:40 +0000' pull_request='false' comments='0'><title>NullPointerException io.skyway.Peer.Reachability.isReachable</title>
+      <issue id='198128384' number='1' user='bantayso' state='open' created_at='2016-12-30 10:09:40 +0000' age='1376' updated_at='2016-12-30 10:09:40 +0000' pull_request='false' comments='0'><title>NullPointerException io.skyway.Peer.Reachability.isReachable</title>
       </issue>
     </issues>
   <release-data>

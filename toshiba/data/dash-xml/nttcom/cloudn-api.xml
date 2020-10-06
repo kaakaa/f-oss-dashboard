@@ -3,7 +3,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='100464024' number='3' user='iwashi' state='open' created_at='2015-08-12 04:42:08 +0000' age='1875' updated_at='2015-08-12 04:42:08 +0000' pull_request='false' comments='0'><title>Show friendly error message when method with wrong parameters called</title>
+      <issue id='100464024' number='3' user='iwashi' state='open' created_at='2015-08-12 04:42:08 +0000' age='1882' updated_at='2015-08-12 04:42:08 +0000' pull_request='false' comments='0'><title>Show friendly error message when method with wrong parameters called</title>
       </issue>
     </issues>
   <release-data>
