@@ -1,0 +1,9 @@
+    <reports org='FujitsuLaboratories' name='ConnectionChain-sample'>
+      <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>environment/README.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>docs/REST-API/sample/transfers.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>docs/REST-API/sample/rules.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>docs/REST-API/base/endchains.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/ConnectionChain-sample' type='DocsReporter'><file>docs/REST-API/base/ecaccounts.md</file></reporting>
+      <license repo='FujitsuLaboratories/ConnectionChain-sample' file='LICENSE' confidence='100'>Apache License 2.0</license>
+    </reports>

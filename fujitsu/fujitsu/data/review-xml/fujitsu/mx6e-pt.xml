@@ -1,0 +1,5 @@
+    <reports org='fujitsu' name='mx6e-pt'>
+      <reporting class='repo-report' repo='fujitsu/mx6e-pt' type='DocsReporter'><file>README.md</file></reporting>
+      <license repo='fujitsu/mx6e-pt' file='LICENSE' confidence='100'>Apache License 2.0</license>
+      <reporting class='repo-report' repo='fujitsu/mx6e-pt' type='BinaryReporter'><file>documents/mx6e-pt-manual.pdf</file></reporting>
+    </reports>

@@ -1,0 +1,22 @@
+  <repo name='mbuild' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='true' language='Python' stars='1' watchers='3' forks='1' created_at='2020-05-29 07:03:44 +0000' updated_at='2020-05-29 07:39:08 +0000' pushed_at='2020-05-29 08:00:31 +0000' size='249' commit_count='88'>
+    <description></description>
+    <collaborators>
+    </collaborators>
+    <issues count='0'>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='fujitsu' name='mbuild'>
+      <reporting class='repo-report' repo='fujitsu/mbuild' type='DocsReporter'><file>tests/nondep/README.txt</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/mbuild' type='DocsReporter'><file>README.md</file></reporting>
+      <license repo='fujitsu/mbuild' file='LICENSE' confidence='100'>Apache License 2.0</license>
+    </reports>
+    <reports org='fujitsu' name='mbuild'>
+  <reporting class='repo-report' repo='fujitsu/mbuild' type='WikiOnDbReporter'><field>2020-05-29 07:03:44 +0000</field><field>fujitsu/mbuild</field><field>https://github.com/fujitsu/mbuild/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/mbuild</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/mbuild' type='AverageIssueCloseDbReporter'><field>fujitsu/mbuild</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/mbuild' type='AveragePrCloseDbReporter'><field>fujitsu/mbuild</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>
+  </repo>

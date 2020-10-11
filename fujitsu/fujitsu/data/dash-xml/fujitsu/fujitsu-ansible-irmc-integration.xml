@@ -1,0 +1,43 @@
+  <repo name='fujitsu-ansible-irmc-integration' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='9' closed_pr_count='1' open_issue_count='5' open_pr_count='0' has_wiki='true' language='Python' stars='15' watchers='8' forks='3' created_at='2018-08-30 12:28:13 +0000' updated_at='2020-10-04 03:24:17 +0000' pushed_at='2019-08-07 10:40:19 +0000' size='153' commit_count='17'>
+    <description>The Fujitsu Software Serverview Ansible iRMC Integration features modules and playbooks to access and manage Fujitsu PRIMERGY servers via iRMC.</description>
+    <collaborators>
+    </collaborators>
+    <issues count='5'>
+      <issue id='439626470' number='6' user='litewhatever' state='open' created_at='2019-05-02 14:39:16 +0000' age='527' updated_at='2019-05-03 11:00:29 +0000' pull_request='false' comments='2'><title>Please add support for ConfLDAPAuthorizationUserGroupName</title>
+      </issue>
+      <issue id='439627980' number='7' user='litewhatever' state='open' created_at='2019-05-02 14:42:14 +0000' age='527' updated_at='2019-05-02 14:42:14 +0000' pull_request='false' comments='0'><title>Please add meta directory and main.yml</title>
+      </issue>
+      <issue id='442709447' number='8' user='cccfer' state='open' created_at='2019-05-10 13:03:47 +0000' age='519' updated_at='2019-05-10 13:03:47 +0000' pull_request='false' comments='0'><title>HBA information in get_server_facts.yml</title>
+      </issue>
+      <issue id='673436478' number='9' user='tavasti' state='open' created_at='2020-08-05 10:36:09 +0000' age='67' updated_at='2020-08-05 11:11:29 +0000' pull_request='false' comments='0'><title>Setting PowerOff with irmc_powerstate does not work</title>
+      </issue>
+      <issue id='673548241' number='10' user='tavasti' state='open' created_at='2020-08-05 13:38:59 +0000' age='66' updated_at='2020-08-06 06:19:17 +0000' pull_request='false' comments='0'><title>irmc_raid not working at all</title>
+      </issue>
+    </issues>
+  <release-data>
+    <release id='15262442' url='https://github.com/fujitsu/fujitsu-ansible-irmc-integration/releases/tag/v1.2-fix' published_at='2019-01-30 11:14:31 +0000' author='akumch'>Ansible Integration V1.2 with LDAP bug fixed</release>
+    <release id='14534155' url='https://github.com/fujitsu/fujitsu-ansible-irmc-integration/releases/tag/v1.2' published_at='2018-12-14 09:47:56 +0000' author='akumch'>Ansible Integration v1.2</release>
+    <release id='14134384' url='https://github.com/fujitsu/fujitsu-ansible-irmc-integration/releases/tag/v1.1' published_at='2018-11-22 07:55:37 +0000' author='akumch'>Ansible Integration v1.1</release>
+    <release id='12932214' url='https://github.com/fujitsu/fujitsu-ansible-irmc-integration/releases/tag/v1.0.1' published_at='2018-09-17 10:54:33 +0000' author='akumch'>Ansible Integration v1.0.1</release>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='fujitsu' name='fujitsu-ansible-irmc-integration'>
+      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='DocsReporter'><file>DOCUMENTATION.md</file></reporting>
+      <license repo='fujitsu/fujitsu-ansible-irmc-integration' file='LICENSE.md' confidence='100'>GNU General Public License v3.0</license>
+      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='BinaryReporter'><file>tests/__init__.py</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='BinaryReporter'><file>module_utils/__init__.py</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='BinaryReporter'><file>library/__init__.py</file></reporting>
+    </reports>
+    <reports org='fujitsu' name='fujitsu-ansible-irmc-integration'>
+  <reporting class='repo-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='WikiOnDbReporter'><field>2018-08-30 12:28:13 +0000</field><field>fujitsu/fujitsu-ansible-irmc-integration</field><field>https://github.com/fujitsu/fujitsu-ansible-irmc-integration/wiki</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='NoIssueCommentsDbReporter'><field>2019-05-02 14:42:14 +0000</field><field>https://github.com/fujitsu/fujitsu-ansible-irmc-integration/issues/7</field><field>Please add meta directory and main.yml</field><field></field></reporting>
+  <reporting class='issue-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='NoIssueCommentsDbReporter'><field>2019-05-10 13:03:47 +0000</field><field>https://github.com/fujitsu/fujitsu-ansible-irmc-integration/issues/8</field><field>HBA information in get_server_facts.yml</field><field></field></reporting>
+  <reporting class='issue-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='NoIssueCommentsDbReporter'><field>2020-08-05 10:36:09 +0000</field><field>https://github.com/fujitsu/fujitsu-ansible-irmc-integration/issues/9</field><field>Setting PowerOff with irmc_powerstate does not work</field><field></field></reporting>
+  <reporting class='issue-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='NoIssueCommentsDbReporter'><field>2020-08-05 13:38:59 +0000</field><field>https://github.com/fujitsu/fujitsu-ansible-irmc-integration/issues/10</field><field>irmc_raid not working at all</field><field></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/fujitsu-ansible-irmc-integration</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='AverageIssueCloseDbReporter'><field>fujitsu/fujitsu-ansible-irmc-integration</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>2</field><field>0</field><field>0</field><field>2</field><field>4</field><field>4.5</field><field>5</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/fujitsu-ansible-irmc-integration' type='AveragePrCloseDbReporter'><field>fujitsu/fujitsu-ansible-irmc-integration</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>15.0</field><field>0</field></reporting>
+    </reports>
+  </repo>
