@@ -1,0 +1,16 @@
+    <reports org='Hitachi' name='webauthn4j'>
+      <reporting class='repo-report' repo='Hitachi/webauthn4j' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/webauthn4j' type='DocsReporter'><file>.github/ISSUE_TEMPLATE/feature_request.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/webauthn4j' type='DocsReporter'><file>.github/ISSUE_TEMPLATE/bug_report.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/webauthn4j' type='DocsReporter'><file>docs/internal/release-procedure.md</file></reporting>
+      <license repo='Hitachi/webauthn4j' file='LICENSE.txt' confidence='100'>Apache License 2.0</license>
+      <reporting class='repo-report' repo='Hitachi/webauthn4j' type='BinaryReporter'><file>gradle/lib/github-release-notes-generator.jar</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/webauthn4j' type='BinaryReporter'><file>gradle/wrapper/gradle-wrapper.jar</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/webauthn4j' type='BinaryReporter'><file>webauthn4j-test/src/main/resources/attestation/2tier/private/2tier-test-root-CA.der</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/webauthn4j' type='BinaryReporter'><file>webauthn4j-test/src/main/resources/attestation/2tier/private/2tier-test-authenticator.der</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/webauthn4j' type='BinaryReporter'><file>webauthn4j-test/src/main/resources/attestation/3tier/private/3tier-test-root-CA.der</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/webauthn4j' type='BinaryReporter'><file>webauthn4j-test/src/main/resources/attestation/3tier/private/3tier-test-authenticator.der</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/webauthn4j' type='BinaryReporter'><file>webauthn4j-test/src/main/resources/attestation/3tier/private/3tier-test-intermediate-CA.der</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/webauthn4j' type='BinaryReporter'><file>webauthn4j-test/src/main/resources/attestation/3tier/jks/3tier-test.jks</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/webauthn4j' type='BinaryReporter'><file>webauthn4j-core/src/test/resources/com/webauthn4j/anchor/KeyStoreFileTrustAnchorsProviderTest/test.jks</file></reporting>
+    </reports>

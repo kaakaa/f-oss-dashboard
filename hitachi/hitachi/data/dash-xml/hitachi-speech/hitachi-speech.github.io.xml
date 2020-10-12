@@ -1,0 +1,20 @@
+  <repo name='hitachi-speech.github.io' org='hitachi-speech' homepage='https://hitachi-speech.github.io' private='false' fork='false' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='true' language='HTML' stars='1' watchers='2' forks='0' created_at='2019-10-08 01:04:34 +0000' updated_at='2020-10-06 15:06:05 +0000' pushed_at='2020-10-06 15:06:02 +0000' size='121' commit_count='72'>
+    <description></description>
+    <collaborators>
+    </collaborators>
+    <issues count='0'>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='hitachi-speech' name='hitachi-speech.github.io'>
+      <reporting class='repo-report' repo='hitachi-speech/hitachi-speech.github.io' type='LicenseReporter'>No License File Found</reporting>
+    </reports>
+    <reports org='hitachi-speech' name='hitachi-speech.github.io'>
+  <reporting class='repo-report' repo='hitachi-speech/hitachi-speech.github.io' type='WikiOnDbReporter'><field>2019-10-08 01:04:34 +0000</field><field>hitachi-speech/hitachi-speech.github.io</field><field>https://github.com/hitachi-speech/hitachi-speech.github.io/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>hitachi-speech/hitachi-speech.github.io</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='hitachi-speech/hitachi-speech.github.io' type='AverageIssueCloseDbReporter'><field>hitachi-speech/hitachi-speech.github.io</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='hitachi-speech/hitachi-speech.github.io' type='AveragePrCloseDbReporter'><field>hitachi-speech/hitachi-speech.github.io</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>
+  </repo>

@@ -1,0 +1,6 @@
+    <reports org='Hitachi' name='sample-oidc-client-application'>
+  <reporting class='repo-report' repo='Hitachi/sample-oidc-client-application' type='WikiOnDbReporter'><field>2020-08-24 03:50:27 +0000</field><field>Hitachi/sample-oidc-client-application</field><field>https://github.com/Hitachi/sample-oidc-client-application/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/sample-oidc-client-application</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/sample-oidc-client-application' type='AverageIssueCloseDbReporter'><field>Hitachi/sample-oidc-client-application</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/sample-oidc-client-application' type='AveragePrCloseDbReporter'><field>Hitachi/sample-oidc-client-application</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

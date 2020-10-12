@@ -1,0 +1,4 @@
+    <reports org='Hitachi' name='sample-oidc-client-application'>
+      <reporting class='repo-report' repo='Hitachi/sample-oidc-client-application' type='DocsReporter'><file>README.md</file></reporting>
+      <license repo='Hitachi/sample-oidc-client-application' file='LICENSE' confidence='100'>Apache License 2.0</license>
+    </reports>

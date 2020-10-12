@@ -1,0 +1,5 @@
+    <reports org='Hitachi' name='selinux-info-viewer'>
+      <reporting class='repo-report' repo='Hitachi/selinux-info-viewer' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/selinux-info-viewer' type='DocsReporter'><file>README_en.md</file></reporting>
+      <license repo='Hitachi/selinux-info-viewer' file='LICENSE' confidence='100.0'>MIT License</license>
+    </reports>

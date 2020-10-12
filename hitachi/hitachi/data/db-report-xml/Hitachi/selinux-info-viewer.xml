@@ -1,0 +1,6 @@
+    <reports org='Hitachi' name='selinux-info-viewer'>
+  <reporting class='repo-report' repo='Hitachi/selinux-info-viewer' type='WikiOnDbReporter'><field>2017-11-10 06:10:00 +0000</field><field>Hitachi/selinux-info-viewer</field><field>https://github.com/Hitachi/selinux-info-viewer/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>Hitachi/selinux-info-viewer</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/selinux-info-viewer' type='AverageIssueCloseDbReporter'><field>Hitachi/selinux-info-viewer</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='Hitachi/selinux-info-viewer' type='AveragePrCloseDbReporter'><field>Hitachi/selinux-info-viewer</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>
