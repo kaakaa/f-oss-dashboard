@@ -1,0 +1,6 @@
+    <reports org='nttcom' name='skyway-docs'>
+      <reporting class='repo-report' repo='nttcom/skyway-docs' type='DocsReporter'><file>api.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-docs' type='DocsReporter'><file>readme.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-docs' type='DocsReporter'><file>serialization.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-docs' type='LicenseReporter'>No License File Found</reporting>
+    </reports>

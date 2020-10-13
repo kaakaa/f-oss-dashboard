@@ -1,0 +1,11 @@
+    <reports org='nttcom' name='skyway-siru-sample'>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>dist/robots.txt</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>dist/humans.txt</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>public/robots.txt</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>public/humans.txt</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>CHANGELOG.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='DocsReporter'><file>CONTRIBUTING.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='LicenseReporter'>No License File Found</reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='BinaryReporter'><file>src/styles/core.scss</file></reporting>
+    </reports>

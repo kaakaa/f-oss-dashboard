@@ -1,0 +1,4 @@
+    <reports org='nttcom' name='designpattern-sample-app'>
+      <reporting class='repo-report' repo='nttcom/designpattern-sample-app' type='DocsReporter'><file>README.md</file></reporting>
+      <license repo='nttcom/designpattern-sample-app' file='LICENSE' confidence='100'>MIT License</license>
+    </reports>

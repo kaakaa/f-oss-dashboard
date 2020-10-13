@@ -1,0 +1,6 @@
+    <reports org='nttcom' name='SkyWay-DrivingVehicle'>
+  <reporting class='repo-report' repo='nttcom/SkyWay-DrivingVehicle' type='WikiOnDbReporter'><field>2015-07-28 01:03:25 +0000</field><field>nttcom/SkyWay-DrivingVehicle</field><field>https://github.com/nttcom/SkyWay-DrivingVehicle/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/SkyWay-DrivingVehicle</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/SkyWay-DrivingVehicle' type='AverageIssueCloseDbReporter'><field>nttcom/SkyWay-DrivingVehicle</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/SkyWay-DrivingVehicle' type='AveragePrCloseDbReporter'><field>nttcom/SkyWay-DrivingVehicle</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0.0</field><field>0</field></reporting>
+    </reports>

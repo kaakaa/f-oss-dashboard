@@ -1,0 +1,30 @@
+  <repo name='apigw-sample-app' org='nttcom' homepage='https://developer.ntt.com' private='false' fork='false' closed_issue_count='0' closed_pr_count='1' open_issue_count='0' open_pr_count='0' has_wiki='true' language='CoffeeScript' stars='1' watchers='15' forks='2' created_at='2015-06-11 06:36:38 +0000' updated_at='2018-06-13 06:23:26 +0000' pushed_at='2015-06-17 00:05:57 +0000' size='794' commit_count='5'>
+    <description></description>
+    <collaborators>
+    </collaborators>
+    <issues count='0'>
+    </issues>
+  <release-data>
+  </release-data>
+  <traffic-data>
+  </traffic-data>
+    <reports org='nttcom' name='apigw-sample-app'>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='DocsReporter'><file>ClientApp/app/robots.txt</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='DocsReporter'><file>ServerApp/public/robots.txt</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='DocsReporter'><file>ClientApp/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='DocsReporter'><file>ServerApp/README.md</file></reporting>
+      <license repo='nttcom/apigw-sample-app' file='LICENSE' confidence='100'>Apache License 2.0</license>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/public/favicon.ico</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/config/settings/staging.yml</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/config/settings/test.yml</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/config/settings/development.yml</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>demo_app_manual_ja.pdf</file></reporting>
+    </reports>
+    <reports org='nttcom' name='apigw-sample-app'>
+  <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='WikiOnDbReporter'><field>2015-06-11 06:36:38 +0000</field><field>nttcom/apigw-sample-app</field><field>https://github.com/nttcom/apigw-sample-app/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/apigw-sample-app</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/apigw-sample-app' type='AverageIssueCloseDbReporter'><field>nttcom/apigw-sample-app</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/apigw-sample-app' type='AveragePrCloseDbReporter'><field>nttcom/apigw-sample-app</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0.0</field><field>0</field></reporting>
+    </reports>
+  </repo>

@@ -1,0 +1,6 @@
+    <reports org='nttcom' name='skyway-siru-sample'>
+  <reporting class='repo-report' repo='nttcom/skyway-siru-sample' type='WikiOnDbReporter'><field>2017-06-02 21:09:23 +0000</field><field>nttcom/skyway-siru-sample</field><field>https://github.com/nttcom/skyway-siru-sample/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/skyway-siru-sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/skyway-siru-sample' type='AverageIssueCloseDbReporter'><field>nttcom/skyway-siru-sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/skyway-siru-sample' type='AveragePrCloseDbReporter'><field>nttcom/skyway-siru-sample</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

@@ -1,0 +1,6 @@
+    <reports org='nttcom' name='fic'>
+  <reporting class='repo-report' repo='nttcom/fic' type='WikiOnDbReporter'><field>2020-05-28 01:35:24 +0000</field><field>nttcom/fic</field><field>https://github.com/nttcom/fic/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/fic</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/fic' type='AverageIssueCloseDbReporter'><field>nttcom/fic</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>7.0</field><field>0</field><field>1</field><field>7.0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/fic' type='AveragePrCloseDbReporter'><field>nttcom/fic</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0.0</field><field>0</field><field>1</field><field>0.0</field><field>0</field></reporting>
+    </reports>

@@ -1,0 +1,6 @@
+    <reports org='nttcom' name='skyway-sdk-migration-docs'>
+      <reporting class='repo-report' repo='nttcom/skyway-sdk-migration-docs' type='DocsReporter'><file>android_sdk_next_version_api_diff.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-sdk-migration-docs' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-sdk-migration-docs' type='DocsReporter'><file>ios_sdk_next_version_api_diff.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-sdk-migration-docs' type='LicenseReporter'>No License File Found</reporting>
+    </reports>

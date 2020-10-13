@@ -1,0 +1,5 @@
+    <reports org='nttcom' name='apigw-ruby-sdk'>
+      <reporting class='repo-report' repo='nttcom/apigw-ruby-sdk' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-ruby-sdk' type='DocsReporter'><file>examples/README.md</file></reporting>
+      <license repo='nttcom/apigw-ruby-sdk' file='LICENSE' confidence='100'>Apache License 2.0</license>
+    </reports>
