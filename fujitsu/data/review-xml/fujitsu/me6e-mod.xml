@@ -2,8 +2,8 @@
       <reporting class='repo-report' repo='fujitsu/me6e-mod' type='DocsReporter'><file>app/ME6E_command_manual.txt</file></reporting>
       <reporting class='repo-report' repo='fujitsu/me6e-mod' type='DocsReporter'><file>README.md</file></reporting>
       <license repo='fujitsu/me6e-mod' file='LICENSE' confidence='100'>GNU General Public License v2.0</license>
-      <reporting class='repo-report' repo='fujitsu/me6e-mod' type='BinaryReporter'><file>me6e.h</file></reporting>
-      <reporting class='repo-report' repo='fujitsu/me6e-mod' type='BinaryReporter'><file>documents/me6e-mod-me6e-fp-manual.pdf</file></reporting>
       <reporting class='repo-report' repo='fujitsu/me6e-mod' type='BinaryReporter'><file>documents/me6e-mod-me6e-pr-manual.pdf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/me6e-mod' type='BinaryReporter'><file>documents/me6e-mod-me6e-fp-manual.pdf</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/me6e-mod' type='BinaryReporter'><file>me6e.h</file></reporting>
       <reporting class='repo-report' repo='fujitsu/me6e-mod' type='BinaryReporter'><file>me6e.c</file></reporting>
     </reports>

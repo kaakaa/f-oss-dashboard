@@ -1,0 +1,7 @@
+    <reports org='fujitsu' name='fftw'>
+  <reporting class='repo-report' repo='fujitsu/fftw' type='WikiOnDbReporter'><field>2020-10-14 05:13:17 +0000</field><field>fujitsu/fftw</field><field>https://github.com/fujitsu/fftw/wiki</field></reporting>
+  <reporting class='repo-report' repo='fujitsu/fftw' type='EmptyDbReporter'><field>2020-10-14 05:13:17 +0000</field><field>fujitsu/fftw</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/fftw</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/fftw' type='AverageIssueCloseDbReporter'><field>fujitsu/fftw</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/fftw' type='AveragePrCloseDbReporter'><field>fujitsu/fftw</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

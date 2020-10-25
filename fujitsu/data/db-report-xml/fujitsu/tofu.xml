@@ -1,6 +1,5 @@
     <reports org='fujitsu' name='tofu'>
   <reporting class='repo-report' repo='fujitsu/tofu' type='WikiOnDbReporter'><field>2020-09-08 00:39:45 +0000</field><field>fujitsu/tofu</field><field>https://github.com/fujitsu/tofu/wiki</field></reporting>
-  <reporting class='repo-report' repo='fujitsu/tofu' type='EmptyDbReporter'><field>2020-09-08 00:39:45 +0000</field><field>fujitsu/tofu</field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/tofu</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' repo='fujitsu/tofu' type='AverageIssueCloseDbReporter'><field>fujitsu/tofu</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' repo='fujitsu/tofu' type='AveragePrCloseDbReporter'><field>fujitsu/tofu</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>

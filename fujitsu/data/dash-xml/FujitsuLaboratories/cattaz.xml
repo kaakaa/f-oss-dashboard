@@ -1,34 +1,34 @@
-  <repo name='cattaz' org='FujitsuLaboratories' homepage='http://cattaz.io/' private='false' fork='false' closed_issue_count='10' closed_pr_count='17' open_issue_count='3' open_pr_count='8' has_wiki='true' language='JavaScript' stars='167' watchers='17' forks='18' created_at='2017-11-13 04:58:39 +0000' updated_at='2020-10-03 13:54:48 +0000' pushed_at='2020-10-02 20:51:20 +0000' size='3029' commit_count='521'>
+  <repo name='cattaz' org='FujitsuLaboratories' homepage='http://cattaz.io/' private='false' fork='false' closed_issue_count='10' closed_pr_count='17' open_issue_count='3' open_pr_count='8' has_wiki='true' language='JavaScript' stars='174' watchers='17' forks='18' created_at='2017-11-13 04:58:39 +0000' updated_at='2020-10-24 18:49:15 +0000' pushed_at='2020-10-02 20:51:20 +0000' size='3029' commit_count='521'>
     <description>Realtime collaborative tool which can run custom applications in a Wiki page</description>
     <collaborators>
     </collaborators>
     <issues count='11'>
-      <issue id='281663034' number='6' user='ChoudharyS' state='open' created_at='2017-12-13 08:28:38 +0000' age='1026' updated_at='2019-05-24 06:03:44 +0000' pull_request='true' comments='9' prFileCount='11' prAdditions='713' prDeletions='39'><title>use leveldb</title>
+      <issue id='281663034' number='6' user='ChoudharyS' state='open' created_at='2017-12-13 08:28:38 +0000' age='1047' updated_at='2019-05-24 06:03:44 +0000' pull_request='true' comments='9' prFileCount='11' prAdditions='713' prDeletions='39'><title>use leveldb</title>
       </issue>
-      <issue id='282345458' number='7' user='matthieu-pa' state='open' created_at='2017-12-15 07:49:50 +0000' age='1024' updated_at='2017-12-18 08:46:35 +0000' pull_request='false' comments='3'><title>Make Cattaz able to execute R code snippets?</title>
+      <issue id='282345458' number='7' user='matthieu-pa' state='open' created_at='2017-12-15 07:49:50 +0000' age='1045' updated_at='2017-12-18 08:46:35 +0000' pull_request='false' comments='3'><title>Make Cattaz able to execute R code snippets?</title>
       </issue>
-      <issue id='288826828' number='15' user='ohtake' state='open' created_at='2018-01-16 08:50:38 +0000' age='992' updated_at='2019-05-24 06:03:44 +0000' pull_request='true' comments='2' prFileCount='6' prAdditions='18' prDeletions='18'><title>Host landing page in github pages</title>
+      <issue id='288826828' number='15' user='ohtake' state='open' created_at='2018-01-16 08:50:38 +0000' age='1013' updated_at='2019-05-24 06:03:44 +0000' pull_request='true' comments='2' prFileCount='6' prAdditions='18' prDeletions='18'><title>Host landing page in github pages</title>
       </issue>
-      <issue id='309727294' number='19' user='kawaii' state='open' created_at='2018-03-29 12:00:37 +0000' age='920' updated_at='2018-04-12 11:30:21 +0000' pull_request='false' comments='5'><title>Where does Cattaz store persistent data? [Docker]</title>
+      <issue id='309727294' number='19' user='kawaii' state='open' created_at='2018-03-29 12:00:37 +0000' age='941' updated_at='2018-04-12 11:30:21 +0000' pull_request='false' comments='5'><title>Where does Cattaz store persistent data? [Docker]</title>
       </issue>
-      <issue id='632488910' number='29' user='dependabot[bot]' state='open' created_at='2020-06-06 14:13:27 +0000' age='119' updated_at='2020-06-06 14:13:28 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='3' prDeletions='3'><title>Bump websocket-extensions from 0.1.3 to 0.1.4</title>
+      <issue id='632488910' number='29' user='dependabot[bot]' state='open' created_at='2020-06-06 14:13:27 +0000' age='140' updated_at='2020-06-06 14:13:28 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='3' prDeletions='3'><title>Bump websocket-extensions from 0.1.3 to 0.1.4</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='658558122' number='30' user='dependabot[bot]' state='open' created_at='2020-07-16 20:49:50 +0000' age='79' updated_at='2020-07-16 20:49:52 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='5' prDeletions='5'><title>Bump lodash from 4.17.15 to 4.17.19</title>
+      <issue id='658558122' number='30' user='dependabot[bot]' state='open' created_at='2020-07-16 20:49:50 +0000' age='100' updated_at='2020-07-16 20:49:52 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='5' prDeletions='5'><title>Bump lodash from 4.17.15 to 4.17.19</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='662973692' number='31' user='dependabot[bot]' state='open' created_at='2020-07-21 12:39:28 +0000' age='75' updated_at='2020-07-21 12:39:29 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='71' prDeletions='50'><title>Bump codecov from 3.6.1 to 3.7.1</title>
+      <issue id='662973692' number='31' user='dependabot[bot]' state='open' created_at='2020-07-21 12:39:28 +0000' age='96' updated_at='2020-07-21 12:39:29 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='71' prDeletions='50'><title>Bump codecov from 3.6.1 to 3.7.1</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='668738047' number='32' user='dependabot[bot]' state='open' created_at='2020-07-30 13:41:11 +0000' age='65' updated_at='2020-07-30 13:41:12 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='6' prDeletions='6'><title>Bump elliptic from 6.5.1 to 6.5.3</title>
+      <issue id='668738047' number='32' user='dependabot[bot]' state='open' created_at='2020-07-30 13:41:11 +0000' age='86' updated_at='2020-07-30 13:41:12 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='6' prDeletions='6'><title>Bump elliptic from 6.5.1 to 6.5.3</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='693474586' number='33' user='dependabot[bot]' state='open' created_at='2020-09-04 18:30:39 +0000' age='29' updated_at='2020-09-04 18:30:40 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='23' prDeletions='25'><title>Bump handlebars from 4.5.1 to 4.7.6</title>
+      <issue id='693474586' number='33' user='dependabot[bot]' state='open' created_at='2020-09-04 18:30:39 +0000' age='50' updated_at='2020-09-04 18:30:40 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='23' prDeletions='25'><title>Bump handlebars from 4.5.1 to 4.7.6</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/cattaz/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='694527993' number='34' user='mlncn' state='open' created_at='2020-09-06 21:04:36 +0000' age='27' updated_at='2020-09-06 21:04:36 +0000' pull_request='false' comments='0'><title>An editor can easily link to another document in the same wiki</title>
+      <issue id='694527993' number='34' user='mlncn' state='open' created_at='2020-09-06 21:04:36 +0000' age='48' updated_at='2020-09-06 21:04:36 +0000' pull_request='false' comments='0'><title>An editor can easily link to another document in the same wiki</title>
       </issue>
-      <issue id='713878815' number='35' user='dtinth' state='open' created_at='2020-10-02 20:17:33 +0000' age='1' updated_at='2020-10-02 20:51:50 +0000' pull_request='true' comments='2' prFileCount='5' prAdditions='251' prDeletions='0'><title>Implement support for external applications (iframe)</title>
+      <issue id='713878815' number='35' user='dtinth' state='open' created_at='2020-10-02 20:17:33 +0000' age='22' updated_at='2020-10-02 20:51:50 +0000' pull_request='true' comments='2' prFileCount='5' prAdditions='251' prDeletions='0'><title>Implement support for external applications (iframe)</title>
       </issue>
     </issues>
   <release-data>
@@ -36,29 +36,29 @@
   <traffic-data>
   </traffic-data>
     <reports org='FujitsuLaboratories' name='cattaz'>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-weather.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-date.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-error.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-datematcher.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-votecrypto.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-youtube.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-reversi.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-draw.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-kanban.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/ja/app-hello.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/ja/index.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/ja/usage.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-vote.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-mandala.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-kpt.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-hello.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/index.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-meetingtime.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-map.cattaz.md</file></reporting>
       <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-bookmarks.cattaz.md</file></reporting>
-      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/apps.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-reversi.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-votecrypto.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/index.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-vote.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-youtube.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-kanban.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-mandala.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-date.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-hello.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-kpt.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-datematcher.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-draw.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-meetingtime.cattaz.md</file></reporting>
       <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/usage.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-weather.cattaz.md</file></reporting>
       <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-helpful.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-map.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/app-error.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/apps.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/ja/index.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/ja/app-hello.cattaz.md</file></reporting>
+      <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>docs/ja/usage.cattaz.md</file></reporting>
       <reporting class='repo-report' repo='FujitsuLaboratories/cattaz' type='DocsReporter'><file>README.md</file></reporting>
       <license repo='FujitsuLaboratories/cattaz' file='LICENSE' confidence='100'>MIT License</license>
     </reports>
@@ -71,7 +71,7 @@
   <reporting class='issue-report' repo='FujitsuLaboratories/cattaz' type='NoPrCommentsDbReporter'><field>2020-07-30 13:41:11 +0000</field><field>https://github.com/FujitsuLaboratories/cattaz/pull/32</field><field>Bump elliptic from 6.5.1 to 6.5.3</field><field></field></reporting>
   <reporting class='issue-report' repo='FujitsuLaboratories/cattaz' type='NoPrCommentsDbReporter'><field>2020-09-04 18:30:39 +0000</field><field>https://github.com/FujitsuLaboratories/cattaz/pull/33</field><field>Bump handlebars from 4.5.1 to 4.7.6</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>FujitsuLaboratories/cattaz</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field></reporting>
-  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ffffff'>wontfix</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>6</field></reporting>  <reporting class='issue-report' repo='FujitsuLaboratories/cattaz' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/cattaz</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>7</field><field>15.86</field><field>3</field></reporting>
-  <reporting class='issue-report' repo='FujitsuLaboratories/cattaz' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/cattaz</field><field>0</field><field>0</field><field>2</field><field>0</field><field>0</field><field>5</field><field>1</field><field>153.0</field><field>6</field><field>17</field><field>9.82</field><field>8</field></reporting>
+  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ffffff'>wontfix</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>6</field></reporting>  <reporting class='issue-report' repo='FujitsuLaboratories/cattaz' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/cattaz</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>7</field><field>15.86</field><field>3</field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/cattaz' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/cattaz</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>3</field><field>1</field><field>153.0</field><field>6</field><field>17</field><field>9.82</field><field>8</field></reporting>
     </reports>
   </repo>

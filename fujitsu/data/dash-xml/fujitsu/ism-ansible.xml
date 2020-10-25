@@ -1,22 +1,28 @@
-  <repo name='ism-ansible' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='0' has_wiki='true' language='Python' stars='5' watchers='3' forks='2' created_at='2017-12-01 06:12:40 +0000' updated_at='2020-04-09 03:23:24 +0000' pushed_at='2019-04-24 08:02:46 +0000' size='180' commit_count='59'>
+  <repo name='ism-ansible' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='0' open_issue_count='0' open_pr_count='2' has_wiki='true' language='Python' stars='5' watchers='4' forks='3' created_at='2017-12-01 06:12:40 +0000' updated_at='2020-04-09 03:23:24 +0000' pushed_at='2020-10-06 15:46:36 +0000' size='180' commit_count='59'>
     <description>Ansible Modules and Sample Playbooks for Fujitsu Software Infrastructure Manager</description>
     <collaborators>
     </collaborators>
-    <issues count='0'>
+    <issues count='2'>
+      <issue id='714826470' number='1' user='svoet' state='open' created_at='2020-10-05 13:10:00 +0000' age='19' updated_at='2020-10-05 13:10:00 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='7' prDeletions='2'><title>Fixed syntax issue with openssl newer than 1.0</title>
+      </issue>
+      <issue id='715808018' number='2' user='svoet' state='open' created_at='2020-10-06 15:46:35 +0000' age='18' updated_at='2020-10-06 15:46:35 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='104' prDeletions='102'><title>Checkmode</title>
+      </issue>
     </issues>
   <release-data>
   </release-data>
   <traffic-data>
   </traffic-data>
     <reports org='fujitsu' name='ism-ansible'>
-      <reporting class='repo-report' repo='fujitsu/ism-ansible' type='DocsReporter'><file>Readme.md</file></reporting>
       <reporting class='repo-report' repo='fujitsu/ism-ansible' type='DocsReporter'><file>ism-ansible.md</file></reporting>
+      <reporting class='repo-report' repo='fujitsu/ism-ansible' type='DocsReporter'><file>Readme.md</file></reporting>
       <license repo='fujitsu/ism-ansible' file='LICENSE' confidence='100'>GNU General Public License v3.0</license>
     </reports>
     <reports org='fujitsu' name='ism-ansible'>
   <reporting class='repo-report' repo='fujitsu/ism-ansible' type='WikiOnDbReporter'><field>2017-12-01 06:12:40 +0000</field><field>fujitsu/ism-ansible</field><field>https://github.com/fujitsu/ism-ansible/wiki</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/ism-ansible' type='NoPrCommentsDbReporter'><field>2020-10-05 13:10:00 +0000</field><field>https://github.com/fujitsu/ism-ansible/pull/1</field><field>Fixed syntax issue with openssl newer than 1.0</field><field></field></reporting>
+  <reporting class='issue-report' repo='fujitsu/ism-ansible' type='NoPrCommentsDbReporter'><field>2020-10-06 15:46:35 +0000</field><field>https://github.com/fujitsu/ism-ansible/pull/2</field><field>Checkmode</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/ism-ansible</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' repo='fujitsu/ism-ansible' type='AverageIssueCloseDbReporter'><field>fujitsu/ism-ansible</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/ism-ansible' type='AveragePrCloseDbReporter'><field>fujitsu/ism-ansible</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/ism-ansible' type='AveragePrCloseDbReporter'><field>fujitsu/ism-ansible</field><field>0</field><field>0</field><field>2</field><field>0</field><field>0</field><field>2</field><field>0</field><field>0</field><field>2</field><field>0</field><field>0</field><field>2</field></reporting>
     </reports>
   </repo>
