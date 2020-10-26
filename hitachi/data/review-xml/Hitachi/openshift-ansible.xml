@@ -1,126 +1,126 @@
     <reports org='Hitachi' name='openshift-ansible'>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>test/tox-inventory.txt</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>test/ci/inventory/local_containerized.txt</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>test/ci/inventory/local.txt</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>test-requirements.txt</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>test/ci/inventory/local_containerized.txt</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>test/tox-inventory.txt</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>requirements.txt</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/nuage_ca/files/serial.txt</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>HOOKS.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>test/integration/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>test/ci/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>README_CONTAINER_IMAGE.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>inventory/dynamic/gcp/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>inventory/dynamic/injected/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>inventory/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>DEPLOYMENT_TYPES.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>README_CONTAINERIZED_INSTALLATION.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>.github/ISSUE_TEMPLATE.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>test-requirements.txt</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>docs/repo_structure.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>docs/pull_requests.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>docs/openshift_components.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>docs/repo_structure.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>docs/proposals/proposal_template.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>docs/proposals/playbook_consolidation.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>docs/proposals/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>docs/proposals/crt_management_proposal.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>docs/proposals/proposal_template.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>docs/proposals/role_decomposition.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>images/installer/README_CONTAINER_IMAGE.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>images/installer/README_INVENTORY_GENERATOR.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_monitor_availability/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/flannel_register/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_provisioners/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_persistentlocalstorage/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_cluster_monitoring_operator/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_manageiq/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/flannel/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_expand_partition/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_prometheus/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_nfs/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_daemonset_config/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_persistent_volumes/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_default_storage_class/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_descheduler/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_management/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/container_runtime/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/nuage_node/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_storage_nfs/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/etcd/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/kuryr/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_metrics/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_logging/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_repos/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/contiv/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/nickhammond.logrotate/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/os_firewall/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_project_request_template/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_excluder/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_storage_glusterfs/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_grafana/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_master_certificates/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_node/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/rhel_subscribe/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_cluster_autoscaler/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/calico_master/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_aws/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_facts/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_storage_nfs_lvm/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_node_certificates/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_autoheal/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_control_plane/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_node_problem_detector/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_named_certificates/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_certificate_expiry/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/nuage_master/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_metering/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_hosted/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_health_checker/HOWTO_CHECKS.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_health_checker/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/v3.10/quickstart-templates/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/v3.10/db-templates/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/v3.10/image-streams/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/v3.11/quickstart-templates/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/v3.11/db-templates/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/v3.11/image-streams/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_sanitize_inventory/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/installer_checkpoint/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_ca/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/calico/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_logging_eventrouter/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_loadbalancer/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>CONTRIBUTING.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>examples/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>docs/proposals/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>docs/proposals/playbook_consolidation.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>ansible-profile/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>test/ci/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>test/integration/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>DEPLOYMENT_TYPES.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>images/installer/README_INVENTORY_GENERATOR.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>images/installer/README_CONTAINER_IMAGE.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>README_CONTAINER_IMAGE.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>hack/hooks/verify_generated_modules/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>hack/hooks/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>BUILD.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/aws/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/aws/BUILD_AMI.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>CONTRIBUTING.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>README_CONTAINERIZED_INSTALLATION.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_loadbalancer/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_descheduler/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_autoheal/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_node_problem_detector/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_ca/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_manageiq/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_logging_eventrouter/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_health_checker/HOWTO_CHECKS.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_health_checker/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_metering/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_cluster_autoscaler/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_logging/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_persistent_volumes/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_storage_nfs/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_storage_glusterfs/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_management/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_provisioners/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_excluder/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_aws/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_daemonset_config/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_metrics/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_sanitize_inventory/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_node_certificates/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/nuage_master/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_node/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_certificate_expiry/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/kuryr/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/installer_checkpoint/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_expand_partition/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_project_request_template/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_named_certificates/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/calico_master/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_prometheus/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_cluster_monitoring_operator/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/flannel/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/container_runtime/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_hosted/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/flannel_register/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_master_certificates/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/calico/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/v3.10/image-streams/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/v3.10/quickstart-templates/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/v3.10/db-templates/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/v3.11/image-streams/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/v3.11/quickstart-templates/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/v3.11/db-templates/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_examples/files/examples/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/nuage_node/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/nickhammond.logrotate/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/contiv/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_facts/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/os_firewall/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/rhel_subscribe/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_storage_nfs_lvm/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_monitor_availability/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_persistentlocalstorage/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_nfs/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_grafana/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_default_storage_class/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/etcd/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_repos/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>roles/openshift_control_plane/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/aws/PREREQUISITES.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/aws/BUILD_AMI.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/aws/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openshift-glusterfs/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/adhoc/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openshift-checks/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/byo/openshift-cluster/upgrades/v3_10/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/byo/openshift-cluster/upgrades/v3_11/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/byo/openshift-cluster/upgrades/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/byo/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openshift-metering/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openshift-monitoring/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openstack/post-install.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openstack/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openstack/configuration.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/azure/BRANCH.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/azure/openshift-cluster/create_and_publish_offer.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/azure/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openshift-monitor-availability/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/adhoc/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openshift-checks/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openshift-glusterfs/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openshift-autoheal/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openstack/post-install.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openstack/configuration.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openstack/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/common/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/azure/openshift-cluster/create_and_publish_offer.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/azure/BRANCH.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/azure/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openshift-monitor-availability/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>playbooks/openshift-monitoring/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>.github/ISSUE_TEMPLATE.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>inventory/dynamic/injected/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>inventory/dynamic/gcp/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>inventory/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>examples/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='DocsReporter'><file>HOOKS.md</file></reporting>
       <license repo='Hitachi/openshift-ansible' file='LICENSE' confidence='100'>Apache License 2.0</license>
+      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='BinaryReporter'><file>roles/openshift_health_checker/openshift_checks/logging/__init__.py</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='BinaryReporter'><file>roles/nuage_ca/vars/main.yaml</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='BinaryReporter'><file>roles/openshift_management/handlers/main.yml</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='BinaryReporter'><file>roles/openshift_health_checker/openshift_checks/logging/__init__.py</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='BinaryReporter'><file>roles/openshift_examples/files/examples/v3.10/quickstart-templates/apicast-gateway-template.yml</file></reporting>
       <reporting class='repo-report' repo='Hitachi/openshift-ansible' type='BinaryReporter'><file>roles/openshift_examples/files/examples/v3.11/quickstart-templates/apicast-gateway-template.yml</file></reporting>
     </reports>

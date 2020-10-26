@@ -13,8 +13,8 @@
   </traffic-data>
     <reports org='Hitachi' name='istio-bench'>
       <reporting class='repo-report' repo='Hitachi/istio-bench' type='DocsReporter'><file>requirements.txt</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/istio-bench' type='DocsReporter'><file>template/report_without_chart.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/istio-bench' type='DocsReporter'><file>template/report.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/istio-bench' type='DocsReporter'><file>template/report_without_chart.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/istio-bench' type='DocsReporter'><file>output_sample/report.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/istio-bench' type='DocsReporter'><file>README.md</file></reporting>
       <license repo='Hitachi/istio-bench' file='LICENSE' confidence='100'>Apache License 2.0</license>

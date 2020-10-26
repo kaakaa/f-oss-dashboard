@@ -1,27 +1,27 @@
     <reports org='Hitachi' name='keycloak-community'>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/observerability.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/hostname-default-provider.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/oauth2-device-authorization-grant.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/secure-credentials-store.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/operator.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/admin-console-new-information-architecture.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/multi-factor-admin-and-step-up.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/application-initiated-actions.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/approvals-system.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/keycloak.x/distro.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/keycloak.x/cd.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/keycloak.x/providers.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/keycloak.x/storage.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/keycloak.x/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/web-authn-authenticator.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/README.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/rest-api-guideline.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/user-profile.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/web-authn-two-factor.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>specifications/fapi-notes.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>specifications/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>library/operators.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>library/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/operator.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/web-authn-two-factor.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/multi-factor-admin-and-step-up.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/web-authn-authenticator.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/admin-console-new-information-architecture.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/keycloak.x/distro.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/keycloak.x/providers.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/keycloak.x/storage.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/keycloak.x/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/keycloak.x/cd.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/hostname-default-provider.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/oauth2-device-authorization-grant.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/observerability.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/user-profile.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/secure-credentials-store.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/rest-api-guideline.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/approvals-system.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak-community' type='DocsReporter'><file>design/application-initiated-actions.md</file></reporting>
       <license repo='Hitachi/keycloak-community' file='LICENSE.txt' confidence='100'>Apache License 2.0</license>
     </reports>
