@@ -13,19 +13,19 @@
       <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>app/python/requirements.txt</file></reporting>
       <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>infra/production/README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>infra/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>bench/seed_data/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>portal/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>app/frontend/README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>app/apitester/README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>app/spec/README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>app/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>app/frontend/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>portal/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='DocsReporter'><file>bench/seed_data/README.md</file></reporting>
       <license repo='nttcom/n-isucon-2019' file='LICENSE' confidence='100.0'>MIT License</license>
       <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='BinaryReporter'><file>seed.sql.7z</file></reporting>
       <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='BinaryReporter'><file>infra/production/roles/portal/tasks/main.yml</file></reporting>
+      <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='BinaryReporter'><file>bench/scenario/icons.tgz</file></reporting>
       <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='BinaryReporter'><file>app/spec/spec.html</file></reporting>
       <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='BinaryReporter'><file>app/python/utils/__init__.py</file></reporting>
-      <reporting class='repo-report' repo='nttcom/n-isucon-2019' type='BinaryReporter'><file>bench/scenario/icons.tgz</file></reporting>
     </reports>
     <reports org='nttcom' name='n-isucon-2019'>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/n-isucon-2019</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>

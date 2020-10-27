@@ -3,7 +3,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='357042165' number='5' user='0x0c' state='open' created_at='2018-09-05 02:29:41 +0000' age='762' updated_at='2018-09-05 02:29:41 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Fix typo</title>
+      <issue id='357042165' number='5' user='0x0c' state='open' created_at='2018-09-05 02:29:41 +0000' age='783' updated_at='2018-09-05 02:29:41 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Fix typo</title>
       </issue>
     </issues>
   <release-data>
@@ -15,8 +15,8 @@
   <traffic-data>
   </traffic-data>
     <reports org='nttcom' name='skyway-signaling-gateway'>
-      <reporting class='repo-report' repo='nttcom/skyway-signaling-gateway' type='DocsReporter'><file>readme.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/skyway-signaling-gateway' type='DocsReporter'><file>test/unit/readme.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-signaling-gateway' type='DocsReporter'><file>readme.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/skyway-signaling-gateway' type='LicenseReporter'>No License File Found</reporting>
       <reporting class='repo-report' repo='nttcom/skyway-signaling-gateway' type='BinaryReporter'><file>public/js/skywayPubSub.js</file></reporting>
     </reports>

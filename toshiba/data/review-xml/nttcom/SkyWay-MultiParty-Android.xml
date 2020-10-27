@@ -1,5 +1,5 @@
     <reports org='nttcom' name='SkyWay-MultiParty-Android'>
-      <reporting class='repo-report' repo='nttcom/SkyWay-MultiParty-Android' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/SkyWay-MultiParty-Android' type='DocsReporter'><file>README.en.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/SkyWay-MultiParty-Android' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/SkyWay-MultiParty-Android' type='LicenseReporter'>No License File Found</reporting>
     </reports>

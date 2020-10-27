@@ -1,6 +1,6 @@
     <reports org='nttcom' name='skyway-signaling-gateway'>
-      <reporting class='repo-report' repo='nttcom/skyway-signaling-gateway' type='DocsReporter'><file>readme.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/skyway-signaling-gateway' type='DocsReporter'><file>test/unit/readme.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-signaling-gateway' type='DocsReporter'><file>readme.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/skyway-signaling-gateway' type='LicenseReporter'>No License File Found</reporting>
       <reporting class='repo-report' repo='nttcom/skyway-signaling-gateway' type='BinaryReporter'><file>public/js/skywayPubSub.js</file></reporting>
     </reports>

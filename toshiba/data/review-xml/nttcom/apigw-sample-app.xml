@@ -2,12 +2,12 @@
       <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='DocsReporter'><file>ClientApp/app/robots.txt</file></reporting>
       <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='DocsReporter'><file>ServerApp/public/robots.txt</file></reporting>
       <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='DocsReporter'><file>ClientApp/README.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='DocsReporter'><file>ServerApp/README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='DocsReporter'><file>README.md</file></reporting>
       <license repo='nttcom/apigw-sample-app' file='LICENSE' confidence='100'>Apache License 2.0</license>
-      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>demo_app_manual_ja.pdf</file></reporting>
       <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/public/favicon.ico</file></reporting>
       <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/config/settings/development.yml</file></reporting>
-      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/config/settings/staging.yml</file></reporting>
       <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/config/settings/test.yml</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>ServerApp/config/settings/staging.yml</file></reporting>
+      <reporting class='repo-report' repo='nttcom/apigw-sample-app' type='BinaryReporter'><file>demo_app_manual_ja.pdf</file></reporting>
     </reports>

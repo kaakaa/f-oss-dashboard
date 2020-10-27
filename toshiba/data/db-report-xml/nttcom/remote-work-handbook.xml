@@ -1,0 +1,7 @@
+    <reports org='nttcom' name='remote-work-handbook'>
+  <reporting class='repo-report' repo='nttcom/remote-work-handbook' type='WikiOnDbReporter'><field>2020-10-22 05:31:15 +0000</field><field>nttcom/remote-work-handbook</field><field>https://github.com/nttcom/remote-work-handbook/wiki</field></reporting>
+  <reporting class='issue-report' repo='nttcom/remote-work-handbook' type='NoIssueCommentsDbReporter'><field>2020-10-22 05:50:49 +0000</field><field>https://github.com/nttcom/remote-work-handbook/issues/1</field><field></field><field></field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/remote-work-handbook</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/remote-work-handbook' type='AverageIssueCloseDbReporter'><field>nttcom/remote-work-handbook</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field></reporting>
+  <reporting class='issue-report' repo='nttcom/remote-work-handbook' type='AveragePrCloseDbReporter'><field>nttcom/remote-work-handbook</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field></reporting>
+    </reports>

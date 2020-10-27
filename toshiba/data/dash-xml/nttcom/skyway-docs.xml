@@ -3,7 +3,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='546034136' number='34' user='dependabot[bot]' state='open' created_at='2020-01-07 01:54:14 +0000' age='273' updated_at='2020-01-07 01:54:15 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump handlebars from 1.0.12 to 4.5.3</title>
+      <issue id='546034136' number='34' user='dependabot[bot]' state='open' created_at='2020-01-07 01:54:14 +0000' age='294' updated_at='2020-01-07 01:54:15 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump handlebars from 1.0.12 to 4.5.3</title>
         <label url="https://api.github.com/repos/nttcom/skyway-docs/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
@@ -12,9 +12,9 @@
   <traffic-data>
   </traffic-data>
     <reports org='nttcom' name='skyway-docs'>
-      <reporting class='repo-report' repo='nttcom/skyway-docs' type='DocsReporter'><file>readme.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/skyway-docs' type='DocsReporter'><file>serialization.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/skyway-docs' type='DocsReporter'><file>api.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/skyway-docs' type='DocsReporter'><file>readme.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/skyway-docs' type='LicenseReporter'>No License File Found</reporting>
     </reports>
     <reports org='nttcom' name='skyway-docs'>

@@ -1,5 +1,5 @@
     <reports org='nttcom' name='SkyWay-MultiParty-iOS'>
-      <reporting class='repo-report' repo='nttcom/SkyWay-MultiParty-iOS' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/SkyWay-MultiParty-iOS' type='DocsReporter'><file>README.en.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/SkyWay-MultiParty-iOS' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/SkyWay-MultiParty-iOS' type='LicenseReporter'>No License File Found</reporting>
     </reports>

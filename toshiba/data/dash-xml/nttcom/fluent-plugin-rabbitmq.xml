@@ -3,15 +3,15 @@
     <collaborators>
     </collaborators>
     <issues count='5'>
-      <issue id='232197384' number='1' user='CyberGecko' state='open' created_at='2017-05-30 09:44:09 +0000' age='1225' updated_at='2017-06-12 01:20:29 +0000' pull_request='false' comments='1'><title>consumer_pool_size doesn't work</title>
+      <issue id='232197384' number='1' user='CyberGecko' state='open' created_at='2017-05-30 09:44:09 +0000' age='1246' updated_at='2017-06-12 01:20:29 +0000' pull_request='false' comments='1'><title>consumer_pool_size doesn't work</title>
       </issue>
-      <issue id='388883204' number='9' user='panatl' state='open' created_at='2018-12-08 04:12:21 +0000' age='668' updated_at='2018-12-08 04:12:21 +0000' pull_request='false' comments='0'><title>Getting ECONNRESET</title>
+      <issue id='388883204' number='9' user='panatl' state='open' created_at='2018-12-08 04:12:21 +0000' age='689' updated_at='2018-12-08 04:12:21 +0000' pull_request='false' comments='0'><title>Getting ECONNRESET</title>
       </issue>
-      <issue id='398358724' number='10' user='ganymedes01' state='open' created_at='2019-01-11 16:23:44 +0000' age='633' updated_at='2020-01-21 14:44:20 +0000' pull_request='false' comments='2'><title>When used as output the queue isn't automatically created</title>
+      <issue id='398358724' number='10' user='ganymedes01' state='open' created_at='2019-01-11 16:23:44 +0000' age='654' updated_at='2020-01-21 14:44:20 +0000' pull_request='false' comments='2'><title>When used as output the queue isn't automatically created</title>
       </issue>
-      <issue id='502038603' number='13' user='meveno' state='open' created_at='2019-10-03 12:35:11 +0000' age='369' updated_at='2020-03-09 15:43:27 +0000' pull_request='false' comments='11'><title>RabbitMQ plugin with tls enable error</title>
+      <issue id='502038603' number='13' user='meveno' state='open' created_at='2019-10-03 12:35:11 +0000' age='390' updated_at='2020-03-09 15:43:27 +0000' pull_request='false' comments='11'><title>RabbitMQ plugin with tls enable error</title>
       </issue>
-      <issue id='705504093' number='17' user='albertoayllon' state='open' created_at='2020-09-21 11:16:27 +0000' age='15' updated_at='2020-09-21 11:16:27 +0000' pull_request='false' comments='0'><title>Option to use "Manual ack"</title>
+      <issue id='705504093' number='17' user='albertoayllon' state='open' created_at='2020-09-21 11:16:27 +0000' age='36' updated_at='2020-09-21 11:16:27 +0000' pull_request='false' comments='0'><title>Option to use "Manual ack"</title>
       </issue>
     </issues>
   <release-data>
@@ -27,7 +27,7 @@
   <reporting class='issue-report' repo='nttcom/fluent-plugin-rabbitmq' type='NoIssueCommentsDbReporter'><field>2018-12-08 04:12:21 +0000</field><field>https://github.com/nttcom/fluent-plugin-rabbitmq/issues/9</field><field>Getting ECONNRESET</field><field></field></reporting>
   <reporting class='issue-report' repo='nttcom/fluent-plugin-rabbitmq' type='NoIssueCommentsDbReporter'><field>2020-09-21 11:16:27 +0000</field><field>https://github.com/nttcom/fluent-plugin-rabbitmq/issues/17</field><field>Option to use "Manual ack"</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/fluent-plugin-rabbitmq</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/fluent-plugin-rabbitmq' type='AverageIssueCloseDbReporter'><field>nttcom/fluent-plugin-rabbitmq</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>1</field><field>23.0</field><field>1</field><field>6</field><field>134.0</field><field>5</field></reporting>
+  <reporting class='issue-report' repo='nttcom/fluent-plugin-rabbitmq' type='AverageIssueCloseDbReporter'><field>nttcom/fluent-plugin-rabbitmq</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>1</field><field>23.0</field><field>1</field><field>6</field><field>134.0</field><field>5</field></reporting>
   <reporting class='issue-report' repo='nttcom/fluent-plugin-rabbitmq' type='AveragePrCloseDbReporter'><field>nttcom/fluent-plugin-rabbitmq</field><field>0</field><field>0</field><field>0</field><field>1</field><field>1.0</field><field>0</field><field>2</field><field>1.0</field><field>0</field><field>6</field><field>22.67</field><field>0</field></reporting>
     </reports>
   </repo>

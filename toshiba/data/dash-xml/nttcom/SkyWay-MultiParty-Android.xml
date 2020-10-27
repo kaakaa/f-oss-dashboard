@@ -3,7 +3,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='198128384' number='1' user='bantayso' state='open' created_at='2016-12-30 10:09:40 +0000' age='1376' updated_at='2016-12-30 10:09:40 +0000' pull_request='false' comments='0'><title>NullPointerException io.skyway.Peer.Reachability.isReachable</title>
+      <issue id='198128384' number='1' user='bantayso' state='open' created_at='2016-12-30 10:09:40 +0000' age='1397' updated_at='2016-12-30 10:09:40 +0000' pull_request='false' comments='0'><title>NullPointerException io.skyway.Peer.Reachability.isReachable</title>
       </issue>
     </issues>
   <release-data>
@@ -11,8 +11,8 @@
   <traffic-data>
   </traffic-data>
     <reports org='nttcom' name='SkyWay-MultiParty-Android'>
-      <reporting class='repo-report' repo='nttcom/SkyWay-MultiParty-Android' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/SkyWay-MultiParty-Android' type='DocsReporter'><file>README.en.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/SkyWay-MultiParty-Android' type='DocsReporter'><file>README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/SkyWay-MultiParty-Android' type='LicenseReporter'>No License File Found</reporting>
     </reports>
     <reports org='nttcom' name='SkyWay-MultiParty-Android'>

@@ -15,14 +15,14 @@
   </traffic-data>
     <reports org='nttcom' name='terraform-provider-fic'>
       <reporting class='repo-report' repo='nttcom/terraform-provider-fic' type='DocsReporter'><file>CHANGELOG.md</file></reporting>
-      <reporting class='repo-report' repo='nttcom/terraform-provider-fic' type='DocsReporter'><file>examples/app-with-something/README.md</file></reporting>
       <reporting class='repo-report' repo='nttcom/terraform-provider-fic' type='DocsReporter'><file>README.md</file></reporting>
+      <reporting class='repo-report' repo='nttcom/terraform-provider-fic' type='DocsReporter'><file>examples/app-with-something/README.md</file></reporting>
       <license repo='nttcom/terraform-provider-fic' file='LICENSE' confidence='100'>Mozilla Public License 2.0</license>
     </reports>
     <reports org='nttcom' name='terraform-provider-fic'>
   <reporting class='repo-report' repo='nttcom/terraform-provider-fic' type='WikiOnDbReporter'><field>2019-11-21 04:35:42 +0000</field><field>nttcom/terraform-provider-fic</field><field>https://github.com/nttcom/terraform-provider-fic/wiki</field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/terraform-provider-fic</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' repo='nttcom/terraform-provider-fic' type='AverageIssueCloseDbReporter'><field>nttcom/terraform-provider-fic</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/terraform-provider-fic' type='AveragePrCloseDbReporter'><field>nttcom/terraform-provider-fic</field><field>0</field><field>0</field><field>0</field><field>1</field><field>7.0</field><field>0</field><field>7</field><field>3.86</field><field>0</field><field>7</field><field>3.86</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/terraform-provider-fic' type='AveragePrCloseDbReporter'><field>nttcom/terraform-provider-fic</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>7</field><field>3.86</field><field>0</field><field>7</field><field>3.86</field><field>0</field></reporting>
     </reports>
   </repo>
