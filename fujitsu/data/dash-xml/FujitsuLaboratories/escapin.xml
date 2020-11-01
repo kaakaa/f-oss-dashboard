@@ -1,21 +1,42 @@
-  <repo name='escapin' org='FujitsuLaboratories' homepage='' private='false' fork='false' closed_issue_count='9' closed_pr_count='381' open_issue_count='2' open_pr_count='3' has_wiki='true' language='TypeScript' stars='19' watchers='1' forks='4' created_at='2019-07-30 06:35:53 +0000' updated_at='2020-10-19 02:28:43 +0000' pushed_at='2020-10-24 02:58:05 +0000' size='2470' commit_count='425'>
+  <repo name='escapin' org='FujitsuLaboratories' homepage='' private='false' fork='false' closed_issue_count='9' closed_pr_count='381' open_issue_count='2' open_pr_count='10' has_wiki='true' language='TypeScript' stars='19' watchers='1' forks='4' created_at='2019-07-30 06:35:53 +0000' updated_at='2020-10-19 02:28:43 +0000' pushed_at='2020-10-31 13:36:47 +0000' size='2530' commit_count='425'>
     <description>Escapin  is a JS/TS transpiler for escaping from complicated usage of cloud services and APIs</description>
     <collaborators>
     </collaborators>
-    <issues count='5'>
-      <issue id='530106355' number='14' user='kimusaku' state='open' created_at='2019-11-29 00:21:38 +0000' age='331' updated_at='2019-11-29 00:24:50 +0000' pull_request='false' comments='0'><title>Azure support</title>
+    <issues count='12'>
+      <issue id='530106355' number='14' user='kimusaku' state='open' created_at='2019-11-29 00:21:38 +0000' age='338' updated_at='2019-11-29 00:24:50 +0000' pull_request='false' comments='0'><title>Azure support</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/enhancement" color='a2eeef'>enhancement</label>
       </issue>
-      <issue id='530106375' number='15' user='kimusaku' state='open' created_at='2019-11-29 00:21:50 +0000' age='331' updated_at='2019-11-29 00:25:06 +0000' pull_request='false' comments='0'><title>GCP support</title>
+      <issue id='530106375' number='15' user='kimusaku' state='open' created_at='2019-11-29 00:21:50 +0000' age='338' updated_at='2019-11-29 00:25:06 +0000' pull_request='false' comments='0'><title>GCP support</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/enhancement" color='a2eeef'>enhancement</label>
       </issue>
-      <issue id='682889855' number='317' user='renovate[bot]' state='open' created_at='2020-08-20 16:37:09 +0000' age='65' updated_at='2020-10-22 08:33:24 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='4' prDeletions='4'><title>fix(deps): update dependency typescript to v4</title>
+      <issue id='682889855' number='317' user='renovate[bot]' state='open' created_at='2020-08-20 16:37:09 +0000' age='72' updated_at='2020-10-31 14:38:49 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='5725' prDeletions='24'><title>fix(deps): update dependency typescript to v4</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='696176913' number='346' user='renovate[bot]' state='open' created_at='2020-09-08 21:05:14 +0000' age='46' updated_at='2020-10-16 18:53:21 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='4' prDeletions='4'><title>chore(deps): update dependency @types/babel__traverse to v7.0.15</title>
+      <issue id='696176913' number='346' user='renovate[bot]' state='open' created_at='2020-09-08 21:05:14 +0000' age='53' updated_at='2020-10-16 18:53:21 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='4' prDeletions='4'><title>chore(deps): update dependency @types/babel__traverse to v7.0.15</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='728641783' number='393' user='renovate[bot]' state='open' created_at='2020-10-24 02:58:05 +0000' age='1' updated_at='2020-10-24 03:54:36 +0000' pull_request='true' comments='1' prFileCount='2' prAdditions='8' prDeletions='8'><title>chore(deps): update dependency eslint to v7.12.0</title>
+      <issue id='728641783' number='393' user='renovate[bot]' state='open' created_at='2020-10-24 02:58:05 +0000' age='8' updated_at='2020-10-27 05:21:51 +0000' pull_request='true' comments='1' prFileCount='2' prAdditions='5743' prDeletions='29'><title>chore(deps): update dependency eslint to v7.12.1</title>
+        <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
+      </issue>
+      <issue id='728924574' number='394' user='renovate[bot]' state='open' created_at='2020-10-25 02:42:18 +0000' age='7' updated_at='2020-10-25 06:07:43 +0000' pull_request='true' comments='1' prFileCount='2' prAdditions='5722' prDeletions='21'><title>fix(deps): update dependency commander to ^6.2.0</title>
+        <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
+      </issue>
+      <issue id='729046974' number='395' user='renovate[bot]' state='open' created_at='2020-10-25 15:35:13 +0000' age='6' updated_at='2020-10-25 18:20:00 +0000' pull_request='true' comments='1' prFileCount='1' prAdditions='6722' prDeletions='478'><title>chore(deps): lock file maintenance</title>
+        <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
+      </issue>
+      <issue id='729763722' number='396' user='renovate[bot]' state='open' created_at='2020-10-26 17:29:18 +0000' age='5' updated_at='2020-10-26 18:12:03 +0000' pull_request='true' comments='1' prFileCount='2' prAdditions='5813' prDeletions='56'><title>chore(deps): update typescript-eslint monorepo to v4.6.0</title>
+        <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
+      </issue>
+      <issue id='729793981' number='397' user='renovate[bot]' state='open' created_at='2020-10-26 18:11:21 +0000' age='5' updated_at='2020-10-31 14:39:17 +0000' pull_request='true' comments='1' prFileCount='2' prAdditions='5778' prDeletions='38'><title>chore(deps): update dependency lint-staged to v10.5.1</title>
+        <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
+      </issue>
+      <issue id='730653672' number='398' user='renovate[bot]' state='open' created_at='2020-10-27 17:13:13 +0000' age='4' updated_at='2020-10-27 18:42:42 +0000' pull_request='true' comments='1' prFileCount='2' prAdditions='5728' prDeletions='24'><title>chore(deps): update dependency eslint-config-prettier to v6.15.0</title>
+        <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
+      </issue>
+      <issue id='731361290' number='399' user='renovate[bot]' state='open' created_at='2020-10-28 11:34:54 +0000' age='4' updated_at='2020-10-28 12:18:19 +0000' pull_request='true' comments='1' prFileCount='2' prAdditions='5728' prDeletions='24'><title>fix(deps): update dependency execa to ^4.1.0</title>
+        <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
+      </issue>
+      <issue id='731726927' number='400' user='renovate[bot]' state='open' created_at='2020-10-28 19:24:19 +0000' age='3' updated_at='2020-10-30 10:42:56 +0000' pull_request='true' comments='1' prFileCount='2' prAdditions='5731' prDeletions='27'><title>chore(deps): update dependency @types/lodash to v4.14.164</title>
         <label url="https://api.github.com/repos/FujitsuLaboratories/escapin/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
@@ -37,7 +58,7 @@
   <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='NoPrCommentsDbReporter'><field>2020-08-20 16:37:09 +0000</field><field>https://github.com/FujitsuLaboratories/escapin/pull/317</field><field>fix(deps): update dependency typescript to v4</field><field></field></reporting>
   <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='NoPrCommentsDbReporter'><field>2020-09-08 21:05:14 +0000</field><field>https://github.com/FujitsuLaboratories/escapin/pull/346</field><field>chore(deps): update dependency @types/babel__traverse to v7.0.15</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>FujitsuLaboratories/escapin</field><field>1</field><field>0</field><field>2</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' type='LabelDbReporter'><field><label color='d73a4a'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>semantic-release</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='a2eeef'>enhancement</label></field><field>2</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>released</label></field><field>3</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>release</label></field><field>7</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>275</field></reporting>  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>3</field><field>54.0</field><field>2</field><field>7</field><field>23.43</field><field>2</field></reporting>
-  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>35</field><field>0.06</field><field>1</field><field>101</field><field>0.69</field><field>3</field><field>375</field><field>0.78</field><field>3</field><field>381</field><field>0.77</field><field>3</field></reporting>
+  <reporting class='issue-report' type='LabelDbReporter'><field><label color='d73a4a'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>semantic-release</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='a2eeef'>enhancement</label></field><field>2</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>released</label></field><field>3</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='ededed'>release</label></field><field>7</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>282</field></reporting>  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AverageIssueCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>3</field><field>54.0</field><field>2</field><field>7</field><field>23.43</field><field>2</field></reporting>
+  <reporting class='issue-report' repo='FujitsuLaboratories/escapin' type='AveragePrCloseDbReporter'><field>FujitsuLaboratories/escapin</field><field>29</field><field>0.03</field><field>8</field><field>93</field><field>0.74</field><field>10</field><field>375</field><field>0.78</field><field>10</field><field>381</field><field>0.77</field><field>10</field></reporting>
     </reports>
   </repo>

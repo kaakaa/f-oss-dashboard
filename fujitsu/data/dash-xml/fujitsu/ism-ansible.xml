@@ -3,9 +3,9 @@
     <collaborators>
     </collaborators>
     <issues count='2'>
-      <issue id='714826470' number='1' user='svoet' state='open' created_at='2020-10-05 13:10:00 +0000' age='19' updated_at='2020-10-05 13:10:00 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='7' prDeletions='2'><title>Fixed syntax issue with openssl newer than 1.0</title>
+      <issue id='714826470' number='1' user='svoet' state='open' created_at='2020-10-05 13:10:00 +0000' age='26' updated_at='2020-10-05 13:10:00 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='7' prDeletions='2'><title>Fixed syntax issue with openssl newer than 1.0</title>
       </issue>
-      <issue id='715808018' number='2' user='svoet' state='open' created_at='2020-10-06 15:46:35 +0000' age='18' updated_at='2020-10-06 15:46:35 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='104' prDeletions='102'><title>Checkmode</title>
+      <issue id='715808018' number='2' user='svoet' state='open' created_at='2020-10-06 15:46:35 +0000' age='25' updated_at='2020-10-06 15:46:35 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='104' prDeletions='102'><title>Checkmode</title>
       </issue>
     </issues>
   <release-data>

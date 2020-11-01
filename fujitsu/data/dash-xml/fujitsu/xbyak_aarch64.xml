@@ -1,22 +1,22 @@
-  <repo name='xbyak_aarch64' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='8' closed_pr_count='24' open_issue_count='6' open_pr_count='0' has_wiki='true' language='C++' stars='52' watchers='18' forks='8' created_at='2019-12-09 08:28:23 +0000' updated_at='2020-10-09 12:52:43 +0000' pushed_at='2020-10-19 15:44:43 +0000' size='1117' commit_count='118'>
+  <repo name='xbyak_aarch64' org='fujitsu' homepage='' private='false' fork='false' closed_issue_count='8' closed_pr_count='26' open_issue_count='6' open_pr_count='0' has_wiki='true' language='C++' stars='54' watchers='18' forks='8' created_at='2019-12-09 08:28:23 +0000' updated_at='2020-10-29 10:42:13 +0000' pushed_at='2020-10-29 06:06:30 +0000' size='1345' commit_count='118'>
     <description></description>
     <collaborators>
     </collaborators>
     <issues count='6'>
-      <issue id='538212056' number='6' user='kawakami-k' state='open' created_at='2019-12-16 06:29:04 +0000' age='314' updated_at='2019-12-16 06:29:04 +0000' pull_request='false' comments='0'><title>Add test for instructions of The A64 System Instruction Class</title>
+      <issue id='538212056' number='6' user='kawakami-k' state='open' created_at='2019-12-16 06:29:04 +0000' age='321' updated_at='2019-12-16 06:29:04 +0000' pull_request='false' comments='0'><title>Add test for instructions of The A64 System Instruction Class</title>
       </issue>
-      <issue id='538515168' number='7' user='kawakami-k' state='open' created_at='2019-12-16 16:22:59 +0000' age='313' updated_at='2020-01-27 05:07:08 +0000' pull_request='false' comments='1'><title>Port perf support functions from the original xbyak</title>
+      <issue id='538515168' number='7' user='kawakami-k' state='open' created_at='2019-12-16 16:22:59 +0000' age='320' updated_at='2020-01-27 05:07:08 +0000' pull_request='false' comments='1'><title>Port perf support functions from the original xbyak</title>
         <label url="https://api.github.com/repos/fujitsu/xbyak_aarch64/labels/enhancement" color='a2eeef'>enhancement</label>
       </issue>
-      <issue id='653738190' number='19' user='zlateski' state='open' created_at='2020-07-09 03:39:41 +0000' age='108' updated_at='2020-07-11 02:44:03 +0000' pull_request='false' comments='4'><title>ld4 on (v0 - v3)</title>
+      <issue id='653738190' number='19' user='zlateski' state='open' created_at='2020-07-09 03:39:41 +0000' age='115' updated_at='2020-07-11 02:44:03 +0000' pull_request='false' comments='4'><title>ld4 on (v0 - v3)</title>
         <label url="https://api.github.com/repos/fujitsu/xbyak_aarch64/labels/good%20first%20issue" color='7057ff'>good&amp;#xa0;first&amp;#xa0;issue</label>
       </issue>
-      <issue id='657719848' number='20' user='zlateski' state='open' created_at='2020-07-15 23:16:04 +0000' age='101' updated_at='2020-07-15 23:16:04 +0000' pull_request='false' comments='0'><title>Forward branches broken in AutoGrow mode</title>
+      <issue id='657719848' number='20' user='zlateski' state='open' created_at='2020-07-15 23:16:04 +0000' age='108' updated_at='2020-07-15 23:16:04 +0000' pull_request='false' comments='0'><title>Forward branches broken in AutoGrow mode</title>
       </issue>
-      <issue id='706863485' number='27' user='kawakami-k' state='open' created_at='2020-09-23 01:39:20 +0000' age='32' updated_at='2020-09-23 01:39:41 +0000' pull_request='false' comments='0'><title>ci: add test for "mov" and "(mov|add|adds|sub|subs)_imm"</title>
+      <issue id='706863485' number='27' user='kawakami-k' state='open' created_at='2020-09-23 01:39:20 +0000' age='39' updated_at='2020-09-23 01:39:41 +0000' pull_request='false' comments='0'><title>ci: add test for "mov" and "(mov|add|adds|sub|subs)_imm"</title>
         <label url="https://api.github.com/repos/fujitsu/xbyak_aarch64/labels/enhancement" color='a2eeef'>enhancement</label>
       </issue>
-      <issue id='718231028' number='32' user='lingweiyang' state='open' created_at='2020-10-09 15:19:29 +0000' age='15' updated_at='2020-10-09 22:58:45 +0000' pull_request='false' comments='1'><title>How to use mnemonics to express "prfm pldl1keep, [x1,  #256]".</title>
+      <issue id='718231028' number='32' user='lingweiyang' state='open' created_at='2020-10-09 15:19:29 +0000' age='22' updated_at='2020-10-09 22:58:45 +0000' pull_request='false' comments='1'><title>How to use mnemonics to express "prfm pldl1keep, [x1,  #256]".</title>
       </issue>
     </issues>
   <release-data>
@@ -37,6 +37,6 @@
   <reporting class='issue-report' repo='fujitsu/xbyak_aarch64' type='NoIssueCommentsDbReporter'><field>2020-09-23 01:39:20 +0000</field><field>https://github.com/fujitsu/xbyak_aarch64/issues/27</field><field>ci: add test for "mov" and "(mov|add|adds|sub|subs)_imm"</field><field><label url="https://api.github.com/repos/fujitsu/xbyak_aarch64/labels/enhancement" color='a2eeef'>enhancement</label></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/xbyak_aarch64</field><field>1</field><field>0</field><field>2</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' type='LabelDbReporter'><field><label color='d73a4a'>bug</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='7057ff'>good first issue</label></field><field>1</field></reporting>  <reporting class='issue-report' type='LabelDbReporter'><field><label color='a2eeef'>enhancement</label></field><field>2</field></reporting>  <reporting class='issue-report' repo='fujitsu/xbyak_aarch64' type='AverageIssueCloseDbReporter'><field>fujitsu/xbyak_aarch64</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>2</field><field>2</field><field>102.0</field><field>6</field><field>2</field><field>102.0</field><field>6</field></reporting>
-  <reporting class='issue-report' repo='fujitsu/xbyak_aarch64' type='AveragePrCloseDbReporter'><field>fujitsu/xbyak_aarch64</field><field>4</field><field>0.75</field><field>0</field><field>8</field><field>1.38</field><field>0</field><field>24</field><field>6.13</field><field>0</field><field>24</field><field>6.13</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/xbyak_aarch64' type='AveragePrCloseDbReporter'><field>fujitsu/xbyak_aarch64</field><field>5</field><field>0.2</field><field>0</field><field>9</field><field>0.67</field><field>0</field><field>26</field><field>5.65</field><field>0</field><field>26</field><field>5.65</field><field>0</field></reporting>
     </reports>
   </repo>

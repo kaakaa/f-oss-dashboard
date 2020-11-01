@@ -1,0 +1,6 @@
+    <reports org='fujitsu' name='pytorch'>
+  <reporting class='repo-report' repo='fujitsu/pytorch' type='WikiOnDbReporter'><field>2020-10-29 01:30:03 +0000</field><field>fujitsu/pytorch</field><field>https://github.com/fujitsu/pytorch/wiki</field></reporting>
+  <reporting class='issue-report' type='LabelCountDbReporter'><field>fujitsu/pytorch</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/pytorch' type='AverageIssueCloseDbReporter'><field>fujitsu/pytorch</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='fujitsu/pytorch' type='AveragePrCloseDbReporter'><field>fujitsu/pytorch</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
+    </reports>

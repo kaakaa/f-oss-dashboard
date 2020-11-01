@@ -1,11 +1,11 @@
 {
   "datasets": [
     {
-      "data": 24,
+      "data": 0,
       "label": "Project"
     },
     {
-      "data": 408,
+      "data": 0,
       "label": "Community"
     }
   ]
