@@ -1,7 +1,4 @@
     <reports org='Hitachi' name='keycloak'>
-      <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/server-x/src/main/version.txt</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/server-x/src/main/content/themes/README.txt</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/server-x/src/main/README.txt</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/adapters/fuse-adapter-zip/src/main/resources/licenses/keycloak/org.apache.httpcomponents,httpclient,4.5.2,Apache Software License 2.0.txt</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/adapters/fuse-adapter-zip/src/main/resources/licenses/keycloak/org.bouncycastle,bcprov-jdk15on,1.65,MIT License.txt</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/adapters/fuse-adapter-zip/src/main/resources/licenses/keycloak/com.fasterxml.jackson.jaxrs,jackson-jaxrs-json-provider,2.10.4,Apache Software License 2.0.txt</file></reporting>
@@ -245,6 +242,9 @@
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/feature-packs/server-feature-pack/src/main/resources/licenses/rh-sso/react-router-dom,MIT.txt</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/feature-packs/server-feature-pack/src/main/resources/licenses/rh-sso/file-selector,MIT.txt</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/feature-packs/server-feature-pack/src/main/resources/licenses/rh-sso/Ace Code Editor,BSD 3-clause New or Revised License.txt</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/server-x-dist/src/main/version.txt</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/server-x-dist/src/main/content/themes/README.txt</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/server-x-dist/src/main/README.txt</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/server-dist/src/main/version.txt</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/server-dist/src/main/welcome-content/robots.txt</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/server-overlay/src/main/version.txt</file></reporting>
@@ -285,8 +285,8 @@
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>ADOPTERS.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>SECURITY.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>GOVERNANCE.md</file></reporting>
-      <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/server-x/src/main/content/providers/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/feature-packs/adapter-feature-pack/src/main/resources/content/README.md</file></reporting>
+      <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>distribution/server-x-dist/src/main/content/providers/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>wildfly/server-subsystem/src/main/resources/subsystem-templates/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>themes/src/main/resources/theme/keycloak/common/resources/lib/angular/treeview/README.md</file></reporting>
       <reporting class='repo-report' repo='Hitachi/keycloak' type='DocsReporter'><file>themes/src/main/resources/theme/keycloak/common/resources/node_modules/select2/README.md</file></reporting>
