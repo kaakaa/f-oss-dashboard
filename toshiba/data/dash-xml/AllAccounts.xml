@@ -23,7 +23,7 @@
     <report key='AverageIssueCloseDbReporter' name='Average Issue Close Time'><description>This report shows the average time each repo takes to close issues</description><column-type type='org/repo'>Repo</column-type><column-type type='text'>&lt;1 month: Closed</column-type><column-type type='text'>&lt;1 month: MTTR</column-type><column-type type='text'>&lt;1 month: Still Open</column-type><column-type type='text'>&lt;1 quarter: Closed</column-type><column-type type='text'>&lt;1 quarter: MTTR</column-type><column-type type='text'>&lt;1 quarter: Still Open</column-type><column-type type='text'>&lt;1 year: Closed</column-type><column-type type='text'>&lt;1 year: MTTR</column-type><column-type type='text'>&lt;1 year: Still Open</column-type><column-type type='text'>All time: Closed</column-type><column-type type='text'>All time: MTTR</column-type><column-type type='text'>All time: Still Open</column-type></report>
     <report key='AveragePrCloseDbReporter' name='Average Pull Request Close Time'><description>This report shows the average time each repo takes to close pull requests</description><column-type type='org/repo'>Repo</column-type><column-type type='text'>&lt;1 month: Closed</column-type><column-type type='text'>&lt;1 month: MTTR</column-type><column-type type='text'>&lt;1 month: Still Open</column-type><column-type type='text'>&lt;1 quarter: Closed</column-type><column-type type='text'>&lt;1 quarter: MTTR</column-type><column-type type='text'>&lt;1 quarter: Still Open</column-type><column-type type='text'>&lt;1 year: Closed</column-type><column-type type='text'>&lt;1 year: MTTR</column-type><column-type type='text'>&lt;1 year: Still Open</column-type><column-type type='text'>All time: Closed</column-type><column-type type='text'>All time: MTTR</column-type><column-type type='text'>All time: Still Open</column-type></report>
   </issue-reports>
-  <run-metrics refreshTime='2020-10-27T00:46:12+00:00' generationTime='2020-10-27T00:54:18+00:00' startRateLimit='4997' endRateLimit='3690' usedRateLimit='1307'/>
+  <run-metrics refreshTime='2020-11-03T00:29:21+00:00' generationTime='2020-11-03T00:37:03+00:00' startRateLimit='4999' endRateLimit='3687' usedRateLimit='1312'/>
  </metadata>
  <organization name='nttcom' avatar='https://avatars1.githubusercontent.com/u/1182318?v=4' type='organization'>
   <url>https://www.ntt.com/</url>
@@ -67,27 +67,27 @@
     <collaborators>
     </collaborators>
     <issues count='11'>
-      <issue id='48348014' number='12' user='yusuke84' state='open' created_at='2014-11-11 04:53:31 +0000' age='2177' updated_at='2015-05-22 04:27:37 +0000' pull_request='false' comments='0'><title>dataconnection接続時にエラーメッセージが表示される</title>
+      <issue id='48348014' number='12' user='yusuke84' state='open' created_at='2014-11-11 04:53:31 +0000' age='2184' updated_at='2015-05-22 04:27:37 +0000' pull_request='false' comments='0'><title>dataconnection接続時にエラーメッセージが表示される</title>
       </issue>
-      <issue id='92549385' number='30' user='yusuke84' state='open' created_at='2015-07-02 05:07:16 +0000' age='1944' updated_at='2015-08-28 10:49:34 +0000' pull_request='false' comments='0'><title>マニュアル表記の改善</title>
+      <issue id='92549385' number='30' user='yusuke84' state='open' created_at='2015-07-02 05:07:16 +0000' age='1951' updated_at='2015-08-28 10:49:34 +0000' pull_request='false' comments='0'><title>マニュアル表記の改善</title>
       </issue>
-      <issue id='126727221' number='43' user='dnish' state='open' created_at='2016-01-14 19:17:22 +0000' age='1747' updated_at='2016-01-26 09:22:49 +0000' pull_request='false' comments='1'><title>Uncaught SyntaxError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': The ICE candidate could not be added.</title>
+      <issue id='126727221' number='43' user='dnish' state='open' created_at='2016-01-14 19:17:22 +0000' age='1754' updated_at='2016-01-26 09:22:49 +0000' pull_request='false' comments='1'><title>Uncaught SyntaxError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': The ICE candidate could not be added.</title>
       </issue>
-      <issue id='143121912' number='46' user='ewanleaver' state='open' created_at='2016-03-24 01:39:27 +0000' age='1678' updated_at='2016-03-24 01:40:27 +0000' pull_request='false' comments='0'><title>Unable to display received files in Chrome</title>
+      <issue id='143121912' number='46' user='ewanleaver' state='open' created_at='2016-03-24 01:39:27 +0000' age='1685' updated_at='2016-03-24 01:40:27 +0000' pull_request='false' comments='0'><title>Unable to display received files in Chrome</title>
       </issue>
-      <issue id='144895802' number='47' user='nileshlets' state='open' created_at='2016-03-31 13:05:59 +0000' age='1670' updated_at='2017-08-09 08:44:42 +0000' pull_request='false' comments='3'><title>always getting error "Could not get an ID from the server."</title>
+      <issue id='144895802' number='47' user='nileshlets' state='open' created_at='2016-03-31 13:05:59 +0000' age='1677' updated_at='2017-08-09 08:44:42 +0000' pull_request='false' comments='3'><title>always getting error "Could not get an ID from the server."</title>
       </issue>
-      <issue id='145661312' number='48' user='nileshlets' state='open' created_at='2016-04-04 11:47:26 +0000' age='1667' updated_at='2016-04-05 06:02:58 +0000' pull_request='false' comments='3'><title>Mobile to web video chat</title>
+      <issue id='145661312' number='48' user='nileshlets' state='open' created_at='2016-04-04 11:47:26 +0000' age='1674' updated_at='2016-04-05 06:02:58 +0000' pull_request='false' comments='3'><title>Mobile to web video chat</title>
       </issue>
-      <issue id='229585420' number='53' user='brickgale' state='open' created_at='2017-05-18 07:57:53 +0000' age='1258' updated_at='2017-05-23 06:12:32 +0000' pull_request='false' comments='2'><title>Conflict using window.onbeforeunload</title>
+      <issue id='229585420' number='53' user='brickgale' state='open' created_at='2017-05-18 07:57:53 +0000' age='1265' updated_at='2017-05-23 06:12:32 +0000' pull_request='false' comments='2'><title>Conflict using window.onbeforeunload</title>
       </issue>
-      <issue id='232506745' number='54' user='brickgale' state='open' created_at='2017-05-31 09:25:32 +0000' age='1245' updated_at='2017-05-31 09:25:32 +0000' pull_request='false' comments='0'><title>Closing call or mediaconnection, it won't call close event immediately</title>
+      <issue id='232506745' number='54' user='brickgale' state='open' created_at='2017-05-31 09:25:32 +0000' age='1252' updated_at='2017-05-31 09:25:32 +0000' pull_request='false' comments='0'><title>Closing call or mediaconnection, it won't call close event immediately</title>
       </issue>
-      <issue id='234766951' number='55' user='brickgale' state='open' created_at='2017-06-09 09:10:44 +0000' age='1236' updated_at='2017-06-09 09:10:44 +0000' pull_request='false' comments='0'><title>How to to use websockets only for creating connection?</title>
+      <issue id='234766951' number='55' user='brickgale' state='open' created_at='2017-06-09 09:10:44 +0000' age='1243' updated_at='2017-06-09 09:10:44 +0000' pull_request='false' comments='0'><title>How to to use websockets only for creating connection?</title>
       </issue>
-      <issue id='248960130' number='57' user='bolahanna44' state='open' created_at='2017-08-09 08:49:39 +0000' age='1175' updated_at='2017-08-09 08:49:39 +0000' pull_request='false' comments='0'><title>Failed to load resource: the server responded with a status of 400 (Bad Request) , could not get id from the server </title>
+      <issue id='248960130' number='57' user='bolahanna44' state='open' created_at='2017-08-09 08:49:39 +0000' age='1182' updated_at='2017-08-09 08:49:39 +0000' pull_request='false' comments='0'><title>Failed to load resource: the server responded with a status of 400 (Bad Request) , could not get id from the server </title>
       </issue>
-      <issue id='259301274' number='58' user='Mrsevic' state='open' created_at='2017-09-20 21:03:31 +0000' age='1132' updated_at='2017-09-21 00:05:31 +0000' pull_request='false' comments='1'><title>Screen sharing bug</title>
+      <issue id='259301274' number='58' user='Mrsevic' state='open' created_at='2017-09-20 21:03:31 +0000' age='1139' updated_at='2017-09-21 00:05:31 +0000' pull_request='false' comments='1'><title>Screen sharing bug</title>
       </issue>
     </issues>
   <release-data>
@@ -145,7 +145,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='546034136' number='34' user='dependabot[bot]' state='open' created_at='2020-01-07 01:54:14 +0000' age='294' updated_at='2020-01-07 01:54:15 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump handlebars from 1.0.12 to 4.5.3</title>
+      <issue id='546034136' number='34' user='dependabot[bot]' state='open' created_at='2020-01-07 01:54:14 +0000' age='301' updated_at='2020-01-07 01:54:15 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump handlebars from 1.0.12 to 4.5.3</title>
         <label url="https://api.github.com/repos/nttcom/skyway-docs/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
@@ -172,7 +172,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='546034009' number='22' user='dependabot[bot]' state='open' created_at='2020-01-07 01:53:43 +0000' age='294' updated_at='2020-01-07 01:53:44 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump handlebars from 1.0.12 to 4.5.3</title>
+      <issue id='546034009' number='22' user='dependabot[bot]' state='open' created_at='2020-01-07 01:53:43 +0000' age='301' updated_at='2020-01-07 01:53:44 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump handlebars from 1.0.12 to 4.5.3</title>
         <label url="https://api.github.com/repos/nttcom/skyway-docs-en/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
@@ -199,24 +199,24 @@
     <collaborators>
     </collaborators>
     <issues count='6'>
-      <issue id='48057053' number='1' user='posical' state='open' created_at='2014-11-07 07:52:03 +0000' age='2181' updated_at='2014-11-10 02:46:24 +0000' pull_request='false' comments='1'><title>Detect disconnected on FF</title>
+      <issue id='48057053' number='1' user='posical' state='open' created_at='2014-11-07 07:52:03 +0000' age='2188' updated_at='2014-11-10 02:46:24 +0000' pull_request='false' comments='1'><title>Detect disconnected on FF</title>
         <label url="https://api.github.com/repos/nttcom/jumbotron/labels/0%20-%20Backlog" color='CCCCCC'>0&amp;#xa0;-&amp;#xa0;Backlog</label>
       </issue>
-      <issue id='48057087' number='3' user='posical' state='open' created_at='2014-11-07 07:52:40 +0000' age='2181' updated_at='2014-11-07 07:52:40 +0000' pull_request='false' comments='0'><title>Add other apps (pet cam and video switcher)</title>
+      <issue id='48057087' number='3' user='posical' state='open' created_at='2014-11-07 07:52:40 +0000' age='2188' updated_at='2014-11-07 07:52:40 +0000' pull_request='false' comments='0'><title>Add other apps (pet cam and video switcher)</title>
         <label url="https://api.github.com/repos/nttcom/jumbotron/labels/0%20-%20Backlog" color='CCCCCC'>0&amp;#xa0;-&amp;#xa0;Backlog</label>
       </issue>
-      <issue id='48057177' number='5' user='posical' state='open' created_at='2014-11-07 07:54:23 +0000' age='2181' updated_at='2014-11-10 02:58:28 +0000' pull_request='false' comments='0'><title>change resolution of video when click on audience in the screen</title>
+      <issue id='48057177' number='5' user='posical' state='open' created_at='2014-11-07 07:54:23 +0000' age='2188' updated_at='2014-11-10 02:58:28 +0000' pull_request='false' comments='0'><title>change resolution of video when click on audience in the screen</title>
         <label url="https://api.github.com/repos/nttcom/jumbotron/labels/0%20-%20Backlog" color='CCCCCC'>0&amp;#xa0;-&amp;#xa0;Backlog</label>
       </issue>
-      <issue id='48225034' number='6' user='rotsuya' state='open' created_at='2014-11-10 02:47:07 +0000' age='2178' updated_at='2014-12-10 02:26:14 +0000' pull_request='false' comments='0'><title>Video isn't displayed in Android Chrome</title>
-        <label url="https://api.github.com/repos/nttcom/jumbotron/labels/0%20-%20Backlog" color='CCCCCC'>0&amp;#xa0;-&amp;#xa0;Backlog</label>
-        <label url="https://api.github.com/repos/nttcom/jumbotron/labels/bug" color='fc2929'>bug</label>
-      </issue>
-      <issue id='48225104' number='7' user='rotsuya' state='open' created_at='2014-11-10 02:49:01 +0000' age='2178' updated_at='2014-12-10 02:26:11 +0000' pull_request='false' comments='0'><title>Viewer can't detect disconnection with Android Chrome</title>
+      <issue id='48225034' number='6' user='rotsuya' state='open' created_at='2014-11-10 02:47:07 +0000' age='2185' updated_at='2014-12-10 02:26:14 +0000' pull_request='false' comments='0'><title>Video isn't displayed in Android Chrome</title>
         <label url="https://api.github.com/repos/nttcom/jumbotron/labels/0%20-%20Backlog" color='CCCCCC'>0&amp;#xa0;-&amp;#xa0;Backlog</label>
         <label url="https://api.github.com/repos/nttcom/jumbotron/labels/bug" color='fc2929'>bug</label>
       </issue>
-      <issue id='126367618' number='12' user='yusuke84' state='open' created_at='2016-01-13 08:28:36 +0000' age='1749' updated_at='2016-01-13 08:29:29 +0000' pull_request='true' comments='0' prFileCount='3' prAdditions='4' prDeletions='4'><title>Update LICENSE</title>
+      <issue id='48225104' number='7' user='rotsuya' state='open' created_at='2014-11-10 02:49:01 +0000' age='2185' updated_at='2014-12-10 02:26:11 +0000' pull_request='false' comments='0'><title>Viewer can't detect disconnection with Android Chrome</title>
+        <label url="https://api.github.com/repos/nttcom/jumbotron/labels/0%20-%20Backlog" color='CCCCCC'>0&amp;#xa0;-&amp;#xa0;Backlog</label>
+        <label url="https://api.github.com/repos/nttcom/jumbotron/labels/bug" color='fc2929'>bug</label>
+      </issue>
+      <issue id='126367618' number='12' user='yusuke84' state='open' created_at='2016-01-13 08:28:36 +0000' age='1756' updated_at='2016-01-13 08:29:29 +0000' pull_request='true' comments='0' prFileCount='3' prAdditions='4' prDeletions='4'><title>Update LICENSE</title>
       </issue>
     </issues>
   <release-data>
@@ -241,7 +241,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='100464024' number='3' user='iwashi' state='open' created_at='2015-08-12 04:42:08 +0000' age='1903' updated_at='2015-08-12 04:42:08 +0000' pull_request='false' comments='0'><title>Show friendly error message when method with wrong parameters called</title>
+      <issue id='100464024' number='3' user='iwashi' state='open' created_at='2015-08-12 04:42:08 +0000' age='1910' updated_at='2015-08-12 04:42:08 +0000' pull_request='false' comments='0'><title>Show friendly error message when method with wrong parameters called</title>
       </issue>
     </issues>
   <release-data>
@@ -266,11 +266,11 @@
     <collaborators>
     </collaborators>
     <issues count='3'>
-      <issue id='242352254' number='1' user='SimplyArmin' state='open' created_at='2017-07-12 11:46:08 +0000' age='1203' updated_at='2017-10-26 18:04:09 +0000' pull_request='false' comments='1'><title>Error after trying to add an image</title>
+      <issue id='242352254' number='1' user='SimplyArmin' state='open' created_at='2017-07-12 11:46:08 +0000' age='1210' updated_at='2017-10-26 18:04:09 +0000' pull_request='false' comments='1'><title>Error after trying to add an image</title>
       </issue>
-      <issue id='265495091' number='2' user='vinznsk' state='open' created_at='2017-10-14 14:28:44 +0000' age='1108' updated_at='2020-10-04 09:49:33 +0000' pull_request='false' comments='1'><title> cannot load such file -- net/ssh (LoadError)</title>
+      <issue id='265495091' number='2' user='vinznsk' state='open' created_at='2017-10-14 14:28:44 +0000' age='1115' updated_at='2020-10-04 09:49:33 +0000' pull_request='false' comments='1'><title> cannot load such file -- net/ssh (LoadError)</title>
       </issue>
-      <issue id='312302298' number='3' user='M0d3rn15t' state='open' created_at='2018-04-08 12:39:42 +0000' age='933' updated_at='2018-04-08 12:39:42 +0000' pull_request='false' comments='0'><title>We're sorry but something went wrong!</title>
+      <issue id='312302298' number='3' user='M0d3rn15t' state='open' created_at='2018-04-08 12:39:42 +0000' age='939' updated_at='2018-04-08 12:39:42 +0000' pull_request='false' comments='0'><title>We're sorry but something went wrong!</title>
       </issue>
     </issues>
   <release-data>
@@ -295,9 +295,9 @@
     <collaborators>
     </collaborators>
     <issues count='2'>
-      <issue id='228657352' number='8' user='topjx' state='open' created_at='2017-05-15 09:33:09 +0000' age='1261' updated_at='2017-12-01 18:49:53 +0000' pull_request='false' comments='2'><title>SocketError message= syserr=Error Domain=XHRStream Code=16 "未能完成操作。（“XHRStream”错误 16。</title>
+      <issue id='228657352' number='8' user='topjx' state='open' created_at='2017-05-15 09:33:09 +0000' age='1268' updated_at='2017-12-01 18:49:53 +0000' pull_request='false' comments='2'><title>SocketError message= syserr=Error Domain=XHRStream Code=16 "未能完成操作。（“XHRStream”错误 16。</title>
       </issue>
-      <issue id='262377624' number='18' user='TaoufikBouabid' state='open' created_at='2017-10-03 10:28:42 +0000' age='1120' updated_at='2017-12-01 18:50:35 +0000' pull_request='false' comments='1'><title>Problem when implementing incoming call</title>
+      <issue id='262377624' number='18' user='TaoufikBouabid' state='open' created_at='2017-10-03 10:28:42 +0000' age='1127' updated_at='2017-12-01 18:50:35 +0000' pull_request='false' comments='1'><title>Problem when implementing incoming call</title>
       </issue>
     </issues>
   <release-data>
@@ -320,7 +320,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='223609661' number='7' user='hoangchuongmozart' state='open' created_at='2017-04-23 03:30:37 +0000' age='1283' updated_at='2017-04-23 03:30:37 +0000' pull_request='false' comments='0'><title>Canvas rotation error, black screen</title>
+      <issue id='223609661' number='7' user='hoangchuongmozart' state='open' created_at='2017-04-23 03:30:37 +0000' age='1290' updated_at='2017-04-23 03:30:37 +0000' pull_request='false' comments='0'><title>Canvas rotation error, black screen</title>
       </issue>
     </issues>
   <release-data>
@@ -374,36 +374,36 @@
     <collaborators>
     </collaborators>
     <issues count='15'>
-      <issue id='136294046' number='21' user='yusuke84' state='open' created_at='2016-02-25 06:23:48 +0000' age='1706' updated_at='2017-02-20 01:38:37 +0000' pull_request='false' comments='2'><title>Firefox 43からAddonの署名が必須になった</title>
+      <issue id='136294046' number='21' user='yusuke84' state='open' created_at='2016-02-25 06:23:48 +0000' age='1713' updated_at='2017-02-20 01:38:37 +0000' pull_request='false' comments='2'><title>Firefox 43からAddonの署名が必須になった</title>
       </issue>
-      <issue id='188804335' number='25' user='Lucashuang0802' state='open' created_at='2016-11-11 16:59:55 +0000' age='1445' updated_at='2016-12-19 12:00:18 +0000' pull_request='false' comments='1'><title>Question: Do you guys have a demo/sample/video?</title>
+      <issue id='188804335' number='25' user='Lucashuang0802' state='open' created_at='2016-11-11 16:59:55 +0000' age='1452' updated_at='2016-12-19 12:00:18 +0000' pull_request='false' comments='1'><title>Question: Do you guys have a demo/sample/video?</title>
       </issue>
-      <issue id='97581589' number='1' user='yusuke84' state='open' created_at='2015-07-27 23:55:15 +0000' age='1918' updated_at='2015-07-27 23:55:15 +0000' pull_request='false' comments='0'><title>startScreenShareでエラーが返ってくる場合がある</title>
+      <issue id='97581589' number='1' user='yusuke84' state='open' created_at='2015-07-27 23:55:15 +0000' age='1925' updated_at='2015-07-27 23:55:15 +0000' pull_request='false' comments='0'><title>startScreenShareでエラーが返ってくる場合がある</title>
       </issue>
-      <issue id='97581854' number='2' user='yusuke84' state='open' created_at='2015-07-27 23:57:49 +0000' age='1918' updated_at='2015-07-27 23:57:49 +0000' pull_request='false' comments='0'><title>同一ドメインで複数のExtensionをインストールしている場合に複数反応する</title>
+      <issue id='97581854' number='2' user='yusuke84' state='open' created_at='2015-07-27 23:57:49 +0000' age='1925' updated_at='2015-07-27 23:57:49 +0000' pull_request='false' comments='0'><title>同一ドメインで複数のExtensionをインストールしている場合に複数反応する</title>
       </issue>
-      <issue id='97581912' number='3' user='yusuke84' state='open' created_at='2015-07-27 23:58:11 +0000' age='1918' updated_at='2015-07-27 23:58:11 +0000' pull_request='false' comments='0'><title>テストを書く</title>
+      <issue id='97581912' number='3' user='yusuke84' state='open' created_at='2015-07-27 23:58:11 +0000' age='1925' updated_at='2015-07-27 23:58:11 +0000' pull_request='false' comments='0'><title>テストを書く</title>
       </issue>
-      <issue id='97581981' number='4' user='yusuke84' state='open' created_at='2015-07-27 23:58:46 +0000' age='1918' updated_at='2015-07-27 23:58:46 +0000' pull_request='false' comments='0'><title>ライブラリをbowerに登録する</title>
+      <issue id='97581981' number='4' user='yusuke84' state='open' created_at='2015-07-27 23:58:46 +0000' age='1925' updated_at='2015-07-27 23:58:46 +0000' pull_request='false' comments='0'><title>ライブラリをbowerに登録する</title>
       </issue>
-      <issue id='97582014' number='5' user='yusuke84' state='open' created_at='2015-07-27 23:59:02 +0000' age='1918' updated_at='2015-07-27 23:59:02 +0000' pull_request='false' comments='0'><title>TSの型定義ファイルを公式リポジトリに登録する</title>
+      <issue id='97582014' number='5' user='yusuke84' state='open' created_at='2015-07-27 23:59:02 +0000' age='1925' updated_at='2015-07-27 23:59:02 +0000' pull_request='false' comments='0'><title>TSの型定義ファイルを公式リポジトリに登録する</title>
       </issue>
-      <issue id='97582222' number='7' user='yusuke84' state='open' created_at='2015-07-28 00:00:30 +0000' age='1918' updated_at='2015-07-28 00:00:30 +0000' pull_request='false' comments='0'><title>stopScreenShareメソッドを実装する</title>
+      <issue id='97582222' number='7' user='yusuke84' state='open' created_at='2015-07-28 00:00:30 +0000' age='1925' updated_at='2015-07-28 00:00:30 +0000' pull_request='false' comments='0'><title>stopScreenShareメソッドを実装する</title>
       </issue>
-      <issue id='97583401' number='8' user='yusuke84' state='open' created_at='2015-07-28 00:10:55 +0000' age='1918' updated_at='2015-07-28 00:10:55 +0000' pull_request='false' comments='0'><title>ドキュメントにSSLが必須であることを明記する</title>
+      <issue id='97583401' number='8' user='yusuke84' state='open' created_at='2015-07-28 00:10:55 +0000' age='1925' updated_at='2015-07-28 00:10:55 +0000' pull_request='false' comments='0'><title>ドキュメントにSSLが必須であることを明記する</title>
       </issue>
-      <issue id='97839414' number='10' user='yusuke84' state='open' created_at='2015-07-29 01:57:59 +0000' age='1917' updated_at='2016-08-25 07:09:53 +0000' pull_request='false' comments='0'><title>Firefoxもextensionが正しいので修正する</title>
+      <issue id='97839414' number='10' user='yusuke84' state='open' created_at='2015-07-29 01:57:59 +0000' age='1924' updated_at='2016-08-25 07:09:53 +0000' pull_request='false' comments='0'><title>Firefoxもextensionが正しいので修正する</title>
       </issue>
-      <issue id='109257877' number='12' user='alanmshelly' state='open' created_at='2015-10-01 09:05:10 +0000' age='1853' updated_at='2015-10-01 09:05:17 +0000' pull_request='false' comments='0'><title>Fix spelling mistake</title>
+      <issue id='109257877' number='12' user='alanmshelly' state='open' created_at='2015-10-01 09:05:10 +0000' age='1860' updated_at='2015-10-01 09:05:17 +0000' pull_request='false' comments='0'><title>Fix spelling mistake</title>
       </issue>
-      <issue id='110372692' number='17' user='yusuke84' state='open' created_at='2015-10-08 04:47:16 +0000' age='1846' updated_at='2016-11-10 06:49:36 +0000' pull_request='false' comments='2'><title>FirefoxのExtensionが認識されない</title>
+      <issue id='110372692' number='17' user='yusuke84' state='open' created_at='2015-10-08 04:47:16 +0000' age='1853' updated_at='2016-11-10 06:49:36 +0000' pull_request='false' comments='2'><title>FirefoxのExtensionが認識されない</title>
         <label url="https://api.github.com/repos/nttcom/SkyWay-ScreenShare/labels/bug" color='fc2929'>bug</label>
       </issue>
-      <issue id='212074426' number='28' user='MrsZ' state='open' created_at='2017-03-06 10:02:50 +0000' age='1331' updated_at='2017-03-06 10:02:50 +0000' pull_request='false' comments='0'><title>Hi, I have got a Chrome extension, but how do I put this demo your transplant to my project to go, this is all your open source or with your API, thank you</title>
+      <issue id='212074426' number='28' user='MrsZ' state='open' created_at='2017-03-06 10:02:50 +0000' age='1338' updated_at='2017-03-06 10:02:50 +0000' pull_request='false' comments='0'><title>Hi, I have got a Chrome extension, but how do I put this demo your transplant to my project to go, this is all your open source or with your API, thank you</title>
       </issue>
-      <issue id='232163305' number='31' user='brickgale' state='open' created_at='2017-05-30 07:21:34 +0000' age='1246' updated_at='2017-05-30 07:21:34 +0000' pull_request='false' comments='0'><title>Building Firefox add-on. > 'cfx' is not recognized as an internal or external command</title>
+      <issue id='232163305' number='31' user='brickgale' state='open' created_at='2017-05-30 07:21:34 +0000' age='1253' updated_at='2017-05-30 07:21:34 +0000' pull_request='false' comments='0'><title>Building Firefox add-on. > 'cfx' is not recognized as an internal or external command</title>
       </issue>
-      <issue id='242579333' number='33' user='brickgale' state='open' created_at='2017-07-13 04:02:46 +0000' age='1202' updated_at='2017-07-13 04:02:46 +0000' pull_request='false' comments='0'><title>NavigatorUserMediaError everytime I stop and restart a screen sharing</title>
+      <issue id='242579333' number='33' user='brickgale' state='open' created_at='2017-07-13 04:02:46 +0000' age='1209' updated_at='2017-07-13 04:02:46 +0000' pull_request='false' comments='0'><title>NavigatorUserMediaError everytime I stop and restart a screen sharing</title>
       </issue>
     </issues>
   <release-data>
@@ -431,19 +431,19 @@
     <collaborators>
     </collaborators>
     <issues count='7'>
-      <issue id='111087704' number='2' user='yusuke84' state='open' created_at='2015-10-13 01:55:20 +0000' age='1841' updated_at='2015-10-30 01:30:27 +0000' pull_request='false' comments='1'><title>画面共有についての不具合（だと思われる）</title>
+      <issue id='111087704' number='2' user='yusuke84' state='open' created_at='2015-10-13 01:55:20 +0000' age='1848' updated_at='2015-10-30 01:30:27 +0000' pull_request='false' comments='1'><title>画面共有についての不具合（だと思われる）</title>
       </issue>
-      <issue id='124031840' number='7' user='sakkuru' state='open' created_at='2015-12-28 07:55:34 +0000' age='1765' updated_at='2016-03-03 10:26:40 +0000' pull_request='true' comments='1' prFileCount='3' prAdditions='105' prDeletions='51'><title>add code to use SkyWay plugin</title>
+      <issue id='124031840' number='7' user='sakkuru' state='open' created_at='2015-12-28 07:55:34 +0000' age='1772' updated_at='2016-03-03 10:26:40 +0000' pull_request='true' comments='1' prFileCount='3' prAdditions='105' prDeletions='51'><title>add code to use SkyWay plugin</title>
       </issue>
-      <issue id='138894425' number='13' user='yusuke84' state='open' created_at='2016-03-07 05:49:15 +0000' age='1695' updated_at='2016-03-07 05:49:15 +0000' pull_request='false' comments='0'><title>ミュート処理部分の改良</title>
+      <issue id='138894425' number='13' user='yusuke84' state='open' created_at='2016-03-07 05:49:15 +0000' age='1702' updated_at='2016-03-07 05:49:15 +0000' pull_request='false' comments='0'><title>ミュート処理部分の改良</title>
       </issue>
-      <issue id='151207243' number='17' user='KensakuKOMATSU' state='open' created_at='2016-04-26 18:31:35 +0000' age='1644' updated_at='2016-04-26 21:29:34 +0000' pull_request='false' comments='10'><title>multiparty-sample.html does not work</title>
+      <issue id='151207243' number='17' user='KensakuKOMATSU' state='open' created_at='2016-04-26 18:31:35 +0000' age='1651' updated_at='2016-04-26 21:29:34 +0000' pull_request='false' comments='10'><title>multiparty-sample.html does not work</title>
       </issue>
-      <issue id='152918959' number='20' user='KensakuKOMATSU' state='open' created_at='2016-05-04 02:48:37 +0000' age='1637' updated_at='2016-05-04 02:48:37 +0000' pull_request='false' comments='0'><title>has dependency of jquery</title>
+      <issue id='152918959' number='20' user='KensakuKOMATSU' state='open' created_at='2016-05-04 02:48:37 +0000' age='1644' updated_at='2016-05-04 02:48:37 +0000' pull_request='false' comments='0'><title>has dependency of jquery</title>
       </issue>
-      <issue id='153505126' number='21' user='KensakuKOMATSU' state='open' created_at='2016-05-06 17:56:26 +0000' age='1634' updated_at='2016-05-06 18:24:54 +0000' pull_request='false' comments='2'><title>create interface to change video parameter</title>
+      <issue id='153505126' number='21' user='KensakuKOMATSU' state='open' created_at='2016-05-06 17:56:26 +0000' age='1641' updated_at='2016-05-06 18:24:54 +0000' pull_request='false' comments='2'><title>create interface to change video parameter</title>
       </issue>
-      <issue id='159558236' number='22' user='alanmshelly' state='open' created_at='2016-06-10 04:49:43 +0000' age='1600' updated_at='2016-06-10 04:49:48 +0000' pull_request='false' comments='0'><title>Handle screenshare onEnded events</title>
+      <issue id='159558236' number='22' user='alanmshelly' state='open' created_at='2016-06-10 04:49:43 +0000' age='1607' updated_at='2016-06-10 04:49:48 +0000' pull_request='false' comments='0'><title>Handle screenshare onEnded events</title>
         <label url="https://api.github.com/repos/nttcom/SkyWay-MultiParty/labels/enhancement" color='84b6eb'>enhancement</label>
       </issue>
     </issues>
@@ -493,13 +493,13 @@
     <collaborators>
     </collaborators>
     <issues count='3'>
-      <issue id='546041147' number='3' user='dependabot[bot]' state='open' created_at='2020-01-07 02:21:03 +0000' age='294' updated_at='2020-01-07 02:21:05 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump handlebars from 3.0.7 to 4.5.3</title>
+      <issue id='546041147' number='3' user='dependabot[bot]' state='open' created_at='2020-01-07 02:21:03 +0000' age='301' updated_at='2020-01-07 02:21:05 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump handlebars from 3.0.7 to 4.5.3</title>
         <label url="https://api.github.com/repos/nttcom/skyway/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='609414703' number='6' user='dependabot[bot]' state='open' created_at='2020-04-29 22:52:41 +0000' age='180' updated_at='2020-04-29 22:52:42 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump jquery from 2.1.4 to 3.5.0</title>
+      <issue id='609414703' number='6' user='dependabot[bot]' state='open' created_at='2020-04-29 22:52:41 +0000' age='187' updated_at='2020-04-29 22:52:42 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump jquery from 2.1.4 to 3.5.0</title>
         <label url="https://api.github.com/repos/nttcom/skyway/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='657632642' number='7' user='dependabot[bot]' state='open' created_at='2020-07-15 20:28:52 +0000' age='103' updated_at='2020-07-15 20:28:54 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump lodash from 3.10.1 to 4.17.19</title>
+      <issue id='657632642' number='7' user='dependabot[bot]' state='open' created_at='2020-07-15 20:28:52 +0000' age='110' updated_at='2020-07-15 20:28:54 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump lodash from 3.10.1 to 4.17.19</title>
         <label url="https://api.github.com/repos/nttcom/skyway/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
@@ -603,13 +603,13 @@
     <collaborators>
     </collaborators>
     <issues count='4'>
-      <issue id='188722561' number='5' user='carpteas' state='open' created_at='2016-11-11 09:48:27 +0000' age='1446' updated_at='2016-11-11 09:53:08 +0000' pull_request='false' comments='0'><title>Sending of the SDP Offer and Candidates with wrong order when used with external TURN server</title>
+      <issue id='188722561' number='5' user='carpteas' state='open' created_at='2016-11-11 09:48:27 +0000' age='1453' updated_at='2016-11-11 09:53:08 +0000' pull_request='false' comments='0'><title>Sending of the SDP Offer and Candidates with wrong order when used with external TURN server</title>
       </issue>
-      <issue id='198013292' number='6' user='bantayso' state='open' created_at='2016-12-29 14:12:34 +0000' age='1397' updated_at='2016-12-29 14:12:34 +0000' pull_request='false' comments='0'><title>Field 'boolean io.skyway.Peer.Reachability.isConnected' on a null object reference</title>
+      <issue id='198013292' number='6' user='bantayso' state='open' created_at='2016-12-29 14:12:34 +0000' age='1404' updated_at='2016-12-29 14:12:34 +0000' pull_request='false' comments='0'><title>Field 'boolean io.skyway.Peer.Reachability.isConnected' on a null object reference</title>
       </issue>
-      <issue id='211838783' number='8' user='lopper' state='open' created_at='2017-03-04 00:39:40 +0000' age='1333' updated_at='2017-03-04 00:39:40 +0000' pull_request='false' comments='0'><title>Can SRWebsocket and Reachability be renamed within the framework?</title>
+      <issue id='211838783' number='8' user='lopper' state='open' created_at='2017-03-04 00:39:40 +0000' age='1340' updated_at='2017-03-04 00:39:40 +0000' pull_request='false' comments='0'><title>Can SRWebsocket and Reachability be renamed within the framework?</title>
       </issue>
-      <issue id='215585018' number='9' user='lopper' state='open' created_at='2017-03-20 23:24:11 +0000' age='1316' updated_at='2017-03-20 23:24:11 +0000' pull_request='false' comments='0'><title>Existing P2P connections cannot receive data when disconnect method of SKWPeer Class is called.</title>
+      <issue id='215585018' number='9' user='lopper' state='open' created_at='2017-03-20 23:24:11 +0000' age='1323' updated_at='2017-03-20 23:24:11 +0000' pull_request='false' comments='0'><title>Existing P2P connections cannot receive data when disconnect method of SKWPeer Class is called.</title>
       </issue>
     </issues>
   <release-data>
@@ -641,17 +641,17 @@
     <collaborators>
     </collaborators>
     <issues count='6'>
-      <issue id='199784150' number='6' user='poovarasanvasudevan' state='open' created_at='2017-01-10 10:27:56 +0000' age='1386' updated_at='2017-01-11 01:28:20 +0000' pull_request='false' comments='1'><title>Use Local Peer Server</title>
+      <issue id='199784150' number='6' user='poovarasanvasudevan' state='open' created_at='2017-01-10 10:27:56 +0000' age='1393' updated_at='2017-01-11 01:28:20 +0000' pull_request='false' comments='1'><title>Use Local Peer Server</title>
       </issue>
-      <issue id='200001043' number='7' user='MrNinja' state='open' created_at='2017-01-11 04:29:50 +0000' age='1385' updated_at='2017-05-22 04:59:42 +0000' pull_request='false' comments='0'><title>Crash application when close mediastream during remote accept phone call.</title>
+      <issue id='200001043' number='7' user='MrNinja' state='open' created_at='2017-01-11 04:29:50 +0000' age='1392' updated_at='2017-05-22 04:59:42 +0000' pull_request='false' comments='0'><title>Crash application when close mediastream during remote accept phone call.</title>
       </issue>
-      <issue id='223610601' number='10' user='hoangchuongmozart' state='open' created_at='2017-04-23 03:55:21 +0000' age='1283' updated_at='2017-04-23 03:55:21 +0000' pull_request='false' comments='0'><title>Canvas rotation error, black screen</title>
+      <issue id='223610601' number='10' user='hoangchuongmozart' state='open' created_at='2017-04-23 03:55:21 +0000' age='1290' updated_at='2017-04-23 03:55:21 +0000' pull_request='false' comments='0'><title>Canvas rotation error, black screen</title>
       </issue>
-      <issue id='225338901' number='11' user='tuancoltech' state='open' created_at='2017-04-30 16:47:39 +0000' age='1275' updated_at='2017-04-30 16:47:39 +0000' pull_request='false' comments='0'><title>Old version of Gson jar inside SDK</title>
+      <issue id='225338901' number='11' user='tuancoltech' state='open' created_at='2017-04-30 16:47:39 +0000' age='1282' updated_at='2017-04-30 16:47:39 +0000' pull_request='false' comments='0'><title>Old version of Gson jar inside SDK</title>
       </issue>
-      <issue id='230289004' number='12' user='MrNinja' state='open' created_at='2017-05-22 05:35:07 +0000' age='1254' updated_at='2017-07-10 08:01:29 +0000' pull_request='false' comments='1'><title>How to reconnect to Skyway server?</title>
+      <issue id='230289004' number='12' user='MrNinja' state='open' created_at='2017-05-22 05:35:07 +0000' age='1261' updated_at='2017-07-10 08:01:29 +0000' pull_request='false' comments='1'><title>How to reconnect to Skyway server?</title>
       </issue>
-      <issue id='230289696' number='13' user='MrNinja' state='open' created_at='2017-05-22 05:41:28 +0000' age='1254' updated_at='2017-05-25 02:40:16 +0000' pull_request='false' comments='2'><title>Request to disable Skyway SDK log</title>
+      <issue id='230289696' number='13' user='MrNinja' state='open' created_at='2017-05-22 05:41:28 +0000' age='1261' updated_at='2017-05-25 02:40:16 +0000' pull_request='false' comments='2'><title>Request to disable Skyway SDK log</title>
       </issue>
     </issues>
   <release-data>
@@ -704,7 +704,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='499608665' number='1' user='dependabot[bot]' state='open' created_at='2019-09-27 19:19:38 +0000' age='395' updated_at='2019-09-27 19:19:39 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='2' prDeletions='2'><title>Bump requests from 2.7.0 to 2.20.0</title>
+      <issue id='499608665' number='1' user='dependabot[bot]' state='open' created_at='2019-09-27 19:19:38 +0000' age='402' updated_at='2019-09-27 19:19:39 +0000' pull_request='true' comments='0' prFileCount='2' prAdditions='2' prDeletions='2'><title>Bump requests from 2.7.0 to 2.20.0</title>
         <label url="https://api.github.com/repos/nttcom/apigw-python-sdk/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
@@ -731,7 +731,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='247936744' number='5' user='Mrsevic' state='open' created_at='2017-08-04 08:25:20 +0000' age='1180' updated_at='2017-08-04 08:25:20 +0000' pull_request='false' comments='0'><title>Microphone</title>
+      <issue id='247936744' number='5' user='Mrsevic' state='open' created_at='2017-08-04 08:25:20 +0000' age='1187' updated_at='2017-08-04 08:25:20 +0000' pull_request='false' comments='0'><title>Microphone</title>
       </issue>
     </issues>
   <release-data>
@@ -865,7 +865,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='198128384' number='1' user='bantayso' state='open' created_at='2016-12-30 10:09:40 +0000' age='1397' updated_at='2016-12-30 10:09:40 +0000' pull_request='false' comments='0'><title>NullPointerException io.skyway.Peer.Reachability.isReachable</title>
+      <issue id='198128384' number='1' user='bantayso' state='open' created_at='2016-12-30 10:09:40 +0000' age='1404' updated_at='2016-12-30 10:09:40 +0000' pull_request='false' comments='0'><title>NullPointerException io.skyway.Peer.Reachability.isReachable</title>
       </issue>
     </issues>
   <release-data>
@@ -885,7 +885,7 @@
   <reporting class='issue-report' repo='nttcom/SkyWay-MultiParty-Android' type='AveragePrCloseDbReporter'><field>nttcom/SkyWay-MultiParty-Android</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>0.0</field><field>0</field></reporting>
     </reports>
   </repo>
-  <repo name='eclsdk' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='2' closed_pr_count='59' open_issue_count='0' open_pr_count='0' has_wiki='true' language='Python' stars='5' watchers='15' forks='7' created_at='2017-03-30 05:45:19 +0000' updated_at='2020-06-08 04:13:24 +0000' pushed_at='2020-08-07 02:46:07 +0000' size='2621' commit_count='213'>
+  <repo name='eclsdk' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='2' closed_pr_count='59' open_issue_count='0' open_pr_count='0' has_wiki='true' language='Python' stars='5' watchers='15' forks='7' created_at='2017-03-30 05:45:19 +0000' updated_at='2020-10-30 09:43:56 +0000' pushed_at='2020-10-30 09:43:53 +0000' size='2624' commit_count='215'>
     <description>Enterprise Cloud Python SDK</description>
     <collaborators>
     </collaborators>
@@ -1008,15 +1008,15 @@
     <collaborators>
     </collaborators>
     <issues count='5'>
-      <issue id='232197384' number='1' user='CyberGecko' state='open' created_at='2017-05-30 09:44:09 +0000' age='1246' updated_at='2017-06-12 01:20:29 +0000' pull_request='false' comments='1'><title>consumer_pool_size doesn't work</title>
+      <issue id='232197384' number='1' user='CyberGecko' state='open' created_at='2017-05-30 09:44:09 +0000' age='1253' updated_at='2017-06-12 01:20:29 +0000' pull_request='false' comments='1'><title>consumer_pool_size doesn't work</title>
       </issue>
-      <issue id='388883204' number='9' user='panatl' state='open' created_at='2018-12-08 04:12:21 +0000' age='689' updated_at='2018-12-08 04:12:21 +0000' pull_request='false' comments='0'><title>Getting ECONNRESET</title>
+      <issue id='388883204' number='9' user='panatl' state='open' created_at='2018-12-08 04:12:21 +0000' age='696' updated_at='2018-12-08 04:12:21 +0000' pull_request='false' comments='0'><title>Getting ECONNRESET</title>
       </issue>
-      <issue id='398358724' number='10' user='ganymedes01' state='open' created_at='2019-01-11 16:23:44 +0000' age='654' updated_at='2020-01-21 14:44:20 +0000' pull_request='false' comments='2'><title>When used as output the queue isn't automatically created</title>
+      <issue id='398358724' number='10' user='ganymedes01' state='open' created_at='2019-01-11 16:23:44 +0000' age='661' updated_at='2020-01-21 14:44:20 +0000' pull_request='false' comments='2'><title>When used as output the queue isn't automatically created</title>
       </issue>
-      <issue id='502038603' number='13' user='meveno' state='open' created_at='2019-10-03 12:35:11 +0000' age='390' updated_at='2020-03-09 15:43:27 +0000' pull_request='false' comments='11'><title>RabbitMQ plugin with tls enable error</title>
+      <issue id='502038603' number='13' user='meveno' state='open' created_at='2019-10-03 12:35:11 +0000' age='397' updated_at='2020-03-09 15:43:27 +0000' pull_request='false' comments='11'><title>RabbitMQ plugin with tls enable error</title>
       </issue>
-      <issue id='705504093' number='17' user='albertoayllon' state='open' created_at='2020-09-21 11:16:27 +0000' age='36' updated_at='2020-09-21 11:16:27 +0000' pull_request='false' comments='0'><title>Option to use "Manual ack"</title>
+      <issue id='705504093' number='17' user='albertoayllon' state='open' created_at='2020-09-21 11:16:27 +0000' age='43' updated_at='2020-09-21 11:16:27 +0000' pull_request='false' comments='0'><title>Option to use "Manual ack"</title>
       </issue>
     </issues>
   <release-data>
@@ -1041,15 +1041,15 @@
     <collaborators>
     </collaborators>
     <issues count='5'>
-      <issue id='259199697' number='2' user='crosofg' state='open' created_at='2017-09-20 15:10:40 +0000' age='1132' updated_at='2017-10-17 17:05:37 +0000' pull_request='false' comments='13'><title>How to do two way audio Communication?</title>
+      <issue id='259199697' number='2' user='crosofg' state='open' created_at='2017-09-20 15:10:40 +0000' age='1139' updated_at='2017-10-17 17:05:37 +0000' pull_request='false' comments='13'><title>How to do two way audio Communication?</title>
       </issue>
-      <issue id='269194602' number='4' user='chakri1vr1' state='open' created_at='2017-10-27 18:24:15 +0000' age='1095' updated_at='2017-11-17 22:28:11 +0000' pull_request='false' comments='2'><title>How to receive video stream in Android app</title>
+      <issue id='269194602' number='4' user='chakri1vr1' state='open' created_at='2017-10-27 18:24:15 +0000' age='1102' updated_at='2017-11-17 22:28:11 +0000' pull_request='false' comments='2'><title>How to receive video stream in Android app</title>
       </issue>
-      <issue id='276689274' number='6' user='crosofg' state='open' created_at='2017-11-24 19:41:31 +0000' age='1067' updated_at='2017-12-12 06:19:57 +0000' pull_request='false' comments='2'><title>Latest android SDK?</title>
+      <issue id='276689274' number='6' user='crosofg' state='open' created_at='2017-11-24 19:41:31 +0000' age='1074' updated_at='2017-12-12 06:19:57 +0000' pull_request='false' comments='2'><title>Latest android SDK?</title>
       </issue>
-      <issue id='330538909' number='7' user='ledmonster' state='open' created_at='2018-06-08 06:47:47 +0000' age='872' updated_at='2018-06-08 06:47:47 +0000' pull_request='false' comments='0'><title>sudo is not necessary in install script</title>
+      <issue id='330538909' number='7' user='ledmonster' state='open' created_at='2018-06-08 06:47:47 +0000' age='879' updated_at='2018-06-08 06:47:47 +0000' pull_request='false' comments='0'><title>sudo is not necessary in install script</title>
       </issue>
-      <issue id='338800034' number='8' user='DuongHieuMAI' state='open' created_at='2018-07-06 04:18:43 +0000' age='844' updated_at='2018-07-06 04:19:46 +0000' pull_request='false' comments='0'><title>Segmentation fault (core dumped) after about ten minutes running on Raspbian Jessie</title>
+      <issue id='338800034' number='8' user='DuongHieuMAI' state='open' created_at='2018-07-06 04:18:43 +0000' age='851' updated_at='2018-07-06 04:19:46 +0000' pull_request='false' comments='0'><title>Segmentation fault (core dumped) after about ten minutes running on Raspbian Jessie</title>
       </issue>
     </issues>
   <release-data>
@@ -1086,7 +1086,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='272819454' number='1' user='KensakuKOMATSU' state='open' created_at='2017-11-10 04:54:07 +0000' age='1082' updated_at='2017-11-10 05:05:11 +0000' pull_request='false' comments='3'><title>develop v0.4.3</title>
+      <issue id='272819454' number='1' user='KensakuKOMATSU' state='open' created_at='2017-11-10 04:54:07 +0000' age='1089' updated_at='2017-11-10 05:05:11 +0000' pull_request='false' comments='3'><title>develop v0.4.3</title>
       </issue>
     </issues>
   <release-data>
@@ -1110,7 +1110,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='357042165' number='5' user='0x0c' state='open' created_at='2018-09-05 02:29:41 +0000' age='783' updated_at='2018-09-05 02:29:41 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Fix typo</title>
+      <issue id='357042165' number='5' user='0x0c' state='open' created_at='2018-09-05 02:29:41 +0000' age='790' updated_at='2018-09-05 02:29:41 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Fix typo</title>
       </issue>
     </issues>
   <release-data>
@@ -1321,22 +1321,22 @@
     <collaborators>
     </collaborators>
     <issues count='6'>
-      <issue id='516485644' number='9' user='dependabot[bot]' state='open' created_at='2019-11-02 05:37:29 +0000' age='360' updated_at='2019-11-02 05:37:30 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='16' prDeletions='5'><title>Bump eslint-utils from 1.3.1 to 1.4.3</title>
+      <issue id='516485644' number='9' user='dependabot[bot]' state='open' created_at='2019-11-02 05:37:29 +0000' age='367' updated_at='2019-11-02 05:37:30 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='16' prDeletions='5'><title>Bump eslint-utils from 1.3.1 to 1.4.3</title>
         <label url="https://api.github.com/repos/nttcom/skyway-m-pipe-components/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='580976851' number='10' user='dependabot[bot]' state='open' created_at='2020-03-14 01:36:00 +0000' age='227' updated_at='2020-03-14 01:36:01 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='4' prDeletions='4'><title>Bump acorn from 6.1.0 to 6.4.1</title>
+      <issue id='580976851' number='10' user='dependabot[bot]' state='open' created_at='2020-03-14 01:36:00 +0000' age='234' updated_at='2020-03-14 01:36:01 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='4' prDeletions='4'><title>Bump acorn from 6.1.0 to 6.4.1</title>
         <label url="https://api.github.com/repos/nttcom/skyway-m-pipe-components/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='600972620' number='11' user='dependabot[bot]' state='open' created_at='2020-04-16 11:35:44 +0000' age='194' updated_at='2020-04-16 11:35:45 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='15' prDeletions='13'><title>Bump https-proxy-agent from 2.2.1 to 2.2.4</title>
+      <issue id='600972620' number='11' user='dependabot[bot]' state='open' created_at='2020-04-16 11:35:44 +0000' age='201' updated_at='2020-04-16 11:35:45 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='15' prDeletions='13'><title>Bump https-proxy-agent from 2.2.1 to 2.2.4</title>
         <label url="https://api.github.com/repos/nttcom/skyway-m-pipe-components/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='658439022' number='12' user='dependabot[bot]' state='open' created_at='2020-07-16 18:17:41 +0000' age='102' updated_at='2020-07-16 18:17:42 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='4' prDeletions='4'><title>Bump lodash from 4.17.11 to 4.17.19</title>
+      <issue id='658439022' number='12' user='dependabot[bot]' state='open' created_at='2020-07-16 18:17:41 +0000' age='109' updated_at='2020-07-16 18:17:42 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='4' prDeletions='4'><title>Bump lodash from 4.17.11 to 4.17.19</title>
         <label url="https://api.github.com/repos/nttcom/skyway-m-pipe-components/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='692605001' number='13' user='dependabot[bot]' state='open' created_at='2020-09-04 02:07:38 +0000' age='53' updated_at='2020-09-04 02:07:39 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='4' prDeletions='4'><title>Bump lodash.merge from 4.6.1 to 4.6.2</title>
+      <issue id='692605001' number='13' user='dependabot[bot]' state='open' created_at='2020-09-04 02:07:38 +0000' age='60' updated_at='2020-09-04 02:07:39 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='4' prDeletions='4'><title>Bump lodash.merge from 4.6.1 to 4.6.2</title>
         <label url="https://api.github.com/repos/nttcom/skyway-m-pipe-components/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
-      <issue id='699118618' number='14' user='dependabot[bot]' state='open' created_at='2020-09-11 10:04:08 +0000' age='46' updated_at='2020-09-11 10:04:09 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='4' prDeletions='4'><title>Bump node-fetch from 2.3.0 to 2.6.1</title>
+      <issue id='699118618' number='14' user='dependabot[bot]' state='open' created_at='2020-09-11 10:04:08 +0000' age='53' updated_at='2020-09-11 10:04:09 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='4' prDeletions='4'><title>Bump node-fetch from 2.3.0 to 2.6.1</title>
         <label url="https://api.github.com/repos/nttcom/skyway-m-pipe-components/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
@@ -1359,7 +1359,7 @@
   <reporting class='issue-report' repo='nttcom/skyway-m-pipe-components' type='NoPrCommentsDbReporter'><field>2020-09-11 10:04:08 +0000</field><field>https://github.com/nttcom/skyway-m-pipe-components/pull/14</field><field>Bump node-fetch from 2.3.0 to 2.6.1</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/skyway-m-pipe-components</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>6</field></reporting>  <reporting class='issue-report' repo='nttcom/skyway-m-pipe-components' type='AverageIssueCloseDbReporter'><field>nttcom/skyway-m-pipe-components</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/skyway-m-pipe-components' type='AveragePrCloseDbReporter'><field>nttcom/skyway-m-pipe-components</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>2</field><field>0</field><field>0</field><field>6</field><field>8</field><field>8.63</field><field>6</field></reporting>
+  <reporting class='issue-report' repo='nttcom/skyway-m-pipe-components' type='AveragePrCloseDbReporter'><field>nttcom/skyway-m-pipe-components</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>2</field><field>0</field><field>0</field><field>5</field><field>8</field><field>8.63</field><field>6</field></reporting>
     </reports>
   </repo>
   <repo name='eclcloud' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='30' open_issue_count='0' open_pr_count='0' has_wiki='true' language='Go' stars='2' watchers='12' forks='3' created_at='2019-03-05 07:06:21 +0000' updated_at='2020-09-09 02:30:32 +0000' pushed_at='2020-07-20 23:40:47 +0000' size='427' commit_count='31'>
@@ -1525,7 +1525,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='516485620' number='3' user='dependabot[bot]' state='open' created_at='2019-11-02 05:37:23 +0000' age='360' updated_at='2019-11-02 05:37:24 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump werkzeug from 0.14.1 to 0.15.3 in /caas/application/app/backend/src</title>
+      <issue id='516485620' number='3' user='dependabot[bot]' state='open' created_at='2019-11-02 05:37:23 +0000' age='367' updated_at='2019-11-02 05:37:24 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump werkzeug from 0.14.1 to 0.15.3 in /caas/application/app/backend/src</title>
         <label url="https://api.github.com/repos/nttcom/2019-sw-training/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
@@ -1576,7 +1576,7 @@
   <reporting class='issue-report' repo='nttcom/2019-sw-training' type='NoPrCommentsDbReporter'><field>2019-11-02 05:37:23 +0000</field><field>https://github.com/nttcom/2019-sw-training/pull/3</field><field>Bump werkzeug from 0.14.1 to 0.15.3 in /caas/application/app/backend/src</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/2019-sw-training</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>1</field></reporting>  <reporting class='issue-report' repo='nttcom/2019-sw-training' type='AverageIssueCloseDbReporter'><field>nttcom/2019-sw-training</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/2019-sw-training' type='AveragePrCloseDbReporter'><field>nttcom/2019-sw-training</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>2</field><field>0.0</field><field>1</field></reporting>
+  <reporting class='issue-report' repo='nttcom/2019-sw-training' type='AveragePrCloseDbReporter'><field>nttcom/2019-sw-training</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>2</field><field>0.0</field><field>1</field></reporting>
     </reports>
   </repo>
   <repo name='terraform-provider-fic' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='0' closed_pr_count='7' open_issue_count='0' open_pr_count='0' has_wiki='true' language='Go' stars='1' watchers='12' forks='0' created_at='2019-11-21 04:35:42 +0000' updated_at='2020-07-17 01:56:08 +0000' pushed_at='2020-07-17 02:02:40 +0000' size='230' commit_count='12'>
@@ -1806,12 +1806,18 @@
   <reporting class='issue-report' repo='nttcom/designpattern-sample-app' type='AveragePrCloseDbReporter'><field>nttcom/designpattern-sample-app</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
     </reports>
   </repo>
-  <repo name='remote-work-handbook' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='1' closed_pr_count='2' open_issue_count='1' open_pr_count='0' has_wiki='true' language='SCSS' stars='0' watchers='17' forks='0' created_at='2020-10-22 05:31:15 +0000' updated_at='2020-10-23 03:05:42 +0000' pushed_at='2020-10-23 03:06:02 +0000' size='2437' commit_count='11'>
+  <repo name='remote-work-handbook' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='4' closed_pr_count='3' open_issue_count='3' open_pr_count='1' has_wiki='false' language='SCSS' stars='0' watchers='17' forks='0' created_at='2020-10-22 05:31:15 +0000' updated_at='2020-11-02 01:25:00 +0000' pushed_at='2020-11-02 02:52:14 +0000' size='2451' commit_count='14'>
     <description>リモートワークハンドブックのソースコード</description>
     <collaborators>
     </collaborators>
-    <issues count='1'>
-      <issue id='727069582' number='1' user='ppyv' state='open' created_at='2020-10-22 05:50:49 +0000' age='5' updated_at='2020-10-22 05:50:49 +0000' pull_request='false' comments='0'><title>画面の横幅が広すぎると、サイドメニューが幅広になりすぎる</title>
+    <issues count='4'>
+      <issue id='731551735' number='5' user='kaz1104' state='open' created_at='2020-10-28 15:31:33 +0000' age='5' updated_at='2020-11-02 01:29:08 +0000' pull_request='false' comments='1'><title>ogpの設定がちゃんとされていない</title>
+      </issue>
+      <issue id='734108673' number='6' user='ppyv' state='open' created_at='2020-11-02 01:01:32 +0000' age='1' updated_at='2020-11-02 02:39:16 +0000' pull_request='false' comments='1'><title>Implement Google Analytics</title>
+      </issue>
+      <issue id='734128367' number='7' user='ppyv' state='open' created_at='2020-11-02 02:17:10 +0000' age='1' updated_at='2020-11-02 03:08:06 +0000' pull_request='true' comments='1' prFileCount='10' prAdditions='13' prDeletions='3'><title>WIP: Open graph (&amp; Twitter card) ready</title>
+      </issue>
+      <issue id='734131935' number='8' user='ppyv' state='open' created_at='2020-11-02 02:29:58 +0000' age='1' updated_at='2020-11-02 02:37:18 +0000' pull_request='false' comments='1'><title>date, lastmodの扱い</title>
       </issue>
     </issues>
   <release-data>
@@ -1939,11 +1945,9 @@
       <reporting class='repo-report' repo='nttcom/remote-work-handbook' type='BinaryReporter'><file>themes/book/layouts/partials/docs/inject/menu-after.html</file></reporting>
     </reports>
     <reports org='nttcom' name='remote-work-handbook'>
-  <reporting class='repo-report' repo='nttcom/remote-work-handbook' type='WikiOnDbReporter'><field>2020-10-22 05:31:15 +0000</field><field>nttcom/remote-work-handbook</field><field>https://github.com/nttcom/remote-work-handbook/wiki</field></reporting>
-  <reporting class='issue-report' repo='nttcom/remote-work-handbook' type='NoIssueCommentsDbReporter'><field>2020-10-22 05:50:49 +0000</field><field>https://github.com/nttcom/remote-work-handbook/issues/1</field><field></field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/remote-work-handbook</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/remote-work-handbook' type='AverageIssueCloseDbReporter'><field>nttcom/remote-work-handbook</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field></reporting>
-  <reporting class='issue-report' repo='nttcom/remote-work-handbook' type='AveragePrCloseDbReporter'><field>nttcom/remote-work-handbook</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/remote-work-handbook' type='AverageIssueCloseDbReporter'><field>nttcom/remote-work-handbook</field><field>1</field><field>6.0</field><field>3</field><field>1</field><field>6.0</field><field>3</field><field>1</field><field>6.0</field><field>3</field><field>1</field><field>6.0</field><field>3</field></reporting>
+  <reporting class='issue-report' repo='nttcom/remote-work-handbook' type='AveragePrCloseDbReporter'><field>nttcom/remote-work-handbook</field><field>3</field><field>2.0</field><field>1</field><field>3</field><field>2.0</field><field>1</field><field>3</field><field>2.0</field><field>1</field><field>3</field><field>2.0</field><field>1</field></reporting>
     </reports>
   </repo>
 </github-dashdata>

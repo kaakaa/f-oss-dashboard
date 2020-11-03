@@ -3,15 +3,15 @@
     <collaborators>
     </collaborators>
     <issues count='5'>
-      <issue id='259199697' number='2' user='crosofg' state='open' created_at='2017-09-20 15:10:40 +0000' age='1132' updated_at='2017-10-17 17:05:37 +0000' pull_request='false' comments='13'><title>How to do two way audio Communication?</title>
+      <issue id='259199697' number='2' user='crosofg' state='open' created_at='2017-09-20 15:10:40 +0000' age='1139' updated_at='2017-10-17 17:05:37 +0000' pull_request='false' comments='13'><title>How to do two way audio Communication?</title>
       </issue>
-      <issue id='269194602' number='4' user='chakri1vr1' state='open' created_at='2017-10-27 18:24:15 +0000' age='1095' updated_at='2017-11-17 22:28:11 +0000' pull_request='false' comments='2'><title>How to receive video stream in Android app</title>
+      <issue id='269194602' number='4' user='chakri1vr1' state='open' created_at='2017-10-27 18:24:15 +0000' age='1102' updated_at='2017-11-17 22:28:11 +0000' pull_request='false' comments='2'><title>How to receive video stream in Android app</title>
       </issue>
-      <issue id='276689274' number='6' user='crosofg' state='open' created_at='2017-11-24 19:41:31 +0000' age='1067' updated_at='2017-12-12 06:19:57 +0000' pull_request='false' comments='2'><title>Latest android SDK?</title>
+      <issue id='276689274' number='6' user='crosofg' state='open' created_at='2017-11-24 19:41:31 +0000' age='1074' updated_at='2017-12-12 06:19:57 +0000' pull_request='false' comments='2'><title>Latest android SDK?</title>
       </issue>
-      <issue id='330538909' number='7' user='ledmonster' state='open' created_at='2018-06-08 06:47:47 +0000' age='872' updated_at='2018-06-08 06:47:47 +0000' pull_request='false' comments='0'><title>sudo is not necessary in install script</title>
+      <issue id='330538909' number='7' user='ledmonster' state='open' created_at='2018-06-08 06:47:47 +0000' age='879' updated_at='2018-06-08 06:47:47 +0000' pull_request='false' comments='0'><title>sudo is not necessary in install script</title>
       </issue>
-      <issue id='338800034' number='8' user='DuongHieuMAI' state='open' created_at='2018-07-06 04:18:43 +0000' age='844' updated_at='2018-07-06 04:19:46 +0000' pull_request='false' comments='0'><title>Segmentation fault (core dumped) after about ten minutes running on Raspbian Jessie</title>
+      <issue id='338800034' number='8' user='DuongHieuMAI' state='open' created_at='2018-07-06 04:18:43 +0000' age='851' updated_at='2018-07-06 04:19:46 +0000' pull_request='false' comments='0'><title>Segmentation fault (core dumped) after about ten minutes running on Raspbian Jessie</title>
       </issue>
     </issues>
   <release-data>

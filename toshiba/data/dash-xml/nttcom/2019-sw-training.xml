@@ -3,7 +3,7 @@
     <collaborators>
     </collaborators>
     <issues count='1'>
-      <issue id='516485620' number='3' user='dependabot[bot]' state='open' created_at='2019-11-02 05:37:23 +0000' age='360' updated_at='2019-11-02 05:37:24 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump werkzeug from 0.14.1 to 0.15.3 in /caas/application/app/backend/src</title>
+      <issue id='516485620' number='3' user='dependabot[bot]' state='open' created_at='2019-11-02 05:37:23 +0000' age='367' updated_at='2019-11-02 05:37:24 +0000' pull_request='true' comments='0' prFileCount='1' prAdditions='1' prDeletions='1'><title>Bump werkzeug from 0.14.1 to 0.15.3 in /caas/application/app/backend/src</title>
         <label url="https://api.github.com/repos/nttcom/2019-sw-training/labels/dependencies" color='0366d6'>dependencies</label>
       </issue>
     </issues>
@@ -54,6 +54,6 @@
   <reporting class='issue-report' repo='nttcom/2019-sw-training' type='NoPrCommentsDbReporter'><field>2019-11-02 05:37:23 +0000</field><field>https://github.com/nttcom/2019-sw-training/pull/3</field><field>Bump werkzeug from 0.14.1 to 0.15.3 in /caas/application/app/backend/src</field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/2019-sw-training</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
   <reporting class='issue-report' type='LabelDbReporter'><field><label color='0366d6'>dependencies</label></field><field>1</field></reporting>  <reporting class='issue-report' repo='nttcom/2019-sw-training' type='AverageIssueCloseDbReporter'><field>nttcom/2019-sw-training</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/2019-sw-training' type='AveragePrCloseDbReporter'><field>nttcom/2019-sw-training</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>1</field><field>2</field><field>0.0</field><field>1</field></reporting>
+  <reporting class='issue-report' repo='nttcom/2019-sw-training' type='AveragePrCloseDbReporter'><field>nttcom/2019-sw-training</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>2</field><field>0.0</field><field>1</field></reporting>
     </reports>
   </repo>

@@ -1,9 +1,15 @@
-  <repo name='remote-work-handbook' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='1' closed_pr_count='2' open_issue_count='1' open_pr_count='0' has_wiki='true' language='SCSS' stars='0' watchers='17' forks='0' created_at='2020-10-22 05:31:15 +0000' updated_at='2020-10-23 03:05:42 +0000' pushed_at='2020-10-23 03:06:02 +0000' size='2437' commit_count='11'>
+  <repo name='remote-work-handbook' org='nttcom' homepage='' private='false' fork='false' closed_issue_count='4' closed_pr_count='3' open_issue_count='3' open_pr_count='1' has_wiki='false' language='SCSS' stars='0' watchers='17' forks='0' created_at='2020-10-22 05:31:15 +0000' updated_at='2020-11-02 01:25:00 +0000' pushed_at='2020-11-02 02:52:14 +0000' size='2451' commit_count='14'>
     <description>リモートワークハンドブックのソースコード</description>
     <collaborators>
     </collaborators>
-    <issues count='1'>
-      <issue id='727069582' number='1' user='ppyv' state='open' created_at='2020-10-22 05:50:49 +0000' age='5' updated_at='2020-10-22 05:50:49 +0000' pull_request='false' comments='0'><title>画面の横幅が広すぎると、サイドメニューが幅広になりすぎる</title>
+    <issues count='4'>
+      <issue id='731551735' number='5' user='kaz1104' state='open' created_at='2020-10-28 15:31:33 +0000' age='5' updated_at='2020-11-02 01:29:08 +0000' pull_request='false' comments='1'><title>ogpの設定がちゃんとされていない</title>
+      </issue>
+      <issue id='734108673' number='6' user='ppyv' state='open' created_at='2020-11-02 01:01:32 +0000' age='1' updated_at='2020-11-02 02:39:16 +0000' pull_request='false' comments='1'><title>Implement Google Analytics</title>
+      </issue>
+      <issue id='734128367' number='7' user='ppyv' state='open' created_at='2020-11-02 02:17:10 +0000' age='1' updated_at='2020-11-02 03:08:06 +0000' pull_request='true' comments='1' prFileCount='10' prAdditions='13' prDeletions='3'><title>WIP: Open graph (&amp; Twitter card) ready</title>
+      </issue>
+      <issue id='734131935' number='8' user='ppyv' state='open' created_at='2020-11-02 02:29:58 +0000' age='1' updated_at='2020-11-02 02:37:18 +0000' pull_request='false' comments='1'><title>date, lastmodの扱い</title>
       </issue>
     </issues>
   <release-data>
@@ -131,10 +137,8 @@
       <reporting class='repo-report' repo='nttcom/remote-work-handbook' type='BinaryReporter'><file>themes/book/layouts/partials/docs/inject/menu-after.html</file></reporting>
     </reports>
     <reports org='nttcom' name='remote-work-handbook'>
-  <reporting class='repo-report' repo='nttcom/remote-work-handbook' type='WikiOnDbReporter'><field>2020-10-22 05:31:15 +0000</field><field>nttcom/remote-work-handbook</field><field>https://github.com/nttcom/remote-work-handbook/wiki</field></reporting>
-  <reporting class='issue-report' repo='nttcom/remote-work-handbook' type='NoIssueCommentsDbReporter'><field>2020-10-22 05:50:49 +0000</field><field>https://github.com/nttcom/remote-work-handbook/issues/1</field><field></field><field></field></reporting>
   <reporting class='issue-report' type='LabelCountDbReporter'><field>nttcom/remote-work-handbook</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field><field>0</field></reporting>
-  <reporting class='issue-report' repo='nttcom/remote-work-handbook' type='AverageIssueCloseDbReporter'><field>nttcom/remote-work-handbook</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field><field>0</field><field>0</field><field>1</field></reporting>
-  <reporting class='issue-report' repo='nttcom/remote-work-handbook' type='AveragePrCloseDbReporter'><field>nttcom/remote-work-handbook</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field><field>2</field><field>0.0</field><field>0</field></reporting>
+  <reporting class='issue-report' repo='nttcom/remote-work-handbook' type='AverageIssueCloseDbReporter'><field>nttcom/remote-work-handbook</field><field>1</field><field>6.0</field><field>3</field><field>1</field><field>6.0</field><field>3</field><field>1</field><field>6.0</field><field>3</field><field>1</field><field>6.0</field><field>3</field></reporting>
+  <reporting class='issue-report' repo='nttcom/remote-work-handbook' type='AveragePrCloseDbReporter'><field>nttcom/remote-work-handbook</field><field>3</field><field>2.0</field><field>1</field><field>3</field><field>2.0</field><field>1</field><field>3</field><field>2.0</field><field>1</field><field>3</field><field>2.0</field><field>1</field></reporting>
     </reports>
   </repo>
